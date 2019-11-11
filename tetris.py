@@ -3,15 +3,11 @@
 import pygame
 import random
 import os
+import requests
 
 # Setup PyGame
 
 pygame.init()
-infoObject = pygame.display.Info()
-
-posx = infoObject.current_w // 2
-posy = infoObject.current_h // 2
-os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (posx, posy)
 
 # установка невоторых цветов
 
@@ -260,7 +256,12 @@ class Figure():
 # размер окна (стакана)
 size = [CELL_SIZE * WIDTH, CELL_SIZE * HEIGHT]
 
-# Установка ширины и высоты экрана [ширина, высота]
+# Установка окна в центр
+infoObject = pygame.display.Info()
+posx = infoObject.current_w // 2 - size[0] // 2
+posy = infoObject.current_h // 2 - size[1] // 2
+os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (posx, posy)
+
 screen = pygame.display.set_mode(size)
 SPEED = 400  # кол-во миллисекунд
 
