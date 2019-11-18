@@ -24,9 +24,9 @@ london_co = {
         'routing': True
     }
 }
-ustr = input("Введите имя устройства: ")
+ustr = input("Введите имя устройства: ").lower()
 try:
-    par = input("Введите имя параметра "+str(tuple(london_co[ustr]))+": ")
+    par = input("Введите имя параметра "+str(tuple(london_co[ustr]))+": ").lower()
     print(london_co[ustr][par])
 except KeyError:
     print("Нет такого параметра!")
