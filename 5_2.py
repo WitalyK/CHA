@@ -7,6 +7,7 @@ s = ['1']*int(mask)+['0']*(32-int(mask))
 ipp = '{:<8}  {:<8}  {:<8}  {:<8}'
 ipp1 = '{:08b}  {:08b}  {:08b}  {:08b}'
 print('Network:')
+ip[3]=0
 print(ipp.format(ip[0],ip[1],ip[2],ip[3]))
 print(ipp1.format(int(ip[0]),int(ip[1]),int(ip[2]),int(ip[3])))
 print('Mask:')
