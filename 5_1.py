@@ -25,5 +25,7 @@ london_co = {
     }
 }
 ustr = input("Введите имя устройства: ")
-par = input("Введите имя параметра: ")
+
+par = input("Введите имя параметра "+str(tuple(london_co[ustr]))+": ")
+
 print(london_co[ustr][par])
