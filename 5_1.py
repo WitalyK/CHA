@@ -25,7 +25,9 @@ london_co = {
     }
 }
 ustr = input("Введите имя устройства: ")
+try:
+    par = input("Введите имя параметра "+str(tuple(london_co[ustr]))+": ")
+    print(london_co[ustr][par])
+except KeyError:
+    print("Нет такого параметра!")
 
-par = input("Введите имя параметра "+str(tuple(london_co[ustr]))+": ")
-
-print(london_co[ustr][par])
