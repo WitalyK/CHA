@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from sys import argv
 '''
 Задание 7.2
 Создать скрипт, который будет обрабатывать конфигурационный файл config_sw1.txt:
@@ -8,8 +9,16 @@
 Между строками не должно быть дополнительного символа перевода строки.
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 '''
-with open('config_sw1.txt') as f:
+ff = argv[1]
+ignore = ['duplex', 'alias', 'Current configuration']
+with open(ff) as f:
     for line in f:
         if not line.startswith("!"):
-            print(line.rstrip('\n'))
+            is_ignore = True
+            for s in ignore:
+                if s in line:
+                    is_ignore = False
+                    break
+            if is_ignore:
+                print(line.rstrip('\n'))
 
