@@ -1,0 +1,552 @@
+<?xml version="1.0" ?>
+<root TimeCodeFormat="10ms" FrameRate="25">
+<item type="Movie" date="2019-11-19" time="23:31:08.17" markIn="01:09:33.68" duration="00:32:38.72" fadeIn="0" file="Y:\НТС_11_18_24\Раскаявшийся 2 серия.mpg" fadeOut="0" realDuration="00:32:38.72" error="0">
+  <movie file="Y:\НТС_11_18_24\Раскаявшийся 2 серия.mpg" duration="00:32:38.72" file_duration="01:42:12.40" markin="01:09:33.68" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="00:03:46.89" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="00:04:15.01" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="00:04:47.21" duration="00:00:32.60" fadeIn="0" file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" fadeOut="0" realDuration="00:00:32.60" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" duration="00:00:32.60" file_duration="00:00:32.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="00:05:19.81" duration="00:48:00.36" fadeIn="0" file="Y:\НТС_11_18_24\криминальный роман 1 серия тайна золотых апостолов ч 1.mpg" fadeOut="0" realDuration="00:48:00.36" error="0">
+  <movie file="Y:\НТС_11_18_24\криминальный роман 1 серия тайна золотых апостолов ч 1.mpg" duration="00:48:00.36" file_duration="00:48:00.36" />
+</item>
+<item type="Movie" date="2019-11-20" time="00:53:20.17" duration="00:04:03.32" fadeIn="0" file="Y:\НТС_история государства российского\00055 история государства российского 55 серия Княжение Рюрика в Киеве.mpg" fadeOut="0" realDuration="00:04:03.32" error="0">
+  <movie file="Y:\НТС_история государства российского\00055 история государства российского 55 серия Княжение Рюрика в Киеве.mpg" duration="00:04:03.32" file_duration="00:04:03.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="00:57:23.49" duration="00:04:06.88" fadeIn="0" file="Y:\НТС_история государства российского\00059 история государства российского 59 серия Крестоносцы.mpg" fadeOut="0" realDuration="00:04:06.88" error="0">
+  <movie file="Y:\НТС_история государства российского\00059 история государства российского 59 серия Крестоносцы.mpg" duration="00:04:06.88" file_duration="00:04:06.88" />
+</item>
+<item type="Movie" date="2019-11-20" time="01:01:30.37" duration="00:28:12.52" fadeIn="0" file="Y:\НТС_11_18_24\Машина времени из Италии 7 выпуск Турин и Музей современного искусства.mpg" fadeOut="0" realDuration="00:28:12.52" error="0">
+  <movie file="Y:\НТС_11_18_24\Машина времени из Италии 7 выпуск Турин и Музей современного искусства.mpg" duration="00:28:12.52" file_duration="00:28:12.52" />
+</item>
+<item type="Movie" date="2019-11-20" time="01:29:42.89" duration="00:00:38.80" fadeIn="0" file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t" fadeOut="0" realDuration="00:00:38.80" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t" duration="00:00:38.80" file_duration="00:00:38.80" />
+</item>
+<item type="Movie" date="2019-11-20" time="01:30:21.69" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="01:30:49.81" duration="00:27:22.60" fadeIn="0" file="Z:\OnAir\11_19\АО_Коми Инкогнито Рыбаки Ямала 27 10 18.m2t" fadeOut="0" realDuration="00:27:22.60" error="0">
+  <movie file="Z:\OnAir\11_19\АО_Коми Инкогнито Рыбаки Ямала 27 10 18.m2t" duration="00:27:22.60" file_duration="00:27:22.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="01:58:12.41" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="01:58:40.53" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="01:59:12.73" duration="00:00:32.60" fadeIn="0" file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" fadeOut="0" realDuration="00:00:32.60" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" duration="00:00:32.60" file_duration="00:00:32.60" />
+</item>
+<item type="TitleObject" name="Часы_" date="2019-11-20" time="01:59:45.44" fadeIn="0.2" task="Z:\TitleProekt\91_2018_Standart.Часы_.SLTitleTsk" fadeOut="0.2" realDuration="00:00:00.00" error="0" />
+<item type="Movie" date="2019-11-20" time="06:00:00.00" duration="00:00:08.16" fadeIn="0" file="Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t" fadeOut="0" realDuration="00:00:08.16" error="0">
+  <movie file="Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t" duration="00:00:08.16" file_duration="00:00:08.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:00:08.16" duration="00:12:01.52" fadeIn="0" file="Z:\OnAir\11_19\-3 Время новостей УХТА 19-11.m2t" fadeOut="0" realDuration="00:12:01.52" error="0">
+  <movie file="Z:\OnAir\11_19\-3 Время новостей УХТА 19-11.m2t" duration="00:12:01.52" file_duration="00:12:01.52" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:12:09.68" duration="00:00:38.80" fadeIn="0" file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11 сегодня.m2t" fadeOut="0" realDuration="00:00:38.80" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11 сегодня.m2t" duration="00:00:38.80" file_duration="00:00:38.80" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:12:48.48" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:13:16.60" duration="00:00:50.32" fadeIn="0" file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" fadeOut="0" realDuration="00:00:50.32" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" duration="00:00:50.32" file_duration="00:00:50.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:14:06.92" duration="00:13:54.32" fadeIn="0" file="Z:\OnAir\11_19\-3 Вочакыв Виктория Агаркова 19 11 19.m2t" fadeOut="0" realDuration="00:13:54.32" error="0">
+  <movie file="Z:\OnAir\11_19\-3 Вочакыв Виктория Агаркова 19 11 19.m2t" duration="00:13:54.32" file_duration="00:13:54.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:28:01.24" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:28:06.44" duration="00:00:15.16" fadeIn="0" file="Z:\Reklama\-3_ЕПЗ - Алмаг+ (Изоляция) 15 сек 16х9 - Сыктывкар сентябрь 2019.m2t" fadeOut="0" realDuration="00:00:15.16" error="0">
+  <movie file="Z:\Reklama\-3_ЕПЗ - Алмаг+ (Изоляция) 15 сек 16х9 - Сыктывкар сентябрь 2019.m2t" duration="00:00:15.16" file_duration="00:00:15.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:28:21.60" duration="00:00:15.20" fadeIn="0" file="Z:\Reklama\-3 MORI_01.m2t" fadeOut="0" realDuration="00:00:15.20" error="0">
+  <movie file="Z:\Reklama\-3 MORI_01.m2t" duration="00:00:15.20" file_duration="00:00:15.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:28:36.80" duration="00:00:59.20" fadeIn="0" file="Z:\Promo\-3_Глава 73 16х9.m2t" fadeOut="0" realDuration="00:00:59.20" error="0">
+  <movie file="Z:\Promo\-3_Глава 73 16х9.m2t" duration="00:00:59.20" file_duration="00:00:59.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:29:36.00" markIn="00:00:36.00" duration="00:00:24.28" fadeIn="0" file="Z:\Часы\Сlock_18_30 (06_30).m2t" fadeOut="0" realDuration="00:00:24.28" error="0">
+  <movie file="Z:\Часы\Сlock_18_30 (06_30).m2t" duration="00:00:24.28" file_duration="00:01:00.28" markin="00:00:36.00" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:30:00.28" duration="00:08:07.04" fadeIn="0" file="Z:\OnAir\11_20\-3 ТАЛУН УТРО 1 часть 20-11.m2t" fadeOut="0" realDuration="00:08:07.04" error="0">
+  <movie file="Z:\OnAir\11_20\-3 ТАЛУН УТРО 1 часть 20-11.m2t" duration="00:08:07.04" file_duration="00:08:07.04" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:38:07.32" duration="00:00:05.12" fadeIn="0" file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" fadeOut="0" realDuration="00:00:05.12" error="0">
+  <movie file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" duration="00:00:05.12" file_duration="00:00:05.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:38:12.44" duration="00:07:52.88" fadeIn="0" file="Z:\OnAir\11_19\-3 ТАЛУН вечер и утро 2 часть 19-11.m2t" fadeOut="0" realDuration="00:07:52.88" error="0">
+  <movie file="Z:\OnAir\11_19\-3 ТАЛУН вечер и утро 2 часть 19-11.m2t" duration="00:07:52.88" file_duration="00:07:52.88" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:46:05.32" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:46:10.52" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\-3_Магия мэха_кож пух_5с.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\-3_Магия мэха_кож пух_5с.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:46:15.72" duration="00:00:10.12" fadeIn="0" file="Z:\Reklama\-3 HINKALI_0719_10S Хинкали.m2t" fadeOut="0" realDuration="00:00:10.12" error="0">
+  <movie file="Z:\Reklama\-3 HINKALI_0719_10S Хинкали.m2t" duration="00:00:10.12" file_duration="00:00:10.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:46:25.84" duration="00:00:28.60" fadeIn="0" file="Z:\OnAir\11_20\-3_[0]-ТГ_ВАХТА_191119.m2t" fadeOut="0" realDuration="00:00:28.60" error="0">
+  <movie file="Z:\OnAir\11_20\-3_[0]-ТГ_ВАХТА_191119.m2t" duration="00:00:28.60" file_duration="00:00:28.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:46:54.44" duration="00:00:30.16" fadeIn="0" file="Z:\Reklama\ЗОЖ 25 июня\-3_Bndr_Курение.m2t" fadeOut="0" realDuration="00:00:30.16" error="0">
+  <movie file="Z:\Reklama\ЗОЖ 25 июня\-3_Bndr_Курение.m2t" duration="00:00:30.16" file_duration="00:00:30.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:47:24.60" duration="00:00:27.68" fadeIn="0" file="Z:\OnAir\11_20\-3_Поводдя_йылысь_Утро_20_11.m2t" fadeOut="0" realDuration="00:00:27.68" error="0">
+  <movie file="Z:\OnAir\11_20\-3_Поводдя_йылысь_Утро_20_11.m2t" duration="00:00:27.68" file_duration="00:00:27.68" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:47:52.28" duration="00:00:59.20" fadeIn="0" file="Z:\Promo\-3_Глава 73 16х9.m2t" fadeOut="0" realDuration="00:00:59.20" error="0">
+  <movie file="Z:\Promo\-3_Глава 73 16х9.m2t" duration="00:00:59.20" file_duration="00:00:59.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:48:51.48" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:49:23.68" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:49:51.80" duration="00:00:38.80" fadeIn="0" file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11 сегодня.m2t" fadeOut="0" realDuration="00:00:38.80" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11 сегодня.m2t" duration="00:00:38.80" file_duration="00:00:38.80" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:50:30.60" duration="00:01:13.72" fadeIn="0" file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" fadeOut="0" realDuration="00:01:13.72" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" duration="00:01:13.72" file_duration="00:01:13.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:51:44.32" duration="00:00:50.32" fadeIn="0" file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" fadeOut="0" realDuration="00:00:50.32" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" duration="00:00:50.32" file_duration="00:00:50.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:52:34.64" duration="00:00:32.60" fadeIn="0" file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" fadeOut="0" realDuration="00:00:32.60" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" duration="00:00:32.60" file_duration="00:00:32.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:53:07.24" duration="00:03:09.60" fadeIn="0" file="Z:\OnAir\Серни басни\-3 Серни басни Валерий Михайлович 2.avi" fadeOut="0" realDuration="00:03:09.60" error="0">
+  <movie file="Z:\OnAir\Серни басни\-3 Серни басни Валерий Михайлович 2.avi" duration="00:03:09.60" file_duration="00:03:09.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:56:16.84" duration="00:02:05.92" fadeIn="0" file="Z:\OnAir\ФУ\-3_Bndr_ФУ музыка «Лым» Анна Попова Зима.m2t" fadeOut="0" realDuration="00:02:05.92" error="0">
+  <movie file="Z:\OnAir\ФУ\-3_Bndr_ФУ музыка «Лым» Анна Попова Зима.m2t" duration="00:02:05.92" file_duration="00:02:05.92" />
+</item>
+<item type="Movie" date="2019-11-20" time="06:58:22.76" duration="00:27:55.72" fadeIn="0" file="Z:\OnAir\11_20\-3 Студия11_20-11-2019.m2t" fadeOut="0" realDuration="00:27:55.72" error="0">
+  <movie file="Z:\OnAir\11_20\-3 Студия11_20-11-2019.m2t" duration="00:27:55.72" file_duration="00:27:55.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:26:18.48" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:26:23.68" duration="00:00:20.20" fadeIn="0" file="Z:\Reklama\-3_ролик_ЗС_зима_Сыктывкар.m2t" fadeOut="0" realDuration="00:00:20.20" error="0">
+  <movie file="Z:\Reklama\-3_ролик_ЗС_зима_Сыктывкар.m2t" duration="00:00:20.20" file_duration="00:00:20.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:26:43.88" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\-3_Магия мэха_скидка на шубы_5 сек.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\-3_Магия мэха_скидка на шубы_5 сек.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:26:49.08" duration="00:00:15.16" fadeIn="0" file="Z:\Reklama\-3_ЕПЗ - Алмаг+ (Имидж) 15 сек 16х9 - Сыктывкар (сентябрь) 2019.m2t" fadeOut="0" realDuration="00:00:15.16" error="0">
+  <movie file="Z:\Reklama\-3_ЕПЗ - Алмаг+ (Имидж) 15 сек 16х9 - Сыктывкар (сентябрь) 2019.m2t" duration="00:00:15.16" file_duration="00:00:15.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:27:04.24" duration="00:00:05.12" fadeIn="0" file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" fadeOut="0" realDuration="00:00:05.12" error="0">
+  <movie file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" duration="00:00:05.12" file_duration="00:00:05.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:27:09.36" duration="00:00:15.20" fadeIn="0" file="Z:\Reklama\-3 MORI_01.m2t" fadeOut="0" realDuration="00:00:15.20" error="0">
+  <movie file="Z:\Reklama\-3 MORI_01.m2t" duration="00:00:15.20" file_duration="00:00:15.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:27:24.56" duration="00:00:15.16" fadeIn="0" file="Z:\Reklama\-3 Пригородный 15 сек.m2t" fadeOut="0" realDuration="00:00:15.16" error="0">
+  <movie file="Z:\Reklama\-3 Пригородный 15 сек.m2t" duration="00:00:15.16" file_duration="00:00:15.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:27:39.72" duration="00:00:10.12" fadeIn="0" file="Z:\Reklama\-3 Оптика Люкс 10 сек_2.m2t" fadeOut="0" realDuration="00:00:10.12" error="0">
+  <movie file="Z:\Reklama\-3 Оптика Люкс 10 сек_2.m2t" duration="00:00:10.12" file_duration="00:00:10.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:27:49.84" duration="00:00:28.60" fadeIn="0" file="Z:\OnAir\11_20\-3_[0]-ТГ_ВАХТА_191119.m2t" fadeOut="0" realDuration="00:00:28.60" error="0">
+  <movie file="Z:\OnAir\11_20\-3_[0]-ТГ_ВАХТА_191119.m2t" duration="00:00:28.60" file_duration="00:00:28.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:28:18.44" duration="00:00:20.12" fadeIn="0" file="Z:\Reklama\Телекарта _ ОКТЯБРЬ _ 2019\-3_Народный премьер_16+_0-20_1080p.m2t" fadeOut="0" realDuration="00:00:20.12" error="0">
+  <movie file="Z:\Reklama\Телекарта _ ОКТЯБРЬ _ 2019\-3_Народный премьер_16+_0-20_1080p.m2t" duration="00:00:20.12" file_duration="00:00:20.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:28:38.56" duration="00:00:59.20" fadeIn="0" file="Z:\Promo\-3_Глава 73 16х9.m2t" fadeOut="0" realDuration="00:00:59.20" error="0">
+  <movie file="Z:\Promo\-3_Глава 73 16х9.m2t" duration="00:00:59.20" file_duration="00:00:59.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:29:37.76" markIn="00:00:38.00" duration="00:00:22.28" fadeIn="0" file="Z:\Часы\Сlock_19_30 (07_30).m2t" fadeOut="0" realDuration="00:00:22.28" error="0">
+  <movie file="Z:\Часы\Сlock_19_30 (07_30).m2t" duration="00:00:22.28" file_duration="00:01:00.28" markin="00:00:38.00" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:30:00.04" duration="00:17:08.24" fadeIn="0" file="Z:\OnAir\11_20\-3 Время новостей УТРО 1 часть 20-11.m2t" fadeOut="0" realDuration="00:17:08.24" error="0">
+  <movie file="Z:\OnAir\11_20\-3 Время новостей УТРО 1 часть 20-11.m2t" duration="00:17:08.24" file_duration="00:17:08.24" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:47:08.28" duration="00:00:15.16" fadeIn="0" file="Z:\Reklama\-3 PN_PiterLove_Fed Петербургская недвиж.m2t" fadeOut="0" realDuration="00:00:15.16" error="0">
+  <movie file="Z:\Reklama\-3 PN_PiterLove_Fed Петербургская недвиж.m2t" duration="00:00:15.16" file_duration="00:00:15.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:47:23.44" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\-3_Магия меха_новое поступление Зима.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\-3_Магия меха_новое поступление Зима.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:47:28.64" duration="00:00:08.20" fadeIn="0" file="Z:\Reklama\РГС-Мед_НОЯБРЬ_2019\-3_Bndr_РГС_МЕД_стационар.m2t" fadeOut="0" realDuration="00:00:08.20" error="0">
+  <movie file="Z:\Reklama\РГС-Мед_НОЯБРЬ_2019\-3_Bndr_РГС_МЕД_стационар.m2t" duration="00:00:08.20" file_duration="00:00:08.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:47:36.84" duration="00:00:10.00" fadeIn="0" file="Z:\Reklama\-3_Bndr_Еврочехлы 10с_февраль2019 г_ 16-9.avi" fadeOut="0" realDuration="00:00:10.00" error="0">
+  <movie file="Z:\Reklama\-3_Bndr_Еврочехлы 10с_февраль2019 г_ 16-9.avi" duration="00:00:10.00" file_duration="00:00:10.00" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:47:46.84" duration="00:00:15.16" fadeIn="0" file="Z:\Reklama\-3_DINAMIKA_QASHKAI_1119_15S.m2t" fadeOut="0" realDuration="00:00:15.16" error="0">
+  <movie file="Z:\Reklama\-3_DINAMIKA_QASHKAI_1119_15S.m2t" duration="00:00:15.16" file_duration="00:00:15.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:48:02.00" duration="00:00:05.12" fadeIn="0" file="Z:\Reklama\-3_АптекаБЗ 20ноя2019 5с FullHD.m2t" fadeOut="0" realDuration="00:00:05.12" error="0">
+  <movie file="Z:\Reklama\-3_АптекаБЗ 20ноя2019 5с FullHD.m2t" duration="00:00:05.12" file_duration="00:00:05.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:48:07.12" duration="00:00:15.16" fadeIn="0" file="Z:\Reklama\-3 КС-Керамик_Уже началась СТРОЙМАТ.m2t" fadeOut="0" realDuration="00:00:15.16" error="0">
+  <movie file="Z:\Reklama\-3 КС-Керамик_Уже началась СТРОЙМАТ.m2t" duration="00:00:15.16" file_duration="00:00:15.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:48:22.28" duration="00:07:10.56" fadeIn="0" file="Z:\OnAir\11_19\-3 ВН ночь и утро 2 часть 19-11.m2t" fadeOut="0" realDuration="00:07:10.56" error="0">
+  <movie file="Z:\OnAir\11_19\-3 ВН ночь и утро 2 часть 19-11.m2t" duration="00:07:10.56" file_duration="00:07:10.56" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:55:32.84" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:55:38.04" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\-3_Магия мэха_кож пух_5с.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\-3_Магия мэха_кож пух_5с.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:55:43.24" duration="00:00:05.12" fadeIn="0" file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" fadeOut="0" realDuration="00:00:05.12" error="0">
+  <movie file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" duration="00:00:05.12" file_duration="00:00:05.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:55:48.36" duration="00:00:15.16" fadeIn="0" file="Z:\Reklama\-3_DINAMIKA_DATSUN_11.2019 г.m2t" fadeOut="0" realDuration="00:00:15.16" error="0">
+  <movie file="Z:\Reklama\-3_DINAMIKA_DATSUN_11.2019 г.m2t" duration="00:00:15.16" file_duration="00:00:15.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:56:03.52" duration="00:00:23.20" fadeIn="0" file="Z:\Reklama\-3 С Легким паром.m2t" fadeOut="0" realDuration="00:00:23.20" error="0">
+  <movie file="Z:\Reklama\-3 С Легким паром.m2t" duration="00:00:23.20" file_duration="00:00:23.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:56:26.72" duration="00:00:10.12" fadeIn="0" file="Z:\Reklama\-3 Оптика Люкс 10 сек_2.m2t" fadeOut="0" realDuration="00:00:10.12" error="0">
+  <movie file="Z:\Reklama\-3 Оптика Люкс 10 сек_2.m2t" duration="00:00:10.12" file_duration="00:00:10.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:56:36.84" duration="00:00:10.12" fadeIn="0" file="Z:\Reklama\-3 HINKALI_0719_10S Хинкали.m2t" fadeOut="0" realDuration="00:00:10.12" error="0">
+  <movie file="Z:\Reklama\-3 HINKALI_0719_10S Хинкали.m2t" duration="00:00:10.12" file_duration="00:00:10.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:56:46.96" duration="00:00:20.20" fadeIn="0" file="Z:\Reklama\Телекарта _ ОКТЯБРЬ _ 2019\-3_85 гр (смотри за 0)_1080p.m2t" fadeOut="0" realDuration="00:00:20.20" error="0">
+  <movie file="Z:\Reklama\Телекарта _ ОКТЯБРЬ _ 2019\-3_85 гр (смотри за 0)_1080p.m2t" duration="00:00:20.20" file_duration="00:00:20.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:57:07.16" duration="00:01:28.16" fadeIn="0" file="Z:\OnAir\11_20\-3_Все_о_погоде_Утро_20_11.m2t" fadeOut="0" realDuration="00:01:28.16" error="0">
+  <movie file="Z:\OnAir\11_20\-3_Все_о_погоде_Утро_20_11.m2t" duration="00:01:28.16" file_duration="00:01:28.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:58:35.32" duration="00:00:59.20" fadeIn="0" file="Z:\Promo\-3_Глава 73 16х9.m2t" fadeOut="0" realDuration="00:00:59.20" error="0">
+  <movie file="Z:\Promo\-3_Глава 73 16х9.m2t" duration="00:00:59.20" file_duration="00:00:59.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="07:59:34.52" duration="00:00:38.80" fadeIn="0" file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11 сегодня.m2t" fadeOut="0" realDuration="00:00:38.80" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11 сегодня.m2t" duration="00:00:38.80" file_duration="00:00:38.80" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:00:13.32" duration="00:27:55.72" fadeIn="0" file="Z:\OnAir\11_20\-3 Студия11_20-11-2019.m2t" fadeOut="0" realDuration="00:27:55.72" error="0">
+  <movie file="Z:\OnAir\11_20\-3 Студия11_20-11-2019.m2t" duration="00:27:55.72" file_duration="00:27:55.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:28:09.04" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_8 _ смайлы _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_8 _ смайлы _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:28:14.24" duration="00:00:10.00" fadeIn="0" file="Z:\Reklama\-3_Bndr_Еврочехлы 10с_февраль2019 г_ 16-9.avi" fadeOut="0" realDuration="00:00:10.00" error="0">
+  <movie file="Z:\Reklama\-3_Bndr_Еврочехлы 10с_февраль2019 г_ 16-9.avi" duration="00:00:10.00" file_duration="00:00:10.00" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:28:24.24" duration="00:00:38.80" fadeIn="0" file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11 сегодня.m2t" fadeOut="0" realDuration="00:00:38.80" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11 сегодня.m2t" duration="00:00:38.80" file_duration="00:00:38.80" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:29:03.04" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:29:31.16" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:30:03.36" duration="00:27:59.96" fadeIn="0" file="Z:\OnAir\11_19\-3_О Монди начистоту 1серия С шапкой и концом 19_10_2019.m2t" fadeOut="0" realDuration="00:27:59.96" error="0">
+  <movie file="Z:\OnAir\11_19\-3_О Монди начистоту 1серия С шапкой и концом 19_10_2019.m2t" duration="00:27:59.96" file_duration="00:27:59.96" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:58:03.32" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:58:08.52" duration="00:00:23.20" fadeIn="0" file="Z:\Reklama\-3 С Легким паром.m2t" fadeOut="0" realDuration="00:00:23.20" error="0">
+  <movie file="Z:\Reklama\-3 С Легким паром.m2t" duration="00:00:23.20" file_duration="00:00:23.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:58:31.72" duration="00:00:50.32" fadeIn="0" file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" fadeOut="0" realDuration="00:00:50.32" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" duration="00:00:50.32" file_duration="00:00:50.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:59:22.04" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="08:59:54.24" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="09:00:22.36" duration="00:25:55.08" fadeIn="0" file="Y:\НТС_11_18_24\Неизвестная Италия 10 выпуск Бокюз Дор.mpg" fadeOut="0" realDuration="00:25:55.08" error="0">
+  <movie file="Y:\НТС_11_18_24\Неизвестная Италия 10 выпуск Бокюз Дор.mpg" duration="00:25:55.08" file_duration="00:25:55.08" />
+</item>
+<item type="Movie" date="2019-11-20" time="09:26:17.44" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_4 _ Серая _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_4 _ Серая _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="09:26:22.64" duration="00:00:05.12" fadeIn="0" file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" fadeOut="0" realDuration="00:00:05.12" error="0">
+  <movie file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" duration="00:00:05.12" file_duration="00:00:05.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="09:26:27.76" duration="00:01:13.72" fadeIn="0" file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" fadeOut="0" realDuration="00:01:13.72" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" duration="00:01:13.72" file_duration="00:01:13.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="09:27:41.48" duration="00:22:49.28" fadeIn="0" file="Y:\НТС_11_18_24\Неизвестная Италия 11 выпуск Сакра_Микель.mpg" fadeOut="0" realDuration="00:22:49.28" error="0">
+  <movie file="Y:\НТС_11_18_24\Неизвестная Италия 11 выпуск Сакра_Микель.mpg" duration="00:22:49.28" file_duration="00:22:49.28" />
+</item>
+<item type="Movie" date="2019-11-20" time="09:50:30.76" duration="00:03:36.88" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 27 серия Limo.mpg" fadeOut="0" realDuration="00:03:36.88" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 27 серия Limo.mpg" duration="00:03:36.88" file_duration="00:03:36.88" />
+</item>
+<item type="Movie" date="2019-11-20" time="09:54:07.64" duration="00:02:58.40" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 28 серия McWheelie_Colour_CementMixer.mpg" fadeOut="0" realDuration="00:02:58.40" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 28 серия McWheelie_Colour_CementMixer.mpg" duration="00:02:58.40" file_duration="00:02:58.40" />
+</item>
+<item type="Movie" date="2019-11-20" time="09:57:06.04" duration="00:03:34.16" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 29 серия GPS_TV.mpg" fadeOut="0" realDuration="00:03:34.16" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 29 серия GPS_TV.mpg" duration="00:03:34.16" file_duration="00:03:34.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:00:40.20" duration="00:04:04.16" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 30 серия Tank.mpg" fadeOut="0" realDuration="00:04:04.16" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 30 серия Tank.mpg" duration="00:04:04.16" file_duration="00:04:04.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:04:44.36" duration="00:03:19.84" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 31 серия SnowClean.mpg" fadeOut="0" realDuration="00:03:19.84" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 31 серия SnowClean.mpg" duration="00:03:19.84" file_duration="00:03:19.84" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:08:04.20" duration="00:02:54.72" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 32 серия McWheelie_Colour_DumpTruck.mpg" fadeOut="0" realDuration="00:02:54.72" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 32 серия McWheelie_Colour_DumpTruck.mpg" duration="00:02:54.72" file_duration="00:02:54.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:10:58.92" duration="00:04:22.52" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 33 серия BadRoad.mpg" fadeOut="0" realDuration="00:04:22.52" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 33 серия BadRoad.mpg" duration="00:04:22.52" file_duration="00:04:22.52" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:15:21.44" duration="00:02:29.76" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 34 серия McWheelie_Colour_SportCar.mpg" fadeOut="0" realDuration="00:02:29.76" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 34 серия McWheelie_Colour_SportCar.mpg" duration="00:02:29.76" file_duration="00:02:29.76" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:17:51.20" duration="00:05:06.20" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 35 серия Showroom.mpg" fadeOut="0" realDuration="00:05:06.20" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 35 серия Showroom.mpg" duration="00:05:06.20" file_duration="00:05:06.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:22:57.40" duration="00:04:54.08" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 41 серия AgressiveDriving.mpg" fadeOut="0" realDuration="00:04:54.08" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 41 серия AgressiveDriving.mpg" duration="00:04:54.08" file_duration="00:04:54.08" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:27:51.48" duration="00:00:12.24" fadeIn="0" file="Z:\OnAir\ФУ\-3_Bndr_ШАПКА_ФИННОУГОРИЯ_ТК.m2t" fadeOut="0" realDuration="00:00:12.24" error="0">
+  <movie file="Z:\OnAir\ФУ\-3_Bndr_ШАПКА_ФИННОУГОРИЯ_ТК.m2t" duration="00:00:12.24" file_duration="00:00:12.24" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:28:03.72" markIn="00:00:00.12" duration="00:25:44.20" fadeIn="0" file="Z:\OnAir\11_20\А_Манси. Путь промысла.avi" fadeOut="0" realDuration="00:25:44.20" error="0">
+  <movie file="Z:\OnAir\11_20\А_Манси. Путь промысла.avi" duration="00:25:44.20" file_duration="00:25:44.56" markin="00:00:00.12" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:53:47.92" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_4 _ Серая _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_4 _ Серая _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:53:53.12" duration="00:00:20.12" fadeIn="0" file="Z:\Reklama\Телекарта _ ОКТЯБРЬ _ 2019\-3_Народный премьер_16+_0-20_1080p.m2t" fadeOut="0" realDuration="00:00:20.12" error="0">
+  <movie file="Z:\Reklama\Телекарта _ ОКТЯБРЬ _ 2019\-3_Народный премьер_16+_0-20_1080p.m2t" duration="00:00:20.12" file_duration="00:00:20.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:54:13.24" duration="00:02:28.96" fadeIn="0" file="Z:\OnAir\ФУ\-3_Финноугория 39 Межпрограммка музыка 2_утверждено.m2t" fadeOut="0" realDuration="00:02:28.96" error="0">
+  <movie file="Z:\OnAir\ФУ\-3_Финноугория 39 Межпрограммка музыка 2_утверждено.m2t" duration="00:02:28.96" file_duration="00:02:28.96" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:56:42.20" duration="00:01:13.72" fadeIn="0" file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" fadeOut="0" realDuration="00:01:13.72" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" duration="00:01:13.72" file_duration="00:01:13.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:57:55.92" duration="00:00:05.20" fadeIn="0" file="Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:58:01.12" duration="00:00:50.32" fadeIn="0" file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" fadeOut="0" realDuration="00:00:50.32" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" duration="00:00:50.32" file_duration="00:00:50.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:58:51.44" duration="00:00:05.20" fadeIn="0" file="Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_5ИСПР _ капли.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_5ИСПР _ капли.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:58:56.64" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:59:28.84" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="10:59:56.96" markIn="00:00:00.08" duration="00:27:22.92" fadeIn="0" file="Y:\НТС_11_18_24\криминальный роман 2 серия тайна золотых апостолов ч 2.mpg" fadeOut="0" realDuration="00:27:22.92" error="0">
+  <movie file="Y:\НТС_11_18_24\криминальный роман 2 серия тайна золотых апостолов ч 2.mpg" duration="00:27:22.92" file_duration="00:48:01.76" markin="00:00:00.08" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:27:19.88" duration="00:00:08.60" fadeIn="0" file="Z:\Promo\ПРИЗЫ ВК\-3_ПризыВК_Настя(СаундЭффекты).m2t" fadeOut="0" realDuration="00:00:08.60" error="0">
+  <movie file="Z:\Promo\ПРИЗЫ ВК\-3_ПризыВК_Настя(СаундЭффекты).m2t" duration="00:00:08.60" file_duration="00:00:08.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:27:28.48" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:27:56.60" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:28:28.80" duration="00:01:13.72" fadeIn="0" file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" fadeOut="0" realDuration="00:01:13.72" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" duration="00:01:13.72" file_duration="00:01:13.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:29:42.52" markIn="00:27:23.28" duration="00:20:38.44" fadeIn="0" file="Y:\НТС_11_18_24\криминальный роман 2 серия тайна золотых апостолов ч 2.mpg" fadeOut="0" realDuration="00:20:38.44" error="0">
+  <movie file="Y:\НТС_11_18_24\криминальный роман 2 серия тайна золотых апостолов ч 2.mpg" duration="00:20:38.44" file_duration="00:48:01.76" markin="00:27:23.28" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:50:20.96" duration="00:00:32.60" fadeIn="0" file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" fadeOut="0" realDuration="00:00:32.60" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" duration="00:00:32.60" file_duration="00:00:32.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:50:53.56" duration="00:00:50.32" fadeIn="0" file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" fadeOut="0" realDuration="00:00:50.32" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" duration="00:00:50.32" file_duration="00:00:50.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:51:43.88" duration="00:04:40.72" fadeIn="0" file="Y:\НТС_история государства российского\00040 история государства российского 40 серия Великий Князь Изяслав II.mpg" fadeOut="0" realDuration="00:04:40.72" error="0">
+  <movie file="Y:\НТС_история государства российского\00040 история государства российского 40 серия Великий Князь Изяслав II.mpg" duration="00:04:40.72" file_duration="00:04:40.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:56:24.60" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:56:29.80" duration="00:00:05.12" fadeIn="0" file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" fadeOut="0" realDuration="00:00:05.12" error="0">
+  <movie file="Z:\Reklama\-3_TOYS_санки(Настя).m2t" duration="00:00:05.12" file_duration="00:00:05.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:56:34.92" duration="00:01:52.40" fadeIn="0" file="Z:\OnAir\ФУ\-3_Bndr_ФУ на вкус Салат финский.m2t" fadeOut="0" realDuration="00:01:52.40" error="0">
+  <movie file="Z:\OnAir\ФУ\-3_Bndr_ФУ на вкус Салат финский.m2t" duration="00:01:52.40" file_duration="00:01:52.40" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:58:27.32" duration="00:01:13.72" fadeIn="0" file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" fadeOut="0" realDuration="00:01:13.72" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" duration="00:01:13.72" file_duration="00:01:13.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="11:59:41.04" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:00:13.24" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:00:41.36" duration="00:00:08.16" fadeIn="0" file="Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t" fadeOut="0" realDuration="00:00:08.16" error="0">
+  <movie file="Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t" duration="00:00:08.16" file_duration="00:00:08.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:00:49.52" duration="00:27:55.72" fadeIn="0" file="Z:\OnAir\11_20\-3 Студия11_20-11-2019.m2t" fadeOut="0" realDuration="00:27:55.72" error="0">
+  <movie file="Z:\OnAir\11_20\-3 Студия11_20-11-2019.m2t" duration="00:27:55.72" file_duration="00:27:55.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:28:45.24" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_8 _ смайлы _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_8 _ смайлы _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:28:50.44" duration="00:00:05.12" fadeIn="0" file="Z:\Reklama\-3_АптекаБЗ 20ноя2019 5с FullHD.m2t" fadeOut="0" realDuration="00:00:05.12" error="0">
+  <movie file="Z:\Reklama\-3_АптекаБЗ 20ноя2019 5с FullHD.m2t" duration="00:00:05.12" file_duration="00:00:05.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:28:55.56" duration="00:00:15.16" fadeIn="0" file="Z:\Reklama\-3 Пригородный 15 сек.m2t" fadeOut="0" realDuration="00:00:15.16" error="0">
+  <movie file="Z:\Reklama\-3 Пригородный 15 сек.m2t" duration="00:00:15.16" file_duration="00:00:15.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:29:10.72" duration="00:00:10.12" fadeIn="0" file="Z:\Reklama\-3 Оптика Люкс 10 сек_2.m2t" fadeOut="0" realDuration="00:00:10.12" error="0">
+  <movie file="Z:\Reklama\-3 Оптика Люкс 10 сек_2.m2t" duration="00:00:10.12" file_duration="00:00:10.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:29:20.84" duration="00:00:24.92" fadeIn="0" file="Z:\Reklama\ППСиГЗ_2019\-3_Bndr_Rolik_13_1_Детская безопасность.m2t" fadeOut="0" realDuration="00:00:24.92" error="0">
+  <movie file="Z:\Reklama\ППСиГЗ_2019\-3_Bndr_Rolik_13_1_Детская безопасность.m2t" duration="00:00:24.92" file_duration="00:00:24.92" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:29:45.76" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:30:13.88" duration="00:00:47.48" fadeIn="0" file="Z:\OnAir\11_20\-3_ВН Главное на 12-30 20-11.m2t" fadeOut="0" realDuration="00:00:47.48" error="0">
+  <movie file="Z:\OnAir\11_20\-3_ВН Главное на 12-30 20-11.m2t" duration="00:00:47.48" file_duration="00:00:47.48" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:31:01.36" markIn="00:00:00.00" duration="00:24:37.88" fadeIn="0" file="Y:\НТС_11_18_24\Волчье солнце 7 серия.mpg" fadeOut="0" realDuration="00:24:37.88" error="0">
+  <movie file="Y:\НТС_11_18_24\Волчье солнце 7 серия.mpg" duration="00:24:37.88" file_duration="00:53:20.08" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:55:39.24" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:56:11.44" duration="00:00:50.32" fadeIn="0" file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" fadeOut="0" realDuration="00:00:50.32" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" duration="00:00:50.32" file_duration="00:00:50.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:57:01.76" duration="00:00:32.60" fadeIn="0" file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" fadeOut="0" realDuration="00:00:32.60" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" duration="00:00:32.60" file_duration="00:00:32.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="12:57:34.36" markIn="00:24:38.16" duration="00:28:41.84" fadeIn="0" file="Y:\НТС_11_18_24\Волчье солнце 7 серия.mpg" fadeOut="0" realDuration="00:28:41.84" error="0">
+  <movie file="Y:\НТС_11_18_24\Волчье солнце 7 серия.mpg" duration="00:28:41.84" file_duration="00:53:20.08" markin="00:24:38.16" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="13:26:16.20" duration="00:01:13.72" fadeIn="0" file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" fadeOut="0" realDuration="00:01:13.72" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" duration="00:01:13.72" file_duration="00:01:13.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="13:27:29.92" duration="00:00:50.32" fadeIn="0" file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" fadeOut="0" realDuration="00:00:50.32" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" duration="00:00:50.32" file_duration="00:00:50.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="13:28:20.24" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="13:28:52.44" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="13:29:20.56" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="13:29:25.76" duration="00:00:20.12" fadeIn="0" file="Z:\Reklama\Телекарта _ ОКТЯБРЬ _ 2019\-3_Народный премьер_16+_0-20_1080p.m2t" fadeOut="0" realDuration="00:00:20.12" error="0">
+  <movie file="Z:\Reklama\Телекарта _ ОКТЯБРЬ _ 2019\-3_Народный премьер_16+_0-20_1080p.m2t" duration="00:00:20.12" file_duration="00:00:20.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="13:29:45.88" duration="00:00:20.00" fadeIn="0" file="Z:\Reklama\АНТИКОРРУПЦИЯ\-3_Bndr_Антикорупционный_права 1.avi" fadeOut="0" realDuration="00:00:20.00" error="0">
+  <movie file="Z:\Reklama\АНТИКОРРУПЦИЯ\-3_Bndr_Антикорупционный_права 1.avi" duration="00:00:20.00" file_duration="00:00:20.00" />
+</item>
+<item type="Movie" date="2019-11-20" time="13:30:05.88" duration="00:00:47.48" fadeIn="0" file="Z:\OnAir\11_20\-3_ВН Главное на 12-30 20-11.m2t" fadeOut="0" realDuration="00:00:47.48" error="0">
+  <movie file="Z:\OnAir\11_20\-3_ВН Главное на 12-30 20-11.m2t" duration="00:00:47.48" file_duration="00:00:47.48" />
+</item>
+<item type="Movie" date="2019-11-20" time="13:30:53.36" markIn="00:00:00.00" duration="00:34:23.00" fadeIn="0" file="Y:\НТС_11_18_24\наши соседи-2 6 серия.mpg" fadeOut="0" realDuration="00:34:23.00" error="0">
+  <movie file="Y:\НТС_11_18_24\наши соседи-2 6 серия.mpg" duration="00:34:23.00" file_duration="00:44:00.08" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:05:16.36" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:05:21.56" duration="00:00:15.16" fadeIn="0" file="Z:\Reklama\-3 PN_PiterLove_Fed Петербургская недвиж.m2t" fadeOut="0" realDuration="00:00:15.16" error="0">
+  <movie file="Z:\Reklama\-3 PN_PiterLove_Fed Петербургская недвиж.m2t" duration="00:00:15.16" file_duration="00:00:15.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:05:36.72" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:06:04.84" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:06:37.04" duration="00:00:32.60" fadeIn="0" file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" fadeOut="0" realDuration="00:00:32.60" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t" duration="00:00:32.60" file_duration="00:00:32.60" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:07:09.64" markIn="00:34:23.28" duration="00:09:36.76" fadeIn="0" file="Y:\НТС_11_18_24\наши соседи-2 6 серия.mpg" fadeOut="0" realDuration="00:09:36.76" error="0">
+  <movie file="Y:\НТС_11_18_24\наши соседи-2 6 серия.mpg" duration="00:09:36.76" file_duration="00:44:00.08" markin="00:34:23.28" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:16:46.40" duration="00:06:30.04" fadeIn="0" file="Y:\Писатели России\писатели России 4 выпуск ахмадов.mpg" fadeOut="0" realDuration="00:06:30.04" error="0">
+  <movie file="Y:\Писатели России\писатели России 4 выпуск ахмадов.mpg" duration="00:06:30.04" file_duration="00:06:30.04" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:23:16.44" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:23:21.64" duration="00:00:34.84" fadeIn="0" file="Z:\Promo\-3_ТГ_ОТРиспр.m2t" fadeOut="0" realDuration="00:00:34.84" error="0">
+  <movie file="Z:\Promo\-3_ТГ_ОТРиспр.m2t" duration="00:00:34.84" file_duration="00:00:34.84" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:23:56.48" duration="00:01:13.72" fadeIn="0" file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" fadeOut="0" realDuration="00:01:13.72" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" duration="00:01:13.72" file_duration="00:01:13.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:25:10.20" duration="00:00:50.32" fadeIn="0" file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" fadeOut="0" realDuration="00:00:50.32" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" duration="00:00:50.32" file_duration="00:00:50.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:26:00.52" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:26:32.72" duration="00:01:26.96" fadeIn="0" file="Z:\OnAir\наставник\-3_Наставник_Лыюрова_с 18.11.m2t" fadeOut="0" realDuration="00:01:26.96" error="0">
+  <movie file="Z:\OnAir\наставник\-3_Наставник_Лыюрова_с 18.11.m2t" duration="00:01:26.96" file_duration="00:01:26.96" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:27:59.68" duration="00:00:33.88" fadeIn="0" file="Z:\OnAir\ГОРОДА 12+\-3_города_Зеленец_корр1.m2t" fadeOut="0" realDuration="00:00:33.88" error="0">
+  <movie file="Z:\OnAir\ГОРОДА 12+\-3_города_Зеленец_корр1.m2t" duration="00:00:33.88" file_duration="00:00:33.88" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:28:33.56" duration="00:00:08.16" fadeIn="0" file="Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t" fadeOut="0" realDuration="00:00:08.16" error="0">
+  <movie file="Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t" duration="00:00:08.16" file_duration="00:00:08.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:28:41.72" duration="00:00:59.20" fadeIn="0" file="Z:\Promo\-3_Глава 73 16х9.m2t" fadeOut="0" realDuration="00:00:59.20" error="0">
+  <movie file="Z:\Promo\-3_Глава 73 16х9.m2t" duration="00:00:59.20" file_duration="00:00:59.20" />
+</item>
+<item type="Video1" date="2019-11-20" time="14:29:40.92" duration="00:00:00.00" fadeIn="0" fadeOut="0" realDuration="00:00:00.00" error="0">
+  <live channel="1" title="Талун 14-30" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:39:39.16" duration="00:00:05.20" fadeIn="0" file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" fadeOut="0" realDuration="00:00:05.20" error="0">
+  <movie file="Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t" duration="00:00:05.20" file_duration="00:00:05.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:39:44.36" duration="00:00:10.12" fadeIn="0" file="Z:\Reklama\-3 HINKALI_0719_10S Хинкали.m2t" fadeOut="0" realDuration="00:00:10.12" error="0">
+  <movie file="Z:\Reklama\-3 HINKALI_0719_10S Хинкали.m2t" duration="00:00:10.12" file_duration="00:00:10.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:39:54.48" duration="00:01:09.64" fadeIn="0" file="Z:\OnAir\11_20\-3 Поводдя_йылысь_14_30_20_11.m2t" fadeOut="0" realDuration="00:01:09.64" error="0">
+  <movie file="Z:\OnAir\11_20\-3 Поводдя_йылысь_14_30_20_11.m2t" duration="00:01:09.64" file_duration="00:01:09.64" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:41:04.12" duration="00:00:59.20" fadeIn="0" file="Z:\Promo\-3_Глава 73 16х9.m2t" fadeOut="0" realDuration="00:00:59.20" error="0">
+  <movie file="Z:\Promo\-3_Глава 73 16х9.m2t" duration="00:00:59.20" file_duration="00:00:59.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:42:03.32" duration="00:00:32.20" fadeIn="0" file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" fadeOut="0" realDuration="00:00:32.20" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t" duration="00:00:32.20" file_duration="00:00:32.20" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:42:35.52" duration="00:01:13.72" fadeIn="0" file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" fadeOut="0" realDuration="00:01:13.72" error="0">
+  <movie file="Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t" duration="00:01:13.72" file_duration="00:01:13.72" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:43:49.24" duration="00:00:50.32" fadeIn="0" file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" fadeOut="0" realDuration="00:00:50.32" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t" duration="00:00:50.32" file_duration="00:00:50.32" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:44:39.56" duration="00:00:28.12" fadeIn="0" file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" fadeOut="0" realDuration="00:00:28.12" error="0">
+  <movie file="Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t" duration="00:00:28.12" file_duration="00:00:28.12" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:45:07.68" duration="00:00:10.16" fadeIn="0" file="Z:\OnAir\Выльыш Поз (Шапка, Конечка)\-3_Bndr_Вильыш поз_ШАПКА.m2t" fadeOut="0" realDuration="00:00:10.16" error="0">
+  <movie file="Z:\OnAir\Выльыш Поз (Шапка, Конечка)\-3_Bndr_Вильыш поз_ШАПКА.m2t" duration="00:00:10.16" file_duration="00:00:10.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:45:17.84" markIn="00:00:00.00" duration="00:09:25.92" fadeIn="0" file="Z:\Мульты на Коми\-3 Коми мультфильм КОДЛЫ  ШЕДАС  АНАНАС 06.02.2016.avi" fadeOut="0" realDuration="00:09:25.92" error="0">
+  <movie file="Z:\Мульты на Коми\-3 Коми мультфильм КОДЛЫ  ШЕДАС  АНАНАС 06.02.2016.avi" duration="00:09:25.92" file_duration="00:09:26.08" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="14:54:43.76" markIn="00:00:00.12" duration="00:09:56.76" fadeIn="0" file="Z:\Мульты на Коми\-3 Коми мультфильм Леопольд-кань-в0йтын-да-ол0мын 21-09-2013.avi" fadeOut="0" realDuration="00:09:56.76" error="0">
+  <movie file="Z:\Мульты на Коми\-3 Коми мультфильм Леопольд-кань-в0йтын-да-ол0мын 21-09-2013.avi" duration="00:09:56.76" file_duration="00:09:56.88" markin="00:00:00.12" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="15:04:40.52" markIn="00:00:00.12" duration="00:11:49.00" fadeIn="0" file="Z:\OnAir\11_20\АО_Чолом дзолюк 86 сад и ролики сказки  19_10_2019.mpg" fadeOut="0" realDuration="00:11:49.00" error="0">
+  <movie file="Z:\OnAir\11_20\АО_Чолом дзолюк 86 сад и ролики сказки  19_10_2019.mpg" duration="00:11:49.00" file_duration="00:11:49.12" markin="00:00:00.12" actual_duration_from_file="0" />
+</item>
+<item type="Movie" date="2019-11-20" time="15:16:29.52" duration="00:00:04.16" fadeIn="0" file="Z:\OnAir\Выльыш Поз (Шапка, Конечка)\-3_Bndr_Вильыш поз_конечка.m2t" fadeOut="0" realDuration="00:00:04.16" error="0">
+  <movie file="Z:\OnAir\Выльыш Поз (Шапка, Конечка)\-3_Bndr_Вильыш поз_конечка.m2t" duration="00:00:04.16" file_duration="00:00:04.16" />
+</item>
+<item type="Movie" date="2019-11-20" time="15:16:33.68" duration="00:03:39.24" fadeIn="0" file="Y:\НТС_Мульты\доктор машинкова 42 серия headlight.mpg" fadeOut="0" realDuration="00:03:39.24" error="0">
+  <movie file="Y:\НТС_Мульты\доктор машинкова 42 серия headlight.mpg" duration="00:03:39.24" file_duration="00:03:39.24" />
+</item>
