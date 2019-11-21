@@ -13,7 +13,7 @@ while not d_corr:
 airlog1 = 'air1_'+dd[2]+dd[1]+dd[0]+'.log'
 airlog2 = 'air1_'+dd[2]+dd[1]+str(int(dd[0])+1)+'.log'
 
-with open(airlog1) as log1, open(airlog1) as log2, open('otrabot_za_'+dd[0]+'_'+dd[1]+'_'+dd[2]+'.air', 'w') as air:
+with open(airlog1) as log1, open(airlog2) as log2, open('otrabot_za_'+dd[0]+'_'+dd[1]+'_'+dd[2]+'.air', 'w') as air:
     flag = True
     for line in log1:
         if flag:
@@ -26,7 +26,7 @@ with open(airlog1) as log1, open(airlog1) as log2, open('otrabot_za_'+dd[0]+'_'+
             if line.find('Flags take:')>0:
                 s = line.split()
                 air.write(s[3]+'\n')
-            elif line.find('Script take:')>0 or line.find('Script skip:')>0 or line.find('Skip:')>0:
+            elif line.find('Script take:')>0 or line.find('Script skip:')>0 or line.find('Skip:')>=0:
                 s = line.split('[ ')
                 air.write(s[1].strip().rstrip(']')+'\n')
 
