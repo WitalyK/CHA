@@ -10,33 +10,24 @@
 'Неправильный IP-адрес'
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 '''
-flag = True
+ip_not_correct = True
 while flag:
     ip = input('Input IP Address: ')
-    flag = False
-    ipp = ip.split('.')
+    ip_not_correct = False
+    ipp = [num for num in [num for num in ip.split('.') if num.isdigit()] if (0 <= int(num) <= 255)]
     if len(ipp) == 4:
-        for i in ipp:
-            if not i.isdigit():
-                flag = True
-                break
-            if not (0 <= int(i) <= 255):
-                flag = True
-                break
-        if not flag:
-            ip1 = int(ip.split('.')[0])
-            if 1 <= ip1 <= 223:
-                print('unicast')
-            elif 224 <= ip1 <= 239:
-                print('multicast')
-            elif ip == '255.255.255.255':
-                print('local broadcast')
-            elif ip == '0.0.0.0':
-                print('unassigned')
-            else:
-                print('unused')
+        ip1 = int(ipp[0])
+        if 1 <= ip1 <= 223:
+            print('unicast')
+        elif 224 <= ip1 <= 239:
+            print('multicast')
+        elif ip == '255.255.255.255':
+            print('local broadcast')
+        elif ip == '0.0.0.0':
+            print('unassigned')
+        else:
+            print('unused')
     else:
-        flag = True
-    if flag:
+        ip_not_correct = True
         print('Неправильный IP-адрес!')
 

@@ -7,8 +7,6 @@
 и добавляет их в новый список mac_cisco
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 '''
-mac_cisco = []
 mac = ['aabb:cc80:7000', 'aabb:dd80:7340', 'aabb:ee80:7000', 'aabb:ff80:7000']
-for m in mac:
-    mac_cisco.append(m.replace(':', '.'))
+mac_cisco = [m.replace(':', '.') for m in mac]
 print(mac_cisco)
