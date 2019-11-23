@@ -19,6 +19,5 @@ with open('CAM_table.txt') as src:
     for line in src:
         s = line.split()
         is_4 = len(s) == 4
-        if is_4:
-            if s[1].find('.', 4):
-                print('{:<6} {:<18} {}'.format(s[0], s[1], s[3]))
+        if is_4 and s[1].find('.') == 4:
+            print('{:<6} {:<18} {}'.format(s[0], s[1], s[3]))

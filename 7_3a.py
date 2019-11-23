@@ -25,7 +25,4 @@ with open('CAM_table.txt') as src:
             s = line.split()
             list.append([int(s[0]), s[1], s[3]])
     list.sort()
-    s = ''
-    for line in list:
-        s = s + '{:<6} {:<18} {}'.format(line[0], line[1], line[2]) + '\n'
-    print(s)
+    [print('{:<6} {:<18} {}'.format(line[0], line[1], line[2])) for line in list]

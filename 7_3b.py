@@ -13,11 +13,8 @@ with open('CAM_table.txt') as src:
     list = []
     for line in src:
         if len(line.split('.')) == 3:
-            s = line.split()
-            if int(s[0]) == vlan:
-                list.append([int(s[0]), s[1], s[3]])
-    list.sort()
-    s = ''
-    for line in list:
-        s = s + '{:<6} {:<18} {}'.format(line[0], line[1], line[2]) + '\n'
-    print(s)
+            vlans, mac, _, inf = line.split()
+            if int(vlans) == vlan:
+                list.append([int(vlans), mac, inf])
+    list.sort(key=lambda x: x[-1])
+    [print('{:<6} {:<18} {}'.format(line[0], line[1], line[2])) for line in list]

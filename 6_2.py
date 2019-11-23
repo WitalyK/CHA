@@ -11,7 +11,7 @@
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 '''
 ip_not_correct = True
-while flag:
+while ip_not_correct:
     ip = input('Input IP Address: ')
     ip_not_correct = False
     ipp = [num for num in [num for num in ip.split('.') if num.isdigit()] if (0 <= int(num) <= 255)]
