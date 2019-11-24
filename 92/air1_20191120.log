@@ -1,0 +1,154 @@
+01:35:12.38 ScheduleDblClick Shedule.SetRunPosition 0 2
+01:35:12.44 ScheduleDblClick Shedule.SetPause 0
+02:00:00.00 Script skip: 0 2 [ wait time 02:00:00.00 [0] active Слот 9_02,00-06.00=4 часа(16 мин)=3 часа 44 мин ]
+02:00:00.00 Script skip: 0 3 [ comment 0 Окончание эфира на 19.11.2019_92 ]
+02:00:00.01 Script take: 0 4 [ movie 00:13:54.32 Z:\OnAir\11_19\-3 Вочакыв Виктория Агаркова 19 11 19.m2t ]
+02:13:54.33 Script skip: 0 5 [ comment 0 Рекламный блок 55 начало - 02:13 ]
+02:13:54.33 Script take: 0 6 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t ]
+02:13:59.58 Script take: 0 7 [ movie 00:00:18.16 Z:\OnAir\11_19\-3_ролик соффит.m2t ]
+02:14:17.70 Script skip: 0 8 [ comment 0 Рекламный блок 55 конец ]
+02:14:17.70 Script take: 0 9 [ movie 00:01:13.72 Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t ]
+02:15:31.40 Script take: 0 10 [ movie 00:00:03.04 Z:\Promo\Слайд СОФФИТ.mpg ]
+02:15:34.43 Script take: 0 11 [ movie <00:00:03.20> 00:12:06.52 Z:\OnAir\11_19\-3_Телезащитник 19 11 2019.m2t ]
+02:27:41.11 Script skip: 0 12 [ comment 0 Рекламный блок 56 начало - 02:28 ]
+02:27:41.11 Script skip: 0 13 [ comment 0 Нет рекламы в блоке ]
+02:27:41.12 Script skip: 0 14 [ comment 0 Рекламный блок 56 конец ]
+02:27:41.13 Script take: 0 15 [ movie 00:00:32.60 Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t ]
+02:28:13.60 Script take: 0 16 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+02:29:03.90 Script take: 0 17 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+02:29:36.08 Script take: 0 18 [ movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t ]
+02:30:04.27 Script take: 0 19 [ movie 00:27:59.96 Z:\OnAir\11_19\-3_О Монди начистоту 1серия С шапкой и концом 19_10_2019.m2t ]
+02:58:04.24 Script take: 0 20 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+02:58:36.43 Script take: 0 21 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+02:59:26.74 Script take: 0 22 [ movie 00:00:32.60 Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t ]
+02:59:59.28 Script take: 0 23 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_5ИСПР _ капли.m2t ]
+03:00:04.54 Script skip: 0 24 [ comment 0 Рекламный блок 57 начало - 02:45 ]
+03:00:04.54 Script skip: 0 25 [ comment 0 Нет рекламы в блоке ]
+03:00:04.54 Script skip: 0 26 [ comment 0 Рекламный блок 57 конец ]
+03:00:04.55 Script take: 0 27 [ movie <00:00:01.20> 00:30:30.52 Y:\НТС_11_11_17\Добро пожаловать в джунгли.mpg ]
+03:30:35.11 Script take: 0 28 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+03:31:13.84 Script take: 0 29 [ movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t ]
+03:31:41.98 Script skip: 0 30 [ comment 0 Рекламный блок 58 начало - 03:48 ]
+03:31:41.98 Script skip: 0 31 [ comment 0 Нет рекламы в блоке ]
+03:31:41.98 Script skip: 0 32 [ comment 0 Рекламный блок 58 конец ]
+03:31:41.99 Script skip: 0 33 [ comment 0 & добро пожаловать в джунгли.avi ]
+03:31:41.99 Script take: 0 34 [ movie <00:30:32.08> 00:31:10.44 Y:\НТС_11_11_17\Добро пожаловать в джунгли.mpg ]
+04:02:52.44 Script take: 0 35 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+04:03:24.58 Script take: 0 36 [ movie 00:00:32.60 Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t ]
+04:03:57.25 Script take: 0 37 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+04:04:47.57 Script skip: 0 38 [ comment 0 Рекламный блок 59 начало - 04:30 ]
+04:04:47.57 Script skip: 0 39 [ comment 0 Нет рекламы в блоке ]
+04:04:47.58 Script skip: 0 40 [ comment 0 Рекламный блок 59 конец ]
+04:04:47.58 Script skip: 0 41 [ comment 0 & добро пожаловать в джунгли.avi ]
+04:04:47.60 Script take: 0 42 [ movie <01:01:42.84> 00:32:28.44 Y:\НТС_11_11_17\Добро пожаловать в джунгли.mpg ]
+04:37:16.01 Script take: 0 43 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+04:37:54.78 Script take: 0 44 [ movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t ]
+04:38:22.86 Script take: 0 45 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+04:38:55.12 Script take: 0 46 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+04:39:45.41 Script take: 0 47 [ movie 00:00:32.60 Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t ]
+04:40:17.99 Script take: 0 48 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+04:40:26.26 Script skip: 0 49 [ comment 0 Рекламный блок 60 начало - 04:58 ]
+04:40:26.26 Script skip: 0 50 [ comment 0 Нет рекламы в блоке ]
+04:40:26.27 Script skip: 0 51 [ comment 0 Рекламный блок 60 конец ]
+04:40:26.27 Script take: 0 52 [ movie 00:38:20.04 Y:\НТС_11_18_24\Тайны разведки 28 выпуск Операция на Босфоре.mpg ]
+05:18:46.27 Script take: 0 53 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+05:19:24.98 Script take: 0 54 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+05:20:15.37 Script skip: 0 55 [ comment 0 Рекламный блок 61 начало - 05:27 ]
+05:20:15.37 Script skip: 0 56 [ comment 0 Нет рекламы в блоке ]
+05:20:15.39 Script skip: 0 57 [ comment 0 Рекламный блок 61 конец ]
+05:20:15.39 Script take: 0 58 [ movie 00:00:12.24 Z:\OnAir\ФУ\-3_Bndr_ШАПКА_ФИННОУГОРИЯ_ТК.m2t ]
+05:20:27.62 Script take: 0 59 [ movie 00:17:56.04 Z:\OnAir\11_18\А_Сето. Пасхальные встречи.avi ]
+05:38:23.62 Script take: 0 60 [ movie 00:00:35.68 Z:\OnAir\ФУ\-3_Bndr_ФУ общий корень с ведущей Снег.m2t ]
+05:38:59.24 Script skip: 0 61 [ comment 0 Рекламный блок 62 начало - 05:47 ]
+05:38:59.24 Script skip: 0 62 [ comment 0 Нет рекламы в блоке ]
+05:38:59.25 Script skip: 0 63 [ comment 0 Рекламный блок 62 конец ]
+05:38:59.25 Script take: 0 64 [ movie 00:03:29.68 Y:\НТС_Мульты\доктор машинкова 21 серия robot_car.mpg ]
+05:42:28.94 Script take: 0 65 [ movie 00:03:38.68 Y:\НТС_Мульты\доктор машинкова 22 серия bridge.mpg ]
+05:46:07.78 Script take: 0 66 [ movie 00:04:06.00 Y:\НТС_Мульты\доктор машинкова 23 серия ToLondon.mpg ]
+05:50:13.63 Script take: 0 67 [ movie 00:03:14.12 Y:\НТС_Мульты\доктор машинкова 24 серия InLondon.mpg ]
+05:53:27.73 Script take: 0 68 [ movie 00:02:47.16 Y:\НТС_Мульты\доктор машинкова 25 серия McWheelie_Colour_TowTruck_TV_nolink.mpg ]
+05:56:14.92 Script take: 0 69 [ movie 00:03:34.48 Y:\НТС_Мульты\доктор машинкова 26 серия Ambulance.mpg ]
+05:59:49.37 Script take: 0 70 [ video1 0  ]
+07:08:06.68 Button Shedule.SaveToFile 0 Z:\PlayList\отработанный от 19.11.2019_92.air
+07:08:44.71 Button Shedule.EraseList 0
+07:08:44.77 Script wait: 0 0 [ wait operator 0 * * * * * ]
+07:08:52.96 FilePage Shedule.InsertFromFile 0 0 Z:\PlayList\AirPlay 20.11.2019_92.air
+DebugInfo2: 07:08:55.11 picture 00:14:00.00 E:\Типа проги\ФИННОУГОРИЯ.png Check change: State (None->Error)
+DebugInfo2: 07:08:56.75 picture 00:15:00.00 E:\Типа проги\Крик.png Check change: State (None->Error)
+DebugInfo2: 07:08:57.36 picture 00:28:00.00 E:\Типа проги\ДЕТАЛИ.png Check change: State (None->Error)
+10:12:58.67 ScheduleDblClick Shedule.SetRunPosition 0 4
+10:12:58.70 ScheduleDblClick Shedule.SetPause 0
+10:12:58.70 Script wait: 0 4 [ wait time 02:00:00.00 [0] active Слот 9_02,00-06.00=4 часа(16 мин)=3 часа 44 мин ]
+10:13:07.89 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 20.11.2019_92.air
+14:59:42.75 Button Menu Player.ReloadTitleButton 7
+14:59:42.75 Reload object: _1_Рекламная_бегушка, task: Z:\TitleProekt\Реклама\Рекламная бегушка.txt
+15:24:56.71 SheduleEdit Shedule.SetItemDuration 0 7 835000 (00:13:55.00)
+15:25:02.04 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 20.11.2019_92.air
+17:22:54.49 Watchdog timeout 1 sec.  Actual interval 1.05
+
+17:22:57.73 Watchdog timeout 1 sec.  Actual interval 1.45
+
+17:23:02.94 Watchdog timeout 1 sec.  Actual interval 1.56
+
+17:23:09.15 Watchdog timeout 1 sec.  Actual interval 1.73
+
+17:23:12.58 Watchdog timeout 1 sec.  Actual interval 1.37
+
+17:23:14.89 Watchdog timeout 1 sec.  Actual interval 1.12
+
+17:23:19.32 Watchdog timeout 1 sec.  Actual interval 3.1
+
+17:23:23.37 Watchdog timeout 1 sec.  Actual interval 1.03
+
+17:23:29.04 Watchdog timeout 1 sec.  Actual interval 1.72
+
+18:11:47.60 FilePage  Shedule.AddItem 0 7 1 0 0 movie 00:13:55.36  Z:\OnAir\11_20\-3_Финноугория 46 20.11.19.m2t
+18:11:49.61 Button Shedule.DeleteItem 0 7
+Deleted 0 7 picture 00:13:55.00 E:\Типа проги\ФИННОУГОРИЯ.png
+18:11:51.44 Watchdog timeout 1 sec.  Actual interval 1.01
+
+18:12:01.08 SheduleEdit Shedule.SetItemInOut 0 7 0 835360 (00:00:00.00, 00:13:55.36)
+18:12:04.64 FilePage  Shedule.AddItem 0 12 1 0 0 movie 00:14:29.32  Z:\OnAir\11_20\-3_крик_коми_титры_20_11_01.m2t
+18:12:06.71 Button Shedule.DeleteItem 0 12
+Deleted 0 12 picture 00:15:00.00 E:\Типа проги\Крик.png
+18:12:16.96 SheduleEdit Shedule.SetItemInOut 0 12 0 869320 (00:00:00.00, 00:14:29.32)
+18:12:27.96 SheduleEdit Shedule.SetItemDuration 0 18 1734000 (00:28:54.00)
+18:12:31.72 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 20.11.2019_92.air
+18:12:45.39 Button Shedule.DeleteItem 0 13
+Deleted 0 13 movie 00:00:32.60 Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t
+18:12:50.12 FilePage  Shedule.AddItem 0 12 1 0 0 movie 00:00:45.28  Z:\Promo\-3_Анонс Детали Недели 22-11.m2t
+18:12:58.71 SheduleEdit Shedule.SetItemInOut 0 13 0 45280 (00:00:00.00, 00:00:45.28)
+18:13:12.66 Button Shedule.DeleteItem 0 22
+Deleted 0 22 movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t
+18:13:14.65 FilePage  Shedule.AddItem 0 21 1 0 0 movie 00:00:45.28  Z:\Promo\-3_Анонс Детали Недели 22-11.m2t
+18:13:57.82 Button Shedule.DeleteItem 0 20
+Deleted 0 20 movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t
+18:14:08.75 FilePage  Shedule.AddItem 0 33 1 0 0 movie 00:00:45.28  Z:\Promo\-3_Анонс Детали Недели 22-11.m2t
+18:14:12.10 Button Shedule.DeleteItem 0 39
+Deleted 0 39 movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t
+18:14:22.72 FilePage  Shedule.AddItem 0 45 1 0 0 movie 00:00:45.28  Z:\Promo\-3_Анонс Детали Недели 22-11.m2t
+18:14:32.99 Button Shedule.DeleteItem 0 53
+Deleted 0 53 movie 00:01:13.72 Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t
+18:14:55.67 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 20.11.2019_92.air
+20:22:24.70 FilePage  Shedule.AddItem 0 18 1 0 0 movie 00:28:55.04  Z:\OnAir\11_20\-3_Нацпроекты в деталях_20.11.2019.m2t
+20:22:27.19 Button Shedule.DeleteItem 0 18
+Deleted 0 18 picture 00:28:54.00 E:\Типа проги\ДЕТАЛИ.png
+20:22:33.17 SheduleEdit Shedule.SetItemInOut 0 18 0 1735040 (00:00:00.00, 00:28:55.04)
+20:22:37.56 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 20.11.2019_92.air
+20:22:52.24 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 20.11.2019_92.air
+20:25:44.68 SheduleEdit Shedule.SetItemInOut 0 12 0 869320 (00:00:00.00, 00:14:29.32)
+20:26:02.37 SheduleEdit Shedule.SetItemInOut 0 12 0 869320 (00:00:00.00, 00:14:29.32)
+20:26:08.38 SheduleEdit Shedule.SetItemInOut 0 7 0 835360 (00:00:00.00, 00:13:55.36)
+20:26:14.40 SheduleEdit Shedule.SetItemInOut 0 18 0 1735040 (00:00:00.00, 00:28:55.04)
+20:26:23.70 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 20.11.2019_92.air
+20:34:14.08 Button Player.SetTitleButton 7 1
+20:35:06.95 Button Player.SetTitleButton 7 1
+20:50:50.40 Button Player.SetTitleButton 7 1
+20:51:16.19 Button Player.SetTitleButton 7 1
+21:20:15.07 Button Player.SetTitleButton 7 1
+21:21:06.26 Button Player.SetTitleButton 7 1
+22:17:19.97 Button Player.SetTitleButton 7 1
+22:21:38.93 Button Player.SetTitleButton 7 1
+22:44:15.71 Button Player.SetTitleButton 7 1
+23:15:13.29 Button Player.SetTitleButton 7 1
+23:17:12.70 Button Player.SetTitleButton 7 1

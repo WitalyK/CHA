@@ -1,0 +1,1305 @@
+01:59:59.99 Script skip: 0 4 [ wait time 02:00:00.00 [0] active Слот 9_02,00-06.00=4 часа(16 мин)=3 часа 44 мин ]
+01:59:59.99 Script skip: 0 5 [ comment 0 окончание эфира на 18.11.2019_92 ]
+02:00:00.00 Script take: 0 6 [ movie 00:11:04.48 Z:\OnAir\11_18\-3 Миан_Йоз_День Марийской культуры_эфир_18_11.m2t ]
+02:11:04.51 Script take: 0 7 [ movie 00:01:59.16 Z:\OnAir\ФУ\-3 Финноугория_35 Межпрограммки Музыка.m2t ]
+02:13:03.71 Script take: 0 8 [ movie 00:00:38.48 Z:\Promo\-3 Промо Монди начистоту_eff испр 19.11.mp4 ]
+02:13:42.18 Script take: 0 9 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+02:14:20.95 Script take: 0 10 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+02:15:11.30 Script skip: 0 11 [ comment 0 Рекламный блок 55 начало - 02:13 ]
+02:15:11.30 Script skip: 0 12 [ comment 0 Нет рекламы в блоке ]
+02:15:11.31 Script skip: 0 13 [ comment 0 Рекламный блок 55 конец ]
+02:15:11.33 Script take: 0 14 [ movie 00:15:11.12 Z:\OnAir\11_18\-3_крик_коми_титры_18_11_00.m2t ]
+02:30:22.41 Script skip: 0 15 [ comment 0 Рекламный блок 56 начало - 02:28 ]
+02:30:22.41 Script skip: 0 16 [ comment 0 Нет рекламы в блоке ]
+02:30:22.42 Script skip: 0 17 [ comment 0 Рекламный блок 56 конец ]
+02:30:22.44 Script take: 0 18 [ movie 00:27:42.04 Z:\OnAir\11_18\-3_Детали Откровенное_Галина Дубровская_эфир _18_11_2019.m2t ]
+02:58:04.46 Script take: 0 19 [ movie 00:00:38.48 Z:\Promo\-3 Промо Монди начистоту_eff испр 19.11.mp4 ]
+02:58:42.95 Script take: 0 20 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+02:59:21.78 Script take: 0 21 [ movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t ]
+02:59:49.87 Script take: 0 22 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+03:00:22.06 Script skip: 0 23 [ comment 0 Рекламный блок 57 начало - 02:45 ]
+03:00:22.06 Script skip: 0 24 [ comment 0 Нет рекламы в блоке ]
+03:00:22.18 Script skip: 0 25 [ comment 0 Рекламный блок 57 конец ]
+03:00:22.19 Script take: 0 26 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+03:00:30.28 Script take: 0 27 [ movie <00:00:00.00> 00:27:55.52 Y:\НТС_11_11_17\бабоньки.mpg ]
+03:28:25.67 Script take: 0 28 [ movie 00:00:38.48 Z:\Promo\-3 Промо Монди начистоту_eff испр 19.11.mp4 ]
+03:29:04.20 Script take: 0 29 [ movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t ]
+03:29:32.31 Script take: 0 30 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+03:30:22.67 Script skip: 0 31 [ comment 0 Рекламный блок 58 начало - 03:48 ]
+03:30:22.67 Script skip: 0 32 [ comment 0 Нет рекламы в блоке ]
+03:30:22.67 Script skip: 0 33 [ comment 0 Рекламный блок 58 конец ]
+03:30:22.68 Script skip: 0 34 [ comment 0 & бабоньки.avi ]
+03:30:22.69 Script take: 0 35 [ movie <00:27:55.80> 00:28:01.44 Y:\НТС_11_11_17\бабоньки.mpg ]
+03:58:24.06 Script take: 0 36 [ movie 00:00:38.48 Z:\Promo\-3 Промо Монди начистоту_eff испр 19.11.mp4 ]
+03:59:02.56 Script take: 0 37 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+03:59:41.33 Script take: 0 38 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+04:00:13.57 Script skip: 0 39 [ comment 0 Рекламный блок 59 начало - 04:30 ]
+04:00:13.57 Script skip: 0 40 [ comment 0 Нет рекламы в блоке ]
+04:00:13.58 Script skip: 0 41 [ comment 0 Рекламный блок 59 конец ]
+04:00:13.59 Script skip: 0 42 [ comment 0 & бабоньки.avi ]
+04:00:13.60 Script take: 0 43 [ movie <00:55:57.52> 00:32:17.52 Y:\НТС_11_11_17\бабоньки.mpg ]
+04:32:31.09 Script take: 0 44 [ movie 00:00:38.48 Z:\Promo\-3 Промо Монди начистоту_eff испр 19.11.mp4 ]
+04:33:09.59 Script take: 0 45 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+04:33:48.36 Script take: 0 46 [ movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t ]
+04:34:16.52 Script take: 0 47 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+04:34:48.62 Script take: 0 48 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+04:35:38.99 Script skip: 0 49 [ comment 0 Рекламный блок 60 начало - 04:58 ]
+04:35:38.99 Script skip: 0 50 [ comment 0 Нет рекламы в блоке ]
+04:35:39.01 Script skip: 0 51 [ comment 0 Рекламный блок 60 конец ]
+04:35:39.01 Script take: 0 52 [ movie <00:00:00.00> 00:38:14.60 Y:\НТС_11_18_24\Охотники за сокровищами 2 выпуск Зондеркоманда Искусство.mpg ]
+05:13:53.56 Script take: 0 53 [ movie 00:04:02.80 Y:\НТС_история государства российского\00018 история государства российского 18 серия Ремесла в Киевской Руси.mpg ]
+05:17:56.40 Script take: 0 54 [ movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t ]
+05:18:24.51 Script take: 0 55 [ movie 00:02:05.92 Z:\OnAir\ФУ\-3_Bndr_ФУ музыка «Лым» Анна Попова Зима.m2t ]
+05:20:30.39 Script skip: 0 56 [ comment 0 Рекламный блок 61 начало - 05:27 ]
+05:20:30.39 Script skip: 0 57 [ comment 0 Нет рекламы в блоке ]
+05:20:30.39 Script skip: 0 58 [ comment 0 Рекламный блок 61 конец ]
+05:20:30.40 Script take: 0 59 [ movie 00:00:12.24 Z:\OnAir\ФУ\-3_Bndr_ШАПКА_ФИННОУГОРИЯ_ТК.m2t ]
+05:20:42.66 Script take: 0 60 [ movie 00:18:41.16 Z:\OnAir\11_18\А_Ингерманландские финны. Всполохи памяти.avi ]
+05:39:23.84 Script skip: 0 61 [ comment 0 Рекламный блок 62 начало - 05:47 ]
+05:39:23.84 Script skip: 0 62 [ comment 0 Нет рекламы в блоке ]
+05:39:23.85 Script skip: 0 63 [ comment 0 Рекламный блок 62 конец ]
+05:39:23.86 Script take: 0 64 [ movie 00:04:16.52 Y:\НТС_Мульты\Доктор Машинкова 11 серия фабрика автомобилей.mpg ]
+05:43:40.35 Script take: 0 65 [ movie 00:03:53.52 Y:\НТС_Мульты\Доктор Машинкова 12 серия севший аккамулятор.mpg ]
+05:47:34.01 Script take: 0 66 [ movie 00:04:26.92 Y:\НТС_Мульты\Доктор Машинкова 13 серия транформер бетономешалка.mpg ]
+05:52:00.82 Script take: 0 67 [ movie 00:03:49.00 Y:\НТС_Мульты\Доктор Машинкова 14 серия прицеп.mpg ]
+05:55:49.85 Script take: 0 68 [ movie 00:03:51.00 Y:\НТС_Мульты\Доктор Машинкова 15 серия трансформер 2.mpg ]
+05:59:40.80 Script take: 0 69 [ video1 0  ]
+08:05:13.03 Button Shedule.SaveToFile 0 Z:\PlayList\отработанный  18.11.2019_92.air
+08:05:42.04 Button Shedule.EraseList 0
+08:05:42.13 Script wait: 0 0 [ wait operator 0 * * * * * ]
+08:06:37.93 Watchdog timeout 1 sec.  Actual interval 1.78
+
+08:06:42.37 Watchdog timeout 1 sec.  Actual interval 1.64
+
+08:06:43.73 Watchdog timeout 1 sec.  Actual interval 1.36
+
+08:06:45.98 Watchdog timeout 1 sec.  Actual interval 1.43
+
+08:06:47.98 Watchdog timeout 1 sec.  Actual interval 2
+
+08:06:52.09 Watchdog timeout 1 sec.  Actual interval 1.58
+
+08:06:53.20 Watchdog timeout 1 sec.  Actual interval 1.11
+
+08:06:54.21 Watchdog timeout 1 sec.  Actual interval 1.01
+
+08:06:55.40 Watchdog timeout 1 sec.  Actual interval 1.19
+
+08:06:57.60 Watchdog timeout 1 sec.  Actual interval 2.2
+
+08:06:59.44 Watchdog timeout 1 sec.  Actual interval 1.84
+
+08:07:03.53 Watchdog timeout 1 sec.  Actual interval 1.73
+
+08:07:05.51 Watchdog timeout 1 sec.  Actual interval 1.25
+
+08:07:07.22 Watchdog timeout 1 sec.  Actual interval 1.3
+
+08:07:13.20 Watchdog timeout 1 sec.  Actual interval 2.76
+
+08:07:16.35 Watchdog timeout 1 sec.  Actual interval 1.23
+
+08:07:17.96 Watchdog timeout 1 sec.  Actual interval 1.61
+
+08:07:19.00 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:07:21.69 Watchdog timeout 1 sec.  Actual interval 1.3
+
+08:07:25.95 Watchdog timeout 1 sec.  Actual interval 1.26
+
+08:07:27.41 Watchdog timeout 1 sec.  Actual interval 1.08
+
+08:07:29.58 Watchdog timeout 1 sec.  Actual interval 1.08
+
+08:07:31.05 Watchdog timeout 1 sec.  Actual interval 1.33
+
+08:07:32.30 Watchdog timeout 1 sec.  Actual interval 1.25
+
+08:07:40.42 Watchdog timeout 1 sec.  Actual interval 6.63
+
+08:07:42.65 Watchdog timeout 1 sec.  Actual interval 2.23
+
+08:07:50.80 Watchdog timeout 1 sec.  Actual interval 1.09
+
+08:07:53.93 Watchdog timeout 1 sec.  Actual interval 1.45
+
+08:07:55.55 Watchdog timeout 1 sec.  Actual interval 1.62
+
+08:07:59.41 Watchdog timeout 1 sec.  Actual interval 1.59
+
+08:08:03.06 Watchdog timeout 1 sec.  Actual interval 3.65
+
+08:08:05.09 Watchdog timeout 1 sec.  Actual interval 1.36
+
+08:08:06.80 Watchdog timeout 1 sec.  Actual interval 1.72
+
+08:08:13.15 Watchdog timeout 1 sec.  Actual interval 1.01
+
+08:08:17.44 Watchdog timeout 1 sec.  Actual interval 2.56
+
+08:08:18.84 Watchdog timeout 1 sec.  Actual interval 1.4
+
+08:08:21.50 Watchdog timeout 1 sec.  Actual interval 1.59
+
+08:08:24.01 Watchdog timeout 1 sec.  Actual interval 1.73
+
+08:08:29.38 Watchdog timeout 1 sec.  Actual interval 2.32
+
+08:08:35.04 Watchdog timeout 1 sec.  Actual interval 5.66
+
+08:08:37.77 Watchdog timeout 1 sec.  Actual interval 2.73
+
+08:08:42.84 Watchdog timeout 1 sec.  Actual interval 5.07
+
+08:08:44.17 Watchdog timeout 1 sec.  Actual interval 1.33
+
+08:08:47.86 Watchdog timeout 1 sec.  Actual interval 1.7
+
+08:08:49.12 Watchdog timeout 1 sec.  Actual interval 1.26
+
+08:08:53.21 Watchdog timeout 1 sec.  Actual interval 4.09
+
+08:08:56.46 Watchdog timeout 1 sec.  Actual interval 2.32
+
+08:08:57.69 Watchdog timeout 1 sec.  Actual interval 1.23
+
+08:09:01.26 Watchdog timeout 1 sec.  Actual interval 3.57
+
+08:09:04.80 Watchdog timeout 1 sec.  Actual interval 2.37
+
+08:09:14.27 Watchdog timeout 1 sec.  Actual interval 2.4
+
+08:09:21.23 Watchdog timeout 1 sec.  Actual interval 4.43
+
+08:09:23.55 Watchdog timeout 1 sec.  Actual interval 2.32
+
+08:09:34.55 Watchdog timeout 1 sec.  Actual interval 1.97
+
+08:09:43.93 Watchdog timeout 1 sec.  Actual interval 1.22
+
+08:09:51.35 Watchdog timeout 1 sec.  Actual interval 1.42
+
+08:09:56.84 Watchdog timeout 1 sec.  Actual interval 2.78
+
+08:10:00.23 Watchdog timeout 1 sec.  Actual interval 3.39
+
+08:10:04.35 Watchdog timeout 1 sec.  Actual interval 2.03
+
+08:10:05.77 Watchdog timeout 1 sec.  Actual interval 1.03
+
+08:10:06.89 Watchdog timeout 1 sec.  Actual interval 1.12
+
+08:10:10.86 Watchdog timeout 1 sec.  Actual interval 2.31
+
+08:10:12.01 Watchdog timeout 1 sec.  Actual interval 1.15
+
+08:10:16.69 Watchdog timeout 1 sec.  Actual interval 1.03
+
+08:10:17.76 Watchdog timeout 1 sec.  Actual interval 1.08
+
+08:10:21.20 Watchdog timeout 1 sec.  Actual interval 1.56
+
+08:10:28.48 Watchdog timeout 1 sec.  Actual interval 1.39
+
+08:10:30.57 Watchdog timeout 1 sec.  Actual interval 1.45
+
+08:10:32.58 Watchdog timeout 1 sec.  Actual interval 2.01
+
+08:10:42.01 Watchdog timeout 1 sec.  Actual interval 2.23
+
+08:10:44.55 Watchdog timeout 1 sec.  Actual interval 2.54
+
+08:10:49.53 Watchdog timeout 1 sec.  Actual interval 1.79
+
+08:10:55.72 Watchdog timeout 1 sec.  Actual interval 1.65
+
+08:10:58.84 Watchdog timeout 1 sec.  Actual interval 1.73
+
+08:11:00.81 Watchdog timeout 1 sec.  Actual interval 1.08
+
+08:11:06.58 Watchdog timeout 1 sec.  Actual interval 2.26
+
+08:11:08.98 Watchdog timeout 1 sec.  Actual interval 1.73
+
+08:11:15.96 Watchdog timeout 1 sec.  Actual interval 3.17
+
+08:11:23.91 Watchdog timeout 1 sec.  Actual interval 1.9
+
+08:11:33.80 Watchdog timeout 1 sec.  Actual interval 1.61
+
+08:11:37.87 Watchdog timeout 1 sec.  Actual interval 1.67
+
+08:11:39.66 Watchdog timeout 1 sec.  Actual interval 1.79
+
+08:11:41.77 Watchdog timeout 1 sec.  Actual interval 1.19
+
+08:11:49.71 Watchdog timeout 1 sec.  Actual interval 1.9
+
+08:11:57.20 Watchdog timeout 1 sec.  Actual interval 2.47
+
+08:12:00.46 Watchdog timeout 1 sec.  Actual interval 1.9
+
+08:12:04.83 Watchdog timeout 1 sec.  Actual interval 1.2
+
+08:12:06.72 Watchdog timeout 1 sec.  Actual interval 1.89
+
+08:12:09.03 Watchdog timeout 1 sec.  Actual interval 1.36
+
+08:12:10.32 Watchdog timeout 1 sec.  Actual interval 1.3
+
+08:12:15.64 Watchdog timeout 1 sec.  Actual interval 4.66
+
+08:12:17.07 Watchdog timeout 1 sec.  Actual interval 1.43
+
+08:12:23.33 Watchdog timeout 1 sec.  Actual interval 1.45
+
+08:12:25.69 Watchdog timeout 1 sec.  Actual interval 2.36
+
+08:12:28.79 Watchdog timeout 1 sec.  Actual interval 1.37
+
+08:12:31.97 Watchdog timeout 1 sec.  Actual interval 2.48
+
+08:12:33.86 Watchdog timeout 1 sec.  Actual interval 1.89
+
+08:12:36.43 Watchdog timeout 1 sec.  Actual interval 1.95
+
+08:12:40.20 Watchdog timeout 1 sec.  Actual interval 2.45
+
+08:12:44.53 Watchdog timeout 1 sec.  Actual interval 4.34
+
+08:12:47.37 Watchdog timeout 1 sec.  Actual interval 2.84
+
+08:13:00.88 Watchdog timeout 1 sec.  Actual interval 1.73
+
+08:13:02.21 Watchdog timeout 1 sec.  Actual interval 1.33
+
+08:13:07.00 Watchdog timeout 1 sec.  Actual interval 2.48
+
+08:13:14.76 Watchdog timeout 1 sec.  Actual interval 1.97
+
+08:13:17.02 Watchdog timeout 1 sec.  Actual interval 1.59
+
+08:13:21.21 Watchdog timeout 1 sec.  Actual interval 1.61
+
+08:13:22.80 Watchdog timeout 1 sec.  Actual interval 1.59
+
+08:13:24.90 Watchdog timeout 1 sec.  Actual interval 2.11
+
+08:13:27.06 Watchdog timeout 1 sec.  Actual interval 1.22
+
+08:13:28.54 Watchdog timeout 1 sec.  Actual interval 1.48
+
+08:13:31.99 Watchdog timeout 1 sec.  Actual interval 3.45
+
+08:13:33.73 Watchdog timeout 1 sec.  Actual interval 1.75
+
+08:13:40.46 Watchdog timeout 1 sec.  Actual interval 1.48
+
+08:13:46.74 Watchdog timeout 1 sec.  Actual interval 4.88
+
+08:13:49.61 Watchdog timeout 1 sec.  Actual interval 2.87
+
+08:13:58.13 Watchdog timeout 1 sec.  Actual interval 1.23
+
+08:13:59.99 Watchdog timeout 1 sec.  Actual interval 1.22
+
+08:14:02.37 Watchdog timeout 1 sec.  Actual interval 2.39
+
+08:14:04.75 Watchdog timeout 1 sec.  Actual interval 1.11
+
+08:14:07.55 Watchdog timeout 1 sec.  Actual interval 2.81
+
+08:14:22.97 Watchdog timeout 1 sec.  Actual interval 2
+
+08:14:28.63 Watchdog timeout 1 sec.  Actual interval 1.81
+
+08:14:29.93 Watchdog timeout 1 sec.  Actual interval 1.3
+
+08:14:32.08 Watchdog timeout 1 sec.  Actual interval 1.3
+
+08:14:37.49 Watchdog timeout 1 sec.  Actual interval 1.72
+
+08:14:39.05 Watchdog timeout 1 sec.  Actual interval 1.56
+
+08:14:42.61 Watchdog timeout 1 sec.  Actual interval 1.48
+
+08:14:47.93 Watchdog timeout 1 sec.  Actual interval 2.29
+
+08:14:50.00 Watchdog timeout 1 sec.  Actual interval 2.07
+
+08:14:51.05 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:14:52.90 Watchdog timeout 1 sec.  Actual interval 1.33
+
+08:14:55.48 Watchdog timeout 1 sec.  Actual interval 1.64
+
+08:14:57.72 Watchdog timeout 1 sec.  Actual interval 1.23
+
+08:14:59.57 Watchdog timeout 1 sec.  Actual interval 1.84
+
+08:15:01.11 Watchdog timeout 1 sec.  Actual interval 1.54
+
+08:15:04.96 Watchdog timeout 1 sec.  Actual interval 1.2
+
+08:15:07.65 Watchdog timeout 1 sec.  Actual interval 1.7
+
+08:15:17.74 Watchdog timeout 1 sec.  Actual interval 1.64
+
+08:15:20.60 Watchdog timeout 1 sec.  Actual interval 2.54
+
+08:15:22.98 Watchdog timeout 1 sec.  Actual interval 2.39
+
+08:15:26.18 Watchdog timeout 1 sec.  Actual interval 3.2
+
+08:15:54.77 Watchdog timeout 1 sec.  Actual interval 1.53
+
+08:15:58.19 Watchdog timeout 1 sec.  Actual interval 1.15
+
+08:16:05.63 Watchdog timeout 1 sec.  Actual interval 2.46
+
+08:16:08.66 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:16:23.64 Watchdog timeout 1 sec.  Actual interval 6.35
+
+08:16:28.58 Watchdog timeout 1 sec.  Actual interval 4.32
+
+08:16:30.09 Watchdog timeout 1 sec.  Actual interval 1.51
+
+08:16:41.54 Watchdog timeout 1 sec.  Actual interval 2.28
+
+08:16:46.39 Watchdog timeout 1 sec.  Actual interval 2.86
+
+08:16:47.80 Watchdog timeout 1 sec.  Actual interval 1.4
+
+08:16:52.54 Watchdog timeout 1 sec.  Actual interval 3.06
+
+08:16:57.66 Watchdog timeout 1 sec.  Actual interval 2.04
+
+08:17:03.07 Watchdog timeout 1 sec.  Actual interval 2.07
+
+08:17:06.47 Watchdog timeout 1 sec.  Actual interval 2.68
+
+08:17:08.94 Watchdog timeout 1 sec.  Actual interval 2.47
+
+08:17:12.00 Watchdog timeout 1 sec.  Actual interval 1.9
+
+08:17:13.03 Watchdog timeout 1 sec.  Actual interval 1.03
+
+08:17:15.72 Watchdog timeout 1 sec.  Actual interval 2.7
+
+08:17:19.93 Watchdog timeout 1 sec.  Actual interval 4.21
+
+08:17:22.34 Watchdog timeout 1 sec.  Actual interval 2.4
+
+08:17:25.37 Watchdog timeout 1 sec.  Actual interval 3.03
+
+08:17:27.61 Watchdog timeout 1 sec.  Actual interval 1.19
+
+08:17:31.26 Watchdog timeout 1 sec.  Actual interval 3.65
+
+08:17:36.03 Watchdog timeout 1 sec.  Actual interval 1.25
+
+08:17:37.98 Watchdog timeout 1 sec.  Actual interval 1.2
+
+08:17:39.12 Watchdog timeout 1 sec.  Actual interval 1.14
+
+08:17:44.46 Watchdog timeout 1 sec.  Actual interval 1.54
+
+08:17:49.22 Watchdog timeout 1 sec.  Actual interval 1.62
+
+08:17:50.23 Watchdog timeout 1 sec.  Actual interval 1.01
+
+08:17:51.53 Watchdog timeout 1 sec.  Actual interval 1.3
+
+08:17:55.83 Watchdog timeout 1 sec.  Actual interval 1.25
+
+08:17:56.89 Watchdog timeout 1 sec.  Actual interval 1.06
+
+08:17:59.36 Watchdog timeout 1 sec.  Actual interval 2.47
+
+08:18:00.57 Watchdog timeout 1 sec.  Actual interval 1.22
+
+08:18:06.69 Watchdog timeout 1 sec.  Actual interval 4.87
+
+08:18:10.79 Watchdog timeout 1 sec.  Actual interval 4.1
+
+08:18:15.80 Watchdog timeout 1 sec.  Actual interval 1.14
+
+08:18:19.29 Watchdog timeout 1 sec.  Actual interval 2.17
+
+08:18:26.28 Watchdog timeout 1 sec.  Actual interval 3.15
+
+08:18:29.82 Watchdog timeout 1 sec.  Actual interval 1.11
+
+08:18:31.29 Watchdog timeout 1 sec.  Actual interval 1.47
+
+08:18:33.71 Watchdog timeout 1 sec.  Actual interval 1.01
+
+08:18:35.07 Watchdog timeout 1 sec.  Actual interval 1.36
+
+08:18:42.84 Watchdog timeout 1 sec.  Actual interval 3.01
+
+08:18:45.18 Watchdog timeout 1 sec.  Actual interval 1.11
+
+08:18:46.54 Watchdog timeout 1 sec.  Actual interval 1.37
+
+08:18:54.69 Watchdog timeout 1 sec.  Actual interval 2.14
+
+08:18:56.87 Watchdog timeout 1 sec.  Actual interval 2.18
+
+08:18:59.01 Watchdog timeout 1 sec.  Actual interval 2.14
+
+08:19:00.87 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:19:01.91 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:19:15.19 Watchdog timeout 1 sec.  Actual interval 3.48
+
+08:19:26.25 Watchdog timeout 1 sec.  Actual interval 1.11
+
+08:19:34.69 Watchdog timeout 1 sec.  Actual interval 1.06
+
+08:19:42.52 Watchdog timeout 1 sec.  Actual interval 7.83
+
+08:19:51.27 Watchdog timeout 1 sec.  Actual interval 1.09
+
+08:19:54.25 Watchdog timeout 1 sec.  Actual interval 1.22
+
+08:19:58.31 Watchdog timeout 1 sec.  Actual interval 2.14
+
+08:19:59.79 Watchdog timeout 1 sec.  Actual interval 1.01
+
+08:20:03.67 Watchdog timeout 1 sec.  Actual interval 2.29
+
+08:20:05.86 Watchdog timeout 1 sec.  Actual interval 1.86
+
+08:20:09.06 Watchdog timeout 1 sec.  Actual interval 2.56
+
+08:20:12.80 Watchdog timeout 1 sec.  Actual interval 3.56
+
+08:20:15.17 Watchdog timeout 1 sec.  Actual interval 2.37
+
+08:20:36.96 Watchdog timeout 1 sec.  Actual interval 1.64
+
+08:20:39.71 Watchdog timeout 1 sec.  Actual interval 2.75
+
+08:20:41.78 Watchdog timeout 1 sec.  Actual interval 1.51
+
+08:20:49.30 Watchdog timeout 1 sec.  Actual interval 4.12
+
+08:20:50.57 Watchdog timeout 1 sec.  Actual interval 1.26
+
+08:20:52.95 Watchdog timeout 1 sec.  Actual interval 2.39
+
+08:20:55.30 Watchdog timeout 1 sec.  Actual interval 2.34
+
+08:20:57.28 Watchdog timeout 1 sec.  Actual interval 1.33
+
+08:21:00.85 Watchdog timeout 1 sec.  Actual interval 1.14
+
+08:21:03.81 Watchdog timeout 1 sec.  Actual interval 1.73
+
+08:21:07.04 Watchdog timeout 1 sec.  Actual interval 1.45
+
+08:21:08.60 Watchdog timeout 1 sec.  Actual interval 1.56
+
+08:21:11.96 Watchdog timeout 1 sec.  Actual interval 1.67
+
+08:21:13.67 Watchdog timeout 1 sec.  Actual interval 1.72
+
+08:21:16.01 Watchdog timeout 1 sec.  Actual interval 1.42
+
+08:21:17.12 Watchdog timeout 1 sec.  Actual interval 1.11
+
+08:21:26.32 Watchdog timeout 1 sec.  Actual interval 1.14
+
+08:21:31.60 Watchdog timeout 1 sec.  Actual interval 1.28
+
+08:21:37.45 Watchdog timeout 1 sec.  Actual interval 1.81
+
+08:21:40.78 Watchdog timeout 1 sec.  Actual interval 1.62
+
+08:21:42.61 Watchdog timeout 1 sec.  Actual interval 1.83
+
+08:21:47.62 Watchdog timeout 1 sec.  Actual interval 2.25
+
+08:21:50.91 Watchdog timeout 1 sec.  Actual interval 1.22
+
+08:21:52.64 Watchdog timeout 1 sec.  Actual interval 1.73
+
+08:21:53.69 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:21:57.07 Watchdog timeout 1 sec.  Actual interval 1.36
+
+08:21:58.72 Watchdog timeout 1 sec.  Actual interval 1.65
+
+08:22:00.11 Watchdog timeout 1 sec.  Actual interval 1.39
+
+08:22:02.24 Watchdog timeout 1 sec.  Actual interval 2.12
+
+08:22:04.61 Watchdog timeout 1 sec.  Actual interval 1.29
+
+08:22:05.73 Watchdog timeout 1 sec.  Actual interval 1.12
+
+08:22:08.97 Watchdog timeout 1 sec.  Actual interval 1.83
+
+08:22:10.85 Watchdog timeout 1 sec.  Actual interval 1.87
+
+08:22:13.14 Watchdog timeout 1 sec.  Actual interval 2.29
+
+08:22:16.54 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:22:18.63 Watchdog timeout 1 sec.  Actual interval 1.16
+
+08:22:20.19 Watchdog timeout 1 sec.  Actual interval 1.09
+
+08:22:21.84 Watchdog timeout 1 sec.  Actual interval 1.14
+
+08:22:23.73 Watchdog timeout 1 sec.  Actual interval 1.06
+
+08:22:29.96 Watchdog timeout 1 sec.  Actual interval 2.61
+
+08:22:37.43 Watchdog timeout 1 sec.  Actual interval 7.47
+
+08:22:38.69 Watchdog timeout 1 sec.  Actual interval 1.26
+
+08:22:48.02 Watchdog timeout 1 sec.  Actual interval 1.09
+
+08:22:52.15 Watchdog timeout 1 sec.  Actual interval 4.13
+
+08:22:55.76 Watchdog timeout 1 sec.  Actual interval 2.39
+
+08:22:59.33 Watchdog timeout 1 sec.  Actual interval 1.58
+
+08:23:06.80 Watchdog timeout 1 sec.  Actual interval 1.12
+
+08:23:10.08 Watchdog timeout 1 sec.  Actual interval 1.84
+
+08:23:13.50 Watchdog timeout 1 sec.  Actual interval 1.92
+
+08:23:14.95 Watchdog timeout 1 sec.  Actual interval 1.45
+
+08:23:17.49 Watchdog timeout 1 sec.  Actual interval 2.54
+
+08:23:18.53 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:23:19.94 Watchdog timeout 1 sec.  Actual interval 1.15
+
+08:23:21.25 Watchdog timeout 1 sec.  Actual interval 1.31
+
+08:23:27.11 Watchdog timeout 1 sec.  Actual interval 3.34
+
+08:23:29.72 Watchdog timeout 1 sec.  Actual interval 2.61
+
+08:23:30.91 Watchdog timeout 1 sec.  Actual interval 1.19
+
+08:23:32.14 Watchdog timeout 1 sec.  Actual interval 1.23
+
+08:23:34.12 Watchdog timeout 1 sec.  Actual interval 1.23
+
+08:23:36.77 Watchdog timeout 1 sec.  Actual interval 1.06
+
+08:23:40.97 Watchdog timeout 1 sec.  Actual interval 1.11
+
+08:23:46.01 Watchdog timeout 1 sec.  Actual interval 1.62
+
+08:23:48.75 Watchdog timeout 1 sec.  Actual interval 1.23
+
+08:23:50.76 Watchdog timeout 1 sec.  Actual interval 1.19
+
+08:23:54.12 Watchdog timeout 1 sec.  Actual interval 1.39
+
+08:23:57.03 Watchdog timeout 1 sec.  Actual interval 1.08
+
+08:23:58.22 Watchdog timeout 1 sec.  Actual interval 1.19
+
+08:24:01.95 Watchdog timeout 1 sec.  Actual interval 1.53
+
+08:24:14.21 Watchdog timeout 1 sec.  Actual interval 1.48
+
+08:24:18.83 Watchdog timeout 1 sec.  Actual interval 1.39
+
+08:24:27.77 Watchdog timeout 1 sec.  Actual interval 1.22
+
+08:24:30.53 Watchdog timeout 1 sec.  Actual interval 2.76
+
+08:24:32.95 Watchdog timeout 1 sec.  Actual interval 1.62
+
+08:24:36.11 Watchdog timeout 1 sec.  Actual interval 3.17
+
+08:24:40.36 Watchdog timeout 1 sec.  Actual interval 1.81
+
+08:24:44.68 Watchdog timeout 1 sec.  Actual interval 4.32
+
+08:24:49.81 Watchdog timeout 1 sec.  Actual interval 5.13
+
+08:24:53.51 Watchdog timeout 1 sec.  Actual interval 3.7
+
+08:24:56.05 Watchdog timeout 1 sec.  Actual interval 2.54
+
+08:24:57.58 Watchdog timeout 1 sec.  Actual interval 1.53
+
+08:24:59.39 Watchdog timeout 1 sec.  Actual interval 1.81
+
+08:25:01.31 Watchdog timeout 1 sec.  Actual interval 1.45
+
+08:25:02.76 Watchdog timeout 1 sec.  Actual interval 1.45
+
+08:25:05.10 Watchdog timeout 1 sec.  Actual interval 1.4
+
+08:25:07.92 Watchdog timeout 1 sec.  Actual interval 2.82
+
+08:25:10.37 Watchdog timeout 1 sec.  Actual interval 2.45
+
+08:25:13.90 Watchdog timeout 1 sec.  Actual interval 3.14
+
+08:25:19.64 Watchdog timeout 1 sec.  Actual interval 1.01
+
+08:25:20.76 Watchdog timeout 1 sec.  Actual interval 1.12
+
+08:25:23.15 Watchdog timeout 1 sec.  Actual interval 1.4
+
+08:25:24.89 Watchdog timeout 1 sec.  Actual interval 1.75
+
+08:25:28.59 Watchdog timeout 1 sec.  Actual interval 2.07
+
+08:25:35.86 Watchdog timeout 1 sec.  Actual interval 7.27
+
+08:25:47.77 Watchdog timeout 1 sec.  Actual interval 1.86
+
+08:25:50.34 Watchdog timeout 1 sec.  Actual interval 1.37
+
+08:25:56.13 Watchdog timeout 1 sec.  Actual interval 3.95
+
+08:25:57.81 Watchdog timeout 1 sec.  Actual interval 1.68
+
+08:26:00.93 Watchdog timeout 1 sec.  Actual interval 3.12
+
+08:26:02.35 Watchdog timeout 1 sec.  Actual interval 1.42
+
+08:26:07.98 Watchdog timeout 1 sec.  Actual interval 1.4
+
+08:26:09.81 Watchdog timeout 1 sec.  Actual interval 1.83
+
+08:26:12.70 Watchdog timeout 1 sec.  Actual interval 1.12
+
+08:26:24.69 Watchdog timeout 1 sec.  Actual interval 1.37
+
+08:26:30.48 Watchdog timeout 1 sec.  Actual interval 1.33
+
+08:26:33.89 Watchdog timeout 1 sec.  Actual interval 1.25
+
+08:26:37.22 Watchdog timeout 1 sec.  Actual interval 1.42
+
+08:26:40.09 Watchdog timeout 1 sec.  Actual interval 1.26
+
+08:26:44.82 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:26:55.83 Watchdog timeout 1 sec.  Actual interval 1.03
+
+08:26:59.43 Watchdog timeout 1 sec.  Actual interval 1.75
+
+08:27:02.47 Watchdog timeout 1 sec.  Actual interval 3.04
+
+08:27:05.64 Watchdog timeout 1 sec.  Actual interval 1.03
+
+08:27:07.14 Watchdog timeout 1 sec.  Actual interval 1.5
+
+08:27:11.23 Watchdog timeout 1 sec.  Actual interval 1.54
+
+08:27:13.43 Watchdog timeout 1 sec.  Actual interval 2.2
+
+08:27:20.24 Watchdog timeout 1 sec.  Actual interval 1.28
+
+08:27:22.46 Watchdog timeout 1 sec.  Actual interval 1.67
+
+08:27:26.56 Watchdog timeout 1 sec.  Actual interval 4.1
+
+08:27:28.06 Watchdog timeout 1 sec.  Actual interval 1.5
+
+08:27:30.04 Watchdog timeout 1 sec.  Actual interval 1.98
+
+08:27:32.43 Watchdog timeout 1 sec.  Actual interval 2.39
+
+08:27:35.06 Watchdog timeout 1 sec.  Actual interval 2.06
+
+08:27:36.13 Watchdog timeout 1 sec.  Actual interval 1.06
+
+08:27:38.06 Watchdog timeout 1 sec.  Actual interval 1.39
+
+08:27:45.93 Watchdog timeout 1 sec.  Actual interval 1.31
+
+08:27:50.19 Watchdog timeout 1 sec.  Actual interval 4.26
+
+08:27:57.93 Watchdog timeout 1 sec.  Actual interval 1.36
+
+08:28:02.88 Watchdog timeout 1 sec.  Actual interval 4.94
+
+08:28:05.84 Watchdog timeout 1 sec.  Actual interval 2.96
+
+08:28:13.67 Watchdog timeout 1 sec.  Actual interval 1.01
+
+08:28:16.00 Watchdog timeout 1 sec.  Actual interval 1.48
+
+08:28:18.09 Watchdog timeout 1 sec.  Actual interval 1.25
+
+08:28:19.65 Watchdog timeout 1 sec.  Actual interval 1.56
+
+08:28:23.39 Watchdog timeout 1 sec.  Actual interval 1.01
+
+08:28:28.40 Watchdog timeout 1 sec.  Actual interval 1.5
+
+08:28:36.68 Watchdog timeout 1 sec.  Actual interval 2
+
+08:28:41.38 Watchdog timeout 1 sec.  Actual interval 3.92
+
+08:28:42.92 Watchdog timeout 1 sec.  Actual interval 1.05
+
+08:28:47.56 Watchdog timeout 1 sec.  Actual interval 4.63
+
+08:28:52.39 Watchdog timeout 1 sec.  Actual interval 4.84
+
+08:28:56.48 Watchdog timeout 1 sec.  Actual interval 4.09
+
+08:29:03.87 Watchdog timeout 5 sec.  Actual interval 6.4
+
+08:29:11.05 Watchdog timeout 1 sec.  Actual interval 7.18
+
+08:29:14.58 Watchdog timeout 1 sec.  Actual interval 1.01
+
+08:29:17.64 Watchdog timeout 1 sec.  Actual interval 1.83
+
+09:04:40.68 FilePage Shedule.InsertFromFile 0 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+DebugInfo2: 09:04:41.70 picture 00:15:00.00 E:\Типа проги\ВОЧАКЫВ.png Check change: State (None->Error)
+DebugInfo2: 09:04:42.03 picture 00:15:00.00 E:\Типа проги\Телезащитник.png Check change: State (None->Error)
+DebugInfo2: 09:04:42.35 picture 00:28:00.00 E:\Типа проги\ДЕТАЛИ.png Check change: State (None->Error)
+11:23:15.29 ScheduleDblClick Shedule.SetRunPosition 0 4
+11:23:15.33 ScheduleDblClick Shedule.SetPause 0
+11:23:15.33 Script wait: 0 4 [ wait time 02:00:00.00 [0] active Слот 9_02,00-06.00=4 часа(16 мин)=3 часа 44 мин ]
+11:23:28.27 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+15:38:26.04 FilePage  Shedule.AddItem 0 9 1 0 0 movie 00:00:03.04  Z:\Promo\Слайд СОФФИТ.mpg
+DebugInfo2: 15:38:26.15 movie 00:00:03.04 Z:\Promo\Слайд СОФФИТ.mpg Check change: Duration (00:00:03.04->00:00:03.04)
+15:38:44.77 SheduleEdit Shedule.SetItemDuration 0 11 728000 (00:12:08.00)
+15:38:49.91 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+17:15:42.51 Watchdog timeout 1 sec.  Actual interval 2.42
+
+17:15:45.00 Watchdog timeout 1 sec.  Actual interval 1.62
+
+17:15:50.17 Watchdog timeout 1 sec.  Actual interval 1.84
+
+17:15:52.84 Watchdog timeout 1 sec.  Actual interval 2.23
+
+17:16:04.73 Watchdog timeout 1 sec.  Actual interval 11.92
+
+17:16:09.82 Watchdog timeout 1 sec.  Actual interval 3.95
+
+17:16:11.56 Watchdog timeout 1 sec.  Actual interval 1.73
+
+17:16:15.28 Watchdog timeout 1 sec.  Actual interval 3.73
+
+17:16:23.81 Watchdog timeout 1 sec.  Actual interval 2.99
+
+17:16:25.32 Watchdog timeout 1 sec.  Actual interval 1.51
+
+17:16:26.40 Watchdog timeout 1 sec.  Actual interval 1.08
+
+17:16:32.53 Watchdog timeout 1 sec.  Actual interval 4.73
+
+17:27:31.67 FilePage  Shedule.AddItem 0 6 1 0 0 movie 00:13:54.32  Z:\OnAir\11_19\-3 Вочакыв Виктория Агаркова 19 11 19.m2t
+17:27:34.84 Button Shedule.DeleteItem 0 6
+Deleted 0 6 picture 00:15:00.00 E:\Типа проги\ВОЧАКЫВ.png
+17:27:36.70 Watchdog timeout 1 sec.  Actual interval 1.05
+
+17:27:41.25 SheduleEdit Shedule.SetItemInOut 0 6 0 834320 (00:00:00.00, 00:13:54.32)
+17:27:43.77 FilePage  Shedule.AddItem 0 11 1 0 0 movie 00:12:09.72  Z:\OnAir\11_19\-3_Телезащитник 19 11 2019.m2t
+17:27:45.95 Button Shedule.DeleteItem 0 11
+Deleted 0 11 picture 00:12:08.00 E:\Типа проги\Телезащитник.png
+17:28:02.69 SheduleEdit Shedule.SetItemInOut 0 11 3200 729720 (00:00:03.20, 00:12:09.72)
+17:28:06.67 FilePage  Shedule.AddItem 0 15 1 0 0 movie 00:27:59.96  Z:\OnAir\11_19\-3_О Монди начистоту 1серия С шапкой и концом 19_10_2019.m2t
+17:28:09.41 Button Shedule.DeleteItem 0 15
+Deleted 0 15 picture 00:28:00.00 E:\Типа проги\ДЕТАЛИ.png
+17:28:14.83 SheduleEdit Shedule.SetItemInOut 0 15 0 1679960 (00:00:00.00, 00:27:59.96)
+17:28:18.43 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+17:28:23.08 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+17:28:46.74 FilePage  Shedule.AddItem 0 9 1 0 0 movie 00:01:13.72  Z:\Promo\-3_ПРОМО суббота с юрганом 23.11.m2t
+17:29:02.73 FilePage  Shedule.AddItem 0 15 1 0 0 movie 00:00:32.60  Z:\Promo\-3_ПРОМО Интердевочка 24.11 испр.m2t
+17:29:04.48 FilePage  Shedule.AddItem 0 16 1 0 0 movie 00:00:50.32  Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t
+17:29:07.44 FilePage  Shedule.AddItem 0 17 1 0 0 movie 00:00:32.20  Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t
+17:29:09.28 FilePage  Shedule.AddItem 0 18 1 0 0 movie 00:00:28.12  Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t
+17:29:20.76 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+17:29:31.72 SheduleEdit Shedule.SetItemInOut 0 6 0 834320 (00:00:00.00, 00:13:54.32)
+17:29:38.08 SheduleEdit Shedule.SetItemInOut 0 12 3200 729720 (00:00:03.20, 00:12:09.72)
+17:29:46.49 SheduleEdit Shedule.SetItemInOut 0 20 0 1679960 (00:00:00.00, 00:27:59.96)
+17:29:53.80 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+18:45:01.61 FilePage  Shedule.AddItem 0 7 1 0 0 movie 00:00:05.20  Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t
+18:45:21.39 FilePage  Shedule.AddItem 0 8 1 0 0 movie 00:00:18.16  Z:\OnAir\11_19\-3_ролик соффит.m2t
+18:45:26.41 Button Shedule.DeleteItem 0 10
+Deleted 0 10 comment 0 Нет рекламы в блоке
+18:45:41.37 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+19:05:38.42 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+20:00:54.79 SheduleEdit Shedule.SetItemInOut 0 13 3200 729720 (00:00:03.20, 00:12:09.72)
+20:00:59.84 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 19.11.2019_92.air
+21:00:46.09 Watchdog timeout 1 sec.  Actual interval 1.25
+
+21:00:49.09 Watchdog timeout 1 sec.  Actual interval 1.73
+
+21:00:51.63 Watchdog timeout 1 sec.  Actual interval 1.23
+
+21:00:56.37 Watchdog timeout 1 sec.  Actual interval 1.14
+
+21:00:59.13 Watchdog timeout 1 sec.  Actual interval 1.95
+
+21:01:01.56 Watchdog timeout 1 sec.  Actual interval 1.42
+
+21:01:08.13 Watchdog timeout 1 sec.  Actual interval 1.31
+
+21:01:11.97 Watchdog timeout 1 sec.  Actual interval 1.11
+
+21:01:14.20 Watchdog timeout 1 sec.  Actual interval 1.64
+
+21:01:19.39 Watchdog timeout 1 sec.  Actual interval 2.22
+
+21:01:22.22 Watchdog timeout 1 sec.  Actual interval 2.07
+
+21:01:23.54 Watchdog timeout 1 sec.  Actual interval 1.33
+
+21:01:29.17 Watchdog timeout 1 sec.  Actual interval 2.37
+
+21:01:36.37 Watchdog timeout 1 sec.  Actual interval 1.22
+
+21:01:37.71 Watchdog timeout 1 sec.  Actual interval 1.34
+
+21:01:40.64 Watchdog timeout 1 sec.  Actual interval 1.5
+
+21:01:42.15 Watchdog timeout 1 sec.  Actual interval 1.5
+
+21:01:58.13 Watchdog timeout 1 sec.  Actual interval 1.2
+
+21:02:10.36 Watchdog timeout 1 sec.  Actual interval 1.12
+
+21:02:15.96 Watchdog timeout 1 sec.  Actual interval 1.3
+
+21:02:37.14 Watchdog timeout 1 sec.  Actual interval 1.4
+
+21:02:42.21 Watchdog timeout 1 sec.  Actual interval 1.01
+
+21:02:43.68 Watchdog timeout 1 sec.  Actual interval 1.47
+
+21:02:51.15 Watchdog timeout 1 sec.  Actual interval 1.05
+
+21:02:53.51 Watchdog timeout 1 sec.  Actual interval 1.36
+
+21:02:55.15 Watchdog timeout 1 sec.  Actual interval 1.64
+
+21:02:57.00 Watchdog timeout 1 sec.  Actual interval 1.11
+
+21:03:00.17 Watchdog timeout 1 sec.  Actual interval 1.25
+
+21:03:01.40 Watchdog timeout 1 sec.  Actual interval 1.23
+
+21:03:06.15 Watchdog timeout 1 sec.  Actual interval 1.16
+
+21:03:10.44 Watchdog timeout 1 sec.  Actual interval 3.31
+
+21:03:12.79 Watchdog timeout 1 sec.  Actual interval 2.36
+
+21:03:14.48 Watchdog timeout 1 sec.  Actual interval 1.68
+
+21:03:15.88 Watchdog timeout 1 sec.  Actual interval 1.4
+
+21:03:18.02 Watchdog timeout 1 sec.  Actual interval 1.47
+
+21:03:22.37 Watchdog timeout 1 sec.  Actual interval 1.89
+
+21:03:23.74 Watchdog timeout 1 sec.  Actual interval 1.37
+
+21:03:26.31 Watchdog timeout 1 sec.  Actual interval 1.09
+
+21:03:27.55 Watchdog timeout 1 sec.  Actual interval 1.23
+
+21:03:28.56 Watchdog timeout 1 sec.  Actual interval 1.01
+
+21:03:29.84 Watchdog timeout 1 sec.  Actual interval 1.28
+
+21:03:31.20 Watchdog timeout 1 sec.  Actual interval 1.01
+
+21:03:34.32 Watchdog timeout 1 sec.  Actual interval 1.06
+
+21:03:37.97 Watchdog timeout 1 sec.  Actual interval 2.45
+
+21:03:41.85 Watchdog timeout 1 sec.  Actual interval 1.03
+
+21:03:43.26 Watchdog timeout 1 sec.  Actual interval 1.01
+
+21:03:45.17 Watchdog timeout 1 sec.  Actual interval 1.9
+
+21:03:46.77 Watchdog timeout 1 sec.  Actual interval 1.61
+
+21:03:48.30 Watchdog timeout 1 sec.  Actual interval 1.53
+
+21:03:51.46 Watchdog timeout 1 sec.  Actual interval 3.17
+
+21:03:55.85 Watchdog timeout 1 sec.  Actual interval 4.38
+
+21:03:57.20 Watchdog timeout 1 sec.  Actual interval 1.36
+
+21:03:58.77 Watchdog timeout 1 sec.  Actual interval 1.56
+
+21:04:01.61 Watchdog timeout 1 sec.  Actual interval 2.14
+
+21:04:06.00 Watchdog timeout 1 sec.  Actual interval 1.26
+
+21:04:09.64 Watchdog timeout 1 sec.  Actual interval 2
+
+21:04:11.20 Watchdog timeout 1 sec.  Actual interval 1.06
+
+21:04:14.97 Watchdog timeout 1 sec.  Actual interval 3.12
+
+21:04:17.51 Watchdog timeout 1 sec.  Actual interval 2.04
+
+21:04:19.28 Watchdog timeout 1 sec.  Actual interval 1.06
+
+21:04:22.24 Watchdog timeout 1 sec.  Actual interval 1.01
+
+21:04:23.68 Watchdog timeout 1 sec.  Actual interval 1.43
+
+21:04:27.38 Watchdog timeout 1 sec.  Actual interval 3.7
+
+21:04:30.27 Watchdog timeout 1 sec.  Actual interval 2.9
+
+21:04:33.27 Watchdog timeout 1 sec.  Actual interval 2.99
+
+21:04:36.58 Watchdog timeout 1 sec.  Actual interval 3.31
+
+21:04:45.69 Watchdog timeout 1 sec.  Actual interval 9.11
+
+21:04:52.54 Watchdog timeout 1 sec.  Actual interval 6.85
+
+21:04:56.35 Watchdog timeout 1 sec.  Actual interval 3.81
+
+21:04:57.81 Watchdog timeout 1 sec.  Actual interval 1.47
+
+21:05:00.74 Watchdog timeout 1 sec.  Actual interval 2.93
+
+21:05:04.27 Watchdog timeout 1 sec.  Actual interval 1.01
+
+21:05:05.52 Watchdog timeout 1 sec.  Actual interval 1.25
+
+21:05:07.27 Watchdog timeout 1 sec.  Actual interval 1.75
+
+21:05:12.18 Watchdog timeout 1 sec.  Actual interval 1.93
+
+21:05:13.77 Watchdog timeout 1 sec.  Actual interval 1.61
+
+21:05:19.57 Watchdog timeout 1 sec.  Actual interval 5.05
+
+21:05:20.76 Watchdog timeout 1 sec.  Actual interval 1.19
+
+21:05:22.99 Watchdog timeout 1 sec.  Actual interval 1.25
+
+21:05:27.19 Watchdog timeout 1 sec.  Actual interval 3.65
+
+21:05:31.20 Watchdog timeout 1 sec.  Actual interval 1.3
+
+21:05:49.82 Watchdog timeout 1 sec.  Actual interval 1.54
+
+21:05:53.50 Watchdog timeout 1 sec.  Actual interval 1.51
+
+21:05:56.28 Watchdog timeout 1 sec.  Actual interval 2.78
+
+21:05:59.31 Watchdog timeout 1 sec.  Actual interval 3.03
+
+21:06:01.25 Watchdog timeout 1 sec.  Actual interval 1.01
+
+21:06:02.31 Watchdog timeout 1 sec.  Actual interval 1.05
+
+21:06:04.39 Watchdog timeout 1 sec.  Actual interval 1.3
+
+21:06:07.12 Watchdog timeout 1 sec.  Actual interval 1.11
+
+21:06:08.30 Watchdog timeout 1 sec.  Actual interval 1.17
+
+21:06:09.54 Watchdog timeout 1 sec.  Actual interval 1.25
+
+21:06:11.27 Watchdog timeout 1 sec.  Actual interval 1.25
+
+21:06:12.36 Watchdog timeout 1 sec.  Actual interval 1.09
+
+21:06:14.92 Watchdog timeout 1 sec.  Actual interval 2.56
+
+21:06:16.07 Watchdog timeout 1 sec.  Actual interval 1.15
+
+21:06:17.82 Watchdog timeout 1 sec.  Actual interval 1.75
+
+21:06:18.96 Watchdog timeout 1 sec.  Actual interval 1.14
+
+21:06:21.52 Watchdog timeout 1 sec.  Actual interval 2.03
+
+21:06:24.72 Watchdog timeout 1 sec.  Actual interval 1.95
+
+21:06:27.29 Watchdog timeout 1 sec.  Actual interval 1.51
+
+21:06:31.05 Watchdog timeout 1 sec.  Actual interval 3.78
+
+21:06:37.89 Watchdog timeout 1 sec.  Actual interval 1.37
+
+21:06:39.76 Watchdog timeout 1 sec.  Actual interval 1.76
+
+21:06:40.90 Watchdog timeout 1 sec.  Actual interval 1.14
+
+21:06:42.84 Watchdog timeout 1 sec.  Actual interval 1.76
+
+21:06:46.28 Watchdog timeout 1 sec.  Actual interval 3.43
+
+21:06:47.30 Watchdog timeout 1 sec.  Actual interval 1.01
+
+21:06:49.28 Watchdog timeout 1 sec.  Actual interval 1.98
+
+21:06:52.60 Watchdog timeout 1 sec.  Actual interval 1.19
+
+21:06:56.76 Watchdog timeout 1 sec.  Actual interval 3.34
+
+21:07:00.96 Watchdog timeout 1 sec.  Actual interval 4.2
+
+21:07:03.52 Watchdog timeout 1 sec.  Actual interval 2.56
+
+21:07:05.78 Watchdog timeout 1 sec.  Actual interval 1.48
+
+21:07:10.27 Watchdog timeout 1 sec.  Actual interval 1.22
+
+21:07:14.10 Watchdog timeout 1 sec.  Actual interval 3.82
+
+21:07:15.27 Watchdog timeout 1 sec.  Actual interval 1.17
+
+21:07:18.09 Watchdog timeout 1 sec.  Actual interval 1.11
+
+21:07:22.56 Watchdog timeout 1 sec.  Actual interval 1.79
+
+21:07:29.66 Watchdog timeout 1 sec.  Actual interval 6.35
+
+21:07:31.86 Watchdog timeout 1 sec.  Actual interval 2.2
+
+21:07:32.94 Watchdog timeout 1 sec.  Actual interval 1.08
+
+21:07:35.45 Watchdog timeout 1 sec.  Actual interval 1.78
+
+21:07:45.79 Watchdog timeout 1 sec.  Actual interval 1.68
+
+21:07:48.23 Watchdog timeout 1 sec.  Actual interval 1.23
+
+21:07:54.12 Watchdog timeout 1 sec.  Actual interval 1.89
+
+21:07:55.78 Watchdog timeout 1 sec.  Actual interval 1.65
+
+21:07:58.60 Watchdog timeout 1 sec.  Actual interval 1.14
+
+21:07:59.82 Watchdog timeout 1 sec.  Actual interval 1.22
+
+21:08:01.91 Watchdog timeout 1 sec.  Actual interval 2.09
+
+21:08:07.73 Watchdog timeout 1 sec.  Actual interval 2.34
+
+21:08:09.64 Watchdog timeout 1 sec.  Actual interval 1.92
+
+21:08:12.66 Watchdog timeout 1 sec.  Actual interval 3.01
+
+21:08:16.79 Watchdog timeout 1 sec.  Actual interval 4.13
+
+21:08:17.88 Watchdog timeout 1 sec.  Actual interval 1.09
+
+21:08:23.23 Watchdog timeout 1 sec.  Actual interval 4.99
+
+21:08:24.98 Watchdog timeout 1 sec.  Actual interval 1.75
+
+21:08:26.22 Watchdog timeout 1 sec.  Actual interval 1.11
+
+21:08:30.80 Watchdog timeout 1 sec.  Actual interval 4.59
+
+21:08:32.61 Watchdog timeout 1 sec.  Actual interval 1.81
+
+21:08:38.97 Watchdog timeout 1 sec.  Actual interval 3.96
+
+21:08:44.89 Watchdog timeout 1 sec.  Actual interval 5.55
+
+21:08:46.41 Watchdog timeout 1 sec.  Actual interval 1.53
+
+21:08:49.33 Watchdog timeout 1 sec.  Actual interval 2.61
+
+21:08:52.59 Watchdog timeout 1 sec.  Actual interval 1.26
+
+21:08:56.44 Watchdog timeout 1 sec.  Actual interval 3.85
+
+21:08:58.21 Watchdog timeout 1 sec.  Actual interval 1.4
+
+21:09:15.41 Watchdog timeout 1 sec.  Actual interval 1.08
+
+21:09:19.80 Watchdog timeout 1 sec.  Actual interval 1.05
+
+21:09:23.31 Watchdog timeout 1 sec.  Actual interval 1.03
+
+21:09:25.19 Watchdog timeout 1 sec.  Actual interval 1.87
+
+21:09:29.64 Watchdog timeout 1 sec.  Actual interval 1.86
+
+21:09:33.89 Watchdog timeout 1 sec.  Actual interval 3.64
+
+21:09:36.52 Watchdog timeout 1 sec.  Actual interval 1.22
+
+21:09:37.91 Watchdog timeout 1 sec.  Actual interval 1.39
+
+21:09:40.60 Watchdog timeout 1 sec.  Actual interval 2.39
+
+21:09:49.22 Watchdog timeout 1 sec.  Actual interval 8.63
+
+21:09:51.15 Watchdog timeout 1 sec.  Actual interval 1.92
+
+21:09:54.14 Watchdog timeout 1 sec.  Actual interval 2.99
+
+21:09:57.65 Watchdog timeout 1 sec.  Actual interval 3.51
+
+21:10:02.50 Watchdog timeout 1 sec.  Actual interval 4.85
+
+21:10:03.60 Watchdog timeout 1 sec.  Actual interval 1.11
+
+21:10:06.75 Watchdog timeout 1 sec.  Actual interval 2.53
+
+21:10:08.18 Watchdog timeout 1 sec.  Actual interval 1.42
+
+21:10:10.20 Watchdog timeout 1 sec.  Actual interval 2.03
+
+21:10:11.30 Watchdog timeout 1 sec.  Actual interval 1.09
+
+21:10:12.70 Watchdog timeout 1 sec.  Actual interval 1.4
+
+21:10:14.80 Watchdog timeout 1 sec.  Actual interval 2.11
+
+21:10:17.14 Watchdog timeout 1 sec.  Actual interval 2.32
+
+21:10:18.33 Watchdog timeout 1 sec.  Actual interval 1.2
+
+21:10:20.90 Watchdog timeout 1 sec.  Actual interval 2.57
+
+21:10:22.42 Watchdog timeout 1 sec.  Actual interval 1.51
+
+21:10:27.43 Watchdog timeout 1 sec.  Actual interval 1.72
+
+21:10:28.86 Watchdog timeout 1 sec.  Actual interval 1.43
+
+21:10:31.34 Watchdog timeout 1 sec.  Actual interval 1.22
+
+21:10:35.64 Watchdog timeout 1 sec.  Actual interval 4.31
+
+21:10:37.00 Watchdog timeout 1 sec.  Actual interval 1.36
+
+21:10:47.22 Watchdog timeout 1 sec.  Actual interval 1.11
+
+21:10:49.86 Watchdog timeout 1 sec.  Actual interval 1.05
+
+21:10:54.71 Watchdog timeout 1 sec.  Actual interval 3.34
+
+21:10:58.41 Watchdog timeout 1 sec.  Actual interval 3.7
+
+21:11:01.34 Watchdog timeout 1 sec.  Actual interval 2.23
+
+21:11:11.20 Watchdog timeout 1 sec.  Actual interval 1.06
+
+21:11:14.63 Watchdog timeout 1 sec.  Actual interval 3.43
+
+21:11:17.16 Watchdog timeout 1 sec.  Actual interval 1.54
+
+21:11:24.51 Watchdog timeout 1 sec.  Actual interval 1.17
+
+21:11:32.35 Watchdog timeout 1 sec.  Actual interval 5.55
+
+21:11:39.95 Watchdog timeout 1 sec.  Actual interval 3.21
+
+21:11:42.88 Watchdog timeout 1 sec.  Actual interval 2.93
+
+21:11:45.38 Watchdog timeout 1 sec.  Actual interval 1.79
+
+21:11:46.60 Watchdog timeout 1 sec.  Actual interval 1.22
+
+21:11:48.31 Watchdog timeout 1 sec.  Actual interval 1.14
+
+21:11:52.98 Watchdog timeout 1 sec.  Actual interval 2.65
+
+21:11:55.24 Watchdog timeout 1 sec.  Actual interval 2.26
+
+21:11:56.78 Watchdog timeout 1 sec.  Actual interval 1.54
+
+21:11:59.98 Watchdog timeout 1 sec.  Actual interval 3.2
+
+21:12:02.31 Watchdog timeout 1 sec.  Actual interval 1.9
+
+21:12:04.19 Watchdog timeout 1 sec.  Actual interval 1.89
+
+21:12:09.93 Watchdog timeout 1 sec.  Actual interval 1.5
+
+21:12:12.63 Watchdog timeout 1 sec.  Actual interval 1.26
+
+21:12:16.33 Watchdog timeout 1 sec.  Actual interval 1.79
+
+21:12:18.26 Watchdog timeout 1 sec.  Actual interval 1.93
+
+21:12:23.27 Watchdog timeout 1 sec.  Actual interval 1.19
+
+21:12:24.57 Watchdog timeout 1 sec.  Actual interval 1.3
+
+21:12:26.91 Watchdog timeout 1 sec.  Actual interval 1.06
+
+21:12:30.56 Watchdog timeout 1 sec.  Actual interval 1.9
+
+21:12:38.12 Watchdog timeout 1 sec.  Actual interval 1.08
+
+21:12:39.63 Watchdog timeout 1 sec.  Actual interval 1.51
+
+21:12:40.70 Watchdog timeout 1 sec.  Actual interval 1.06
+
+21:12:45.02 Watchdog timeout 1 sec.  Actual interval 1.14
+
+21:12:49.73 Watchdog timeout 1 sec.  Actual interval 1.12
+
+21:12:55.08 Watchdog timeout 1 sec.  Actual interval 1.68
+
+21:12:57.28 Watchdog timeout 1 sec.  Actual interval 2.2
+
+21:13:03.76 Watchdog timeout 1 sec.  Actual interval 4.48
+
+21:13:04.92 Watchdog timeout 1 sec.  Actual interval 1.17
+
+21:13:11.52 Watchdog timeout 1 sec.  Actual interval 2.03
+
+21:13:16.48 Watchdog timeout 1 sec.  Actual interval 3.4
+
+21:13:18.65 Watchdog timeout 1 sec.  Actual interval 2.17
+
+21:13:20.63 Watchdog timeout 1 sec.  Actual interval 1.98
+
+21:13:22.07 Watchdog timeout 1 sec.  Actual interval 1.43
+
+21:13:24.39 Watchdog timeout 1 sec.  Actual interval 2.32
+
+21:13:26.70 Watchdog timeout 1 sec.  Actual interval 2.31
+
+21:13:28.78 Watchdog timeout 1 sec.  Actual interval 2.07
+
+21:13:31.08 Watchdog timeout 1 sec.  Actual interval 2.31
+
+21:13:32.24 Watchdog timeout 1 sec.  Actual interval 1.15
+
+21:13:34.23 Watchdog timeout 1 sec.  Actual interval 1.98
+
+21:13:35.78 Watchdog timeout 1 sec.  Actual interval 1.56
+
+21:13:37.98 Watchdog timeout 1 sec.  Actual interval 2.2
+
+21:13:40.92 Watchdog timeout 1 sec.  Actual interval 2.93
+
+21:13:44.23 Watchdog timeout 1 sec.  Actual interval 3.31
+
+21:13:46.24 Watchdog timeout 1 sec.  Actual interval 2.01
+
+22:31:08.79 Button Shedule.DeleteItem 0 0
+Deleted 0 0 wait operator 0 * * * * *
+22:31:10.64 ScheduleDblClick Shedule.SetRunPosition 0 2
+22:31:10.69 ScheduleDblClick Shedule.SetPause 0

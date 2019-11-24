@@ -1,0 +1,234 @@
+00:02:16.74 ScheduleDblClick Shedule.SetRunPosition 0 4
+00:02:16.84 ScheduleDblClick Shedule.SetPause 0
+00:02:16.86 Script wait: 0 4 [ wait time 02:00:00.00 [0] active Слот 9_02,00-06.00=4 часа(16 мин)=3 часа 44 мин ]
+02:00:00.07 Script skip: 0 4 [ wait time 02:00:00.00 [0] active Слот 9_02,00-06.00=4 часа(16 мин)=3 часа 44 мин ]
+02:00:00.07 Script skip: 0 5 [ comment 0 Продолжение эфира 17.11.19 _ 92 ]
+02:00:00.08 Script take: 0 6 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+02:00:08.18 Script take: 0 7 [ movie <00:00:00.00> 01:02:37.84 Y:\НТС_11_11_17\покровские ворота 1 серия.mov ]
+03:02:46.04 Script skip: 0 8 [ comment 0 Рекламный блок 55 начало - 02:13 ]
+03:02:46.04 Script skip: 0 9 [ comment 0 Нет рекламы в блоке ]
+03:02:46.05 Script skip: 0 10 [ comment 0 Рекламный блок 55 конец ]
+03:02:46.06 Script take: 0 11 [ movie 00:00:26.24 Z:\Promo\-3_ПРОМО_ОТКР_1811.m2t ]
+03:03:12.28 Script take: 0 12 [ movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t ]
+03:03:40.44 Script take: 0 13 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+03:04:30.72 Script take: 0 14 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+03:05:02.87 Script take: 0 15 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+03:05:41.72 Script skip: 0 16 [ comment 0 Рекламный блок 56 начало - 02:28 ]
+03:05:41.72 Script skip: 0 17 [ comment 0 Нет рекламы в блоке ]
+03:05:41.73 Script skip: 0 18 [ comment 0 Рекламный блок 56 конец ]
+03:05:41.73 Script skip: 0 19 [ comment 0 Рекламный блок 57 начало - 02:45 ]
+03:05:41.74 Script skip: 0 20 [ comment 0 Нет рекламы в блоке ]
+03:05:41.74 Script skip: 0 21 [ comment 0 Рекламный блок 57 конец ]
+03:05:41.75 Script take: 0 22 [ movie 01:08:38.08 Y:\НТС_11_11_17\покровские ворота 2 серия.mov ]
+04:14:19.74 Script take: 0 23 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+04:14:58.63 Script take: 0 24 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+04:15:30.76 Script skip: 0 25 [ comment 0 Рекламный блок 58 начало - 03:48 ]
+04:15:30.76 Script skip: 0 26 [ comment 0 Нет рекламы в блоке ]
+04:15:30.77 Script skip: 0 27 [ comment 0 Рекламный блок 58 конец ]
+04:15:30.77 Script take: 0 28 [ movie <00:00:01.28> 01:31:54.44 Y:\НТС_11_11_17\Клад.mpg ]
+05:47:25.29 Script skip: 0 29 [ comment 0 Рекламный блок 59 начало - 04:30 ]
+05:47:25.29 Script skip: 0 30 [ comment 0 Нет рекламы в блоке ]
+05:47:25.29 Script skip: 0 31 [ comment 0 Рекламный блок 59 конец ]
+05:47:25.30 Script take: 0 32 [ movie 00:00:26.24 Z:\Promo\-3_ПРОМО_ОТКР_1811.m2t ]
+05:47:51.47 Script take: 0 33 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+05:48:41.84 Script take: 0 34 [ movie 00:00:32.20 Z:\Promo\-3 ПРОМО Леди Макбет 22.11.m2t ]
+05:49:14.02 Script take: 0 35 [ movie 00:00:28.12 Z:\Promo\-3 ПРОМО Смайлик 21.11.m2t ]
+05:49:42.18 Script take: 0 36 [ movie 00:00:38.80 Z:\Promo\-3 ПРОМО Неизвестная Италия 20.11.m2t ]
+05:50:20.96 Script skip: 0 37 [ comment 0 Рекламный блок 60 начало - 04:58 ]
+05:50:20.96 Script skip: 0 38 [ comment 0 Нет рекламы в блоке ]
+05:50:20.97 Script skip: 0 39 [ comment 0 Рекламный блок 60 конец ]
+05:50:20.97 Script skip: 0 40 [ comment 0 Рекламный блок 61 начало - 05:27 ]
+05:50:20.98 Script skip: 0 41 [ comment 0 Нет рекламы в блоке ]
+05:50:20.98 Script skip: 0 42 [ comment 0 Рекламный блок 61 конец ]
+05:50:20.99 Script skip: 0 43 [ comment 0 Рекламный блок 62 начало - 05:47 ]
+05:50:20.99 Script skip: 0 44 [ comment 0 Нет рекламы в блоке ]
+05:50:21.00 Script skip: 0 45 [ comment 0 Рекламный блок 62 конец ]
+05:50:21.01 Script take: 0 46 [ movie 00:03:21.44 Y:\НТС_Мульты\Доктор Машинкова 9 серия сломанная фара.mpg ]
+05:53:42.33 Script take: 0 47 [ movie 00:04:36.12 Y:\НТС_Мульты\Доктор Машинкова 10 серия подготовка к гонкам.mpg ]
+05:58:18.46 Script take: 0 48 [ movie 00:00:26.24 Z:\Promo\-3_ПРОМО_ОТКР_1811.m2t ]
+05:58:44.66 Script take: 0 49 [ movie 00:00:50.32 Z:\Promo\-3 ПРОМО Мне тесно в строю. Александр Розенбаум 23.11.m2t ]
+05:59:35.09 Script take: 0 50 [ video1 0  ]
+08:20:09.17 Button Shedule.SaveToFile 0 Z:\PlayList\отработанный  17.11.2019_92.air
+DebugInfo2: 08:21:27.54 movie 00:00:26.24 Z:\Promo\-3_ПРОМО_ОТКР_1811.m2t Check change: State (None->Error)
+DebugInfo2: 08:22:22.43 movie 00:00:26.24 Z:\Promo\-3_ПРОМО_ОТКР_1811.m2t Check change: State (None->Error)
+08:22:29.72 Watchdog timeout 1 sec.  Actual interval 1.86
+
+08:22:35.17 Watchdog timeout 1 sec.  Actual interval 3.59
+
+DebugInfo2: 08:23:10.47 movie 00:00:26.24 Z:\Promo\-3_ПРОМО_ОТКР_1811.m2t Check change: State (None->Error)
+08:23:24.54 Watchdog timeout 1 sec.  Actual interval 1.22
+
+08:23:32.35 Watchdog timeout 1 sec.  Actual interval 1.15
+
+08:39:48.49 Button Shedule.EraseList 0
+08:39:48.56 Script wait: 0 0 [ wait operator 0 * * * * * ]
+08:40:28.95 FilePage Shedule.InsertFromFile 0 0 Z:\PlayList\AirPlay 18.11.2019_92.air
+DebugInfo2: 08:40:29.98 picture 00:13:00.00 E:\Типа проги\МИЯН йоз.png Check change: State (None->Error)
+DebugInfo2: 08:40:32.86 picture 00:15:00.00 E:\Типа проги\Крик - коми титр.png Check change: State (None->Error)
+DebugInfo2: 08:40:33.19 picture 00:27:41.00 E:\Типа проги\ДЕТАЛИ. Откровенное.png Check change: State (None->Error)
+08:41:22.92 ScheduleDblClick Shedule.SetRunPosition 0 2
+08:41:22.99 Script wait: 0 2 [ wait operator 0  ]
+08:41:35.67 ScheduleDblClick Shedule.SetRunPosition 0 4
+08:41:35.71 ScheduleDblClick Shedule.SetPause 0
+08:41:35.87 Script wait: 0 4 [ wait time 02:00:00.00 [0] active Слот 9_02,00-06.00=4 часа(16 мин)=3 часа 44 мин ]
+08:48:11.91 Button Player.SetTitleButton 5 0
+08:48:15.30 Button Menu Player.ReloadTitleButton 5
+08:48:15.30 Reload object: Погода, task: Z:\TitleProekt\Погода\District2018_С\Погода2018.s4i
+Time break detected: past (2019-11-18 08:48:15.307), current (2019-11-18 08:50:31.440)
+Time change detected: expected (2019-11-18 08:48:15.35), actual (2019-11-18 08:50:31.49
+Time change detected: expected (2019-11-18 08:48:15.36), actual (2019-11-18 08:50:31.49
+Time break detected: past (2019-11-18 08:48:15.307), current (2019-11-18 08:50:31.496)
+08:50:31.49 Watchdog timeout 1 sec.  Actual interval 136.35
+
+ISLTMTitleRunTime4.LoadTask(Z:\TitleProekt\Погода\District2018_С\Погода2018.s4i) 136080
+08:50:31.49 Button Player.SetTitleButton 5 1
+08:50:31.49 Button Player.SetTitleButton 5 1
+08:51:32.15 Button Player.SetTitleButton 5 0
+18:36:07.05 Watchdog timeout 1 sec.  Actual interval 1.26
+
+18:36:18.39 Watchdog timeout 1 sec.  Actual interval 2.32
+
+18:36:27.11 Watchdog timeout 1 sec.  Actual interval 1.55
+
+18:36:28.78 Watchdog timeout 1 sec.  Actual interval 1.14
+
+18:36:31.23 Watchdog timeout 1 sec.  Actual interval 1.01
+
+18:36:40.12 Watchdog timeout 1 sec.  Actual interval 1.33
+
+18:36:42.19 Button Shedule.SetInsertMode 0
+18:36:43.63 FilePage  Shedule.AddItem 0 13 0 0 0 movie 00:15:11.12  Z:\OnAir\11_18\-3_крик_коми_титры_18_11_00.m2t
+Deleted 0 13 picture 00:15:00.00 E:\Типа проги\Крик - коми титр.png
+18:36:45.41 Watchdog timeout 1 sec.  Actual interval 1.09
+
+18:36:51.00 Watchdog timeout 1 sec.  Actual interval 1.89
+
+18:36:56.08 Watchdog timeout 1 sec.  Actual interval 1.47
+
+18:37:00.72 Watchdog timeout 1 sec.  Actual interval 2.09
+
+18:37:01.82 Watchdog timeout 1 sec.  Actual interval 1.11
+
+18:37:02.84 Watchdog timeout 1 sec.  Actual interval 1.01
+
+18:37:04.49 Watchdog timeout 1 sec.  Actual interval 1.06
+
+18:37:08.19 Watchdog timeout 1 sec.  Actual interval 1.33
+
+18:37:11.43 FilePage  Shedule.AddItem 0 6 0 0 0 movie 00:11:04.48  Z:\OnAir\11_18\-3 Миан_Йоз_День Марийской культуры_эфир_18_11.m2t
+Deleted 0 6 picture 00:13:00.00 E:\Типа проги\МИЯН йоз.png
+18:37:12.25 Watchdog timeout 1 sec.  Actual interval 3.32
+
+18:37:15.71 Watchdog timeout 1 sec.  Actual interval 2.96
+
+18:37:17.81 Watchdog timeout 1 sec.  Actual interval 2.11
+
+18:37:19.81 Button Shedule.SetInsertMode 1
+18:37:25.66 Watchdog timeout 5 sec.  Actual interval 5.76
+
+18:37:27.78 Watchdog timeout 1 sec.  Actual interval 2.12
+
+18:37:28.90 Watchdog timeout 1 sec.  Actual interval 1.12
+
+18:37:33.69 Watchdog timeout 1 sec.  Actual interval 1.33
+
+18:37:39.75 Watchdog timeout 1 sec.  Actual interval 1.3
+
+18:37:41.21 Watchdog timeout 1 sec.  Actual interval 1.47
+
+18:37:47.72 Watchdog timeout 1 sec.  Actual interval 1.05
+
+18:37:52.88 Watchdog timeout 1 sec.  Actual interval 1.5
+
+18:37:55.25 Watchdog timeout 1 sec.  Actual interval 2.37
+
+18:37:56.35 Watchdog timeout 1 sec.  Actual interval 1.09
+
+18:37:58.88 Watchdog timeout 1 sec.  Actual interval 1.56
+
+18:38:03.12 Watchdog timeout 1 sec.  Actual interval 4.24
+
+18:38:05.04 Watchdog timeout 1 sec.  Actual interval 1.92
+
+18:38:07.34 Watchdog timeout 1 sec.  Actual interval 1.59
+
+18:38:08.61 Watchdog timeout 1 sec.  Actual interval 1.26
+
+18:38:17.61 Watchdog timeout 1 sec.  Actual interval 1.92
+
+18:38:19.20 Watchdog timeout 1 sec.  Actual interval 1.59
+
+18:38:20.73 Watchdog timeout 1 sec.  Actual interval 1.53
+
+18:38:29.06 Watchdog timeout 1 sec.  Actual interval 2.01
+
+18:38:31.40 Watchdog timeout 1 sec.  Actual interval 2.34
+
+18:38:32.82 Watchdog timeout 1 sec.  Actual interval 1.42
+
+18:38:36.47 Watchdog timeout 1 sec.  Actual interval 1.47
+
+18:38:37.48 Watchdog timeout 1 sec.  Actual interval 1.01
+
+18:38:41.68 Watchdog timeout 1 sec.  Actual interval 1.51
+
+18:38:43.13 Watchdog timeout 1 sec.  Actual interval 1.31
+
+18:38:47.02 Watchdog timeout 1 sec.  Actual interval 1.47
+
+18:38:53.54 Watchdog timeout 1 sec.  Actual interval 1.33
+
+18:38:56.75 Watchdog timeout 1 sec.  Actual interval 1.75
+
+18:38:59.17 Watchdog timeout 1 sec.  Actual interval 1.54
+
+18:39:00.99 Watchdog timeout 1 sec.  Actual interval 1.83
+
+18:39:02.71 Watchdog timeout 1 sec.  Actual interval 1.72
+
+18:39:04.91 Watchdog timeout 1 sec.  Actual interval 1.42
+
+18:39:12.11 Watchdog timeout 1 sec.  Actual interval 5.4
+
+18:39:15.75 Watchdog timeout 1 sec.  Actual interval 1.05
+
+18:39:17.51 Watchdog timeout 1 sec.  Actual interval 1.76
+
+18:39:41.68 FilePage  Shedule.AddItem 0 6 1 0 0 movie 00:02:05.92  Z:\OnAir\ФУ\-3_Bndr_ФУ музыка «Лым» Анна Попова Зима.m2t
+18:39:54.43 FilePage  Shedule.AddItem 0 17 1 0 0 movie 00:27:42.04  Z:\OnAir\11_18\-3_Детали Откровенное_Галина Дубровская_эфир _18_11_2019.m2t
+18:39:56.57 Button Shedule.DeleteItem 0 19
+Deleted 0 19 picture 00:27:41.00 E:\Типа проги\ДЕТАЛИ. Откровенное.png
+18:40:10.21 Button Shedule.DeleteItem 0 70
+Deleted 0 70 movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_8(1) _ смайлы.m2t
+18:40:14.12 Button Shedule.DeleteItem 0 64
+Deleted 0 64 movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_7(1) _ детская.m2t
+18:40:25.06 Button Shedule.SetInsertMode 0
+18:40:30.36 FilePage  Shedule.AddItem 0 7 0 0 0 movie 00:01:59.16  Z:\OnAir\ФУ\-3 Финноугория_35 Межпрограммки Музыка.m2t
+Deleted 0 7 movie 00:02:05.92 Z:\OnAir\ФУ\-3_Bndr_ФУ музыка «Лым» Анна Попова Зима.m2t
+18:40:32.08 Button Shedule.SetInsertMode 1
+18:40:34.02 Watchdog timeout 1 sec.  Actual interval 1.16
+
+18:40:37.38 SheduleEdit Shedule.SetItemInOut 0 7 0 119160 (00:00:00.00, 00:01:59.16)
+18:40:46.64 SheduleEdit Shedule.SetItemInOut 0 6 0 664480 (00:00:00.00, 00:11:04.48)
+18:40:57.75 SheduleEdit Shedule.SetItemInOut 0 14 0 911120 (00:00:00.00, 00:15:11.12)
+18:41:07.39 SheduleEdit Shedule.SetItemInOut 0 18 0 1662040 (00:00:00.00, 00:27:42.04)
+18:41:15.56 SheduleEdit Shedule.SetItemInOut 0 35 1675800 3357240 (00:27:55.80, 00:55:57.24)
+18:41:22.43 SheduleEdit Shedule.SetItemInOut 0 52 0 2294600 (00:00:00.00, 00:38:14.60)
+18:41:30.74 SheduleEdit Shedule.SetItemInOut 0 67 0 229000 (00:00:00.00, 00:03:49.00)
+18:41:39.38 SheduleEdit Shedule.SetItemInOut 0 18 0 1662040 (00:00:00.00, 00:27:42.04)
+18:41:45.23 SheduleEdit Shedule.SetItemInOut 0 14 0 911120 (00:00:00.00, 00:15:11.12)
+18:41:51.13 SheduleEdit Shedule.SetItemInOut 0 6 0 664480 (00:00:00.00, 00:11:04.48)
+18:42:03.16 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 18.11.2019_92.air
+20:35:43.73 SheduleEdit Shedule.SetItemInOut 0 6 0 664480 (00:00:00.00, 00:11:04.48)
+20:35:48.87 SheduleEdit Shedule.SetItemInOut 0 14 0 911120 (00:00:00.00, 00:15:11.12)
+20:35:54.53 SheduleEdit Shedule.SetItemInOut 0 18 0 1662040 (00:00:00.00, 00:27:42.04)
+22:17:33.38 Button Player.SetTitleButton 5 1
+22:18:14.52 Button Player.SetTitleButton 5 0
+22:18:37.73 Button Menu Player.ReloadTitleButton 5
+22:18:37.73 Reload object: Погода, task: Z:\TitleProekt\Погода\District2018_С\Погода2018.s4i
+22:18:40.63 Watchdog timeout 1 sec.  Actual interval 2.93
+
+ISLTMTitleRunTime4.LoadTask(Z:\TitleProekt\Погода\District2018_С\Погода2018.s4i) 2886
+22:18:47.00 Button Player.SetTitleButton 5 1
+22:28:17.65 Button Player.SetTitleButton 5 0
+23:03:14.81 Button Player.SetTitleButton 5 1

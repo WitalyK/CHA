@@ -24,7 +24,7 @@ airlog1 = 'air1_'+dd[2]+dd[1]+dd[0]+'.log'
 airlog2 = 'air1_'+d1[6:]+d1[3:5]+d1[0:2]+'.log'
 
 try:
-    with open(airlog1) as log1, open(airlog2) as log2, open('otrabot_za_'+dd[0]+'_'+dd[1]+'_'+dd[2]+'.air', 'w') as air:
+    with open(airlog1) as log1, open(airlog2) as log2, open('otrabot_za_'+dd[0]+'_'+dd[1]+'_'+dd[2]+'_91.air', 'w') as air:
         air.write(zag.format(d))
         flag = True
         rec = True
@@ -46,10 +46,10 @@ try:
                         else:
                             rec = True
                             time_live = datetime.strptime(s[0][0:8], "%H:%M:%S") - start_live
-                            live_time_list[0] = live_time_list[0].replace('video1 0', 'video1 ' + str(time_live)[2:])
+                            live_time_list[0] = live_time_list[0].replace('video1 0', 'video1 0' + str(time_live)+'.00')
                             air.writelines(live_time_list)
                             live_time_list = []
-                    if s[1].find('video1')>=0:
+                    if 'video1' in s[1]:
                         start_live = datetime.strptime(s[0][0:8], "%H:%M:%S")
                         live_time_list.append(s[1].strip().rstrip(']') + '\n')
                         rec = False
