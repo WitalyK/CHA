@@ -17,4 +17,4 @@ with open('CAM_table.txt') as src:
             if int(vlans) == vlan:
                 list.append([int(vlans), mac, inf])
     list.sort(key=lambda x: x[-1])
-    [print('{:<6} {:<18} {}'.format(line[0], line[1], line[2])) for line in list]
+    [print('{:<6} {:<18} {}'.format(*line)) for line in list]
