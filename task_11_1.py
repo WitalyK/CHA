@@ -18,3 +18,23 @@ R6           Fa 0/2          143           R S I           2811       Fa 0/0
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 '''
 
+def parse_cdp_neighbors(command_output):
+    lines = command_output.split('\n')
+    name = lines[0].split('>')[0]
+    flag = False
+    d = {}
+    for line in lines:
+        if flag and len(line.split())>1:
+            di, in1, in2, *rest, po1, po2 = line.split()
+            d[(name, in1+in2)] = (di, po1+po2)
+        if line.startswith('Device'):
+            flag = True
+    return d
+
+
+#не запускать при импорте
+if __name__ == "__main__":
+    with open('sh_cdp_n_sw1.txt') as src:
+        command = src.read()
+
+    print(parse_cdp_neighbors(command))
