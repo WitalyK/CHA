@@ -38,10 +38,8 @@ def generate_trunk_config(intf_vlan_mapping, trunk_template, psecurity = None):
     access_template - список команд для порта в режиме access
     Возвращает список всех портов в режиме access с конфигурацией на основе шаблона
     '''
-    d = dict
-    list1 = []
+    d = {}
     for key, value in intf_vlan_mapping.items():
-        list1.append(key)
         list2 = []
         for command in trunk_template:
             if command.endswith("vlan"):
@@ -51,7 +49,7 @@ def generate_trunk_config(intf_vlan_mapping, trunk_template, psecurity = None):
         if psecurity:
             for command in psecurity:
                 list2.append(command)
-        dict[key] = list2
+        d[key] = list2
     return d
 
 

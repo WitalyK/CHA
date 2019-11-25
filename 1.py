@@ -1,7 +1,11 @@
 # -*- config: utf8 -*-
+from urllib.parse import urlparse, urlunparse
 
-t1 = (1, 2, 3)
-t1 = t1 + (4,)
-if type(t1)==tuple:
-    print(t1)
+original = 'http://prognozrk.ru/prognoz/48/sykt.shtml'
+print('ORIG  :', original)
+parsed = urlparse(original)
+print('PARSED:', type(parsed), parsed)
+t = parsed[:]
+print('TUPLE :', type(t), t)
+print('NEW   :', urlunparse(t))
 
