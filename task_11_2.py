@@ -37,12 +37,20 @@ def create_network_map(filenames):
     d = {}
     for file in filenames:
         with open(file) as src:
-            command = src.read()
-            d.update(parse_cdp_neighbors(command))
-    set1 = {[ky, val] for ky, val in d}
-    dd = dict(set1)
-    return d
+            d.update(parse_cdp_neighbors(src.read()))
+    dd = d.copy()
+    ddd = d.copy()
+    for key, value in d.items():
+        is_dubl = False
+        for key1, value1 in dd.items():
+            if key==value1 and value==key1:
+                is_dubl = True
+                break
+        if key in dd: del dd[key]
+        if is_dubl:
+            del dd[value]
+            del ddd[value]
+    return ddd
 
 files = ['sh_cdp_n_sw1.txt', 'sh_cdp_n_r1.txt', 'sh_cdp_n_r2.txt', 'sh_cdp_n_r3.txt']
-#draw_topology(create_network_map(files))
-print(create_network_map(files))
+draw_topology(create_network_map(files))
