@@ -15,3 +15,20 @@ Reachable    Unreachable
 То есть, до выполнения функции и после списки должны выглядеть одинаково.
 Для этого задания нет тестов
 '''
+from task_12_1 import ping_ip_addresses
+from task_12_2 import convert_ranges_to_ip_list
+from tabulate import tabulate
+
+
+#не запускать при импорте
+if __name__ == "__main__":
+    diapazon_list = []
+    while True:
+        ip_or_diapazon = input(': ')
+        if ip_or_diapazon == ' ':
+            break
+        diapazon_list.append(ip_or_diapazon)
+    tup = ping_ip_addresses(convert_ranges_to_ip_list(diapazon_list))
+
+    print(tabulate(list(zip(tup[0], tup[1])), headers=['Reachable', 'Unreachable'], tablefmt='grid'))
+
