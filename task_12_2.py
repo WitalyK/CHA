@@ -19,3 +19,35 @@
 ['8.8.4.4', '1.1.1.1', '1.1.1.2', '1.1.1.3', '172.21.41.128',
  '172.21.41.129', '172.21.41.130', '172.21.41.131', '172.21.41.132']
 '''
+from ip_ch import ip_correct
+from task_12_1 import ping_ip_addresses
+from ipaddress import ip_address
+
+
+def convert_ranges_to_ip_list(ip_diapazon_list):
+    ip_list = []
+    for ip_or_diap in ip_diapazon_list:
+        if '-' in ip_or_diap:
+            is_short = len(ip_or_diap.split('.')) == 4
+            l = ip_or_diap.split('-')
+            if is_short: d2 = int(l[1])
+            else: d2 = int(l[1].split('.')[3])
+            dia = d2 - int(l[0].split('.')[3])
+            ip1= ip_address(l[0])
+            ip_list += [str(ip1+n) for n in range(dia+1)]
+        else:
+            ip_list.append(ip_or_diap)
+    return ip_list
+
+
+#не запускать при импорте
+if __name__ == "__main__":
+    diapazon_list = []
+    while True:
+        ip_or_diapazon = input(': ')
+        if ip_or_diapazon == ' ':
+            break
+        diapazon_list.append(ip_or_diapazon)
+
+    print(convert_ranges_to_ip_list(diapazon_list))
+
