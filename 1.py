@@ -1,11 +1,18 @@
 # -*- config: utf8 -*-
-from urllib.parse import urlparse, urlunparse
+import requests
 
-original = 'http://prognozrk.ru/prognoz/48/sykt.shtml'
-print('ORIG  :', original)
-parsed = urlparse(original)
-print('PARSED:', type(parsed), parsed)
-t = parsed[:]
-print('TUPLE :', type(t), t)
-print('NEW   :', urlunparse(t))
+adresok = 'сыктывкар школьная 2/5'
 
+r = requests.get('http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=RU&addressLine={}&key=AjpbWY8LT5rqIET70iVolfI0biR-u9P5jg5hSuAllOPS77_mHdD7EXMImvKlYlPT'.format(adresok))
+d = r.json()
+print('Геоданные: ', d['resourceSets'][0]['resources'][0]['point']['coordinates'])
+print('Адресок:')
+for key, value in d['resourceSets'][0]['resources'][0]['address'].items():
+    print('{:>20}  {:<}'.format(key, value))
+
+
+
+#r = requests.get('https://www.dns-shop.ru/shops/syktyvkar')
+#print(r.text)
+#print(r.json())
+#https://www.dns-shop.ru/shops/syktyvkar/
