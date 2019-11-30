@@ -15,3 +15,20 @@
 Обратите внимание, что в данном случае, можно не проверять корректность IP-адреса,
 диапазоны адресов и так далее, так как обрабатывается вывод команды, а не ввод пользователя.
 '''
+
+from  re import findall
+
+def get_ip_from_cfg(cfg_filename):
+    with open(cfg_filename) as cfg:
+        cfg_str = cfg.read()
+    d = {}
+#    for key, ip, mask in findall('interface (\S+)(?:(?:(?!interface).)*\n)+? ip address ((?:\d+\.){3}\d+) +((?:\d+\.){3}\d+)', cfg_str):
+#        d[key] = (ip, mask)
+    return  {key: (ip, mask) for key, ip, mask in
+             findall(r'interface (\S+)(?:(?:(?!interface).)*\n)+? ip address ((?:\d+\.){3}\d+) +((?:\d+\.){3}\d+)', cfg_str)}
+
+#interface Loopback0
+
+# don't run on import
+if __name__ == "__main__":
+    print(get_ip_from_cfg('config_r1.txt'))
