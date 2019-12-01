@@ -1,0 +1,2225 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8" />
+	<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="maAs0qLCqB95e8urPfdIZrX9_yKcbtq0uFNG971lt4zVmWux8arLdRIPrf5wwy5R_aS4aq8-uPH6Yy6E2gjVxw==">
+	<link rel="shortcut icon" href="/assets/d81e9b8a/images/theme/favicon.png" type="image/png" />
+	<title>Поиск магазинов сети цифровой и бытовой техники DNS | Все магазины DNS в России</title>
+<link rel="manifest" href="/files/manifest/manifest.json" />
+
+<meta name="theme-color" content="#F6F6F6" />
+<meta name="application-name" content="DNS" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="icon" type="image/png" sizes="16x16" href="/files/manifest/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/files/manifest/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="96x96" href="/files/manifest/favicon-96x96.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/files/manifest/android-icon-192x192.png" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="DNS" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+
+<link rel="apple-touch-icon" sizes="48x48"   href="/files/manifest/apple-icon-48x48.png" />
+<link rel="apple-touch-icon" sizes="57x57"   href="/files/manifest/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60"   href="/files/manifest/apple-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72"   href="/files/manifest/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76"   href="/files/manifest/apple-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="96x96"   href="/files/manifest/apple-icon-96x96.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/files/manifest/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/files/manifest/apple-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/files/manifest/apple-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/files/manifest/apple-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/files/manifest/apple-icon-180x180.png" />
+
+<meta name="msapplication-config" content="/files/manifest/browserconfig.xml" />
+
+<meta name="msapplication-TileColor" content="#ffffff" />
+<meta name="msapplication-TileImage" content="/files/manifest/ms-icon-144x144.png" />
+<meta name="msapplication-navbutton-color" content="#ff7300" />
+<meta name="msapplication-starturl" content="/?utm_source=pwa_homescreen" />
+<meta name="description" content="Найдите ближайшей магазин DNS в вашем городе. Все магазины DNS в России на одной странице.">
+<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1">
+<link type="font/woff2" href="https://as.dns-shop.ru/assets/d81e9b8a/fonts/pt-sans/normal/pt-sans-cyrillic.woff2" rel="preload" crossorigin as="font">
+<link href="//top-fwz1.mail.ru/js" rel="preconnect">
+<link href="//c.dns-shop.ru/thumb/st4/fit_width" rel="preconnect">
+<link href="//5922505.fls.doubleclick.net" rel="preconnect">
+<link href="//bh.contextweb.com/bh/" rel="preconnect">
+<link href="//as.dns-shop.ru/assets" rel="preconnect">
+<link href="//chat.dns-shop.ru" rel="preconnect">
+<link type="font/woff2" href="https://as.dns-shop.ru/assets/d81e9b8a/fonts/dns-icons/dns-icon.woff2" rel="preload" crossorigin as="font">
+<link type="font/woff2" href="https://as.dns-shop.ru/assets/d81e9b8a/fonts/pt-sans/normal/pt-sans-latin.woff2" rel="preload" crossorigin as="font">
+<link type="font/woff2" href="https://as.dns-shop.ru/assets/d81e9b8a/fonts/icon-ui/icon-ui.woff2" rel="preload" crossorigin as="font">
+<link type="font/woff" href="https://as.dns-shop.ru/assets/d81e9b8a/fonts/new-icons/new-icon.woff" rel="preload" crossorigin as="font">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/theme/header/desktop.css" rel="preload" media="(min-width: 992px)" as="style">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/theme/header/mobile.css" rel="preload" media="(max-width: 991px)" as="style">
+<link href="https://as.dns-shop.ru/assets/642e143a/themes/base/jquery-ui.min.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/forms.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/main.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/5ea8f482/bootstrap.min.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/container.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/theme.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/theme/custom.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/theme/header/header-menu.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/theme/header/desktop.css" rel="stylesheet" media="(min-width: 992px)">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/theme/header/mobile.css" rel="stylesheet" media="(max-width: 991px)">
+<link href="https://as.dns-shop.ru/assets/24856827/lazyload.min.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/7cce02c1/menu-mobile_ph.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/theme/widgets/menu-dropdown.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/d81e9b8a/css/theme/widgets/city-select.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/a60bdcbc/links.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/e1f62e57/button.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/b059ea3c/presearch.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/f19ac414/menu-desktop_ph.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/7738a227/page-notification.css" rel="stylesheet">
+<link href="https://as.dns-shop.ru/assets/9359ca6f/info.css" rel="stylesheet">
+<script src="//analytics.dns-shop.ru/search/assets/search.js?1575203380.533" async data-key="fbbH8c7VsoSGCp2weP9yTySVsRF3PUTi" data-value="YThlZDMzYTVhNTM2YmRiZjg1NjJmYTU3OTk1YWEyNjUyZTkxNDY0ODA5ZDVjY2Y2ZjY1NTVhMzNmZmVlY2ZmMDJkYmMxMTZlOGE5YTEwMjBhN2VhODgzNDdkOTQ1YjlhOWIyMzg5ODBhMmQ4YzliNDVhMDJjZjI0MGNlNmU2Nzc3ZjdjOGNlMjAwOWFiMzY3OTQyMjkyZGQxOTFkMDBlZDEyZmJhYmNkYzU5OTA2MzAxM2UyZDgxMDIwYmU0NmNlOTg3MWE3OTFkMTczYWQ3YmZlZDFkOGVlOGVjOTFkZWQwNTI0ODkwZTk1OWMwNzk3YjIyZjc1NDZiNTczNThjY2IyYTNkNTAxYjk4ZTY1MTE3N2ZiZjY5MzY4MGFhMDI3MTgxMDdmYTgyMTNiN2I1NDgzNzdjNzc1MmYwNjk0ZmJkODQ2YWJkYTY0NzM2YzE4ZTU2MGY4ZWY2NjBhYTU0OTBjNThiZmI3MTg1MWQzMjZkOTIzMTBiZWJkM2ZhODhmY2VhNjIxYTYyOTE0N2ZjMWE4Yzg3OGYyNzA5NTg2NjllNDg4YTJmZGM3NjBkMTVlYTJkOTJiMTI4OTEwZDU4NGQyOTJjMWRiMWUwOWNmZDU4Yzc4OTYzMDc5Y2JhNzExOGE1OGM1MjQxNzMzZGNhYmZhOWRkZGY4NTExNTBlZDA5MGEyNWQwNmQzNGFkNWJmMmEyYTI0NjA2ODZjODZjZjk5MTVkYmJlOGYzZGM4YjE0ODBjMWM0YWUzYTlkY2ZlYjYzZmVjZmIxYzIwYjFlZmE3MzZhMzZhNTM5MjEyZjE3OGExMTM4MWZiM2YwYzMwZWJiZmM5ZGQ4YzhjMTMzZmM1NTYzYmZlMTZiMWIzMTljMzlkMWQ3N2I4ZmY2ZWFlNWE4ZGI0Njc5YjNjODEyNjAzOTg1OWFmYjRmZjE0MWY2MGNhMTViNzRjNGRiODdj"></script>
+<script src="//analytics.dns-shop.ru/track/assets/modules/track.js?1575203380.533" async data-key="JN2rgjSOvfyYVwuRfcwXKvovlge73Vw5" data-value="ODQxM2FhZTcyMGE0ODhhNDRlMzJhYWI3YTVmNTNlNzQ0ZjVjNTZjY2VlN2U4MDE5YTZiMTE2YjliNGY3Y2MyZDkxZmFlYWU2ZjU0NjliNzkzZjEzNTgyY2M5Njc5MzBmNWM1ODY2MjIyYjhlMGQ0ODlkMjhjYjdiNjU3MWYyY2I2MmM4NzliMjk4NjhkNzhiODA0MzYzMDk3MDg2NjVmY2I0ZDBiZWYzZmEzNmFhMGMyOGIwOWUxODNhZTMzMTkyMGU1YmFkOTY5OTM2NGM3OTY0MWY3NWY3ZTljMjkxNzE3MTIxYzM2ODFlZTIwNjViNTljOTAxMjliMzQxMWQzZDIyNzliNDgzMTFjMWY3NDQzZDI4NTY1ZTAxNWYyNWU0MTUxNjcxNTI4ODlhOTVmYThmY2I0ZjNjYmZmYzM4ZmQxYjk3YzBlZjg5Y2JjNjQxYzYxN2RhODViNzkwZjIzMmFiNDQyODI3OGU3YTIwY2YxMDVlZWY0OTIwYTgxZDAyZDkyZWRlYjg0NTgyZjBiZDAxOTBhOTk1YzFjYTdmMmMxYTUxNjQ4ZTlkZmEwZjJmNWIzNDg5ZDgwYTI4MzhjNzMwNzliNzU5ZjAyNDQyMWFhMjVhYjJmZWZiYjEwNGJmYjY0NjZiNWJhZTUzODI3N2Q2Zjg2MzlmNjkyNmNhM2Q3ZjlhZDljZWI2MGQ4ZmY2ZDJmN2Q0ZDhkYWM2M2RmMDM3MzBmOTFhOWMzY2U3M2RhZjI5YjMxNTY2YjQ4MTVmYTk4OGQwOTQwMmI3NmI0NDIzMjFjZWRlZTA2MzM3M2QxNzM1M2U3YWY1YjY5ZmFkYTRkNDlmOGE0OGJjMWE5MWEzYTQxN2M4MzYyODBjOGMxM2Q2NzE1OWJjMDU3MWMzZWNiNTFlZDhlMzNmNDhlYjdmODdhMThiMjEzM2E3MzI2OWJkMGVhNDgxYWZkY2Qx"></script>
+<script src="https://as.dns-shop.ru/assets/daa8389f/jquery.min.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/modules/log-action.js"></script>
+<script>var pwa_sw_main_precache = ["https:\/\/as.dns-shop.ru\/assets\/d81e9b8a\/js\/modules\/pwa\/offline-page.js","https:\/\/as.dns-shop.ru\/assets\/d81e9b8a\/css\/modules\/pwa\/offline-page\/offline-page.css",{"url":"\/files\/pwa\/city-info.json","revision":567537786},{"url":"\/files\/pwa\/shops.json","revision":1889693323},{"url":"\/files\/pwa\/offline-page.html","revision":1152148076}];
+var ga_send_url = "https:\/\/www.google-analytics.com\/collect";
+var ga_traking_id = "UA-8349380-2";
+(function(w,d){var b=d.getElementsByTagName('head')[0];if("function"!==typeof window.CustomEvent){var s=d.createElement("script");s.src='/assets/7917e094/custom-event.js';s.async=true;b.appendChild(s);}
+if("function"!==typeof Element.prototype.closest){var s=d.createElement("script");s.src='/assets/7917e094/closest.js';s.async=true;b.appendChild(s);}
+if("function"!==typeof FormData.prototype.set){var s=d.createElement("script");s.src='/assets/7917e094/form-data.js';s.async=true;b.appendChild(s);}
+if("function"!==typeof window.URL||false===window.URL.prototype.hasOwnProperty("searchParams")){var s=d.createElement("script");s.src='/assets/7917e094/url.js';s.async=true;b.appendChild(s);}
+if("function"!==typeof Element.prototype.remove||"function"!==typeof CharacterData.prototype.remove||"function"!==typeof DocumentType.prototype.remove){var s=d.createElement("script");s.src='/assets/7917e094/remove.js';s.async=true;b.appendChild(s);}}(window,document));</script>	
+
+
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create',  'UA-8349380-2', 'auto');
+	ga('require', 'displayfeatures');
+	ga('require', 'linkid');
+	ga('require', 'ec');
+	
+	ga('set', 'dimension1', 'vologda');
+	if (undefined !== window.COMMERCE_PARAM_BUY) {
+		ga('set', 'dimension2', window.COMMERCE_PARAM_BUY);
+	}
+
+	
+	ga('send', 'pageview');
+</script>
+
+
+<script type="text/javascript">
+	/** @type {YandexDataLayer} */
+	window.dataLayer = window.dataLayer || [];
+		try {
+		var yaParams = {"city":"vologda"};
+		(function(m,e,t,r,i,k,a) {
+			m[i]=m[i]||function() {
+				(m[i].a=m[i].a||[]).push(arguments);
+			};
+			m[i].l=1*new Date();
+			if (undefined !== m.COMMERCE_PARAM_BUY) {
+				yaParams.buy = m.COMMERCE_PARAM_BUY;
+			}
+			k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+		ym(7967056, "init", {
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true,
+			webvisor:true,
+			trackHash:true,
+			ecommerce:"dataLayer",
+			params:yaParams
+		});
+		window.yaCounterReachGoal = function(e, p) { ym(7967056, 'reachGoal', e, p); }
+	} catch(e) {}
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/7967056" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+
+</head>
+<body>
+	<script>window.GET_CITY_MODAL_URL = "\/ajax\/region-nav-window\/";
+window.CHANGE_CITY_URL = "\/ajax\/change-city\/";</script><!--googleoff: all--><!--noindex-->	<iframe src="https://5922505.fls.doubleclick.net/activityi;src=5922505;type=invmedia;cat=qdxkzxdy;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1847461?" width="1" height="1" style="display:none"></iframe>
+<!--/noindex--><!--googleon: all-->	<header><a class="head-promo-banner black-friday" href="/promo-page/blackfriday2019/" data-promo-banner="header" data-promo-banner-name="Black_Friday_2019" data-promo-banner-id="acfc62d6-ca4b-4943-b089-9f75d523b638"><img src="/assets/d81e9b8a/images/theme/promo/black-friday/head-promo-tab-banner.jpg" alt=""></a><div class="menu-catalog-container" data-menu-catalog-aside><a href="javascript:" class="back" data-mobile-catalog-menu-toggle><i></i>Назад</a><span id="ajs-9b50ecf9-63ee-450c-a1a6-3f598ed2e666" class="menu-mobile"></span></div><div class="navbar-menu"><div class="header-top"><div class="header-top-menu container"><ul class="header-top-menu__common-list"><li class="header-top-menu__common-item"><div class="header-top-menu__common-link header-top-menu__common-link_city "><!--googleoff: all--><!--noindex--><div class="city-select w-choose-city-widget" data-city-id="cd1f0fe3-3292-11e1-9afa-001517c526f0"><i class="location-icon"></i>Вологда
+		<i class="icon-right" data-role="close-mobile-menu"></i></div><!--/noindex--><!--googleon: all--></div></li><li class="header-top-menu__common-item "><a class="header-top-menu__common-link" href="/shops/vologda/">Магазины</a></li><li class="header-top-menu__common-item header-top-menu__common-item_dropdown menu-dropdown"><a class="header-top-menu__common-link" data-commerce-target="MENU_FOR_BUYERS">Покупателям</a><span class="dns-icon_chevron_down_alt header-top-menu__dropdown-icon"></span><ul class="header-top-menu__common-child-list menu-dropdown__childs"><!--googleoff: all--><!--noindex--><a class="header-top-menu__common-link header-top-menu__common-link_child" href="http://prozapass.ru" target="_blank" rel="nofollow noopener">Бонусная программа</a><!--/noindex--><!--googleon: all--><a class="header-top-menu__common-link header-top-menu__common-link_child" href="/p_card/">Подарочные карты</a><a class="header-top-menu__common-link header-top-menu__common-link_child" href="/inet_order_individual">Как оформить заказ</a><a class="header-top-menu__common-link header-top-menu__common-link_child" href="/delivery/">Доставка</a><a class="header-top-menu__common-link header-top-menu__common-link_child" href="/im_payment">Способы оплаты</a><a class="header-top-menu__common-link header-top-menu__common-link_child" href="/order/check-order-status/">Узнать статус заказа</a><a class="header-top-menu__common-link header-top-menu__common-link_child" href="/im_cashback_good">Обмен и возврат товара</a><a class="header-top-menu__common-link header-top-menu__common-link_child" href="/credit/">Кредиты</a><a class="header-top-menu__common-link header-top-menu__common-link_child" href="/technical-support/">Сервисные центры</a><!--googleoff: all--><!--noindex--><a class="header-top-menu__common-link header-top-menu__common-link_child" href="https://club.dns-shop.ru/" target="_blank" rel="nofollow noopener">Клуб экспертов</a><!--/noindex--><!--googleon: all--><a class="header-top-menu__common-link header-top-menu__common-link_child" href="/police">Политика конфиденциальности</a></ul></li><li class="header-top-menu__common-item "><a class="header-top-menu__common-link" href="/info_businesses">Юридическим лицам</a></li></ul><ul class="header-top-menu__profile-list"><li class="header-top-menu__info"><span class="header-top-menu__info-phone dns-icon_earphone"></span>
+				8-800-77-07-999
+				<span class="header-top-menu__work-info">
+					(c 03:00 до 22:00)				</span></li><li class="header-top-menu__common-item header-top-menu__common-item_notifications"><span id="ajs-1cf5008a-e435-41c6-9151-f2bcbe9da0b2"></span></li><li class="header-top-menu__common-item"><a class="header-top-menu__common-link" href="/login/">Войти</a></li><li class="header-top-menu__common-item"><a class="header-top-menu__common-link" href="/register/">Регистрация</a></li></ul></div><div class="mobile-top-header static on-top"><input type="checkbox" id="toggle-search" class="hidden-control" /><div class="basic-controls"><div class="logo-container"><a href="/" class="logo"></a></div><form id="ua79908e128ff4ea69dcd9baecd28d152" action="/search/" method="get" class="presearch" data-role="presearch-form"></form><div class="right-controls mobile-header-btns"><a class="btn-cart-link btn-cart-link_empty" href="/order/begin/" data-sets="{&quot;default&quot;:{&quot;class&quot;:&quot;btn-cart-link_empty&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:false,&quot;totalPrice&quot;:&quot;\u041a\u043e\u0440\u0437\u0438\u043d\u0430&quot;},&quot;active&quot;:{&quot;class&quot;:&quot;&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:true,&quot;totalPrice&quot;:0}}" data-state="default" data-role="switched" data-id="cart-widget" data-switch="data-url:url; class" data-commerce-target="CART"><span class="btn-cart-link__cart" aria-hidden="true"></span><span class="btn-cart-link__price"><span data-of="totalPrice">Корзина</span><i class="btn-cart-link__rub-icon" data-toggle="visible" style="display:none;"></i></span><span class="btn-cart-link__badge" data-toggle="visible" data-of="totalCount" style="display:none;">0</span></a><i class="header-menu-btn navbar-toggle collapsed" for="toggle-mobile-menu" data-role="toggle-mobile-menu" data-action="open"></i></div></div></div><div id="header-menu" class="header-menu"><ul class="nav navbar-nav navbar-menu"><li class="menu-item-city-select"><!--googleoff: all--><!--noindex--><div class="city-select w-choose-city-widget" data-city-id="cd1f0fe3-3292-11e1-9afa-001517c526f0"><i class="location-icon"></i>Вологда
+		<i class="icon-right" data-role="close-mobile-menu"></i></div><!--/noindex--><!--googleon: all--></li><li class="menu-item-phone"><a href="tel:8-800-77-07-999" class="mobile-menu-phone"><i class="icon"></i>
+								8-800-77-07-999															<span class="phone-worktime">
+																		(03:00-22:00)
+																		</span></a></li><li class="hide user-section"><!--googleoff: all--><!--noindex--><a href="/login/" class="" rel="nofollow noopener"><i class="icon"></i>
+								Войти в личный кабинет
+								<i class="icon-right"></i></a><!--/noindex--><!--googleon: all--></li><li class="menu-item-catalog"><a href="javascript:" data-mobile-catalog-menu-toggle><i class="icon-left"></i>
+							Каталог
+							<i class="icon-right"></i></a></li><li class="hide menu-item-compare"><a id="wa318a7c3" class="btn-compare-link  empty" href="/catalog/product/compare/" data-role="compare-btn-global" data-action="header-compare-link" data-state="default" data-sets="{&quot;default&quot;:{&quot;class&quot;:&quot;empty&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:false},&quot;active&quot;:{&quot;class&quot;:&quot;&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:true}}" data-switch="class"><span class="btn-compare-link__compare" aria-hidden="true"></span><span class="btn-compare-link__lbl">Сравнение</span><i class="icon-right"></i><span class="btn-compare-link__badge" data-of="totalCount" data-toggle="visible" style="display: none;">0</span></a></li><li class="hide menu-item-wishlist"><a class="btn-wishlist-link  empty" href="/wishlist/index/" data-role="wishlist-btn-global" data-action="header-wishlist-link" data-state="default" data-sets="{&quot;default&quot;:{&quot;class&quot;:&quot;empty&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:false},&quot;active&quot;:{&quot;class&quot;:&quot;&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:true}}" data-switch="class"><span class="btn-wishlist-link__favorite-icon" aria-hidden="true"></span><span class="btn-wishlist-link__lbl">Избранное</span><i class="icon-right"></i><span class="btn-wishlist-link__badge" data-of="totalCount" data-toggle="visible" style="display: none;">0</span></a></li><span id="ajs-36f060c8-e7e1-4d76-878a-9ef3f9c6dcf1"></span><li class="menu-item-rsu"><a href="/custompc/user-pc/"><i class="icon-left"></i>Конфигуратор ПК<i class="icon-right"></i></a></li><li class="menu-item-actions"><a href="/actions/"><i class="icon-left"></i>Акции<i class="icon-right"></i></a></li><li class="hide menu-item-markdown"><!--googleoff: all--><!--noindex--><a href="/catalog/markdown/" rel="nofollow noopener"><i class="icon-left"></i>Уцененные товары<i class="icon-right"></i></a><!--/noindex--><!--googleon: all--></li><li class="hide menu-item-shops"><a href="/shops/vologda/"><i class="icon-left"></i>Магазины<i class="icon-right"></i></a></li><li class="menu-item-main"><a href="/"><i class="icon-left"></i>Главная страница<i class="icon-right"></i></a></li><li class="menu-item-corporative"><a href="/company-main/">Компания DNS</a></li><li class="menu-item-corporative"><a href="/feedback/">Обратная связь</a></li><li class="menu-item-corporative"><a href="/for-buyers/">Покупателям</a></li><li class="menu-item-corporative"><a href="/files/price/price-vologda.xls">Прайс-лист</a></li></ul></div></div></div><nav id="header-search" class="header-bottom slide"><div class="container"><div class="logo-container large-btn"><a id="header-logo" class="logo" href="/"></a><span id="tooltip-header-logo" hidden>Вернуться на главную страницу</span><span class="catalog-spoiler" data-menu-desktop-toggle><i class="chevron"></i></span></div><!--googleoff: all--><!--noindex--><form id="ue57e3191e64e47a0bb16caa20900c748" action="/search/" method="get" class="presearch" data-role="presearch-form"></form><div class="buttons"><a id="w24e4940d" class="btn-compare-link  empty" href="/catalog/product/compare/" data-role="compare-btn-global" data-action="header-compare-link" data-state="default" data-sets="{&quot;default&quot;:{&quot;class&quot;:&quot;empty&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:false},&quot;active&quot;:{&quot;class&quot;:&quot;&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:true}}" data-switch="class" rel="nofollow noopener"><span class="btn-compare-link__compare" aria-hidden="true"></span><span class="btn-compare-link__lbl">Сравнение</span><span class="btn-compare-link__badge" data-of="totalCount" data-toggle="visible" style="display: none;">0</span></a><a class="btn-wishlist-link  empty" href="/wishlist/index/" data-role="wishlist-btn-global" data-action="header-wishlist-link" data-state="default" data-sets="{&quot;default&quot;:{&quot;class&quot;:&quot;empty&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:false},&quot;active&quot;:{&quot;class&quot;:&quot;&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:true}}" data-switch="class" rel="nofollow noopener"><span class="btn-wishlist-link__favorite-icon" aria-hidden="true"></span><span class="btn-wishlist-link__lbl">Избранное</span><span class="btn-wishlist-link__badge" data-of="totalCount" data-toggle="visible" style="display: none;">0</span></a><a class="btn-cart-link btn-cart-link_empty" href="/order/begin/" data-sets="{&quot;default&quot;:{&quot;class&quot;:&quot;btn-cart-link_empty&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:false,&quot;totalPrice&quot;:&quot;\u041a\u043e\u0440\u0437\u0438\u043d\u0430&quot;},&quot;active&quot;:{&quot;class&quot;:&quot;&quot;,&quot;totalCount&quot;:0,&quot;visible&quot;:true,&quot;totalPrice&quot;:0}}" data-state="default" data-role="switched" data-id="cart-widget" data-switch="data-url:url; class" data-commerce-target="CART" rel="nofollow noopener"><span class="btn-cart-link__cart" aria-hidden="true"></span><span class="btn-cart-link__price"><span data-of="totalPrice">Корзина</span><i class="btn-cart-link__rub-icon" data-toggle="visible" style="display:none;"></i></span><span class="btn-cart-link__badge" data-toggle="visible" data-of="totalCount" style="display:none;">0</span></a></div><!--/noindex--><!--googleon: all--><div class="menu-desktop-wrap" data-menu-desktop-wrap><div class="menu-desktop-wrap__sub"><span id="ajs-8aeb2dc4-ccd2-48d0-923c-50ba931ac8ef" class="menu-desktop"></span></div></div></div></nav><a class="head-promo-mob-banner" href="/promo-page/blackfriday2019/" data-promo-banner="header_mob" data-promo-banner-name="Black_Friday_2019" data-promo-banner-id="d87141c7-20ad-463e-88b1-a04d1ceca451"><img src="/assets/d81e9b8a/images/theme/promo/black-friday/head-promo-mob-banner.jpg" alt=""></a></header>
+		<div class="container">
+					
+
+<div class="info-widget info-widget_warning info-widget__little info-widget_clamp" id="info-M5aPWLri" data-info-name="page-notification" data-role="info-widget">
+			<span class="info-widget__close" data-role="info-widget-close" data-parent-id="info-M5aPWLri"></span>
+		
+	<div class="info-widget__body" data-info-body data-clamp>
+		<div class="page-notification" data-page-notification-url="/pageNotification/page-notification/remember-close-notify/?notifyGuid=3cc03d2c-3d46-43c8-bcee-5a151d0d66dc"><p><strong>Уважаемые покупатели! С 29 ноября по 1 декабря в магазинах DNS и Технопоинт действует акция "УТИЛИЗАЦИЯ". Сдайте старую технику и получите СКИДКУ 10% на покупку новой! <a href="https://www.dns-shop.ru/news/523a71c2-0f92-11ea-a20c-00155d282116/">Поробнее</a></strong></p></div>	</div>
+</div>
+
+						
+	<ol class="breadcrumb" itemscope="http://schema.org/BreadcrumbList">
+					
+			<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+																			<span itemprop="item">DNS</span>
+													<meta itemprop="position" content="1"/>
+			</li>
+			</ol>
+		
+
+<h1 class="page-title">Магазины сети цифровой и бытовой техники DNS в России</h1>
+<div id="cities-container" class="cities-container" data-role="shop-cities-page">
+	<div id="city-letters" class="cities-letters">
+		<ul>
+			<li class="active">
+				<a class="letter" href="javascript:" data-letter="">Все</a>			</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="А">А</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Б">Б</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="В">В</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Г">Г</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Д">Д</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Е">Е</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Ж">Ж</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="З">З</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="И">И</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Й">Й</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="К">К</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Л">Л</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="М">М</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Н">Н</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="О">О</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="П">П</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Р">Р</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="С">С</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Т">Т</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="У">У</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Ф">Ф</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Х">Х</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Ч">Ч</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Ш">Ш</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Щ">Щ</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Э">Э</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Ю">Ю</a>				</li>
+							<li>
+					<a class="letter" href="javascript:" data-letter="Я">Я</a>				</li>
+					</ul>
+	</div>
+	<div id="districts" class="cities-districts">
+					<div class="cities">
+				<h2>Дальневосточный</h2>
+				<ul class="city-list">
+											<li data-city-letter="А">
+							<a href="/shops/Aginskoe/" title="Магазины DNS г. Агинское">Агинское</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/aldan/" title="Магазины DNS г. Алдан">Алдан</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/amursk/" title="Магазины DNS г. Амурск">Амурск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/aniva/" title="Магазины DNS г. Анива">Анива</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/arsenyev/" title="Магазины DNS г. Арсеньев">Арсеньев</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/artem/" title="Магазины DNS г. Артем">Артем</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belogorsk/" title="Магазины DNS г. Белогорск">Белогорск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bikin/" title="Магазины DNS г. Бикин">Бикин</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/birobidzhan/" title="Магазины DNS г. Биробиджан">Биробиджан</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/blagoveshensk/" title="Магазины DNS г. Благовещенск">Благовещенск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bolshoi-kamen/" title="Магазины DNS г. Большой Камень">Большой Камень</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/borzya/" title="Магазины DNS г. Борзя">Борзя</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vanino/" title="Магазины DNS г. Ванино">Ванино</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/viluysk/" title="Магазины DNS г. Вилюйск">Вилюйск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vladivostok/" title="Магазины DNS г. Владивосток">Владивосток</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/volno-nadezhdinskoe/" title="Магазины DNS г. Вольно-Надеждинское">Вольно-Надеждинское</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gusinoozersk/" title="Магазины DNS г. Гусиноозерск">Гусиноозерск</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dalnegorsk/" title="Магазины DNS г. Дальнегорск">Дальнегорск</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dalnerechensk/" title="Магазины DNS г. Дальнереченск">Дальнереченск</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dolinsk/" title="Магазины DNS г. Долинск">Долинск</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/Elizovo/" title="Магазины DNS г. Елизово">Елизово</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zabaikalsk/" title="Магазины DNS г. Забайкальск">Забайкальск</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zeya/" title="Магазины DNS г. Зея">Зея</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kavalerovo/" title="Магазины DNS г. Кавалерово">Кавалерово</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kamen-ribolov/" title="Магазины DNS г. Камень-Рыболов">Камень-Рыболов</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/komsomolsk-na-amure/" title="Магазины DNS г. Комсомольск-на-Амуре">Комсомольск-на-Амуре</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/korsakov/" title="Магазины DNS г. Корсаков">Корсаков</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnokamensk/" title="Магазины DNS г. Краснокаменск">Краснокаменск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kyahta/" title="Магазины DNS г. Кяхта">Кяхта</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lensk/" title="Магазины DNS г. Ленск">Ленск</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lesozavodsk/" title="Магазины DNS г. Лесозаводск">Лесозаводск</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lychegorsk/" title="Магазины DNS г. Лучегорск">Лучегорск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/magadan/" title="Магазины DNS г. Магадан">Магадан</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/magdagachi/" title="Магазины DNS г. Магдагачи">Магдагачи</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mirnii/" title="Магазины DNS г. Мирный">Мирный</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nakhodka/" title="Магазины DNS г. Находка">Находка</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nevelsk/" title="Магазины DNS г. Невельск">Невельск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nerjungri/" title="Магазины DNS г. Нерюнгри">Нерюнгри</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nignih-bestyah/" title="Магазины DNS г. Нижний Бестях">Нижний Бестях</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/Novobureiskii/" title="Магазины DNS г. Новобурейский">Новобурейский</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nogliki/" title="Магазины DNS г. Ноглики">Ноглики</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/oha/" title="Магазины DNS г. Оха">Оха</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/partizansk/" title="Магазины DNS г. Партизанск">Партизанск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pereaslavka/" title="Магазины DNS г. Переяславка">Переяславка</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/petropavlovsk-kamchatskiy/" title="Магазины DNS г. Петропавловск-Камчатский">Петропавловск-Камчатский</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pogranichniy/" title="Магазины DNS г. Пограничный">Пограничный</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pokrovka/" title="Магазины DNS г. Покровка">Покровка</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pokrovsk/" title="Магазины DNS г. Покровск">Покровск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/poronaisk/" title="Магазины DNS г. Поронайск">Поронайск</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/razdolnoye/" title="Магазины DNS г. Раздольное">Раздольное</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/raychikhinsk/" title="Магазины DNS г. Райчихинск">Райчихинск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/svobodnyj/" title="Магазины DNS г. Свободный">Свободный</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/severobaikalck/" title="Магазины DNS г. Северобайкальск">Северобайкальск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/Selenginsk/" title="Магазины DNS г. Селенгинск">Селенгинск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/serishevo/" title="Магазины DNS г. Серышево">Серышево</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/Skovorodino/" title="Магазины DNS г. Сковородино">Сковородино</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/slavyanka/" title="Магазины DNS г. Славянка">Славянка</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sovetskaya-gavan/" title="Магазины DNS г. Советская Гавань">Советская Гавань</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/solnecnyj-/" title="Магазины DNS г. Солнечный">Солнечный</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/spassk-dalnii/" title="Магазины DNS г. Спасск-Дальний">Спасск-Дальний</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tynda/" title="Магазины DNS г. Тында">Тында</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/Uglegorsk/" title="Магазины DNS г. Углегорск">Углегорск</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/ulan-ude/" title="Магазины DNS г. Улан-Удэ">Улан-Удэ</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/ussuriysk/" title="Магазины DNS г. Уссурийск">Уссурийск</a>						</li>
+											<li data-city-letter="Ф">
+							<a href="/shops/fokino/" title="Магазины DNS г. Фокино">Фокино</a>						</li>
+											<li data-city-letter="Х">
+							<a href="/shops/khabarovsk/" title="Магазины DNS г. Хабаровск">Хабаровск</a>						</li>
+											<li data-city-letter="Х">
+							<a href="/shops/holmsk/" title="Магазины DNS г. Холмск">Холмск</a>						</li>
+											<li data-city-letter="Х">
+							<a href="/shops/horol/" title="Магазины DNS г. Хороль">Хороль</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chernigovka/" title="Магазины DNS г. Черниговка">Черниговка</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/Chernyshevsk/" title="Магазины DNS г. Чернышевск">Чернышевск</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chita/" title="Магазины DNS г. Чита">Чита</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chuguevka/" title="Магазины DNS г. Чугуевка">Чугуевка</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shilka/" title="Магазины DNS г. Шилка">Шилка</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shimanovsk/" title="Магазины DNS г. Шимановск">Шимановск</a>						</li>
+											<li data-city-letter="Ю">
+							<a href="/shops/yuzhno-sakhalinsk/" title="Магазины DNS г. Южно-Сахалинск">Южно-Сахалинск</a>						</li>
+											<li data-city-letter="Я">
+							<a href="/shops/yakutsk/" title="Магазины DNS г. Якутск">Якутск</a>						</li>
+									</ul>
+			</div>
+					<div class="cities">
+				<h2>Приволжский</h2>
+				<ul class="city-list">
+											<li data-city-letter="А">
+							<a href="/shops/Abdulino/" title="Магазины DNS г. Абдулино">Абдулино</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/Agryz/" title="Магазины DNS г. Агрыз">Агрыз</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/aznakaevo/" title="Магазины DNS г. Азнакаево">Азнакаево</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/alatyr/" title="Магазины DNS г. Алатырь">Алатырь</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/almetevsk/" title="Магазины DNS г. Альметьевск">Альметьевск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/arzamas/" title="Магазины DNS г. Арзамас">Арзамас</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/arsk/" title="Магазины DNS г. Арск">Арск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/Atkarsk/" title="Магазины DNS г. Аткарск">Аткарск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bavly/" title="Магазины DNS г. Бавлы">Бавлы</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/balakovo/" title="Магазины DNS г. Балаково">Балаково</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/balahna/" title="Магазины DNS г. Балахна">Балахна</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/balashov/" title="Магазины DNS г. Балашов">Балашов</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bezencuk/" title="Магазины DNS г. Безенчук">Безенчук</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belaa-holunica/" title="Магазины DNS г. Белая Холуница">Белая Холуница</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belebei/" title="Магазины DNS г. Белебей">Белебей</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/beloreck/" title="Магазины DNS г. Белорецк">Белорецк</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/berezniki/" title="Магазины DNS г. Березники">Березники</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/berezovka/" title="Магазины DNS г. Березовка">Березовка</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/birsk/" title="Магазины DNS г. Бирск">Бирск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/blagovescensk/" title="Магазины DNS г. Благовещенск (Башкортостан)">Благовещенск (Башкортостан)</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bogorodsk/" title="Магазины DNS г. Богородск">Богородск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bor/" title="Магазины DNS г. Бор">Бор</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bugulma/" title="Магазины DNS г. Бугульма">Бугульма</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/Buguruslan/" title="Магазины DNS г. Бугуруслан">Бугуруслан</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/buzuluk/" title="Магазины DNS г. Бузулук">Бузулук</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/buinsk/" title="Магазины DNS г. Буинск">Буинск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vereshagino/" title="Магазины DNS г. Верещагино">Верещагино</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/volzhsk/" title="Магазины DNS г. Волжск">Волжск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/volsk/" title="Магазины DNS г. Вольск">Вольск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vorsma/" title="Магазины DNS г. Ворсма">Ворсма</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/votkins/" title="Магазины DNS г. Воткинск">Воткинск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vyksa/" title="Магазины DNS г. Выкса">Выкса</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vyatskiepolyani/" title="Магазины DNS г. Вятские Поляны">Вятские Поляны</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gay/" title="Магазины DNS г. Гай">Гай</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/glazov/" title="Магазины DNS г. Глазов">Глазов</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gorodec/" title="Магазины DNS г. Городец">Городец</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gubaha/" title="Магазины DNS г. Губаха">Губаха</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/davlekanovo/" title="Магазины DNS г. Давлеканово">Давлеканово</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dzhalil/" title="Магазины DNS г. Джалиль">Джалиль</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dzerginsk/" title="Магазины DNS г. Дзержинск">Дзержинск</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dimitrovgrad/" title="Магазины DNS г. Димитровград">Димитровград</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dobryanka/" title="Магазины DNS г. Добрянка">Добрянка</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/elabuga/" title="Магазины DNS г. Елабуга">Елабуга</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/ershov/" title="Магазины DNS г. Ершов">Ершов</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zavolzhe/" title="Магазины DNS г. Заволжье">Заволжье</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zainsk/" title="Магазины DNS г. Заинск">Заинск</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zarechniy/" title="Магазины DNS г. Заречный">Заречный</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zelenodolsk/" title="Магазины DNS г. Зеленодольск">Зеленодольск</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/izhevsk/" title="Магазины DNS г. Ижевск">Ижевск</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/ishimbaj/" title="Магазины DNS г. Ишимбай">Ишимбай</a>						</li>
+											<li data-city-letter="Й">
+							<a href="/shops/yoshkar-ola/" title="Магазины DNS г. Йошкар-Ола">Йошкар-Ола</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kazan/" title="Магазины DNS г. Казань">Казань</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kamenka/" title="Магазины DNS г. Каменка">Каменка</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kanash/" title="Магазины DNS г. Канаш">Канаш</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kinel/" title="Магазины DNS г. Кинель">Кинель</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kinel-cherkassy/" title="Магазины DNS г. Кинель-Черкассы">Кинель-Черкассы</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kirov/" title="Магазины DNS г. Киров">Киров</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kirovo-chepetsk/" title="Магазины DNS г. Кирово-Чепецк">Кирово-Чепецк</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kovernino/" title="Магазины DNS г. Ковернино">Ковернино</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kotelnich/" title="Магазины DNS г. Котельнич">Котельнич</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnoarmeysk/" title="Магазины DNS г. Красноармейск (Саратовская облать)">Красноармейск (Саратовская облать)</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnye-baki/" title="Магазины DNS г. Красные Баки">Красные Баки</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnyi+kut/" title="Магазины DNS г. Красный Кут">Красный Кут</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kstovo/" title="Магазины DNS г. Кстово">Кстово</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kyvandik/" title="Магазины DNS г. Кувандык">Кувандык</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kudymkar/" title="Магазины DNS г. Кудымкар">Кудымкар</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kyzneck/" title="Магазины DNS г. Кузнецк">Кузнецк</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kukmor/" title="Магазины DNS г. Кукмор">Кукмор</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kylebaki/" title="Магазины DNS г. Кулебаки">Кулебаки</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kumertau/" title="Магазины DNS г. Кумертау">Кумертау</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kungur/" title="Магазины DNS г. Кунгур">Кунгур</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kyshnarenkovo/" title="Магазины DNS г. Кушнаренково">Кушнаренково</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/Laishevo/" title="Магазины DNS г. Лаишево">Лаишево</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/leninogorsk/" title="Магазины DNS г. Лениногорск">Лениногорск</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lukoanov/" title="Магазины DNS г. Лукоянов">Лукоянов</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/liskovo/" title="Магазины DNS г. Лысково">Лысково</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lysva/" title="Магазины DNS г. Лысьва">Лысьва</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/Mamadysh/" title="Магазины DNS г. Мамадыш">Мамадыш</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/marks/" title="Магазины DNS г. Маркс">Маркс</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/meleuz/" title="Магазины DNS г. Мелеуз">Мелеуз</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mendeleevsk/" title="Магазины DNS г. Менделеевск">Менделеевск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/menzelinsk/" title="Магазины DNS г. Мензелинск">Мензелинск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mozhga/" title="Магазины DNS г. Можга">Можга</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mrakovo/" title="Магазины DNS г. Мраково">Мраково</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/naberezhnye-chelny/" title="Магазины DNS г. Набережные Челны">Набережные Челны</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/navashino/" title="Магазины DNS г. Навашино">Навашино</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/Neftegorsk/" title="Магазины DNS г. Нефтегорск">Нефтегорск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/neftekamsk/" title="Магазины DNS г. Нефтекамск">Нефтекамск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nizhnekamsk/" title="Магазины DNS г. Нижнекамск">Нижнекамск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nizhniy-novgorod/" title="Магазины DNS г. Нижний Новгород">Нижний Новгород</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novokuybishevsk/" title="Магазины DNS г. Новокуйбышевск">Новокуйбышевск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novosergievka/" title="Магазины DNS г. Новосергиевка">Новосергиевка</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novotroitsk/" title="Магазины DNS г. Новотроицк">Новотроицк</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novocheboksarsk/" title="Магазины DNS г. Новочебоксарск">Новочебоксарск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nolinsk/" title="Магазины DNS г. Нолинск">Нолинск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nurlate/" title="Магазины DNS г. Нурлат">Нурлат</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/oktyabrskiy/" title="Магазины DNS г. Октябрьский">Октябрьский</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/Omutninsk/" title="Магазины DNS г. Омутнинск">Омутнинск</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/orenburg/" title="Магазины DNS г. Оренбург">Оренбург</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/orsk/" title="Магазины DNS г. Орск">Орск</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/osa/" title="Магазины DNS г. Оса">Оса</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/otradniy/" title="Магазины DNS г. Отрадный">Отрадный</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pavlovo/" title="Магазины DNS г. Павлово">Павлово</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/penza/" title="Магазины DNS г. Пенза">Пенза</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pervomajsk/" title="Магазины DNS г. Первомайск">Первомайск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/perm/" title="Магазины DNS г. Пермь">Пермь</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/petrovsk/" title="Магазины DNS г. Петровск">Петровск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pohvistnevo/" title="Магазины DNS г. Похвистнево">Похвистнево</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pocinki/" title="Магазины DNS г. Починки">Починки</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/priyotovo/" title="Магазины DNS г. Приютово">Приютово</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pugachev/" title="Магазины DNS г. Пугачев">Пугачев</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/raevsky/" title="Магазины DNS г. Раевский">Раевский</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rtishevo/" title="Магазины DNS г. Ртищево">Ртищево</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/ruzaevka/" title="Магазины DNS г. Рузаевка">Рузаевка</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/salavat/" title="Магазины DNS г. Салават">Салават</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/samara/" title="Магазины DNS г. Самара">Самара</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/saraktash/" title="Магазины DNS г. Саракташ">Саракташ</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/saransk/" title="Магазины DNS г. Саранск">Саранск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sarapul/" title="Магазины DNS г. Сарапул">Сарапул</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/saratov/" title="Магазины DNS г. Саратов">Саратов</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sarov/" title="Магазины DNS г. Саров">Саров</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/semenov/" title="Магазины DNS г. Семенов">Семенов</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sergach/" title="Магазины DNS г. Сергач">Сергач</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/serdobsk/" title="Магазины DNS г. Сердобск">Сердобск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sibai/" title="Магазины DNS г. Сибай">Сибай</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sokolskoe/" title="Магазины DNS г. Сокольское">Сокольское</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/solikamsk/" title="Магазины DNS г. Соликамск">Соликамск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sol-iletsk/" title="Магазины DNS г. Соль-Илецк">Соль-Илецк</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sorochinsk/" title="Магазины DNS г. Сорочинск">Сорочинск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sosnovskoe/" title="Магазины DNS г. Сосновское">Сосновское</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sterlitamak/" title="Магазины DNS г. Стерлитамак">Стерлитамак</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/suhodol/" title="Магазины DNS г. Суходол">Суходол</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/syzran/" title="Магазины DNS г. Сызрань">Сызрань</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tolbazy/" title="Магазины DNS г. Толбазы">Толбазы</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tolyatti/" title="Магазины DNS г. Тольятти">Тольятти</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tujmazy/" title="Магазины DNS г. Туймазы">Туймазы</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/Uva/" title="Магазины DNS г. Ува">Ува</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/ulyanovsk/" title="Магазины DNS г. Ульяновск">Ульяновск</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/uren/" title="Магазины DNS г. Урень">Урень</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/ufa/" title="Магазины DNS г. Уфа">Уфа</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/uchaly/" title="Магазины DNS г. Учалы">Учалы</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/tchaikovsky/" title="Магазины DNS г. Чайковский">Чайковский</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chapaevsk/" title="Магазины DNS г. Чапаевск">Чапаевск</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/cheboksary/" title="Магазины DNS г. Чебоксары">Чебоксары</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chekmaguh/" title="Магазины DNS г. Чекмагуш">Чекмагуш</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chernushka/" title="Магазины DNS г. Чернушка">Чернушка</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chistopol/" title="Магазины DNS г. Чистополь">Чистополь</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chishmy/" title="Магазины DNS г. Чишмы">Чишмы</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chusovoi/" title="Магазины DNS г. Чусовой">Чусовой</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/satki/" title="Магазины DNS г. Шатки">Шатки</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shahunya/" title="Магазины DNS г. Шахунья">Шахунья</a>						</li>
+											<li data-city-letter="Э">
+							<a href="/shops/engels/" title="Магазины DNS г. Энгельс">Энгельс</a>						</li>
+											<li data-city-letter="Я">
+							<a href="/shops/yasnyj/" title="Магазины DNS г. Ясный">Ясный</a>						</li>
+									</ul>
+			</div>
+					<div class="cities">
+				<h2>Северо-Западный</h2>
+				<ul class="city-list">
+											<li data-city-letter="А">
+							<a href="/shops/apatity/" title="Магазины DNS г. Апатиты">Апатиты</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/arkh/" title="Магазины DNS г. Архангельск">Архангельск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/Bereznik/" title="Магазины DNS г. Березник">Березник</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/borovici/" title="Магазины DNS г. Боровичи">Боровичи</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/velikieluki/" title="Магазины DNS г. Великие Луки">Великие Луки</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/velikiy-novgorod/" title="Магазины DNS г. Великий Новгород">Великий Новгород</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/velikiy-ustug/" title="Магазины DNS г. Великий Устюг">Великий Устюг</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/velsk/" title="Магазины DNS г. Вельск">Вельск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vologda/" title="Магазины DNS г. Вологда">Вологда</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vorkuta/" title="Магазины DNS г. Воркута">Воркута</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vsevologsk/" title="Магазины DNS г. Всеволожск">Всеволожск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vyborg/" title="Магазины DNS г. Выборг">Выборг</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/Vytegra/" title="Магазины DNS г. Вытегра">Вытегра</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gatchina/" title="Магазины DNS г. Гатчина">Гатчина</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gryazovec/" title="Магазины DNS г. Грязовец">Грязовец</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/caduy/" title="Магазины DNS г. Кадуй">Кадуй</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kaliningrad/" title="Магазины DNS г. Калининград">Калининград</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kandalaksha/" title="Магазины DNS г. Кандалакша">Кандалакша</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kargopol/" title="Магазины DNS г. Каргополь">Каргополь</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kingisepp/" title="Магазины DNS г. Кингисепп">Кингисепп</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kirishi/" title="Магазины DNS г. Кириши">Кириши</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kirovk/" title="Магазины DNS г. Кировск">Кировск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kirovsk/" title="Магазины DNS г. Кировск (Мурманская область)">Кировск (Мурманская область)</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kichmenga+town/" title="Магазины DNS г. Кичменгский Городок">Кичменгский Городок</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kovdor_m/" title="Магазины DNS г. Ковдор">Ковдор</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kolpino/" title="Магазины DNS г. Колпино">Колпино</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kondopoga/" title="Магазины DNS г. Кондопога">Кондопога</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/konosha/" title="Магазины DNS г. Коноша">Коноша</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/koryagma/" title="Магазины DNS г. Коряжма">Коряжма</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kostomuksha/" title="Магазины DNS г. Костомукша">Костомукша</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kotlas/" title="Магазины DNS г. Котлас">Котлас</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kronshtadt/" title="Магазины DNS г. Кронштадт">Кронштадт</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lodeinoe+pole/" title="Магазины DNS г. Лодейное Поле">Лодейное Поле</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/Lomonosov/" title="Магазины DNS г. Ломоносов">Ломоносов</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/luga/" title="Магазины DNS г. Луга">Луга</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/metallostroy/" title="Магазины DNS г. Металлострой">Металлострой</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mirnyi/" title="Магазины DNS г. Мирный ЗАТО">Мирный ЗАТО</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/monchegorsk/" title="Магазины DNS г. Мончегорск">Мончегорск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/murmansk/" title="Магазины DNS г. Мурманск">Мурманск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/naryan+mar/" title="Магазины DNS г. Нарьян-Мар">Нарьян-Мар</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/Nikolsk+town/" title="Магазины DNS г. Никольск">Никольск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novodvinsk/" title="Магазины DNS г. Новодвинск">Новодвинск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/ndevyatkino/" title="Магазины DNS г. Новое Девяткино">Новое Девяткино</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nyandoma/" title="Магазины DNS г. Няндома">Няндома</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/Oktyabrsky/" title="Магазины DNS г. Октябрьский (Архангельская обл.)">Октябрьский (Архангельская обл.)</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/olenegorsk/" title="Магазины DNS г. Оленегорск">Оленегорск</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/onega/" title="Магазины DNS г. Онега">Онега</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/otradnoe/" title="Магазины DNS г. Отрадное">Отрадное</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/petrozavodsk/" title="Магазины DNS г. Петрозаводск">Петрозаводск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pecora/" title="Магазины DNS г. Печора">Печора</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/plesetsk/" title="Магазины DNS г. Плесецк">Плесецк</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/priozersk/" title="Магазины DNS г. Приозерск">Приозерск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pskov/" title="Магазины DNS г. Псков">Псков</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pudozh/" title="Магазины DNS г. Пудож">Пудож</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pushkin/" title="Магазины DNS г. Пушкин">Пушкин</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/Roshino/" title="Магазины DNS г. Рощино">Рощино</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/spb/" title="Магазины DNS г. Санкт-Петербург">Санкт-Петербург</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/svetlyj/" title="Магазины DNS г. Светлый">Светлый</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/severodvinsk/" title="Магазины DNS г. Северодвинск">Северодвинск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/severomorsk/" title="Магазины DNS г. Североморск">Североморск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/snegnogorsk/" title="Магазины DNS г. Снежногорск">Снежногорск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/Sovetsk/" title="Магазины DNS г. Советск">Советск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sokol/" title="Магазины DNS г. Сокол">Сокол</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sortavala/" title="Магазины DNS г. Сортавала">Сортавала</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/Sosnovy-Bor/" title="Магазины DNS г. Сосновый Бор">Сосновый Бор</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sosnogorsk/" title="Магазины DNS г. Сосногорск">Сосногорск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/staraya-russa/" title="Магазины DNS г. Старая Русса">Старая Русса</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/syktyvkar/" title="Магазины DNS г. Сыктывкар">Сыктывкар</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tihvin/" title="Магазины DNS г. Тихвин">Тихвин</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tosno/" title="Магазины DNS г. Тосно">Тосно</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/Totma/" title="Магазины DNS г. Тотьма">Тотьма</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/usinsk/" title="Магазины DNS г. Усинск">Усинск</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/uhta/" title="Магазины DNS г. Ухта">Ухта</a>						</li>
+											<li data-city-letter="Х">
+							<a href="/shops/Kholmogory/" title="Магазины DNS г. Холмогоры">Холмогоры</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/cherepovets/" title="Магазины DNS г. Череповец">Череповец</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chernyakhovsk/" title="Магазины DNS г. Черняховск">Черняховск</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/sheksna/" title="Магазины DNS г. Шексна">Шексна</a>						</li>
+									</ul>
+			</div>
+					<div class="cities">
+				<h2>Северо-Кавказский</h2>
+				<ul class="city-list">
+											<li data-city-letter="Б">
+							<a href="/shops/Baksan/" title="Магазины DNS г. Баксан">Баксан</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/budennovsk/" title="Магазины DNS г. Буденновск">Буденновск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/buynaksk/" title="Магазины DNS г. Буйнакск">Буйнакск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vladikavkaz/" title="Магазины DNS г. Владикавказ">Владикавказ</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/georgievsk/" title="Магазины DNS г. Георгиевск">Георгиевск</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/groznyi/" title="Магазины DNS г. Грозный">Грозный</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/derbent/" title="Магазины DNS г. Дербент">Дербент</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/essentuki/" title="Магазины DNS г. Ессентуки">Ессентуки</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/izberbash/" title="Магазины DNS г. Избербаш">Избербаш</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/izobilniy/" title="Магазины DNS г. Изобильный">Изобильный</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/karachaevsk/" title="Магазины DNS г. Карачаевск">Карачаевск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kaspiysk/" title="Магазины DNS г. Каспийск">Каспийск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kislovodsk/" title="Магазины DNS г. Кисловодск">Кисловодск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/makhachkala/" title="Магазины DNS г. Махачкала">Махачкала</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mineralnyevody/" title="Магазины DNS г. Минеральные Воды">Минеральные Воды</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mihailovsk/" title="Магазины DNS г. Михайловск">Михайловск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mozdok/" title="Магазины DNS г. Моздок">Моздок</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nazran/" title="Магазины DNS г. Назрань">Назрань</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nalchik/" title="Магазины DNS г. Нальчик">Нальчик</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nevinnomyssk/" title="Магазины DNS г. Невинномысск">Невинномысск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pyatigorsk/" title="Магазины DNS г. Пятигорск">Пятигорск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/stavropol/" title="Магазины DNS г. Ставрополь">Ставрополь</a>						</li>
+											<li data-city-letter="Х">
+							<a href="/shops/hacavurt/" title="Магазины DNS г. Хасавюрт">Хасавюрт</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/cherkessk/" title="Магазины DNS г. Черкесск">Черкесск</a>						</li>
+									</ul>
+			</div>
+					<div class="cities">
+				<h2>Сибирский</h2>
+				<ul class="city-list">
+											<li data-city-letter="А">
+							<a href="/shops/abakan/" title="Магазины DNS г. Абакан">Абакан</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/aleisk/" title="Магазины DNS г. Алейск">Алейск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/Altaiskoe/" title="Магазины DNS г. Алтайское">Алтайское</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/angarsk/" title="Магазины DNS г. Ангарск">Ангарск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/anzhero-sudzhensk/" title="Магазины DNS г. Анжеро–Судженск">Анжеро–Судженск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/asino/" title="Магазины DNS г. Асино">Асино</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/achinsk/" title="Магазины DNS г. Ачинск">Ачинск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/barabinsk/" title="Магазины DNS г. Барабинск">Барабинск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/barnaul/" title="Магазины DNS г. Барнаул">Барнаул</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belovo/" title="Магазины DNS г. Белово">Белово</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belokurikha/" title="Магазины DNS г. Белокуриха">Белокуриха</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/berdsk/" title="Магазины DNS г. Бердск">Бердск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/berezovskiu/" title="Магазины DNS г. Березовский (Кемеровская область)">Березовский (Кемеровская область)</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/biysk/" title="Магазины DNS г. Бийск">Бийск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/Blagoveschenka/" title="Магазины DNS г. Благовещенка">Благовещенка</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/Bolshereche/" title="Магазины DNS г. Большеречье">Большеречье</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bohan/" title="Магазины DNS г. Бохан">Бохан</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bratsk/" title="Магазины DNS г. Братск">Братск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vihorevka/" title="Магазины DNS г. Вихоревка">Вихоревка</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gorno-altaysk/" title="Магазины DNS г. Горно-Алтайск">Горно-Алтайск</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gornyak/" title="Магазины DNS г. Горняк">Горняк</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gurevsk/" title="Магазины DNS г. Гурьевск">Гурьевск</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/divnogorsk/" title="Магазины DNS г. Дивногорск">Дивногорск</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dudinka/" title="Магазины DNS г. Дудинка">Дудинка</a>						</li>
+											<li data-city-letter="Ж">
+							<a href="/shops/zheleznogorsk-kr/" title="Магазины DNS г. Железногорск (Красноярский край)">Железногорск (Красноярский край)</a>						</li>
+											<li data-city-letter="Ж">
+							<a href="/shops/zheleznogorsk-ilim/" title="Магазины DNS г. Железногорск-Илимский">Железногорск-Илимский</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zarinsk/" title="Магазины DNS г. Заринск">Заринск</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zelenogorsk/" title="Магазины DNS г. Зеленогорск">Зеленогорск</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zima/" title="Магазины DNS г. Зима">Зима</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/irkutsk/" title="Магазины DNS г. Иркутск">Иркутск</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/isilkul/" title="Магазины DNS г. Исилькуль">Исилькуль</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/iskitim/" title="Магазины DNS г. Искитим">Искитим</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kalachinsk/" title="Магазины DNS г. Калачинск">Калачинск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kaltan/" title="Магазины DNS г. Калтан">Калтан</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kamen-na-obi/" title="Магазины DNS г. Камень на Оби">Камень на Оби</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kansk/" title="Магазины DNS г. Канск">Канск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/karasuk/" title="Магазины DNS г. Карасук">Карасук</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kemerovo/" title="Магазины DNS г. Кемерово">Кемерово</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kiselevsk/" title="Магазины DNS г. Киселевск">Киселевск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kolpashevo/" title="Магазины DNS г. Колпашево">Колпашево</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kolivan/" title="Магазины DNS г. Колывань">Колывань</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/koltsovo/" title="Магазины DNS г. Кольцово">Кольцово</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Kochenevo/" title="Магазины DNS г. Коченево">Коченево</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Krasnobrodskii/" title="Магазины DNS г. Краснобродский">Краснобродский</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnoobsk/" title="Магазины DNS г. Краснообск">Краснообск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnoyarsk/" title="Магазины DNS г. Красноярск">Красноярск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kuibyshev/" title="Магазины DNS г. Куйбышев">Куйбышев</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kulunda/" title="Магазины DNS г. Кулунда">Кулунда</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kupino/" title="Магазины DNS г. Купино">Купино</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kyzyl/" title="Магазины DNS г. Кызыл">Кызыл</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/leninsk-kuznetskiy/" title="Магазины DNS г. Ленинск-Кузнецкий">Ленинск-Кузнецкий</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lesosibirsk/" title="Магазины DNS г. Лесосибирск">Лесосибирск</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/linevo/" title="Магазины DNS г. Линёво">Линёво</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lybinskiy/" title="Магазины DNS г. Любинский">Любинский</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mariinsk/" title="Магазины DNS г. Мариинск">Мариинск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/Maslyanino/" title="Магазины DNS г. Маслянино">Маслянино</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mezhdurechensk/" title="Магазины DNS г. Междуреченск">Междуреченск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mel%27nikovo/" title="Магазины DNS г. Мельниково">Мельниково</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/minusinsk/" title="Магазины DNS г. Минусинск">Минусинск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/moshkovo/" title="Магазины DNS г. Мошково">Мошково</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/myski/" title="Магазины DNS г. Мыски">Мыски</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nazarovo/" title="Магазины DNS г. Назарово">Назарово</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novoaltaysk/" title="Магазины DNS г. Новоалтайск">Новоалтайск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novokuznetsk/" title="Магазины DNS г. Новокузнецк">Новокузнецк</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novosibirsk/" title="Магазины DNS г. Новосибирск">Новосибирск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/norilsk/" title="Магазины DNS г. Норильск">Норильск</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/Ob%27/" title="Магазины DNS г. Обь">Обь</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/omsk/" title="Магазины DNS г. Омск">Омск</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/ordynskoe/" title="Магазины DNS г. Ордынское">Ордынское</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/osinniki/" title="Магазины DNS г. Осинники">Осинники</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pavlovsk2/" title="Магазины DNS г. Павловск (Алтайский край)">Павловск (Алтайский край)</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/posylaevo/" title="Магазины DNS г. Полысаево">Полысаево</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pospeliha/" title="Магазины DNS г. Поспелиха">Поспелиха</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/prokopievsk/" title="Магазины DNS г. Прокопьевск">Прокопьевск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/promishlennaya/" title="Магазины DNS г. Промышленная">Промышленная</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rubtsovsk/" title="Магазины DNS г. Рубцовск">Рубцовск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sayanogorsk/" title="Магазины DNS г. Саяногорск">Саяногорск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sayansk/" title="Магазины DNS г. Саянск">Саянск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/seversk/" title="Магазины DNS г. Северск">Северск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/slavgorod/" title="Магазины DNS г. Славгород">Славгород</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sludyanka/" title="Магазины DNS г. Слюдянка">Слюдянка</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sosnovoborsk/" title="Магазины DNS г. Сосновоборск">Сосновоборск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/stregevoi/" title="Магазины DNS г. Стрежевой">Стрежевой</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/suzun/" title="Магазины DNS г. Сузун">Сузун</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/taiga/" title="Магазины DNS г. Тайга">Тайга</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/taishet/" title="Магазины DNS г. Тайшет">Тайшет</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/talmenka/" title="Магазины DNS г. Тальменка">Тальменка</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tara/" title="Магазины DNS г. Тара">Тара</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tatarsk/" title="Магазины DNS г. Татарск">Татарск</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tashtagol/" title="Магазины DNS г. Таштагол">Таштагол</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/toguchin/" title="Магазины DNS г. Тогучин">Тогучин</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tomsk/" title="Магазины DNS г. Томск">Томск</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/topki/" title="Магазины DNS г. Топки">Топки</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tulun/" title="Магазины DNS г. Тулун">Тулун</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tyukalinsk/" title="Магазины DNS г. Тюкалинск">Тюкалинск</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/%D0%A3%D0%B6%D1%83%D1%80/" title="Магазины DNS г. Ужур">Ужур</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/usolie-sibirskoe/" title="Магазины DNS г. Усолье-Сибирское">Усолье-Сибирское</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/ust-ilimsk/" title="Магазины DNS г. Усть-Илимск">Усть-Илимск</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/ust-kut/" title="Магазины DNS г. Усть-Кут">Усть-Кут</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/Ust-Ordynskiy/" title="Магазины DNS г. Усть-Ордынский">Усть-Ордынский</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/cheremhovo/" title="Магазины DNS г. Черемхово">Черемхово</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/cherepanovo/" title="Магазины DNS г. Черепаново">Черепаново</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/Cherlak/" title="Магазины DNS г. Черлак">Черлак</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chernogorsk/" title="Магазины DNS г. Черногорск">Черногорск</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/Chunsky/" title="Магазины DNS г. Чунский">Чунский</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/sharypovo/" title="Магазины DNS г. Шарыпово">Шарыпово</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shelehov/" title="Магазины DNS г. Шелехов">Шелехов</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/Shipunovo/" title="Магазины DNS г. Шипуново">Шипуново</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shushenskoye/" title="Магазины DNS г. Шушенское">Шушенское</a>						</li>
+											<li data-city-letter="Ю">
+							<a href="/shops/yurga/" title="Магазины DNS г. Юрга">Юрга</a>						</li>
+											<li data-city-letter="Я">
+							<a href="/shops/yashkino/" title="Магазины DNS г. Яшкино">Яшкино</a>						</li>
+									</ul>
+			</div>
+					<div class="cities">
+				<h2>Уральский</h2>
+				<ul class="city-list">
+											<li data-city-letter="А">
+							<a href="/shops/alapaevsk/" title="Магазины DNS г. Алапаевск">Алапаевск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/artemovsky/" title="Магазины DNS г. Артемовский">Артемовский</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/asbest/" title="Магазины DNS г. Асбест">Асбест</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/asha/" title="Магазины DNS г. Аша">Аша</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bakal/" title="Магазины DNS г. Бакал">Бакал</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/beloyarskii/" title="Магазины DNS г. Белоярский">Белоярский</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/berezovskiy/" title="Магазины DNS г. Берёзовский (Свердловская область)">Берёзовский (Свердловская область)</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bogdanovich/" title="Магазины DNS г. Богданович">Богданович</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/verhniyufaley/" title="Магазины DNS г. Верхний Уфалей">Верхний Уфалей</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/verhnjaja-pyshma/" title="Магазины DNS г. Верхняя Пышма">Верхняя Пышма</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/verhnyayasalda/" title="Магазины DNS г. Верхняя Салда">Верхняя Салда</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/golyshmanovo/" title="Магазины DNS г. Голышманово">Голышманово</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gubkinskiy/" title="Магазины DNS г. Губкинский">Губкинский</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/degtyrsk/" title="Магазины DNS г. Дегтярск">Дегтярск</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/ekaterinburg/" title="Магазины DNS г. Екатеринбург">Екатеринбург</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/emanjelinsk/" title="Магазины DNS г. Еманжелинск">Еманжелинск</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zavodoukovsk/" title="Магазины DNS г. Заводоуковск">Заводоуковск</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zarechniu/" title="Магазины DNS г. Заречный (Свердловская область)">Заречный (Свердловская область)</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zlatoust/" title="Магазины DNS г. Златоуст">Златоуст</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/irbit/" title="Магазины DNS г. Ирбит">Ирбит</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/isetskoeii/" title="Магазины DNS г. Исетское">Исетское</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/ishim/" title="Магазины DNS г. Ишим">Ишим</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kamensk-uralskiy/" title="Магазины DNS г. Каменск-Уральский">Каменск-Уральский</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kamyslov/" title="Магазины DNS г. Камышлов">Камышлов</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/karpinsk/" title="Магазины DNS г. Карпинск">Карпинск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kartali/" title="Магазины DNS г. Карталы">Карталы</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kasli/" title="Магазины DNS г. Касли">Касли</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/katav-ivanovsk/" title="Магазины DNS г. Катав-Ивановск">Катав-Ивановск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kachkanar/" title="Магазины DNS г. Качканар">Качканар</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kogalim/" title="Магазины DNS г. Когалым">Когалым</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kopeysk/" title="Магазины DNS г. Копейск">Копейск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/korkino/" title="Магазины DNS г. Коркино">Коркино</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnoturinsk/" title="Магазины DNS г. Краснотурьинск">Краснотурьинск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnoufimsk/" title="Магазины DNS г. Красноуфимск">Красноуфимск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kurgan/" title="Магазины DNS г. Курган">Курган</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kusa/" title="Магазины DNS г. Куса">Куса</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kyshtym/" title="Магазины DNS г. Кыштым">Кыштым</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/langepas/" title="Магазины DNS г. Лангепас">Лангепас</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lesnoi/" title="Магазины DNS г. Лесной">Лесной</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lyantor/" title="Магазины DNS г. Лянтор">Лянтор</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/magnitogorsk/" title="Магазины DNS г. Магнитогорск">Магнитогорск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/megion/" title="Магазины DNS г. Мегион">Мегион</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mesyagutovo/" title="Магазины DNS г. Месягутово">Месягутово</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/miass/" title="Магазины DNS г. Миасс">Миасс</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/muravlenko/" title="Магазины DNS г. Муравленко">Муравленко</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nadym/" title="Магазины DNS г. Надым">Надым</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nefteyugansk/" title="Магазины DNS г. Нефтеюганск">Нефтеюганск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nijnevartovsk/" title="Магазины DNS г. Нижневартовск">Нижневартовск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nizhniy-tagil/" title="Магазины DNS г. Нижний Тагил">Нижний Тагил</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novouralsk/" title="Магазины DNS г. Новоуральск">Новоуральск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novyj-urengoy/" title="Магазины DNS г. Новый Уренгой">Новый Уренгой</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/noyabrsk/" title="Магазины DNS г. Ноябрьск">Ноябрьск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/njagan/" title="Магазины DNS г. Нягань">Нягань</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nyazepetrovske/" title="Магазины DNS г. Нязепетровск">Нязепетровск</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/ozersk/" title="Магазины DNS г. Озерск">Озерск</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/ocher/" title="Магазины DNS г. Очер">Очер</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pervouralsk/" title="Магазины DNS г. Первоуральск">Первоуральск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/plast/" title="Магазины DNS г. Пласт">Пласт</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pokachi/" title="Магазины DNS г. Покачи">Покачи</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/polevskoi/" title="Магазины DNS г. Полевской">Полевской</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pyt-yah/" title="Магазины DNS г. Пыть-Ях">Пыть-Ях</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/raduzhnyi/" title="Магазины DNS г. Радужный">Радужный</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/revda/" title="Магазины DNS г. Ревда">Ревда</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rezh/" title="Магазины DNS г. Реж">Реж</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/salekhard/" title="Магазины DNS г. Салехард">Салехард</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/satka/" title="Магазины DNS г. Сатка">Сатка</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/severouralsk/" title="Магазины DNS г. Североуральск">Североуральск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/serov/" title="Магазины DNS г. Серов">Серов</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/snezhinsk/" title="Магазины DNS г. Снежинск">Снежинск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sovetskiy/" title="Магазины DNS г. Советский">Советский</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sredneuralsk/" title="Магазины DNS г. Среднеуральск">Среднеуральск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/surgut/" title="Магазины DNS г. Сургут">Сургут</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sukhoilog/" title="Магазины DNS г. Сухой Лог">Сухой Лог</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tavda/" title="Магазины DNS г. Тавда">Тавда</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tarko-sale/" title="Магазины DNS г. Тарко-Сале">Тарко-Сале</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tobolsk/" title="Магазины DNS г. Тобольск">Тобольск</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/trjohgornyj/" title="Магазины DNS г. Трехгорный">Трехгорный</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/troick/" title="Магазины DNS г. Троицк (Челябинская область)">Троицк (Челябинская область)</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/turinsk/" title="Магазины DNS г. Туринск">Туринск</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tumen/" title="Магазины DNS г. Тюмень">Тюмень</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/urai/" title="Магазины DNS г. Урай">Урай</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/ustkatav/" title="Магазины DNS г. Усть-Катав">Усть-Катав</a>						</li>
+											<li data-city-letter="Ф">
+							<a href="/shops/fedorovsky/" title="Магазины DNS г. Фёдоровский">Фёдоровский</a>						</li>
+											<li data-city-letter="Х">
+							<a href="/shops/hanty-mansijsk/" title="Магазины DNS г. Ханты-Мансийск">Ханты-Мансийск</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chebarkul/" title="Магазины DNS г. Чебаркуль">Чебаркуль</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chelyabinsk/" title="Магазины DNS г. Челябинск">Челябинск</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shadrinsk/" title="Магазины DNS г. Шадринск">Шадринск</a>						</li>
+											<li data-city-letter="Ю">
+							<a href="/shops/jugorsk/" title="Магазины DNS г. Югорск">Югорск</a>						</li>
+											<li data-city-letter="Ю">
+							<a href="/shops/uzhnouralsk/" title="Магазины DNS г. Южноуральск">Южноуральск</a>						</li>
+											<li data-city-letter="Я">
+							<a href="/shops/yalutorovsk/" title="Магазины DNS г. Ялуторовск">Ялуторовск</a>						</li>
+									</ul>
+			</div>
+					<div class="cities">
+				<h2>Центральный</h2>
+				<ul class="city-list">
+											<li data-city-letter="А">
+							<a href="/shops/aleksandrov/" title="Магазины DNS г. Александров">Александров</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/alekseevka/" title="Магазины DNS г. Алексеевка">Алексеевка</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/aleksin/" title="Магазины DNS г. Алексин">Алексин</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/aprelevka/" title="Магазины DNS г. Апрелевка">Апрелевка</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/balashiha/" title="Магазины DNS г. Балашиха">Балашиха</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bezhetsk+bez/" title="Магазины DNS г. Бежецк">Бежецк</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belgorod/" title="Магазины DNS г. Белгород">Белгород</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bogoroditsk/" title="Магазины DNS г. Богородицк">Богородицк</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bologoe/" title="Магазины DNS г. Бологое">Бологое</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/borisoglebsk/" title="Магазины DNS г. Борисоглебск">Борисоглебск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bryansk/" title="Магазины DNS г. Брянск">Брянск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bui/" title="Магазины DNS г. Буй">Буй</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/buturlinovka/" title="Магазины DNS г. Бутурлиновка">Бутурлиновка</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/valdaj/" title="Магазины DNS г. Валдай">Валдай</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/valuiki-belgorod/" title="Магазины DNS г. Валуйки">Валуйки</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vichuga/" title="Магазины DNS г. Вичуга">Вичуга</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vladimir/" title="Магазины DNS г. Владимир">Владимир</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/voronezh/" title="Магазины DNS г. Воронеж">Воронеж</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/voskresensk/" title="Магазины DNS г. Воскресенск">Воскресенск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vvolochek/" title="Магазины DNS г. Вышний Волочёк">Вышний Волочёк</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vyazniki/" title="Магазины DNS г. Вязники">Вязники</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/vyazma/" title="Магазины DNS г. Вязьма">Вязьма</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gagarin/" title="Магазины DNS г. Гагарин">Гагарин</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/galich/" title="Магазины DNS г. Галич">Галич</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/golicyno/" title="Магазины DNS г. Голицыно">Голицыно</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gorokhovets/" title="Магазины DNS г. Гороховец">Гороховец</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gryazi/" title="Магазины DNS г. Грязи">Грязи</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gubkin/" title="Магазины DNS г. Губкин">Губкин</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gus-hrustalnyj/" title="Магазины DNS г. Гусь-Хрустальный">Гусь-Хрустальный</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/danilov/" title="Магазины DNS г. Данилов">Данилов</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dedovsk/" title="Магазины DNS г. Дедовск">Дедовск</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/desnogorsk/" title="Магазины DNS г. Десногорск">Десногорск</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/Dzerzhinsky/" title="Магазины DNS г. Дзержинский">Дзержинский</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dmitrov/" title="Магазины DNS г. Дмитров">Дмитров</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/domodedovo/" title="Магазины DNS г. Домодедово">Домодедово</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/donskoi/" title="Магазины DNS г. Донской">Донской</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dubna/" title="Магазины DNS г. Дубна">Дубна</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/datkovo/" title="Магазины DNS г. Дятьково">Дятьково</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/egorevsk/" title="Магазины DNS г. Егорьевск">Егорьевск</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/elets/" title="Магазины DNS г. Елец">Елец</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/efremov/" title="Магазины DNS г. Ефремов">Ефремов</a>						</li>
+											<li data-city-letter="Ж">
+							<a href="/shops/zheleznogorsk-kursk/" title="Магазины DNS г. Железногорск">Железногорск</a>						</li>
+											<li data-city-letter="Ж">
+							<a href="/shops/zhukovka/" title="Магазины DNS г. Жуковка">Жуковка</a>						</li>
+											<li data-city-letter="Ж">
+							<a href="/shops/zhukovskiy/" title="Магазины DNS г. Жуковский">Жуковский</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zelenograd/" title="Магазины DNS г. Зеленоград">Зеленоград</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/ivanovo/" title="Магазины DNS г. Иваново">Иваново</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/istra/" title="Магазины DNS г. Истра">Истра</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kalach/" title="Магазины DNS г. Калач">Калач</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kaluga/" title="Магазины DNS г. Калуга">Калуга</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Karabanovo/" title="Магазины DNS г. Карабаново">Карабаново</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/karachev/" title="Магазины DNS г. Карачев">Карачев</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kasimov/" title="Магазины DNS г. Касимов">Касимов</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kachira/" title="Магазины DNS г. Кашира">Кашира</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kimry/" title="Магазины DNS г. Кимры">Кимры</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kineshma/" title="Магазины DNS г. Кинешма">Кинешма</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kireevsk/" title="Магазины DNS г. Киреевск">Киреевск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kirzhach/" title="Магазины DNS г. Киржач">Киржач</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kirov_kaluj/" title="Магазины DNS г. Киров (Калужская обл.)">Киров (Калужская обл.)</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/klin/" title="Магазины DNS г. Клин">Клин</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/klincy-bryansk/" title="Магазины DNS г. Клинцы">Клинцы</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kovrov/" title="Магазины DNS г. Ковров">Ковров</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kolomna/" title="Магазины DNS г. Коломна">Коломна</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kolchugino/" title="Магазины DNS г. Кольчугино">Кольчугино</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/komsomolsk/" title="Магазины DNS г. Комсомольск">Комсомольск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/konakovo+kon+konak/" title="Магазины DNS г. Конаково">Конаково</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/korolev/" title="Магазины DNS г. Королёв">Королёв</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/koroca/" title="Магазины DNS г. Короча">Короча</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kostroma/" title="Магазины DNS г. Кострома">Кострома</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/Krasnaya-Gorbatka/" title="Магазины DNS г. Красная Горбатка">Красная Горбатка</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnogorsk/" title="Магазины DNS г. Красногорск">Красногорск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnoznamensk/" title="Магазины DNS г. Краснознаменск">Краснознаменск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kursk/" title="Магазины DNS г. Курск">Курск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kurchatov/" title="Магазины DNS г. Курчатов">Курчатов</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lakinsk/" title="Магазины DNS г. Лакинск">Лакинск</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/livny/" title="Магазины DNS г. Ливны">Ливны</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lipetsk/" title="Магазины DNS г. Липецк">Липецк</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/liski/" title="Магазины DNS г. Лиски">Лиски</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lobnya/" title="Магазины DNS г. Лобня">Лобня</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/Lukhovitsy/" title="Магазины DNS г. Луховицы">Луховицы</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lytkarino/" title="Магазины DNS г. Лыткарино">Лыткарино</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lyubertsi/" title="Магазины DNS г. Люберцы">Люберцы</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/lyudinovo/" title="Магазины DNS г. Людиново">Людиново</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/malakhovka/" title="Магазины DNS г. Малаховка">Малаховка</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/maloyaroslavec/" title="Магазины DNS г. Малоярославец">Малоярославец</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/manturovo/" title="Магазины DNS г. Мантурово">Мантурово</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/Melenki/" title="Магазины DNS г. Меленки">Меленки</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/michurinsk/" title="Магазины DNS г. Мичуринск">Мичуринск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mozajsk/" title="Магазины DNS г. Можайск">Можайск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/morshansk/" title="Магазины DNS г. Моршанск">Моршанск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/moscow/" title="Магазины DNS г. Москва">Москва</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/murom/" title="Магазины DNS г. Муром">Муром</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/Mtsensk/" title="Магазины DNS г. Мценск">Мценск</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mytishi/" title="Магазины DNS г. Мытищи">Мытищи</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/naro-fominsk/" title="Магазины DNS г. Наро-Фоминск">Наро-Фоминск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nahabino/" title="Магазины DNS г. Нахабино">Нахабино</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nerexta/" title="Магазины DNS г. Нерехта">Нерехта</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novaya_usman/" title="Магазины DNS г. Новая Усмань">Новая Усмань</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novovoronezh/" title="Магазины DNS г. Нововоронеж">Нововоронеж</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novozibkov-bryansk/" title="Магазины DNS г. Новозыбков">Новозыбков</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novomoskovsk/" title="Магазины DNS г. Новомосковск">Новомосковск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/noviyoskol/" title="Магазины DNS г. Новый Оскол">Новый Оскол</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/noginsk/" title="Магазины DNS г. Ногинск">Ногинск</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/obninsk/" title="Магазины DNS г. Обнинск">Обнинск</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/odintsovo/" title="Магазины DNS г. Одинцово">Одинцово</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/orekhovo-zuevo/" title="Магазины DNS г. Орехово-Зуево">Орехово-Зуево</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/orel/" title="Магазины DNS г. Орёл">Орёл</a>						</li>
+											<li data-city-letter="О">
+							<a href="/shops/ostrogozhsk/" title="Магазины DNS г. Острогожск">Острогожск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pavlovsk/" title="Магазины DNS г. Павловск">Павловск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pavlovskiy-posad/" title="Магазины DNS г. Павловский Посад">Павловский Посад</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pereslavl-zalesskii/" title="Магазины DNS г. Переславль-Залесский">Переславль-Залесский</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/podolsk/" title="Магазины DNS г. Подольск">Подольск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/Pokrov/" title="Магазины DNS г. Покров">Покров</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pochep/" title="Магазины DNS г. Почеп">Почеп</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/protvino/" title="Магазины DNS г. Протвино">Протвино</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pushkino/" title="Магазины DNS г. Пушкино">Пушкино</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/raduzhny/" title="Магазины DNS г. Радужный (Владимирская область)">Радужный (Владимирская область)</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/ramenskoe/" title="Магазины DNS г. Раменское">Раменское</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rasskazovo/" title="Магазины DNS г. Рассказово">Рассказово</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/reutov/" title="Магазины DNS г. Реутов">Реутов</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rzhev/" title="Магазины DNS г. Ржев">Ржев</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rodniki/" title="Магазины DNS г. Родники">Родники</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/roslavl/" title="Магазины DNS г. Рославль">Рославль</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rossosh/" title="Магазины DNS г. Россошь">Россошь</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rostov/" title="Магазины DNS г. Ростов">Ростов</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/ruza/" title="Магазины DNS г. Руза">Руза</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rybinsk/" title="Магазины DNS г. Рыбинск">Рыбинск</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/ryazan/" title="Магазины DNS г. Рязань">Рязань</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/safonovo/" title="Магазины DNS г. Сафоново">Сафоново</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/segeja/" title="Магазины DNS г. Сегежа">Сегежа</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/selaytino/" title="Магазины DNS г. Селятино">Селятино</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/semiluki/" title="Магазины DNS г. Семилуки">Семилуки</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sergiev-posad/" title="Магазины DNS г. Сергиев Посад">Сергиев Посад</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/serpuhov/" title="Магазины DNS г. Серпухов">Серпухов</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/skopin/" title="Магазины DNS г. Скопин">Скопин</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/smolensk/" title="Магазины DNS г. Смоленск">Смоленск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sobinka/" title="Магазины DNS г. Собинка">Собинка</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/solnechnogorsk/" title="Магазины DNS г. Солнечногорск">Солнечногорск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/staraya-kupavna/" title="Магазины DNS г. Старая Купавна">Старая Купавна</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/starodub/" title="Магазины DNS г. Стародуб">Стародуб</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/stariyoskol/" title="Магазины DNS г. Старый Оскол">Старый Оскол</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/stroitel/" title="Магазины DNS г. Строитель">Строитель</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sudogda/" title="Магазины DNS г. Судогда">Судогда</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/taldom/" title="Магазины DNS г. Талдом">Талдом</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tambov/" title="Магазины DNS г. Тамбов">Тамбов</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tver/" title="Магазины DNS г. Тверь">Тверь</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/teikovo/" title="Магазины DNS г. Тейково">Тейково</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/torzok/" title="Магазины DNS г. Торжок">Торжок</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/troitsk/" title="Магазины DNS г. Троицк">Троицк</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tula/" title="Магазины DNS г. Тула">Тула</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tutaev/" title="Магазины DNS г. Тутаев">Тутаев</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/uglich/" title="Магазины DNS г. Углич">Углич</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/udomlya/" title="Магазины DNS г. Удомля">Удомля</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/uzlovaya/" title="Магазины DNS г. Узловая">Узловая</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/unecha/" title="Магазины DNS г. Унеча">Унеча</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/usman/" title="Магазины DNS г. Усмань">Усмань</a>						</li>
+											<li data-city-letter="Ф">
+							<a href="/shops/fryazino/" title="Магазины DNS г. Фрязино">Фрязино</a>						</li>
+											<li data-city-letter="Ф">
+							<a href="/shops/furmanov/" title="Магазины DNS г. Фурманов">Фурманов</a>						</li>
+											<li data-city-letter="Х">
+							<a href="/shops/khotkovo/" title="Магазины DNS г. Хотьково">Хотьково</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/chehov/" title="Магазины DNS г. Чехов">Чехов</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/sharya/" title="Магазины DNS г. Шарья">Шарья</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shatura/" title="Магазины DNS г. Шатура">Шатура</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shebekino-belgorodskaya/" title="Магазины DNS г. Шебекино">Шебекино</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shuya/" title="Магазины DNS г. Шуя">Шуя</a>						</li>
+											<li data-city-letter="Щ">
+							<a href="/shops/schelkovo/" title="Магазины DNS г. Щелково">Щелково</a>						</li>
+											<li data-city-letter="Щ">
+							<a href="/shops/sherbinka/" title="Магазины DNS г. Щербинка">Щербинка</a>						</li>
+											<li data-city-letter="Щ">
+							<a href="/shops/shchyokino/" title="Магазины DNS г. Щёкино">Щёкино</a>						</li>
+											<li data-city-letter="Э">
+							<a href="/shops/electrogorsk/" title="Магазины DNS г. Электрогорск">Электрогорск</a>						</li>
+											<li data-city-letter="Э">
+							<a href="/shops/electrostal/" title="Магазины DNS г. Электросталь">Электросталь</a>						</li>
+											<li data-city-letter="Э">
+							<a href="/shops/Elektrostal/" title="Магазины DNS г. Электроугли">Электроугли</a>						</li>
+											<li data-city-letter="Ю">
+							<a href="/shops/Yuryev-Polsky/" title="Магазины DNS г. Юрьев-Польский">Юрьев-Польский</a>						</li>
+											<li data-city-letter="Я">
+							<a href="/shops/yaroslavl/" title="Магазины DNS г. Ярославль">Ярославль</a>						</li>
+											<li data-city-letter="Я">
+							<a href="/shops/yartsevo/" title="Магазины DNS г. Ярцево">Ярцево</a>						</li>
+									</ul>
+			</div>
+					<div class="cities">
+				<h2>Южный</h2>
+				<ul class="city-list">
+											<li data-city-letter="А">
+							<a href="/shops/abinsk/" title="Магазины DNS г. Абинск">Абинск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/azov/" title="Магазины DNS г. Азов">Азов</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/aksay/" title="Магазины DNS г. Аксай">Аксай</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/alushta/" title="Магазины DNS г. Алушта">Алушта</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/anapa/" title="Магазины DNS г. Анапа">Анапа</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/apsheronsk/" title="Магазины DNS г. Апшеронск">Апшеронск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/armavir/" title="Магазины DNS г. Армавир">Армавир</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/armyansk/" title="Магазины DNS г. Армянск">Армянск</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/astrahan/" title="Магазины DNS г. Астрахань">Астрахань</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/afipskiy/" title="Магазины DNS г. Афипский">Афипский</a>						</li>
+											<li data-city-letter="А">
+							<a href="/shops/ahtubinsk/" title="Магазины DNS г. Ахтубинск">Ахтубинск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bataysk/" title="Магазины DNS г. Батайск">Батайск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bahchisaray/" title="Магазины DNS г. Бахчисарай">Бахчисарай</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belayaglina/" title="Магазины DNS г. Белая Глина">Белая Глина</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belayakalitva/" title="Магазины DNS г. Белая Калитва">Белая Калитва</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belogorsk-krym/" title="Магазины DNS г. Белогорск (Крым)">Белогорск (Крым)</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/belorechensk/" title="Магазины DNS г. Белореченск">Белореченск</a>						</li>
+											<li data-city-letter="Б">
+							<a href="/shops/bryuhoveckaya/" title="Магазины DNS г. Брюховецкая">Брюховецкая</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/volgograd/" title="Магазины DNS г. Волгоград">Волгоград</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/volgodonsk/" title="Магазины DNS г. Волгодонск">Волгодонск</a>						</li>
+											<li data-city-letter="В">
+							<a href="/shops/volzhskiy/" title="Магазины DNS г. Волжский">Волжский</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gelendzhik/" title="Магазины DNS г. Геленджик">Геленджик</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gorodishe/" title="Магазины DNS г. Городище">Городище</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/goryachiyklyuch/" title="Магазины DNS г. Горячий Ключ">Горячий Ключ</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gukovo/" title="Магазины DNS г. Гуково">Гуково</a>						</li>
+											<li data-city-letter="Г">
+							<a href="/shops/gulkevichi/" title="Магазины DNS г. Гулькевичи">Гулькевичи</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dzankoj/" title="Магазины DNS г. Джанкой">Джанкой</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dzubga/" title="Магазины DNS г. Джубга">Джубга</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/dinskaya/" title="Магазины DNS г. Динская">Динская</a>						</li>
+											<li data-city-letter="Д">
+							<a href="/shops/doneck/" title="Магазины DNS г. Донецк">Донецк</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/evpatoriya/" title="Магазины DNS г. Евпатория">Евпатория</a>						</li>
+											<li data-city-letter="Е">
+							<a href="/shops/eisk/" title="Магазины DNS г. Ейск">Ейск</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/Zelenokumsk/" title="Магазины DNS г. Зеленокумск">Зеленокумск</a>						</li>
+											<li data-city-letter="З">
+							<a href="/shops/zernograd/" title="Магазины DNS г. Зерноград">Зерноград</a>						</li>
+											<li data-city-letter="И">
+							<a href="/shops/ilskiy/" title="Магазины DNS г. Ильский">Ильский</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kalach-na-donu/" title="Магазины DNS г. Калач-на-Дону">Калач-на-Дону</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kamensk-shahtinskiy/" title="Магазины DNS г. Каменск-Шахтинский">Каменск-Шахтинский</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kamyzak/" title="Магазины DNS г. Камызяк">Камызяк</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kamyshin/" title="Магазины DNS г. Камышин">Камышин</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kanevskaya/" title="Магазины DNS г. Каневская">Каневская</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kerch/" title="Магазины DNS г. Керчь">Керчь</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/korenovsk/" title="Магазины DNS г. Кореновск">Кореновск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kotelnikovo/" title="Магазины DNS г. Котельниково">Котельниково</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnogvardeyskoe/" title="Магазины DNS г. Красногвардейское">Красногвардейское</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnodar/" title="Магазины DNS г. Краснодар">Краснодар</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnoperekopsk/" title="Магазины DNS г. Красноперекопск">Красноперекопск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krasnyisulin/" title="Магазины DNS г. Красный Сулин">Красный Сулин</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kropotkin/" title="Магазины DNS г. Кропоткин">Кропоткин</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/krymsk/" title="Магазины DNS г. Крымск">Крымск</a>						</li>
+											<li data-city-letter="К">
+							<a href="/shops/kurganinsk/" title="Магазины DNS г. Курганинск">Курганинск</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/labinsk/" title="Магазины DNS г. Лабинск">Лабинск</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/ladogskaya/" title="Магазины DNS г. Ладожская">Ладожская</a>						</li>
+											<li data-city-letter="Л">
+							<a href="/shops/leningradskaya/" title="Магазины DNS г. Ленинградская">Ленинградская</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/maikop/" title="Магазины DNS г. Майкоп">Майкоп</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/matveevkurgan/" title="Магазины DNS г. Матвеев Курган">Матвеев Курган</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/medvedovskaya/" title="Магазины DNS г. Медведовская">Медведовская</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/millerovo/" title="Магазины DNS г. Миллерово">Миллерово</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/mihailovka/" title="Магазины DNS г. Михайловка">Михайловка</a>						</li>
+											<li data-city-letter="М">
+							<a href="/shops/morozovsk/" title="Магазины DNS г. Морозовск">Морозовск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/nizhnegorskiy/" title="Магазины DNS г. Нижнегорский">Нижнегорский</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novorossiysk/" title="Магазины DNS г. Новороссийск">Новороссийск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novotitarovskaya/" title="Магазины DNS г. Новотитаровская">Новотитаровская</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novocherkassk/" title="Магазины DNS г. Новочеркасск">Новочеркасск</a>						</li>
+											<li data-city-letter="Н">
+							<a href="/shops/novoshahtinsk/" title="Магазины DNS г. Новошахтинск">Новошахтинск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pavlovskaya/" title="Магазины DNS г. Павловская">Павловская</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pallasovka/" title="Магазины DNS г. Палласовка">Палласовка</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/pervomayskoe/" title="Магазины DNS г. Первомайское">Первомайское</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/Primorsko-Akhtarsk/" title="Магазины DNS г. Приморско-Ахтарск">Приморско-Ахтарск</a>						</li>
+											<li data-city-letter="П">
+							<a href="/shops/prokhladnyy/" title="Магазины DNS г. Прохладный">Прохладный</a>						</li>
+											<li data-city-letter="Р">
+							<a href="/shops/rostov-na-donu/" title="Магазины DNS г. Ростов-на-Дону">Ростов-на-Дону</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/saki/" title="Магазины DNS г. Саки">Саки</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/salsk/" title="Магазины DNS г. Сальск">Сальск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/Svetlograd/" title="Магазины DNS г. Светлоград">Светлоград</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sevastopol/" title="Магазины DNS г. Севастополь">Севастополь</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/severskaya/" title="Магазины DNS г. Северская">Северская</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/semikarakorsk/" title="Магазины DNS г. Семикаракорск">Семикаракорск</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/simferopol/" title="Магазины DNS г. Симферополь">Симферополь</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/slavyansk-na-kubani/" title="Магазины DNS г. Славянск-на-Кубани">Славянск-на-Кубани</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sochi/" title="Магазины DNS г. Сочи">Сочи</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/starominskaya/" title="Магазины DNS г. Староминская">Староминская</a>						</li>
+											<li data-city-letter="С">
+							<a href="/shops/sudak/" title="Магазины DNS г. Судак">Судак</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/taganrog/" title="Магазины DNS г. Таганрог">Таганрог</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tbilisskaya/" title="Магазины DNS г. Тбилисская">Тбилисская</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/Temryuk/" title="Магазины DNS г. Темрюк">Темрюк</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/timashevsk/" title="Магазины DNS г. Тимашевск">Тимашевск</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tikhoretsk/" title="Магазины DNS г. Тихорецк">Тихорецк</a>						</li>
+											<li data-city-letter="Т">
+							<a href="/shops/tuapse/" title="Магазины DNS г. Туапсе">Туапсе</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/urupinsk/" title="Магазины DNS г. Урюпинск">Урюпинск</a>						</li>
+											<li data-city-letter="У">
+							<a href="/shops/ust-labinsk/" title="Магазины DNS г. Усть-Лабинск">Усть-Лабинск</a>						</li>
+											<li data-city-letter="Ф">
+							<a href="/shops/feodosiya/" title="Магазины DNS г. Феодосия">Феодосия</a>						</li>
+											<li data-city-letter="Ф">
+							<a href="/shops/frolovo/" title="Магазины DNS г. Фролово">Фролово</a>						</li>
+											<li data-city-letter="Х">
+							<a href="/shops/hadigensk/" title="Магазины DNS г. Хадыженск">Хадыженск</a>						</li>
+											<li data-city-letter="Х">
+							<a href="/shops/harabali/" title="Магазины DNS г. Харабали">Харабали</a>						</li>
+											<li data-city-letter="Ч">
+							<a href="/shops/Chernomorskoe/" title="Магазины DNS г. Черноморское">Черноморское</a>						</li>
+											<li data-city-letter="Ш">
+							<a href="/shops/shakhty/" title="Магазины DNS г. Шахты">Шахты</a>						</li>
+											<li data-city-letter="Э">
+							<a href="/shops/jelista/" title="Магазины DNS г. Элиста">Элиста</a>						</li>
+											<li data-city-letter="Я">
+							<a href="/shops/yalta/" title="Магазины DNS г. Ялта">Ялта</a>						</li>
+									</ul>
+			</div>
+			</div>
+</div>
+
+	</div>
+			
+	
+<a href="javascript:" data-base-modal data-base-modal-id="base-modal-4X4AVBjZ"></a>
+<div
+	class           = "base-modal base-modal_hidden base-modal_full-on-mobile"
+	data-modal-type = ""
+	id              = "base-modal-4X4AVBjZ"
+	tabindex        = "-1"
+	role            = "dialog"
+	data-show-after-load hidden
+>
+	<div class="base-modal__container base-modal__container_size_sm">
+		<div class="base-modal__header">
+							<div class="base-modal__header-content">
+					<span class="feedback-widget-header">Сообщить об ошибке на странице</span>				</div>
+						<i class="base-modal__header-close-icon" data-base-modal-action="close"></i>
+		</div>
+		<div class="base-modal__content"><!--googleoff: all--><!--noindex-->	<form id="b-feedback-fast-form" class="feedback-fast-form" action="/feedback/ticket/fast/" method="POST">
+<input type="hidden" name="_csrf" value="maAs0qLCqB95e8urPfdIZrX9_yKcbtq0uFNG971lt4zVmWux8arLdRIPrf5wwy5R_aS4aq8-uPH6Yy6E2gjVxw==">		<div class="form-group field-ticketcreateform-text required">
+<label class="control-label" for="ticketcreateform-text">Текст сообщения</label>
+<textarea id="ticketcreateform-text" class="form-control" name="TicketCreateForm[text]" rows="10" data-role="create-ticket-form-text-input" aria-required="true"></textarea>
+
+<p class="help-block help-block-error"></p>
+</div>	</form><!--/noindex--><!--googleon: all--></div>
+		<div class="base-modal__footer">
+							<div class="base-modal__footer-content">
+					<!--googleoff: all--><!--noindex-->	<span id="id4u1HsF" class=""></span>
+<!--/noindex--><!--googleon: all-->				</div>
+					</div>
+	</div>
+</div>
+
+<footer class="main-footer" data-show-after-load hidden>
+	<div class="container">
+		<div class="main-footer__sites">
+			<div class="main-footer__sites-wrapper">
+				<a class="main-footer__sites-link main-footer__sites-link--dns" href="https://www.dns-shop.ru" target="_blank" rel="noopener">
+					<img class="main-footer__sites-image" alt="" data-src="/assets/d81e9b8a/images/theme/footer/dns.svg">				</a>
+			</div>
+			<div class="main-footer__sites-wrapper">
+				<a class="main-footer__sites-link main-footer__sites-link--tp" href="https://technopoint.ru" target="_blank" rel="noopener">
+					<img class="main-footer__sites-image" alt="" data-src="/assets/d81e9b8a/images/theme/footer/tp.svg">				</a>
+			</div>
+			<div class="main-footer__sites-wrapper">
+				<a class="main-footer__sites-link main-footer__sites-link--service" href="https://service.dns-shop.ru" target="_blank" rel="noopener">
+					<img class="main-footer__sites-image" alt="" data-src="/assets/d81e9b8a/images/theme/footer/sc.svg">				</a>
+			</div>
+			<div class="main-footer__sites-wrapper">
+				<a class="main-footer__sites-link main-footer__sites-link--club" href="https://club.dns-shop.ru/" target="_blank" rel="noopener">
+					<img class="main-footer__sites-image" alt="" data-src="/assets/d81e9b8a/images/theme/footer/club.svg">				</a>
+			</div>
+		</div>
+
+		<div class="main-footer__main">
+			<div class="main-footer__main-left">
+									
+	<div class="main-footer__nav">
+		<p class="main-footer__nav-title">Компания DNS</p>
+		<ul class="main-footer__nav-list">
+												<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/corp_dept">Корпоративные продажи</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/feedback/">Обратная связь</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/jobs/">Вакансии</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/news/">Новости</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/rules/">Правила продаж</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/personal_data">Персональные данные</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/b2b/partners/">Партнерам</a>
+					</li>
+									</ul>
+	</div>
+
+									
+	<div class="main-footer__nav">
+		<p class="main-footer__nav-title">Покупателям</p>
+		<ul class="main-footer__nav-list">
+												<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="http://prozapass.ru">Бонусная программа</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/p_card/">Подарочные карты</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/check-invoice/">Проверка оплаты счёта</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/credit/">Кредиты</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/delivery/">Доставка</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/technical-support/">Сервисные центры</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/technical-support/service-status/">Статус оборудования СЦ</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="http://club.dns-shop.ru/">Клуб экспертов DNS</a>
+					</li>
+									</ul>
+	</div>
+
+									
+	<div class="main-footer__nav">
+		<p class="main-footer__nav-title">Помощь</p>
+		<ul class="main-footer__nav-list">
+												<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/inet_order_individual">Как оформить заказ</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/im_payment">Способы оплаты</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/im_cashback_good">Обмен и возврат товара</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/im_cashback_bad">Гарантийное обслуживание</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/info_businesses">Информация для юр. лиц</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/order_status_info">Статусы заказов</a>
+					</li>
+																<li class="main-footer__nav-list-item">
+						<a class="main-footer__nav-list-item-link" href="/knowledge_base/">База знаний</a>
+					</li>
+									</ul>
+	</div>
+
+				
+									<div class="main-footer__nav">
+						<p class="main-footer__nav-title">Прайс листы</p>
+						<ul class="main-footer__nav-list">
+															<li class="main-footer__nav-list-item">
+									<a class="main-footer__nav-list-item-link" href="/files/price/price-vologda.xls">Microsoft Excel (5.77 Мб)</a> <span>Обновлен 01.12.2019 04:45</span>
+								</li>
+																						<li class="main-footer__nav-list-item">
+									<a class="main-footer__nav-list-item-link" href="/files/price/price-vologda.zip">Zip-архив (1.22 Мб)</a> <span>Обновлен 01.12.2019 04:45</span>
+								</li>
+													</ul>
+					</div>
+							</div>
+
+			<div class="main-footer__main-right">
+				<div class="main-footer__contacts">
+				<p class="main-footer__contacts-title">Оставайтесь на связи</p>
+
+									<div class="main-footer__social">
+						<a class="main-footer__social-link  main-footer__social-link--vk" href="https://vk.com/dnsstore" target="_blank" rel="noopener">
+							<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4,1 C2.34314575,1 1,2.34314575 1,4 L1,34 C1,35.6568542 2.34314575,37 4,37 L34,37 C35.6568542,37 37,35.6568542 37,34 L37,4 C37,2.34314575 35.6568542,1 34,1 L4,1 Z M4,0 L34,0 C36.209139,-4.05812251e-16 38,1.790861 38,4 L38,34 C38,36.209139 36.209139,38 34,38 L4,38 C1.790861,38 2.705415e-16,36.209139 0,34 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" fill="#717171" fill-rule="nonzero"></path>
+								<path
+										d="M27.8836393,23.288459 C27.8618689,23.241541 27.8415738,23.202623 27.8227213,23.1714426 C27.5107869,22.6096393 26.9146885,21.9200656 26.0347869,21.1025246 L26.0161967,21.0838033 L26.0068852,21.074623 L25.9974754,21.0652131 L25.9880328,21.0652131 C25.5886885,20.6845246 25.3358033,20.4285574 25.2299016,20.2975082 C25.0361311,20.0478689 24.9927213,19.7951803 25.098623,19.5391475 C25.1734426,19.3457049 25.4544918,18.9371803 25.9411148,18.3130164 C26.197082,17.9822295 26.3998033,17.7171148 26.5495082,17.517377 C27.6292131,16.0819672 28.0973115,15.1647213 27.9537049,14.7652787 L27.8979344,14.6719344 C27.860459,14.6157377 27.7637377,14.5643279 27.6079016,14.5174426 C27.4517049,14.4706557 27.2520656,14.462918 27.008623,14.4940984 L24.3127541,14.5127213 C24.269082,14.4972459 24.2067213,14.4986885 24.1254754,14.5174426 C24.0443279,14.5361967 24.0037377,14.5456066 24.0037377,14.5456066 L23.9568197,14.5690492 L23.9195738,14.5972131 C23.8883607,14.6158361 23.8540328,14.6485902 23.8165574,14.6954098 C23.7792787,14.7420656 23.7480984,14.7968197 23.7231803,14.8592131 C23.4296721,15.6143279 23.0959672,16.3163934 22.7214426,16.965377 C22.4905246,17.3523607 22.278459,17.6877377 22.0847869,17.9717049 C21.891377,18.2555738 21.7291148,18.4647213 21.5981639,18.5987869 C21.4670164,18.7329836 21.3486557,18.8404918 21.2423607,18.9217049 C21.1362295,19.0029508 21.0552131,19.0372787 20.9991148,19.0247213 C20.9428852,19.0121639 20.8899344,18.9997049 20.8398033,18.9872459 C20.7524918,18.9310492 20.6822623,18.854623 20.6293115,18.7579016 C20.5761311,18.6611803 20.5403279,18.5394426 20.5216066,18.3927869 C20.5029836,18.2460328 20.4919672,18.1198033 20.4888197,18.0136721 C20.4859016,17.9076721 20.4872459,17.7577377 20.4935738,17.5642951 C20.5000656,17.3707541 20.5029836,17.2398033 20.5029836,17.1711475 C20.5029836,16.9339672 20.5076066,16.6765574 20.5168852,16.3988525 C20.5263279,16.1211475 20.5339672,15.9011148 20.5403607,15.7390164 C20.5467213,15.5767541 20.5496721,15.405082 20.5496721,15.2240984 C20.5496721,15.0431148 20.5386557,14.9011803 20.5168852,14.7981639 C20.495377,14.6952787 20.4623607,14.5954098 20.4188525,14.4985902 C20.375082,14.4018689 20.3110164,14.3270492 20.2269508,14.2739344 C20.1427213,14.2208852 20.038,14.1787869 19.913377,14.1475082 C19.5825902,14.0726557 19.161377,14.0321639 18.649541,14.0258689 C17.4888525,14.0134098 16.7430492,14.0883607 16.4122951,14.250623 C16.2812459,14.3191803 16.1626557,14.4128525 16.056623,14.5313443 C15.9442623,14.6686885 15.9285902,14.7436393 16.0097049,14.7559672 C16.3841967,14.8120656 16.6493115,14.9462623 16.8053443,15.1584262 L16.8615738,15.2708525 C16.9053115,15.3519672 16.9489836,15.4955738 16.9926885,15.7014754 C17.0363279,15.907377 17.0644918,16.1351475 17.0768852,16.3846557 C17.1080328,16.8402951 17.1080328,17.2303279 17.0768852,17.5547869 C17.0456393,17.879377 17.0161311,18.1320656 16.9879672,18.3130492 C16.9598033,18.4940328 16.9177049,18.6406885 16.8615738,18.7529836 C16.8053443,18.8653115 16.7679344,18.9339672 16.7491803,18.9588852 C16.730459,18.9838033 16.7148525,18.9995082 16.702459,19.0056721 C16.6213443,19.0367541 16.5369836,19.0525902 16.4496721,19.0525902 C16.3622295,19.0525902 16.2561967,19.0088525 16.1314098,18.9214426 C16.0066557,18.8340328 15.8771803,18.7139672 15.7429836,18.5610492 C15.6087869,18.4080984 15.4574426,18.1943607 15.2888852,17.9198033 C15.120459,17.6452459 14.9457049,17.3207541 14.7647213,16.9463279 L14.6149836,16.6747869 C14.521377,16.5000984 14.3935082,16.2457377 14.2312459,15.9119344 C14.0688852,15.578 13.925377,15.2549836 13.800623,14.9429508 C13.7507541,14.8119016 13.6758361,14.7121311 13.576,14.6434754 L13.5291475,14.6153115 C13.498,14.5903934 13.448,14.5639344 13.3794098,14.5357377 C13.3107213,14.5075738 13.2390492,14.487377 13.1640984,14.4749508 L10.5992131,14.4935738 C10.3371148,14.4935738 10.1592787,14.5529508 10.0656393,14.671541 L10.0281639,14.7276393 C10.0094426,14.7588852 10,14.8087869 10,14.8774754 C10,14.9461311 10.0187213,15.0303934 10.0561967,15.1301639 C10.430623,16.0101639 10.8378033,16.8588525 11.2777377,17.6763607 C11.7176721,18.4938689 12.0999672,19.1523934 12.4243934,19.6513443 C12.7488852,20.1506557 13.0796393,20.6219016 13.4166557,21.0648525 C13.7536721,21.5079672 13.9767541,21.7919344 14.0859016,21.9166885 C14.1951803,22.0416721 14.2810164,22.1351148 14.3434098,22.1975082 L14.5774754,22.4221311 C14.7272459,22.5719344 14.9471803,22.7513443 15.237377,22.9603607 C15.5276393,23.1695082 15.8489836,23.3754098 16.2015738,23.5783934 C16.5542295,23.7810492 16.9644918,23.9464262 17.4325902,24.0743279 C17.900623,24.2023607 18.3561639,24.2537377 18.7992787,24.2289508 L19.8758033,24.2289508 C20.0941311,24.2100984 20.259541,24.1414426 20.3719672,24.0229508 L20.4092131,23.9760328 C20.4342623,23.9387869 20.4577049,23.880918 20.4793443,23.8030492 C20.5012459,23.7250492 20.5121311,23.6391148 20.5121311,23.5456393 C20.5057377,23.2773443 20.5261639,23.035541 20.5728525,22.8202623 C20.6195082,22.6050492 20.6726885,22.4427869 20.7321639,22.3335082 C20.7916066,22.2243279 20.8586885,22.1321967 20.9333443,22.0575082 C21.0081639,21.9826557 21.0614754,21.9373115 21.0927541,21.9217049 C21.1238361,21.906 21.1486557,21.8953443 21.167377,21.8889508 C21.3171475,21.8390492 21.4934098,21.887377 21.6964262,22.0341639 C21.8992787,22.1808197 22.089541,22.3619016 22.2675082,22.5771148 C22.445377,22.7925246 22.659082,23.0341967 22.9086557,23.3024918 C23.1583934,23.5708852 23.3767541,23.7703934 23.5639016,23.9016393 L23.7510492,24.0139672 C23.8760328,24.088918 24.0382951,24.1575738 24.2380328,24.2199672 C24.4374098,24.2823279 24.6120984,24.2979344 24.7620984,24.2667541 L27.1583934,24.229377 C27.3954098,24.229377 27.5798361,24.1901311 27.7106557,24.1122623 C27.8417377,24.0342623 27.9196066,23.9483279 27.9447213,23.8548525 C27.9697705,23.7612787 27.9711148,23.6551148 27.9494754,23.5364262 C27.9272787,23.4180328 27.9054098,23.3352459 27.8836393,23.288459 Z"
+										fill="#FFFFFF"></path>
+							</svg>
+						</a>
+						<a class="main-footer__social-link  main-footer__social-link--fb" href="https://www.facebook.com/dnsshop" target="_blank" rel="noopener">
+							<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg">
+								<path
+										d="M23.8273402,9.0043299 L21.128732,9 C18.0969381,9 16.1376598,11.0101546 16.1376598,14.1214021 L16.1376598,16.4827113 L13.4243299,16.4827113 C13.189866,16.4827113 13,16.6727938 13,16.9072577 L13,20.3285258 C13,20.5629897 13.1900825,20.7528557 13.4243299,20.7528557 L16.1376598,20.7528557 L16.1376598,29.3858041 C16.1376598,29.620268 16.3275258,29.810134 16.5619897,29.810134 L20.1021134,29.810134 C20.3365773,29.810134 20.5264433,29.6200515 20.5264433,29.3858041 L20.5264433,20.7528557 L23.6989588,20.7528557 C23.9334227,20.7528557 24.1232887,20.5629897 24.1232887,20.3285258 L24.1245876,16.9072577 C24.1245876,16.7946804 24.0797732,16.686866 24.0003196,16.6071959 C23.920866,16.5275258 23.8126186,16.4827113 23.7000412,16.4827113 L20.5264433,16.4827113 L20.5264433,14.481 C20.5264433,13.5188969 20.7557113,13.0304845 22.009,13.0304845 L23.8269072,13.0298351 C24.0611546,13.0298351 24.2510206,12.8397526 24.2510206,12.6055052 L24.2510206,9.42865979 C24.2510206,9.19462887 24.0613711,9.00476289 23.8273402,9.0043299 Z"
+										fill="#FFFFFF"></path>
+								<path d="M4,1 C2.34314575,1 1,2.34314575 1,4 L1,34 C1,35.6568542 2.34314575,37 4,37 L34,37 C35.6568542,37 37,35.6568542 37,34 L37,4 C37,2.34314575 35.6568542,1 34,1 L4,1 Z M4,0 L34,0 C36.209139,-4.05812251e-16 38,1.790861 38,4 L38,34 C38,36.209139 36.209139,38 34,38 L4,38 C1.790861,38 2.705415e-16,36.209139 0,34 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" fill="#717171" fill-rule="nonzero"></path>
+							</svg>
+						</a>
+						<a class="main-footer__social-link  main-footer__social-link--twitter" href="https://twitter.com/dnsshop" target="_blank" rel="noopener">
+							<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg">
+								<path
+										d="M28,13.731375 C27.330625,14.025 26.617375,14.219625 25.87375,14.314125 C26.63875,13.857375 27.222625,13.139625 27.497125,12.2745 C26.783875,12.69975 25.996375,13.000125 25.157125,13.16775 C24.479875,12.446625 23.514625,12 22.461625,12 C20.418625,12 18.773875,13.65825 18.773875,15.691125 C18.773875,15.983625 18.798625,16.264875 18.859375,16.532625 C15.7915,16.383 13.076875,14.912625 11.25325,12.67275 C10.934875,13.225125 10.748125,13.857375 10.748125,14.538 C10.748125,15.816 11.40625,16.948875 12.38725,17.60475 C11.794375,17.5935 11.21275,17.421375 10.72,17.15025 C10.72,17.1615 10.72,17.176125 10.72,17.19075 C10.72,18.984 11.999125,20.4735 13.6765,20.816625 C13.376125,20.89875 13.04875,20.938125 12.709,20.938125 C12.47275,20.938125 12.23425,20.924625 12.010375,20.875125 C12.4885,22.3365 13.84525,23.410875 15.4585,23.44575 C14.203,24.427875 12.608875,25.019625 10.883125,25.019625 C10.5805,25.019625 10.29025,25.006125 10,24.969 C11.634625,26.023125 13.571875,26.625 15.661,26.625 C22.4515,26.625 26.164,21 26.164,16.12425 C26.164,15.961125 26.158375,15.803625 26.1505,15.64725 C26.882875,15.1275 27.49825,14.478375 28,13.731375 Z"
+										fill="#FFFFFF"></path>
+								<path d="M4,1 C2.34314575,1 1,2.34314575 1,4 L1,34 C1,35.6568542 2.34314575,37 4,37 L34,37 C35.6568542,37 37,35.6568542 37,34 L37,4 C37,2.34314575 35.6568542,1 34,1 L4,1 Z M4,0 L34,0 C36.209139,-4.05812251e-16 38,1.790861 38,4 L38,34 C38,36.209139 36.209139,38 34,38 L4,38 C1.790861,38 2.705415e-16,36.209139 0,34 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" fill="#717171" fill-rule="nonzero"></path>
+							</svg>
+						</a>
+						<a class="main-footer__social-link  main-footer__social-link--youtube" href="https://www.youtube.com/c/DNSSHOPvideo" target="_blank" rel="noopener">
+							<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg">
+								<path
+										d="M29.1814742,13.3307903 C28.4234419,12.4296871 27.0238935,12.0621194 24.3510677,12.0621194 L14.648729,12.0621194 C11.9147323,12.0621194 10.4914742,12.4533968 9.7362871,13.4127581 C9,14.3481387 9,15.7263484 9,17.6338258 L9,21.2694677 C9,24.9648581 9.8736,26.8411065 14.648729,26.8411065 L24.3511355,26.8411065 C26.6689935,26.8411065 27.9533806,26.5167581 28.7843032,25.7215355 C29.636429,24.9060581 30,23.5745903 30,21.2694677 L30,17.6338258 C30,15.622229 29.943029,14.2358903 29.1814742,13.3307903 Z M22.4820677,19.9535806 L18.0762677,22.2561968 C17.977771,22.3076806 17.8700613,22.3332194 17.7624871,22.3332194 C17.6406871,22.3332194 17.5191581,22.3004323 17.4115161,22.2352645 C17.2088323,22.1124484 17.0850677,21.8927613 17.0850677,21.6558 L17.0850677,17.0653355 C17.0850677,16.8287806 17.2084935,16.6092968 17.410771,16.4864129 C17.6131161,16.363529 17.8647774,16.355129 18.0747097,16.4641935 L22.4805097,18.7519742 C22.7046677,18.8683548 22.8454355,19.0997613 22.8457742,19.3522355 C22.8460452,19.6049129 22.7058871,19.8366581 22.4820677,19.9535806 Z"
+										fill="#FFFFFF"></path>
+								<path d="M4,1 C2.34314575,1 1,2.34314575 1,4 L1,34 C1,35.6568542 2.34314575,37 4,37 L34,37 C35.6568542,37 37,35.6568542 37,34 L37,4 C37,2.34314575 35.6568542,1 34,1 L4,1 Z M4,0 L34,0 C36.209139,-4.05812251e-16 38,1.790861 38,4 L38,34 C38,36.209139 36.209139,38 34,38 L4,38 C1.790861,38 2.705415e-16,36.209139 0,34 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" fill="#717171"></path>
+							</svg>
+						</a>
+					</div>
+				
+				<div class="main-footer__subscription">
+					<div class="subscription-widget" data-subscription-widget><p class="subscription-widget__title">Рассылка о новинках и акциях:</p><form class="subscription-widget__form" method="post" action="/expertSenderExport/subscription/subscription/"><div class="subscription-widget__input-container"><input class="subscription-widget__input" type="text" name="email" placeholder="Введите email и подпишитесь" data-role="email"><span class="subscription-widget__submit" data-role="submit">?</span></div></form><div class="subscription-widget__message-container hidden" data-role="message"><span data-role="message-cross">&times;</span><p class="subscription-widget__message" data-role="message-text">Спасибо! Вам отправлено письмо для подтверждения подписки.</p></div></div>				</div>
+
+				<p class="main-footer__phone">
+					8-800-77-07-999											<span>(c 03:00 до 22:00)</span>
+									</p>
+
+				<p class="main-footer__shops">
+					<a class="main-footer__shops-link" href="/shops/vologda/">Адреса магазинов в г. Вологда</a>
+				</p>
+			</div>
+			</div>
+		</div>
+
+		<div class="main-footer__responsibility">Администрация Сайта не несет ответственности за размещаемые Пользователями материалы (в т.ч. информацию и изображения), их содержание и качество.</div>
+
+		<div class="main-footer__copyright">&copy; 2002—2019 Компания DNS</div>
+	</div>
+</footer>
+
+<div id="bodyLoader" class="body-loader">
+	<div class="loader">
+		<div class="animation animation_active">
+			<div class="animation__scene">
+				<div class="animation__scene">
+					<div class="animation__ufo">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+						     viewBox="0 0 740.4 412.1" style="enable-background:new 0 0 740.4 412.1;" xml:space="preserve">
+							<g class="l2">
+								<path d="M158.3,312.7c-0.7-5.1-4.6-8-9.7-7.2s-8,4.6-7.2,9.7c0.7,5.1,4.6,8,9.7,7.2S159.1,317.8,158.3,312.7z"/>
+								<path d="M200.6,306.7c-0.7-5.1-4.6-8-9.7-7.2l-8.4,1.2c-5.1,0.7-8,4.6-7.2,9.7s4.6,8,9.7,7.2l8.4-1.2C198.4,315.6,201.3,311.8,200.6,306.7z"/>
+								<path d="M124.6,317.5c-0.7-5.1-4.6-8-9.7-7.2l-98.1,15.9c-5.1,0.7-8,4.6-7.2,9.7c0.7,5.1,4.6,8,9.7,7.2l98.1-15.9C122.4,326.5,125.3,322.6,124.6,317.5z"/>
+							</g>
+							<g class="l1">
+								<path d="M275.4,346.6c-0.7-5.1-4.6-8-9.7-7.2l-16.9,2.4c-5.1,0.7-8,4.6-7.2,9.7c0.7,5.1,4.6,8,9.7,7.2l16.9-2.4C273.3,355.5,276.2,351.7,275.4,346.6z"/>
+								<path d="M224.7,353.8c-0.7-5.1-4.6-8-9.7-7.2l-78.2,12.1c-5.1,0.7-8,4.6-7.2,9.7c0.7,5.1,4.6,8,9.7,7.2l78.2-12.1C222.6,362.8,225.5,358.9,224.7,353.8z"/>
+							</g>
+							<g class="l3">
+								<path d="M142.7,263.2c-0.7-5.1-4.6-8-9.7-7.2l-77.2,12.1c-5.1,0.7-8,4.6-7.2,9.7c0.7,5.1,4.6,8,9.7,7.2l77.2-12.1C140.5,272.2,143.4,268.3,142.7,263.2z"/>
+								<path d="M201.8,254.8c-0.7-5.1-4.6-8-9.7-7.2l-25.3,3.6c-5.1,0.7-8,4.6-7.2,9.7c0.7,5.1,4.6,8,9.7,7.2l25.3-3.6C199.6,263.7,202.5,259.9,201.8,254.8z"/>
+							</g>
+							<g>
+								<path class="st0" d="M484.1,100.9c-4.9,0-8.8-4-8.8-9V47.1c0-5,3.9-9,8.8-9c4.9,0,8.8,4,8.8,9v44.8C492.9,96.9,489,100.9,484.1,100.9"/>
+								<g>
+									<path class="st1" d="M484.1,321.9c-50.9,0-96.5-6.4-127.1-16.5c16,36.5,66.8,63.3,127.1,63.3s111.2-26.7,127.1-63.3C580.6,315.5,535,321.9,484.1,321.9"/>
+									<path class="st2" d="M616.4,204.4c0-74.2-59.2-125.4-132.3-125.4s-132.3,51.2-132.3,125.4l32.4,11c64.8,22,134.9,22,199.7,0L616.4,204.4z"/>
+								</g>
+								<path class="st3" d="M615.2,187.7c0.4,3.3,0.6,6.6,0.8,9.9c0.2,1.6,0.3,3.6,0.3,6.8l-32.4,11c-64.8,22-134.9,22-199.7,0l-32.4-11c0-3.2,0.1-5.1,0.3-6.8c0.2-3.4,0.4-6.7,0.8-9.9c-74.6,12.5-124.6,35.4-124.6,61.5c0,39.6,114.5,71.7,255.7,71.7s255.7-32.1,255.7-71.7C739.8,223,689.8,200.2,615.2,187.7"/>
+								<path class="st4" d="M413.6,186.5c-4.9,0-8.8-4-8.8-9c0-34.6,27.7-62.7,61.7-62.7c4.9,0,8.8,4,8.8,9c0,5-3.9,9-8.8,9c-24.3,0-44.1,20.1-44.1,44.8C422.4,182.4,418.4,186.5,413.6,186.5"/>
+								<polygon class="st5" points="501.7,56.1 466.5,56.1 457.6,47.1 457.6,11.3 466.5,2.3 501.7,2.3 510.6,11.3 510.6,47.1"/>
+								<path class="st6" d="M492.9,276.1c0,4.9-4,9-8.8,9c-4.9,0-8.8-4-8.8-9c0-4.9,4-9,8.8-9C489,267.1,492.9,271.1,492.9,276.1"/>
+								<path class="st6" d="M572.3,267.1c0,4.9-4,9-8.8,9s-8.8-4-8.8-9c0-4.9,4-9,8.8-9S572.3,262.1,572.3,267.1"/>
+								<path class="st6" d="M642.8,249.2c0,4.9-4,9-8.8,9c-4.9,0-8.8-4-8.8-9s4-9,8.8-9C638.9,240.2,642.8,244.2,642.8,249.2"/>
+								<path class="st6" d="M343,249.2c0,4.9-4,9-8.8,9s-8.8-4-8.8-9s4-9,8.8-9C339.1,240.2,343,244.2,343,249.2"/>
+								<path class="st6" d="M395.9,267.1c0,4.9,4,9,8.8,9s8.8-4,8.8-9c0-4.9-4-9-8.8-9S395.9,262.1,395.9,267.1"/>
+							</g>
+						</svg>
+					</div>
+					<div class="animation__star1"></div>
+					<div class="animation__star2"></div>
+					<div class="animation__star3"></div>
+					<div class="animation__star4"></div>
+					<div class="animation__star5"></div>
+					<div class="animation__star6"></div>
+					<div class="animation__star7"></div>
+					<div class="animation__star8"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	
+	
+
+	
+		<script src="https://as.dns-shop.ru/assets/642e143a/jquery-ui.min.js"></script>
+<script src="https://as.dns-shop.ru/assets/642e143a/jquery-ui-compatibility-hacks.min.js"></script>
+<script src="https://as.dns-shop.ru/assets/d2057785/yii.min.js"></script>
+<script src="https://as.dns-shop.ru/assets/d2057785/yii.activeForm.min.js"></script>
+<script src="https://as.dns-shop.ru/assets/d2057785/yii.validation.min.js"></script>
+<script src="https://as.dns-shop.ru/assets/5ea8f482/bootstrap.min.js"></script>
+<script src="https://as.dns-shop.ru/assets/2921cfa/deffer-css.js"></script>
+<script src="https://as.dns-shop.ru/assets/3008ed26/polyfill.min.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/common/widgets/loading-bar.js" async></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/helpers.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/common.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/modules.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/modules/pwa-sw-wrapper.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/modules/promo-banner.js"></script>
+<script src="https://as.dns-shop.ru/assets/7cce02c1/menu-mobile.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/common/widgets/menu-dropdown.js"></script>
+<script src="https://as.dns-shop.ru/assets/b9b924f2/modal.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/common/widgets/city-select.js"></script>
+<script src="https://as.dns-shop.ru/assets/a548ffcb/popover-block.js"></script>
+<script src="https://as.dns-shop.ru/assets/5455dab2/tooltip-ui.js"></script>
+<script src="https://as.dns-shop.ru/assets/a60bdcbc/links.js"></script>
+<script src="https://as.dns-shop.ru/assets/882de6b9/input-search.js"></script>
+<script src="https://as.dns-shop.ru/assets/e1f62e57/button.js"></script>
+<script src="https://as.dns-shop.ru/assets/b059ea3c/presearch.js"></script>
+<script src="https://as.dns-shop.ru/assets/f19ac414/menu-desktop.js"></script>
+<script src="https://as.dns-shop.ru/assets/7738a227/page-notification.js"></script>
+<script src="https://as.dns-shop.ru/assets/9359ca6f/info.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/common/components/ecommerce.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/common/components/footer.js"></script>
+<script src="https://as.dns-shop.ru/assets/8a925c81/scroll-top.js" async></script>
+<script src="https://as.dns-shop.ru/assets/c4a1b39/feedback-modal-widget.js"></script>
+<script src="https://as.dns-shop.ru/assets/b117874e/subscription.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/modules/ajax-state.js"></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/modules/ajax-state/processors/catalog-menu.js" async></script>
+<script src="https://as.dns-shop.ru/assets/d81e9b8a/js/modules/ajax-state/processors/user-notifications.js" async></script>
+<script>			window.tooltip.drawByIdBottom('header-logo', 'tooltip-header-logo');
+			window.button.drawByIdBlue("id4u1HsF", "\u0421\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043e\u0431 \u043e\u0448\u0438\u0431\u043a\u0435", {"class":"feedback-fast-form-submit-button","form":"b-feedback-fast-form","type":"submit"});
+(function(){if(typeof window.CustomEvent==="function"){return false;}
+function CustomEvent(event,params){params=params||{bubbles:false,cancelable:false,detail:undefined};var evt=document.createEvent("CustomEvent");evt.initCustomEvent(event,params.bubbles,params.cancelable,params.detail);return evt;}
+CustomEvent.prototype=window.Event.prototype;window.CustomEvent=CustomEvent;})();(function(w,d){var lazyLoadInit=(function(){var lazyLoad=new LazyLoad();w.addEventListener(Constants.EVENT_LAZY_LOAD_UPDATE,function(){lazyLoad.update();});});var v=!("IntersectionObserver"in w)?"8.6.0":"10.4.2";var b=d.getElementsByTagName('body')[0];var s=d.createElement("script");s.src="https://as.dns-shop.ru/assets/24856827//lazyload-v"+v+".min.js";s.async=true;s.onload=lazyLoadInit;w.lazyLoadOptions={};b.appendChild(s);}(window,document));
+defferCSS("https://as.dns-shop.ru/assets/d81e9b8a/css/theme/widgets/loading-bar.css");
+defferCSS("https://as.dns-shop.ru/assets/d81e9b8a/css/layout.css");
+defferCSS("https://as.dns-shop.ru/assets/b9b924f2/modal.css");
+defferCSS("https://as.dns-shop.ru/assets/a548ffcb/popover-block.css");
+defferCSS("https://as.dns-shop.ru/assets/5455dab2/tooltip-ui.css");
+defferCSS("https://as.dns-shop.ru/assets/b20e6154/user-notifications.css");
+defferCSS("https://as.dns-shop.ru/assets/882de6b9/input-search.css");
+defferCSS("https://as.dns-shop.ru/assets/8a925c81/scroll-top.css");
+defferCSS("https://as.dns-shop.ru/assets/c4a1b39/feedback-modal-widget.css");
+defferCSS("https://as.dns-shop.ru/assets/b117874e/subscription.css");
+(function(w,d){var h=d.getElementsByTagName('head')[0];if(w.checkScreenType(window.SCREEN_WIDE,window.SCREEN_DESKTOP)){var s=d.createElement("script");s.src='https://as.dns-shop.ru/assets/4d3a1057/newrelic-browser.js';s.async=true;h.appendChild(s);}}(window,document));
+defferCSS("https://as.dns-shop.ru/assets/d81e9b8a/css/modules/ajax-state/ajax-state.css");
+					window.REGISTERED_JS_KEYS=["pwa_sw_main_precache","ga_send_url","ga_traking_id","6aaeef5a5ed8afa344335cb176acd393","b32634fab6c45d51118f67dcc6b7ab70","0c0ad6bddbbb3b1aa297b86391a7e78a","b9e0ce5c8369b2eb07682521ca7a17f9","def39811727fae677109abd02d9139b9","4356007713e5f1e69ca1883b24fc058c","ca9d1d05926c249646da3ec395f4c082","9d272045809c02ed08986f3549f84562","ea4430ebf52201e5751e16fdce67cf5c","getCityModalUrl","changeCityUrl","e14ce8db689645d65c17d7e98a5d34c2","bee8eea85a69bc448fb391b03bdac2d4","0432b7f1bd1a02245d25c23f9f994c2a","60c93c208239156ae24fbdb38c64e7a6","0ee740b90456547723623f3935f43e5d","ae73dcad613262fc2f3b8cbd1375b6bf","fac76de3879ea2f333c698c46b884e89","73bc92d5c05ef33771a3566d7dbd2f35","97ed1a104555ee7427c9c2fd88a5ad3c","aed42b8770201fb8e2938bcb22d92fa2","92a82433a2c544984d158c5253fb5b75","3c13bdbc699ceee2abb07ac498ec5a7b","1adb5def972aa353ba67313bf02c7325","55c6e94e764276f66d911372e78c045f","72f0e14446d231ae39fb357a6c3fcefe"];</script>
+<script>jQuery(function ($) {
+			window.UserActionRegistrator.init("\/log-user-action\/", "action", "a6b59fb465c0cdeb5d1122119115a9d1");
+		window.PresearchWidget.draw({"id":"ua79908e128ff4ea69dcd9baecd28d152","isMobile":true,"presearchUrl":"\/catalog\/search\/presearch\/","searchUrl":"\/search\/","gaUrl":"\/search\/?q=","inputName":"q","inputValue":""});
+		window.PresearchWidget.draw({"id":"ue57e3191e64e47a0bb16caa20900c748","isMobile":false,"presearchUrl":"\/catalog\/search\/presearch\/","searchUrl":"\/search\/","gaUrl":"\/search\/?q=","inputName":"q","inputValue":""});
+window.getProfileHintUrl = "\/uniformProfile\/display\/get-profile-hint\/?uid=";
+window.feedbackModalWidget("base-modal-4X4AVBjZ");
+jQuery('#b-feedback-fast-form').yiiActiveForm([{"id":"ticketcreateform-text","name":"text","container":".field-ticketcreateform-text","input":"#ticketcreateform-text","error":".help-block.help-block-error","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Значение «Текст сообщения» должно быть строкой.","min":3,"tooShort":"Значение «Текст сообщения» должно содержать минимум 3 символа.","max":5000,"tooLong":"Значение «Текст сообщения» должно содержать максимум 5 000 символов.","skipOnEmpty":1});yii.validation.required(value, messages, {"message":"Необходимо заполнить «Текст сообщения»."});}}], []);
+setTimeout(function(){window.AjaxStateRegistrator.register({"param":"data","type":"catalog-menu","url":"\/ajax-state\/catalog-menu\/","lazyLoad":true}, [{"id":"ajs-9b50ecf9-63ee-450c-a1a6-3f598ed2e666","data":{"type":1}},{"id":"ajs-8aeb2dc4-ccd2-48d0-923c-50ba931ac8ef","data":{"type":0}}])});
+setTimeout(function(){window.AjaxStateRegistrator.register({"param":"data","type":"user-notifications","url":"\/ajax-state\/user-notifications\/","lazyLoad":false}, [{"id":"ajs-1cf5008a-e435-41c6-9151-f2bcbe9da0b2","data":{"userId":null,"getEventsUrl":"\/userFeed\/user-feed\/get-feed\/","type":0,"notificationsPageUrl":"https:\/\/profile.dns-shop.ru\/u-profile\/notifications\/","settingsUrl":"https:\/\/profile.dns-shop.ru\/u-profile\/settings\/"}},{"id":"ajs-36f060c8-e7e1-4d76-878a-9ef3f9c6dcf1","data":{"userId":null,"getEventsUrl":"\/userFeed\/user-feed\/get-feed\/","type":1,"notificationsPageUrl":"https:\/\/profile.dns-shop.ru\/u-profile\/notifications\/","settingsUrl":"https:\/\/profile.dns-shop.ru\/u-profile\/settings\/"}}])});
+});</script></body>
+</html>

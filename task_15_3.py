@@ -23,3 +23,22 @@ object network LOCAL_10.1.9.5
 - перед остальными строками должен быть один пробел
 Во всех правилах для ASA интерфейсы будут одинаковыми (inside,outside).
 '''
+from re import finditer
+
+
+def convert_ios_nat_to_asa(nat_cisco_ios, nat_cisco_asa):
+    regex = (r'ip nat inside source (?P<stat>\S+) +(?P<prot>\S+) +(?P<ip>\S+) +(?P<portin>\S+) +(?P<intf>\S+).+ (?P<portout>\S+)')
+    with open(nat_cisco_ios) as src:
+        ios_nat = finditer(regex, src.read())
+    with open(nat_cisco_asa, 'w') as dest:
+        for match in ios_nat:
+            dest.write('object network LOCAL_{}'.format(match.group('ip'))+'\n')
+            dest.write(' host {}'.format(match.group('ip')) + '\n')
+            dest.write(' nat (inside,outside) {} {} service {} {} {}'.format(match.group('stat'), match.group('intf'), match.group('prot'), match.group('portin'), match.group('portout')) + '\n')
+
+
+
+
+#don't run on import
+if __name__ == '__main__':
+    convert_ios_nat_to_asa('cisco_nat_config.txt', 'cisco_asa_nat_config.txt')

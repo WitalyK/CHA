@@ -18,5 +18,17 @@
 Функцию parse_sh_ip_int_br не нужно копировать.
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 '''
+from sys import path
+path.append('d:/Python/CHA/CHA/')
+from task_15_2 import parse_sh_ip_int_br
 
-headers = ['interface', 'address', 'status', 'protocol']
+
+def convert_to_dict(fields, values):
+    return [{fields[num]: item for num, item in enumerate(value)} for value in values]
+
+
+#don't run on import
+if __name__ == '__main__':
+    headers = ['interface', 'address', 'status', 'protocol']
+    data = parse_sh_ip_int_br('sh_ip_int_br.txt')
+    print(convert_to_dict(headers, data))

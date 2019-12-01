@@ -15,3 +15,18 @@
 Для получения такого результата, используйте регулярные выражения.
 Проверить работу функции на примере файла sh_ip_int_br.txt.
 '''
+
+from re import finditer
+
+def parse_sh_ip_int_br(command_filename):
+    regex = (r'(?P<interface>\S+) +(?P<ip>\S+).+(?P<status>(?:up|administratively down)) +(?P<protocol>(?:up|down))')
+    with open(command_filename) as cfg:
+        match_iter = finditer(regex, cfg.read())
+        result = []
+        for match in match_iter:
+            result.append(match.groups())
+    return result
+
+# don't run on import
+if __name__ == '__main__':
+    print(parse_sh_ip_int_br('sh_ip_int_br.txt'))

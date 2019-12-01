@@ -18,3 +18,25 @@ Ethernet0/1 соответствует список из двух кортеже
 Обратите внимание, что в данном случае, можно не проверять корректность IP-адреса,
 диапазоны адресов и так далее, так как обрабатывается вывод команды, а не ввод пользователя.
 '''
+from re import finditer
+
+def get_ip_from_cfg(cfg_filename):
+    regex = (r'interface (?P<interface>\S+)'
+             r'| ip address (?P<ip>(?:\d+\.){3}\d+) +(?P<mask>(?:\d+\.){3}\d+)')
+    result = {}
+    with open(cfg_filename) as cfg:
+        match_iter = finditer(regex, cfg.read())
+        for match in match_iter:
+            if match.lastgroup == 'interface':
+                interface = match.group(match.lastgroup)
+                intf =[]
+            else:
+                intf.append((match.group('ip'), match.group('mask')))
+                result[interface] = intf
+    return result
+
+# don't run on import
+if __name__ == "__main__":
+    print(get_ip_from_cfg('config_r2.txt'))
+
+#    r'interface (\S+)(?:(?:(?!interface).)*\n)+? ip address ((?:\d+\.){3}\d+) +((?:\d+\.){3}\d+)'
