@@ -6,8 +6,10 @@
 Функция должна считать данные из YAML файла, преобразовать их соответственно, чтобы функция возвращала словарь такого вида:
     {('R4', 'Fa 0/1'): ('R5', 'Fa 0/1'),
      ('R4', 'Fa 0/2'): ('R6', 'Fa 0/0')}
-Функция transform_topology должна не только менять формат представления топологии, но и удалять дублирующиеся соединения (их лучше всего видно на схеме, которую генерирует draw_topology).
-Проверить работу функции на файле topology.yaml. На основании полученного словаря надо сгенерировать изображение топологии с помощью функции draw_topology.
+Функция transform_topology должна не только менять формат представления топологии,
+но и удалять дублирующиеся соединения (их лучше всего видно на схеме, которую генерирует draw_topology).
+Проверить работу функции на файле topology.yaml. На основании полученного словаря надо сгенерировать
+изображение топологии с помощью функции draw_topology.
 Не копировать код функции draw_topology.
 Результат должен выглядеть так же, как схема в файле task_17_2b_topology.svg
 При этом:
@@ -20,3 +22,36 @@
 > И модуль python для работы с graphviz:
 > pip install graphviz
 '''
+from draw_network_graph import draw_topology
+import yaml
+
+
+def transform_topology(yaml_file):
+    with open(yaml_file) as src:
+        templates = yaml.safe_load(src)
+    d = {}
+    for d_in, value in templates.items():
+        for int_in, value_in in value.items():
+            for d_out, int_out in value_in.items():
+                d[(d_in, int_in)] = (d_out, int_out)
+    dd = d.copy()
+    ddd = d.copy()
+    for key, value in d.items():
+        is_dubl = False
+        for key1, value1 in dd.items():
+            if key==value1 and value==key1:
+                is_dubl = True
+                break
+        if key in dd: del dd[key]
+        if is_dubl:
+            del dd[value]
+            del ddd[value]
+    return ddd
+
+
+# don't run on import
+if __name__ == '__main__':
+    draw_topology(transform_topology('topology.yaml'))
+    #print(transform_topology('topology.yaml'))
+    #transform_topology('topology.yaml')
+

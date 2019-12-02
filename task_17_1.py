@@ -31,8 +31,31 @@
 '''
 
 import glob
+import re
+import csv
 
-sh_version_files = glob.glob('sh_vers*')
-#print(sh_version_files)
+def parse_sh_version(sh_version_command):
+    regex = (r'Software .+, Version (.+), (?:.*\n)+router uptime is (.+)\n(?:.*\n)+.+ file is "(.+)"')
+    return re.findall(regex, sh_version_command)[0]
 
-headers = ['hostname', 'ios', 'image', 'uptime']
+def write_inventory_to_csv(data_filenames, csv_filename):
+    data = []
+    for filename in data_filenames:
+        with open(filename) as src:
+            sh_version = src.read()
+            hostname = filename.split('.')[0].split('_')[2]
+            ios, uptime, image = parse_sh_version(sh_version)
+            t = (hostname, ios, image, uptime)
+        data.append({headers[i]: t[i] for i in range(0, 4)})
+    with open(csv_filename, 'w', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=list(data[0].keys()), quoting=csv.QUOTE_NONNUMERIC)
+        writer.writeheader()
+        writer.writerows(data)
+
+
+#don't run on import
+if __name__ == '__main__':
+    sh_version_files = glob.glob('sh_vers*')
+    headers = ['hostname', 'ios', 'image', 'uptime']
+    write_inventory_to_csv(sh_version_files, "routers_inventory.csv")
+

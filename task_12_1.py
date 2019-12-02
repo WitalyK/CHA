@@ -10,15 +10,17 @@
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 '''
 import subprocess
+import re
 
 
 def ping_ip_addresses(ip_list):
+    regex = (r'.+ TTL=.+')
     awailable_ip = []
     unawailable_ip =[]
     for ip in ip_list:
         print('Check address ', ip)
         result = subprocess.run(['ping', '-n', '2', ip], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
-        if result.returncode == 0:
+        if re.findall(regex, result.stdout.decode('cp866')):
             awailable_ip.append(ip)
         else:
             unawailable_ip.append(ip)
