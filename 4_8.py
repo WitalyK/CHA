@@ -12,10 +12,22 @@
 00001010  00000001  00000001  00000001
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 '''
+import ipaddress
 
-ip = '192.168.3.1'
-ip = ip.split('.')
-ipp = '{:<10} {:<10} {:<10} {:<10}'
-ipp1 = '{:<10b} {:<10b} {:<10b} {:<10b}'
-print(ipp.format(ip[0],ip[1],ip[2],ip[3]))
-print(ipp1.format(int(ip[0]),int(ip[1]),int(ip[2]),int(ip[3])))
+
+def check_ip(ip_str):
+    try:
+        ipaddress.ip_address(ip_str)
+        return True
+    except ValueError:
+        return False
+
+ip = '192.168.3.23'
+if check_ip(ip):
+    ip = ip.split('.')
+    ipp = '{:<10}{:<10}{:<10}{:<10}'
+    ipp1 = '{:08b}  {:08b}  {:08b}  {:08b}'
+    print(ipp.format(*ip))
+    print(ipp1.format(*[int(ip1) for ip1 in ip]))
+else:
+    print('Неверный адрес')

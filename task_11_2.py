@@ -38,10 +38,6 @@ def create_network_map(filenames):
     for file in filenames:
         with open(file) as src:
             d.update(parse_cdp_neighbors(src.read()))
-
-#for i in full_topology.keys():
-#    if i in full_topology.values():
-#        del(full_topology[i])
     dd = d.copy()
     ddd = d.copy()
     for key, value in d.items():

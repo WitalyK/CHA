@@ -14,11 +14,6 @@ from sys import argv
 ignore = ['duplex', 'alias', 'Current configuration']
 with open(argv[1]) as src, open(argv[2], 'w') as dst:
     for line in src:
-        is_ignore = True
-        for s in ignore:
-            if s in line:
-                is_ignore = False
-                break
-        if is_ignore:
+        if not any([word in line for word in ignore]):
             dst.write(line)
 

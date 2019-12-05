@@ -22,10 +22,7 @@ def parse_sh_ip_int_br(command_filename):
     regex = (r'(?P<interface>\S+) +(?P<ip>\S+).+(?P<status>(?:up|administratively down)) +(?P<protocol>(?:up|down))')
     with open(command_filename) as cfg:
         match_iter = finditer(regex, cfg.read())
-        result = []
-        for match in match_iter:
-            result.append(match.groups())
-    return result
+    return [match.groups() for match in match_iter]
 
 # don't run on import
 if __name__ == '__main__':

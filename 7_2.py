@@ -10,15 +10,10 @@ from sys import argv
 Ограничение: Все задания надо выполнять используя только пройденные темы.
 '''
 ff = argv[1]
+#ff = 'config_sw1.txt'
 ignore = ['duplex', 'alias', 'Current configuration']
 with open(ff) as f:
     for line in f:
-        if not line.startswith("!"):
-            is_ignore = True
-            for s in ignore:
-                if s in line:
-                    is_ignore = False
-                    break
-            if is_ignore:
-                print(line.rstrip('\n'))
+        if (not line.startswith("!")) and (not any([word in line for word in ignore])):
+            print(line.rstrip('\n'))
 

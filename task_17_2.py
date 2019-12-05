@@ -23,8 +23,7 @@ def parse_sh_cdp_neighbors(show_cdp_neighbors_command):
     key = show_cdp_neighbors_command.split('>')[0]
     regex = r'(\w+) +(\w+ \d+/\d+).+ (\w+ \d+/\d+)'
     result = re.finditer(regex, show_cdp_neighbors_command)
-    d = {}
-    d[key] = {}
+    d = {key: {}}
     for match in result:
         d[key][match.group(2)] = {}
         d[key][match.group(2)][match.group(1)] = match.group(3)

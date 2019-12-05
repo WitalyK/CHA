@@ -14,11 +14,6 @@ ff = argv[1]
 ignore = ['duplex', 'alias', 'Current configuration']
 with open(ff) as src, open('config_sw1_cleared.txt', 'w') as dst:
     for line in src:
-        is_ignore = True
-        for s in ignore:
-            if s in line:
-                is_ignore = False
-                break
-        if is_ignore:
+        if not any([word in line for word in ignore]):
             dst.write(line)
 
