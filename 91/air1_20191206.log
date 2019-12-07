@@ -1,0 +1,821 @@
+00:03:38.70 Script skip: 0 448 [ comment 0 Рекламный блок 50 начало - 23:29 ]
+00:03:38.70 Script skip: 0 449 [ comment 0 Нет рекламы в блоке ]
+00:03:38.71 Script skip: 0 450 [ comment 0 Рекламный блок 50 конец ]
+00:03:38.71 Script skip: 0 451 [ comment 0 Рекламный блок 51 начало - 23:49 ]
+00:03:38.72 Script skip: 0 452 [ comment 0 Нет рекламы в блоке ]
+00:03:38.72 Script skip: 0 453 [ comment 0 Рекламный блок 51 конец ]
+00:03:38.73 Script take: 0 454 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+00:04:21.88 Script take: 0 455 [ movie <00:00:00.12> 00:44:19.96 Y:\НТС_12_02_08\райские яблочки 1 сезон 1 серия.mpg ]
+00:48:41.83 Script skip: 0 456 [ comment 0 Рекламный блок 52 начало - 00:20 ]
+00:48:41.83 Script skip: 0 457 [ comment 0 Нет рекламы в блоке ]
+00:48:41.84 Script skip: 0 458 [ comment 0 Рекламный блок 52 конец ]
+00:48:41.85 Script skip: 0 459 [ comment 0 Рекламный блок 53 начало - 00:55 ]
+00:48:41.85 Script skip: 0 460 [ comment 0 Нет рекламы в блоке ]
+00:48:41.86 Script skip: 0 461 [ comment 0 Рекламный блок 53 конец ]
+00:48:41.87 Script take: 0 462 [ movie 00:40:17.04 Y:\НТС_12_02_08\без обмана 20 выпуск соленое против сладкого.mpg ]
+01:28:59.04 Script take: 0 463 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+01:29:42.04 Script take: 0 464 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+01:30:18.07 Script skip: 0 465 [ comment 0 Рекламный блок 54 начало - 01:12 ]
+01:30:18.07 Script skip: 0 466 [ comment 0 Нет рекламы в блоке ]
+01:30:18.08 Script skip: 0 467 [ comment 0 Рекламный блок 54 конец ]
+01:30:18.08 Script take: 0 468 [ movie <00:00:00.32> 00:12:15.12 Y:\НТС_12_02_08\Дороже золота  6 выпуск  Лавский.mpg ]
+01:42:33.19 Script take: 0 469 [ movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t ]
+01:43:33.90 Script take: 0 470 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+01:44:17.01 Script take: 0 471 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+01:45:15.87 Script take: 0 472 [ movie 00:14:16.72 Z:\OnAir\12_05\-3 Наши Люди Араз Набиев 05 12 19.m2t ]
+01:59:32.35 Flags take:  logoOn
+01:59:32.35 Script take: 0 473 [ pause 0  ]
+02:02:02.21 Button Shedule.SaveToFile 0 Z:\PlayList\отработанный от  05.12.2019_91.air
+02:03:19.25 Button Shedule.EraseList 0
+02:03:19.35 Script wait: 0 0 [ wait operator 0 * * * * * ]
+02:05:10.15 FilePage Shedule.InsertFromFile 0 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+02:05:11.38 Watchdog timeout 1 sec.  Actual interval 1.19
+
+02:05:44.67 ScheduleDblClick Shedule.SetRunPosition 0 5
+02:05:45.18 ScheduleDblClick Shedule.SetPause 0
+02:05:45.20 Script wait: 0 5 [ wait time 05:59:00.00 [0] active  ]
+DebugInfo2: 02:06:08.54 picture 00:00:50.00 E:\Типа проги\ВН Главное 12,30.png Check change: State (None->Error)
+DebugInfo2: 02:06:16.19 picture 00:00:50.00 E:\Типа проги\ВН Главное 13,30.png Check change: State (None->Error)
+DebugInfo2: 02:06:28.19 picture 00:00:40.00 E:\Типа проги\погода.png Check change: State (None->Error)
+DebugInfo2: 02:06:33.19 picture 00:00:50.00 E:\Типа проги\ВН Главное 15,30.png Check change: State (None->Error)
+DebugInfo2: 02:06:36.20 movie 00:00:22.39 Z:\OnAir\ГОРОДА 12+\-3_города_Воркута_корр_блюр.mpg Check change: Duration (00:00:22.39->00:00:22.39)
+DebugInfo2: 02:06:37.17 picture 00:12:16.00 E:\Типа проги\Крик.png Check change: State (None->Error)
+DebugInfo2: 02:06:39.17 picture 00:02:00.00 E:\Типа проги\погода.png Check change: State (None->Error)
+DebugInfo2: 02:06:40.17 picture 00:14:00.00 E:\Типа проги\ДЕТАЛИ.png Check change: State (None->Error)
+DebugInfo2: 02:06:40.75 picture 00:14:00.00 E:\Типа проги\ДЕТАЛИ.png Check change: State (None->Error)
+DebugInfo2: 02:06:42.33 picture 00:14:00.00 E:\Типа проги\Наши люди.png Check change: State (None->Error)
+DebugInfo2: 02:06:44.26 picture 00:00:50.00 E:\Типа проги\ВН Главное 17,45.png Check change: State (None->Error)
+DebugInfo2: 02:06:47.18 picture 00:13:00.00 E:\Типа проги\УХТА.png Check change: State (None->Error)
+DebugInfo2: 02:06:50.70 picture 00:00:40.00 E:\Типа проги\погода.png Check change: State (None->Error)
+DebugInfo2: 02:06:52.19 movie 00:00:22.39 Z:\OnAir\ГОРОДА 12+\-3_города_Воркута_корр_блюр.mpg Check change: Duration (00:00:22.39->00:00:22.39)
+DebugInfo2: 02:06:52.61 picture 00:13:30.00 E:\Типа проги\МИЯН йоз.png Check change: State (None->Error)
+DebugInfo2: 02:06:57.58 picture 00:11:49.00 E:\Типа проги\Крик.png Check change: State (None->Error)
+DebugInfo2: 02:07:00.28 picture 00:03:00.00 E:\Типа проги\ЗАВТРА ПО МАГАЗИНАМ.png Check change: State (None->Error)
+DebugInfo2: 02:07:07.52 picture 00:02:00.00 E:\Типа проги\погода.png Check change: State (None->Error)
+DebugInfo2: 02:07:10.27 picture 00:05:00.00 E:\Типа проги\ПРОЩЕ ГОВОРЯ.png Check change: State (None->Error)
+DebugInfo2: 02:07:12.49 picture 00:03:00.00 E:\Типа проги\ЗАВТРА ПО МАГАЗИНАМ.png Check change: State (None->Error)
+DebugInfo2: 02:07:15.65 picture 00:16:00.00 E:\Типа проги\Время новостей 21,30.png Check change: State (None->Error)
+DebugInfo2: 02:07:18.47 picture 00:10:00.00 E:\Типа проги\Время новостей 21,30.png Check change: State (None->Error)
+DebugInfo2: 02:07:18.74 picture 00:02:00.00 E:\Типа проги\погода.png Check change: State (None->Error)
+DebugInfo2: 02:07:20.29 picture 00:14:51.00 E:\Типа проги\Крик - коми титр.png Check change: State (None->Error)
+DebugInfo2: 02:07:23.26 movie 00:00:56.25 Z:\Reklama\АНТИНАРКО\Антинаркотик. Ролик на конкурс.mpg Check change: Duration (00:00:56.25->00:00:56.25)
+DebugInfo2: 02:07:38.48 picture 00:14:00.00 E:\Типа проги\Наши люди.png Check change: State (None->Error)
+05:59:00.06 Script skip: 0 5 [ wait time 05:59:00.00 [0] active  ]
+05:59:00.06 Flags take:  logoOn
+05:59:00.06 Script take: 0 6 [ pause 0  ]
+05:59:00.07 Script wait: 0 8 [ wait time 06:00:00.00 [0] active Слот 1___6,00-6,30 = 30 мин    (Рекл=1 мин)=29 мин ]
+05:59:59.98 Script skip: 0 8 [ wait time 06:00:00.00 [0] active Слот 1___6,00-6,30 = 30 мин    (Рекл=1 мин)=29 мин ]
+05:59:59.98 Flags take:  logoOff
+05:59:59.98 Script take: 0 9 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+06:00:08.24 Script take: 0 10 [ movie 00:13:20.16 Z:\OnAir\12_05\-3 Время новостей УХТА 5-12.m2t ]
+06:13:28.33 Script take: 0 11 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+06:14:11.42 Script take: 0 12 [ movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t ]
+06:15:07.87 Script take: 0 13 [ movie 00:13:08.48 Z:\OnAir\12_05\-3 Вочакыв Гарнов 5 12 19.m2t ]
+06:28:16.43 Script skip: 0 14 [ comment 0 Рекламный блок 01 начало - 06:25 ]
+06:28:16.43 Script take: 0 15 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+06:28:22.00 Script take: 0 16 [ movie 00:00:15.92 Z:\Reklama\-3_Автосмотр_исправлен.m2t ]
+06:28:37.51 Script take: 0 17 [ movie 00:00:15.16 Z:\Reklama\-3_АЛМАГ+ ЛАМПА (Орбита) Full-HD 15 сек - Коми (Будь здоров и Планета здор-я).m2t ]
+06:28:53.03 Script skip: 0 18 [ comment 0 Рекламный блок 01 конец ]
+06:28:53.03 Script take: 0 19 [ movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t ]
+06:29:52.08 Script take: 0 20 [ movie <00:00:52.12> 00:00:08.16 Z:\Часы\Сlock_18_30 (06_30).m2t ]
+06:30:00.08 Script skip: 0 21 [ comment 0 Слот 2___6,30-7,30 = 1 час  (Рекл=6 мин)=54 мин ]
+06:30:00.08 Script take: 0 22 [ movie 00:11:05.60 Z:\OnAir\12_06\-3 ТАЛУН УТРО 1 часть 6-12.m2t ]
+06:41:05.66 Script skip: 0 23 [ comment 0 Рекламный блок 02 начало - 06:42 ]
+06:41:05.66 Script take: 0 24 [ movie 00:00:15.20 Z:\Reklama\-3 MORI_01.m2t ]
+06:41:21.15 Script skip: 0 25 [ comment 0 Рекламный блок 02 конец ]
+06:41:21.15 Script take: 0 26 [ movie 00:15:23.00 Z:\OnAir\12_06\-3 ТАЛУН УТРО 2 часть 6-12.m2t ]
+06:56:43.81 Script skip: 0 27 [ comment 0 Рекламный блок 03 начало - 06:56 ]
+06:56:43.81 Script take: 0 28 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t ]
+06:56:49.35 Script take: 0 29 [ movie 00:00:05.20 Z:\Reklama\-3_Магия меха_новое поступление Зима.m2t ]
+06:56:54.35 Script take: 0 30 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+06:57:07.42 Script take: 0 31 [ movie 00:00:05.12 Z:\Reklama\Десятилетие детства\К 10 летию детства\Супергерои\-3_Bndr_Супергерои_5 сек_16х9.m2t ]
+06:57:12.66 Script skip: 0 32 [ comment 0 Рекламный блок 03 конец ]
+06:57:12.66 Script take: 0 33 [ movie 00:00:50.36 Z:\OnAir\12_06\-3_Поводдя_йылысь_Утро_6_12.m2t ]
+06:58:02.92 Script take: 0 34 [ movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t ]
+06:58:47.09 Script take: 0 35 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+06:59:30.51 Script take: 0 36 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+07:00:06.48 Script take: 0 37 [ movie 00:27:16.16 Z:\OnAir\12_06\-3_Студия11_06-12-2019_full.m2t ]
+07:27:22.45 Script skip: 0 38 [ comment 0 Рекламный блок 04 начало - 07:27 ]
+07:27:22.45 Script take: 0 39 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+07:27:27.64 Script take: 0 40 [ movie 00:00:15.20 Z:\Reklama\-3 MORI_01.m2t ]
+07:27:42.90 Script take: 0 41 [ movie 00:00:05.20 Z:\Reklama\-3_Магия меха_ликвидация коллекции.m2t ]
+07:27:48.29 Script take: 0 42 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+07:28:01.26 Script take: 0 43 [ movie 00:00:15.16 Z:\Reklama\-3_ПОДАРОК А+ Full-HD 15 сек - Коми (Будь здоров и Планета здор-я).m2t ]
+07:28:16.39 Script take: 0 44 [ movie 00:00:20.12 Z:\Reklama\Телекарта\-3_Bndr_05_Narodniy_premier-85_16+_0-20_1080p.m2t ]
+07:28:36.59 Script skip: 0 45 [ comment 0 Рекламный блок 04 конец ]
+07:28:36.59 Script take: 0 46 [ movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t ]
+07:29:35.75 Script take: 0 47 [ movie <00:00:36.00> 00:00:24.28 Z:\Часы\Сlock_19_30 (07_30).m2t ]
+07:30:00.23 Script skip: 0 48 [ comment 0 Слот 3___7,30-14,30 = 7 часов (Рекл=47,30 мин)=6 часов 12,30 мин ]
+07:30:00.23 Script take: 0 49 [ movie 00:17:42.80 Z:\OnAir\12_06\-3 ВН утро 1ч 6-12.m2t ]
+07:47:42.87 Script skip: 0 50 [ comment 0 Рекламный блок 05 начало - 07:42 ]
+07:47:42.87 Script take: 0 51 [ movie 00:00:15.16 Z:\Reklama\-3_Дом книги_15 с.m2t ]
+07:47:58.05 Script take: 0 52 [ movie 00:00:15.16 Z:\Reklama\-3 КС-Керамик_Уже началась СТРОЙМАТ.m2t ]
+07:48:13.16 Script take: 0 53 [ movie 00:00:05.20 Z:\Reklama\-3_Магия меха_новое поступление Зима.m2t ]
+07:48:18.56 Script take: 0 54 [ movie 00:00:15.92 Z:\Reklama\-3_Автосмотр_исправлен.m2t ]
+07:48:34.55 Script skip: 0 55 [ comment 0 Рекламный блок 05 конец ]
+07:48:34.55 Script take: 0 56 [ movie 00:10:44.84 Z:\OnAir\12_06\-3 ВН утро 2 часть 6-12.m2t ]
+07:59:19.58 Script skip: 0 57 [ comment 0 Рекламный блок 5а начало - 07:55 ]
+07:59:19.58 Script take: 0 58 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t ]
+07:59:24.57 Script take: 0 59 [ movie 00:00:05.20 Z:\Reklama\-3_Магия меха_ликвидация коллекции.m2t ]
+07:59:29.56 Script take: 0 60 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+07:59:42.68 Script skip: 0 61 [ comment 0 Рекламный блок 5а конец ]
+07:59:42.68 Script take: 0 62 [ movie 00:01:52.16 Z:\OnAir\12_06\-3_Все_о_погоде_Утро_6_12_ЮРГАН.m2t ]
+08:01:34.87 Script take: 0 63 [ movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t ]
+08:02:19.08 Script take: 0 64 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+08:03:02.57 Script take: 0 65 [ movie 00:27:16.16 Z:\OnAir\12_06\-3_Студия11_06-12-2019_full.m2t ]
+08:26:30.46 FilePage  Shedule.AddItem 0 70 1 0 0 titleObjOn {Повтор} 0
+08:26:38.89 FilePage  Shedule.AddItem 0 72 1 0 0 titleObjOff {Повтор} 0
+08:26:45.70 FilePage  Shedule.AddItem 0 76 1 0 0 titleObjOn {Повтор} 0
+08:26:50.77 FilePage  Shedule.AddItem 0 78 1 0 0 titleObjOff {Повтор} 0
+08:30:18.38 Script skip: 0 66 [ comment 0 Рекламный блок 06 начало - 08:25 ]
+08:30:18.38 Script take: 0 67 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+08:30:23.61 Script take: 0 68 [ movie 00:00:10.12 Z:\Reklama\-3_Еврочехлы новогодний_1.m2t ]
+08:30:33.74 Script take: 0 69 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t ]
+08:30:38.88 Script skip: 0 70 [ comment 0 Рекламный блок 06 конец ]
+08:30:38.88 Script take: 0 71 [ titleObjOn {Повтор} 0 ]
+08:30:38.90 Script take: 0 72 [ movie 00:16:03.64 Z:\OnAir\12_06\-3-ДА без ТЛФ _05_12_05часть1.m2t ]
+08:46:42.49 Script take: 0 73 [ titleObjOff {Повтор} 0 ]
+08:46:42.49 Script skip: 0 74 [ comment 0 Рекламный блок 07 начало - 08:48 ]
+08:46:42.50 Script take: 0 75 [ movie 00:00:15.92 Z:\Reklama\-3_Автосмотр_исправлен.m2t ]
+08:46:58.46 Script skip: 0 76 [ comment 0 Рекламный блок 07 конец ]
+08:46:58.46 Script take: 0 77 [ titleObjOn {Повтор} 0 ]
+08:46:58.49 Script take: 0 78 [ movie 00:08:17.08 Z:\OnAir\12_06\-3_ДА без ТЛФ _05_12_05часть2.m2t ]
+08:55:15.56 Script take: 0 79 [ titleObjOff {Повтор} 0 ]
+08:55:15.57 Script take: 0 80 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+08:55:23.72 Script take: 0 81 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+08:56:06.80 Script take: 0 82 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+08:56:42.86 Script take: 0 83 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_5ИСПР _ капли.m2t ]
+08:56:48.40 Script take: 0 84 [ movie 00:01:33.64 Z:\OnAir\ФУ\-3_Bndr_ФУ на вкус Ижемская уха_испр.m2t ]
+08:58:21.76 Script take: 0 85 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_5ИСПР _ капли.m2t ]
+08:58:26.95 Script take: 0 86 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+08:59:25.48 Script take: 0 87 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+09:00:08.64 Script take: 0 88 [ movie <00:00:00.04> 00:22:21.48 Y:\НТС_12_02_08\Секретная папка 18 выпуск Человек за спиной Сталина.mpg ]
+09:22:30.46 Script skip: 0 89 [ comment 0 Рекламный блок 08 начало - 09:23 ]
+09:22:30.46 Script take: 0 90 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_4 _ Серая _ 300-700.m2t ]
+09:22:35.48 Script take: 0 91 [ movie 00:00:30.16 Z:\Reklama\ЗОЖ 27 июня\-3 13_SMS_Master_h264.m2t ]
+09:23:05.51 Script skip: 0 92 [ comment 0 Рекламный блок 08 конец ]
+09:23:05.51 Script take: 0 93 [ movie 00:00:08.60 Z:\Promo\ПРИЗЫ ВК\-3_ПризыВК_Андрей(СаундЭффекты).m2t ]
+09:23:14.04 Script take: 0 94 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+09:23:50.51 Script take: 0 95 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+09:24:33.54 Script take: 0 96 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_4_Серая.m2t ]
+09:24:38.52 Script skip: 0 97 [ comment 0 & СЕКРЕТНАЯ ПАПКА.avi ]
+09:24:38.52 Script take: 0 98 [ movie <00:22:21.72> 00:09:01.92 Y:\НТС_12_02_08\Секретная папка 18 выпуск Человек за спиной Сталина.mpg ]
+09:33:40.43 Script skip: 0 99 [ comment 0 Рекламный блок 09 начало - 09:39 ]
+09:33:40.43 Script take: 0 100 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_4 _ Серая _ 300-700.m2t ]
+09:33:45.54 Script take: 0 101 [ movie 00:00:20.20 Z:\Reklama\Телекарта\-3_Bndr_04_KUKUSHKA_Zapad_1080p.m2t ]
+09:34:05.76 Script skip: 0 102 [ comment 0 Рекламный блок 09 конец ]
+09:34:05.76 Script take: 0 103 [ movie 00:00:16.00 Z:\Reklama\АНТИКОРРУПЦИЯ\-3_Bndr_Антикорупционный_диплом 1.avi ]
+09:34:21.75 Script take: 0 104 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+09:35:20.44 Script take: 0 105 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+09:36:03.54 Script take: 0 106 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_4_Серая.m2t ]
+09:36:08.67 Script skip: 0 107 [ comment 0 & СЕКРЕТНАЯ ПАПКА.avi ]
+09:36:08.67 Script take: 0 108 [ movie <00:31:24.04> 00:06:38.00 Y:\НТС_12_02_08\Секретная папка 18 выпуск Человек за спиной Сталина.mpg ]
+09:42:46.76 Script take: 0 109 [ movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t ]
+09:43:47.50 Script take: 0 110 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+09:44:30.62 Script take: 0 111 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+09:45:19.28 Script take: 0 112 [ movie 01:09:51.88 Y:\НТС_12_02_08\Жена История любви 9 выпуск Наталья Подольская.mpg ]
+09:52:21.75 Watchdog timeout 1 sec.  Actual interval 1.05
+
+09:53:54.30 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+10:55:10.96 Script skip: 0 113 [ comment 0 Рекламный блок 10 начало - 10:15 ]
+10:55:10.96 Script skip: 0 114 [ comment 0 Нет рекламы в блоке ]
+10:55:10.97 Script skip: 0 115 [ comment 0 Рекламный блок 10 конец ]
+10:55:10.98 Script take: 0 116 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+10:55:54.55 Script take: 0 117 [ movie 00:04:24.20 Y:\НТС_история государства российского\00077 история государства российского 77 серия Ледовое побоище.mpg ]
+11:00:18.60 Script take: 0 118 [ movie 00:00:26.32 Z:\OnAir\ГОРОДА 12+\-3_города_Инта_корр.m2t ]
+11:00:44.59 Script skip: 0 119 [ comment 0 Рекламный блок 11 начало - 10:35 ]
+11:00:44.59 Script skip: 0 120 [ comment 0 Нет рекламы в блоке ]
+11:00:44.59 Script skip: 0 121 [ comment 0 Рекламный блок 11 конец ]
+11:00:44.60 Script skip: 0 122 [ comment 0 Рекламный блок 12 начало - 10:52 ]
+11:00:44.61 Script skip: 0 123 [ comment 0 Нет рекламы в блоке ]
+11:00:44.62 Script skip: 0 124 [ comment 0 Рекламный блок 12 конец ]
+11:00:44.63 Script skip: 0 125 [ comment 0 Рекламный блок 13 начало - 11:12 ]
+11:00:44.64 Script skip: 0 126 [ comment 0 Нет рекламы в блоке ]
+11:00:44.64 Script skip: 0 127 [ comment 0 Рекламный блок 13 конец ]
+11:00:44.66 Script take: 0 128 [ movie <00:00:00.00> 00:14:47.40 Y:\НТС_12_02_08\райские яблочки 1 сезон 2 серия.mpg ]
+11:15:32.09 Script skip: 0 129 [ comment 0 Рекламный блок 14 начало - 11:33 ]
+11:15:32.09 Script skip: 0 130 [ comment 0 Нет рекламы в блоке ]
+11:15:32.10 Script skip: 0 131 [ comment 0 Рекламный блок 14 конец ]
+11:15:32.10 Script take: 0 132 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+11:16:08.07 Script take: 0 133 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+11:16:51.31 Script take: 0 134 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+11:17:49.78 Script skip: 0 135 [ comment 0 & райские яблочки.avi ]
+11:17:49.78 Script take: 0 136 [ movie <00:14:47.40> 00:29:32.64 Y:\НТС_12_02_08\райские яблочки 1 сезон 2 серия.mpg ]
+11:22:46.78 FilePage  Shedule.AddItem 0 241 1 0 0 movie 00:12:16.44  Z:\OnAir\12_06\-3 КРиК 41 эфир 06-12-19_на 16.m2t
+11:22:50.80 Button Shedule.DeleteItem 0 241
+Deleted 0 241 picture 00:12:16.00 E:\Типа проги\Крик.png
+11:22:52.83 Watchdog timeout 1 sec.  Actual interval 1.05
+
+11:23:26.98 SheduleEdit Shedule.SetItemInOut 0 241 0 736440 (00:00:00.00, 00:12:16.44)
+11:23:46.18 FilePage  Shedule.AddItem 0 326 1 0 0 movie 00:11:49.56  Z:\OnAir\12_06\-3 КРиК 41 эфир 06-12-19_на 19.m2t
+11:23:49.28 Button Shedule.DeleteItem 0 326
+Deleted 0 326 picture 00:11:49.00 E:\Типа проги\Крик.png
+11:23:51.37 Watchdog timeout 1 sec.  Actual interval 1.03
+
+11:24:15.94 SheduleEdit Shedule.SetItemInOut 0 326 0 709560 (00:00:00.00, 00:11:49.56)
+11:24:56.85 SheduleEdit Shedule.SetItemDuration 0 207 786000 (00:13:06.00)
+11:25:16.29 SheduleEdit Shedule.SetItemDuration 0 248 935000 (00:15:35.00)
+11:26:45.26 FilePage  Shedule.AddItem 0 264 1 0 0 movie 00:16:03.64  Z:\OnAir\12_06\-3-ДА без ТЛФ _05_12_05часть1.m2t
+11:26:46.33 FilePage  Shedule.AddItem 0 265 1 0 0 movie 00:08:17.08  Z:\OnAir\12_06\-3_ДА без ТЛФ _05_12_05часть2.m2t
+11:26:49.86 Button Shedule.DeleteItem 0 266
+Deleted 0 266 movie 00:08:17.08 Z:\OnAir\12_06\-3_ДА без ТЛФ _05_12_05часть2.m2t
+11:26:55.88 FilePage  Shedule.AddItem 0 268 1 0 0 movie 00:08:17.08  Z:\OnAir\12_06\-3_ДА без ТЛФ _05_12_05часть2.m2t
+11:26:58.02 Button Shedule.DeleteItem 0 270
+Deleted 0 270 picture 00:14:00.00 E:\Типа проги\ДЕТАЛИ.png
+11:27:01.91 Button Shedule.DeleteItem 0 264
+Deleted 0 264 picture 00:14:00.00 E:\Типа проги\ДЕТАЛИ.png
+11:27:05.79 Watchdog timeout 1 sec.  Actual interval 1.4
+
+11:27:12.12 SheduleEdit Shedule.SetItemInOut 0 264 0 963640 (00:00:00.00, 00:16:03.64)
+11:27:20.00 SheduleEdit Shedule.SetItemInOut 0 268 0 497080 (00:00:00.00, 00:08:17.08)
+11:28:11.89 SheduleEdit Shedule.SetItemDuration 0 290 840000 (00:14:00.00)
+11:28:50.88 FilePage  Shedule.AddItem 0 273 1 0 0 movie 00:00:43.12  Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t
+11:28:56.92 Button Shedule.DeleteItem 0 274
+Deleted 0 274 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t
+11:31:15.83 FilePage  Shedule.AddItem 0 268 1 0 0 movie 00:00:43.12  Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t
+11:31:23.82 FilePage  Shedule.AddItem 0 269 1 0 0 movie 00:00:15.16  Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+11:32:13.80 FilePage  Shedule.AddItem 0 275 1 0 0 movie 00:00:36.08  Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t
+11:32:22.28 FilePage  Shedule.AddItem 0 276 1 0 0 movie 00:00:48.52  Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t
+11:32:37.75 FilePage  Shedule.AddItem 0 293 1 0 0 movie 00:00:15.16  Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+11:33:07.88 Button Shedule.DeleteItem 0 294
+Deleted 0 294 movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+11:33:15.92 FilePage  Shedule.AddItem 0 278 1 0 0 movie 00:00:43.12  Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t
+11:33:30.79 SheduleEdit Shedule.SetItemDuration 0 303 912000 (00:15:12.00)
+11:34:59.76 Button Shedule.DeleteItem 0 316
+Deleted 0 316 movie 00:00:14.20 Z:\Promo\ПРИЗЫ ВК\-3 ПризыВК_Александр на коми.m2t
+11:35:35.87 SheduleEdit Shedule.SetItemDuration 0 345 966000 (00:16:06.00)
+11:39:11.26 Watchdog timeout 1 sec.  Actual interval 1.36
+
+SLTrimEditorAdapter.Create instance() 733
+11:39:25.09 SheduleEdit Shedule.SetItemInOut 0 394 45000 60280 (00:00:45.00, 00:01:00.28)
+11:47:22.74 Script take: 0 137 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+11:48:21.14 Script take: 0 138 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+11:49:04.18 Script take: 0 139 [ movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t ]
+11:50:04.91 Script skip: 0 140 [ comment 0 Рекламный блок 15 начало - 11:55 ]
+11:50:04.91 Script skip: 0 141 [ comment 0 Нет рекламы в блоке ]
+11:50:04.92 Script skip: 0 142 [ comment 0 Рекламный блок 15 конец ]
+11:50:04.92 Script take: 0 143 [ movie 00:06:30.04 Y:\Писатели России\писатели России 7 выпуск Лихоносов.mpg ]
+11:56:34.99 Script take: 0 144 [ movie 00:03:19.52 Z:\OnAir\Обращение с ТКО\-3_ТКО_Ролик_4.m2t ]
+11:59:54.48 Script take: 0 145 [ movie 00:00:33.68 Z:\OnAir\ГОРОДА 12+\-3_Визинга кинотеатр испр.m2t ]
+12:00:28.20 Script take: 0 146 [ movie 00:27:16.16 Z:\OnAir\12_06\-3_Студия11_06-12-2019_full.m2t ]
+12:05:09.59 FilePage  Shedule.AddItem 0 411 1 0 0 movie 00:14:51.60  Z:\OnAir\12_06\-3 КРиК 41 эфир 06-12-19_на 22 и ОТР.m2t
+12:05:13.01 Button Shedule.DeleteItem 0 411
+Deleted 0 411 picture 00:14:51.00 E:\Типа проги\Крик - коми титр.png
+12:05:43.14 SheduleEdit Shedule.SetItemInOut 0 411 0 891600 (00:00:00.00, 00:14:51.60)
+12:07:13.09 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+12:19:26.42 FilePage  Shedule.AddItem 0 153 1 0 0 movie 00:00:44.68  Z:\OnAir\12_06\-3_ВН Главное на 12-30 6-12.m2t
+12:19:33.43 Button Shedule.DeleteItem 0 153
+Deleted 0 153 picture 00:00:50.00 E:\Типа проги\ВН Главное 12,30.png
+12:19:54.12 FilePage  Shedule.AddItem 0 175 1 0 0 movie 00:00:44.68  Z:\OnAir\12_06\-3_ВН Главное на 12-30 6-12.m2t
+12:20:08.10 Button Shedule.DeleteItem 0 175
+Deleted 0 175 picture 00:00:50.00 E:\Типа проги\ВН Главное 13,30.png
+12:21:48.13 SheduleEdit Shedule.SetItemDuration 0 207 796000 (00:13:16.00)
+12:27:44.30 Script skip: 0 147 [ comment 0 Рекламный блок 16 начало - 12:26 ]
+12:27:44.30 Script take: 0 148 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_8 _ смайлы _ 300-700.m2t ]
+12:27:49.55 Script take: 0 149 [ movie 00:00:20.12 Z:\Reklama\Телекарта\-3 01_bol'shaya_peremena_16+_1080p.m2t ]
+12:28:09.71 Script skip: 0 150 [ comment 0 Рекламный блок 16 конец ]
+12:28:09.71 Script take: 0 151 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+12:28:45.81 Script take: 0 152 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+12:29:29.22 Script take: 0 153 [ movie 00:00:44.68 Z:\OnAir\12_06\-3_ВН Главное на 12-30 6-12.m2t ]
+12:30:13.60 Script skip: 0 154 [ comment 0 Рекламный блок 17 начало - 12:40 ]
+12:30:13.60 Script skip: 0 155 [ comment 0 Нет рекламы в блоке ]
+12:30:13.60 Script skip: 0 156 [ comment 0 Рекламный блок 17 конец ]
+12:30:13.61 Script take: 0 157 [ movie <00:00:00.00> 00:10:50.72 Y:\НТС_12_02_08\Ночные ласточки 4 серия.mpg ]
+12:41:04.28 Script skip: 0 158 [ comment 0 Рекламный блок 18 начало - 13:00 ]
+12:41:04.28 Script skip: 0 159 [ comment 0 Нет рекламы в блоке ]
+12:41:04.29 Script skip: 0 160 [ comment 0 Рекламный блок 18 конец ]
+12:41:04.30 Script take: 0 161 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+12:41:52.79 Script take: 0 162 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+12:42:35.87 Script take: 0 163 [ movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t ]
+12:43:26.60 FilePage  Shedule.AddItem 0 339 1 0 0 movie 00:02:41.84  Z:\OnAir\12_06\-3_Завтра-по-магазинам_06-12-2019.m2t
+12:43:36.69 Script skip: 0 164 [ comment 0 & ночные ласточки.avi ]
+12:43:36.69 Script take: 0 165 [ movie <00:10:50.72> 00:36:48.72 Y:\НТС_12_02_08\Ночные ласточки 4 серия.mpg ]
+12:43:37.43 Button Shedule.DeleteItem 0 339
+Deleted 0 339 picture 00:03:00.00 E:\Типа проги\ЗАВТРА ПО МАГАЗИНАМ.png
+12:44:30.90 Watchdog timeout 1 sec.  Actual interval 1.16
+
+SLTrimEditorAdapter.Create instance() 592
+12:44:43.47 SheduleEdit Shedule.SetItemInOut 0 339 0 161840 (00:00:00.00, 00:02:41.84)
+12:45:08.57 SheduleEdit Shedule.SetItemDuration 0 345 984000 (00:16:24.00)
+12:45:28.48 FilePage  Shedule.AddItem 0 391 1 0 0 movie 00:02:41.84  Z:\OnAir\12_06\-3_Завтра-по-магазинам_06-12-2019.m2t
+12:45:48.37 Button Shedule.DeleteItem 0 391
+Deleted 0 391 picture 00:03:00.00 E:\Типа проги\ЗАВТРА ПО МАГАЗИНАМ.png
+12:46:30.44 SheduleEdit Shedule.SetItemInOut 0 394 26000 60280 (00:00:26.00, 00:01:00.28)
+12:47:21.38 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+13:20:25.43 Script take: 0 166 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+13:21:23.98 Script take: 0 167 [ movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t ]
+13:22:24.72 Script take: 0 168 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+13:23:13.47 Script take: 0 169 [ movie 00:05:07.04 Z:\OnAir\Мы рядом (12+)\-3 межпрогр_мы рядом_кречет.m2t ]
+13:28:20.63 Script take: 0 170 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+13:29:03.60 Script skip: 0 171 [ comment 0 Рекламный блок 19 начало - 13:29 ]
+13:29:03.60 Script take: 0 172 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+13:29:08.60 Script take: 0 173 [ movie 00:00:29.56 Z:\Reklama\ППСиГЗ_2019\-3_Bndr_Rolik_5_1_Печи.m2t ]
+13:29:38.61 Script skip: 0 174 [ comment 0 Рекламный блок 19 конец ]
+13:29:38.61 Script take: 0 175 [ movie 00:00:44.68 Z:\OnAir\12_06\-3_ВН Главное на 12-30 6-12.m2t ]
+13:30:22.87 Script skip: 0 176 [ comment 0 Рекламный блок 20 начало - 13:48 ]
+13:30:22.87 Script skip: 0 177 [ comment 0 Нет рекламы в блоке ]
+13:30:22.88 Script skip: 0 178 [ comment 0 Рекламный блок 20 конец ]
+13:30:22.89 Script take: 0 179 [ movie <00:00:00.00> 00:25:11.24 Y:\НТС_12_02_08\наши соседи-2 18 серия.mpg ]
+13:55:34.17 Script take: 0 180 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+13:56:17.63 Script skip: 0 181 [ comment 0 Рекламный блок 21 начало - 14:08 ]
+13:56:17.63 Script take: 0 182 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t ]
+13:56:22.62 Script take: 0 183 [ movie 00:00:30.16 Z:\Reklama\Десятилетие детства\К 10 летию детства\Матрешки\-3_Bndr_Матрешки_30 сек_16х9.m2t ]
+13:56:52.63 Script skip: 0 184 [ comment 0 Рекламный блок 21 конец ]
+13:56:52.63 Script take: 0 185 [ movie 00:00:15.80 Z:\Reklama\Антитеррор\-3_Bndr_Ролик № 3.    «У террора нет национальности» хронометраж 15 сек.avi ]
+13:57:08.62 Script take: 0 186 [ movie 00:00:20.00 Z:\Reklama\АНТИКОРРУПЦИЯ\-3_Bndr_Антикорупционный_права 1.avi ]
+13:57:28.58 Script take: 0 187 [ movie 00:00:13.20 Z:\Reklama\АНТИНАРКО\-3_Bndr_Наркотики коми с титрами.m2t ]
+13:57:41.58 Script take: 0 188 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_5ИСПР _ капли.m2t ]
+13:57:46.82 Script take: 0 189 [ movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t ]
+13:58:43.60 Script skip: 0 190 [ comment 0 & наши соседи 2.avi ]
+13:58:43.60 Script take: 0 191 [ movie <00:25:11.24> 00:18:51.80 Y:\НТС_12_02_08\наши соседи-2 18 серия.mpg ]
+14:04:51.57 FilePage  Shedule.AddItem 0 263 1 0 0 titleObjOn {} 0
+14:04:59.60 Button Shedule.DeleteItem 0 264
+Deleted 0 264 titleObjOn {} 0
+14:07:00.62 FilePage  Shedule.AddItem 0 263 1 0 0 titleObjOn {Повтор} 0
+14:07:05.61 FilePage  Shedule.AddItem 0 265 1 0 0 titleObjOff {Повтор} 0
+14:07:15.09 FilePage  Shedule.AddItem 0 269 1 0 0 titleObjOn {Повтор} 0
+14:07:18.81 FilePage  Shedule.AddItem 0 271 1 0 0 titleObjOff {Повтор} 0
+14:07:30.83 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+14:16:18.00 FilePage  Shedule.AddItem 0 216 1 0 0 movie 00:01:11.00  Z:\OnAir\12_06\-3 Поводдя_йылысь_14_30_6_12.m2t
+14:16:25.88 Button Shedule.DeleteItem 0 216
+Deleted 0 216 picture 00:00:40.00 E:\Типа проги\погода.png
+14:17:04.09 SheduleEdit Shedule.SetItemDuration 0 228 44680 (00:00:44.68)
+14:17:35.09 Script skip: 0 192 [ comment 0 Рекламный блок 22 начало - 14:25 ]
+14:17:35.09 Script skip: 0 193 [ comment 0 Нет рекламы в блоке ]
+14:17:35.10 Script skip: 0 194 [ comment 0 Рекламный блок 22 конец ]
+14:17:35.11 Script take: 0 195 [ movie 00:03:14.20 Z:\OnAir\ФУ\-3 ФУ на вкус Пирожки.m2t ]
+14:17:46.05 SheduleEdit Shedule.SetItemDuration 0 207 0 (00:00:00.00)
+14:20:28.78 FilePage  Shedule.AddItem 0 324 1 0 0 movie 00:12:27.60  Z:\OnAir\12_06\-3 Миян йоз_Парч_06-12_.m2t
+14:20:45.79 FilePage  Shedule.AddItem 0 324 1 0 0 movie 00:12:27.60  Z:\OnAir\12_06\-3 Миян йоз_Парч_06-12_.m2t
+14:20:47.92 Button Shedule.DeleteItem 0 325
+Deleted 0 325 movie 00:12:27.60 Z:\OnAir\12_06\-3 Миян йоз_Парч_06-12_.m2t
+14:20:49.18 Script take: 0 196 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+14:20:50.97 Button Shedule.DeleteItem 0 324
+Deleted 0 324 picture 00:13:30.00 E:\Типа проги\МИЯН йоз.png
+14:20:53.33 Watchdog timeout 1 sec.  Actual interval 1.2
+
+SLTrimEditorAdapter.Create instance() 546
+14:21:19.95 SheduleEdit Shedule.SetItemInOut 0 324 0 747600 (00:00:00.00, 00:12:27.60)
+14:21:37.83 Script take: 0 197 [ movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t ]
+14:22:38.46 Script take: 0 198 [ movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t ]
+14:23:34.94 Script take: 0 199 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+14:24:33.82 Script take: 0 200 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+14:25:09.85 Script take: 0 201 [ movie 00:00:33.88 Z:\OnAir\ГОРОДА 12+\-3_города_Зеленец_корр1.m2t ]
+14:25:43.90 Script take: 0 202 [ movie 00:02:10.04 Z:\OnAir\наставник\-3_Наставник_ГРАДОВ_с 02.12_ЕСТЬ КУРЕНИЕ.m2t ]
+14:27:53.92 Script take: 0 203 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+14:28:36.91 Script take: 0 204 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+14:28:44.92 Script take: 0 205 [ movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t ]
+14:29:44.03 Script skip: 0 206 [ comment 0 Слот 4___14,30-16,30 = 2 часа  (Рекл=14,30 мин)=1 час 45,30 мин ]
+14:29:44.03 Script take: 0 207 [ video1 0 Талун 14-30 ]
+14:29:44.04 Script stop: 0 209 [ wait operator 0  ]
+14:29:44.04 Script wait: 0 209 [ wait operator 0  ]
+14:42:46.05 Button Shedule.DeleteItem 0 238
+Deleted 0 238 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t
+14:43:58.06 Hotkey Shedule.Start
+Skip: 0 209 [ wait operator 0  ]
+14:43:58.26 Script skip: 0 210 [ comment 0 Рекламный блок 2v начало - 14:37 ]
+14:43:58.26 Script skip: 0 211 [ comment 0 Нет рекламы в блоке ]
+14:43:58.26 Script skip: 0 212 [ comment 0 Рекламный блок 2v конец ]
+14:43:58.27 Script skip: 0 213 [ comment 0 Рекламный блок 23 начало - 14:43 ]
+14:43:58.28 Script skip: 0 214 [ comment 0 Нет рекламы в блоке ]
+14:43:58.29 Script skip: 0 215 [ comment 0 Рекламный блок 23 конец ]
+14:43:58.29 Script take: 0 216 [ movie 00:01:11.00 Z:\OnAir\12_06\-3 Поводдя_йылысь_14_30_6_12.m2t ]
+14:44:31.18 Button Shedule.DeleteItem 0 232
+Deleted 0 232 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t
+14:44:47.02 FilePage  Shedule.AddItem 0 238 1 0 0 movie 00:00:15.16  Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+14:45:09.30 Script take: 0 217 [ movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t ]
+14:45:11.10 SheduleEdit Shedule.SetItemDuration 0 247 916000 (00:15:16.00)
+14:45:25.05 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+14:45:53.54 Script take: 0 218 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+14:46:25.11 SheduleEdit Shedule.SetItemDuration 0 207 854000 (00:14:14.00)
+14:46:37.12 Script take: 0 219 [ movie 00:15:31.00 Z:\OnAir\12_05\Mog-А_Коми incognito Екатерининский канал 2013.avi ]
+14:56:02.13 FilePage  Shedule.AddItem 0 354 1 0 0 movie 00:00:15.16  Z:\OnAir\12_06\-3-DINAMIKA_декабрь 2019 г.m2t
+14:56:35.25 FilePage  Shedule.AddItem 0 404 1 0 0 movie 00:00:15.16  Z:\OnAir\12_06\-3-DINAMIKA_декабрь 2019 г.m2t
+14:57:50.05 FilePage  Shedule.AddItem 0 417 1 0 0 movie 00:00:05.20  Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_1 _ Пули _ 300-700.m2t
+14:57:57.12 FilePage  Shedule.AddItem 0 418 1 0 0 movie 00:00:15.16  Z:\OnAir\12_06\-3-DINAMIKA_декабрь 2019 г.m2t
+14:57:59.47 Button Shedule.DeleteItem 0 420
+Deleted 0 420 comment 0 Нет рекламы в блоке
+14:58:38.26 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+15:02:07.61 Script take: 0 220 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+15:02:51.10 Script skip: 0 221 [ comment 0 Рекламный блок 24 начало - 15:10 ]
+15:02:51.10 Script skip: 0 222 [ comment 0 Нет рекламы в блоке ]
+15:02:51.10 Script skip: 0 223 [ comment 0 Рекламный блок 24 конец ]
+15:02:51.12 Script take: 0 224 [ movie 00:13:41.56 Z:\OnAir\12_06\Mog-А_Коми incognito Эжва 2013.avi ]
+15:04:26.16 FilePage  Shedule.AddItem 0 228 1 0 0 movie 00:00:44.68  Z:\OnAir\12_06\-3_ВН Главное на 12-30 6-12.m2t
+15:04:30.16 Button Shedule.DeleteItem 0 228
+Deleted 0 228 picture 00:00:44.68 E:\Типа проги\ВН Главное 15,30.png
+15:04:46.68 Watchdog timeout 1 sec.  Actual interval 1.06
+
+15:04:51.44 SheduleEdit Shedule.SetItemInOut 0 240 0 736440 (00:00:00.00, 00:12:16.44)
+15:16:32.29 Script take: 0 225 [ movie <00:00:00.60> 00:05:25.24 Y:\НТС_Мульты\Планета Ai 12 серия друг для шарпика.mpg ]
+15:21:57.57 Script take: 0 226 [ movie <00:00:00.64> 00:05:10.72 Y:\НТС_Мульты\Планета Ai 13 серия рокнрольно.mpg ]
+15:27:08.46 Script take: 0 227 [ movie <00:00:00.00> 00:05:28.72 Y:\НТС_12_02_08\Агрессивная среда. 2 выпуск Дороги.mpg ]
+15:32:36.99 Script take: 0 228 [ movie 00:00:44.68 Z:\OnAir\12_06\-3_ВН Главное на 12-30 6-12.m2t ]
+15:33:08.79 FilePage  Shedule.AddItem 0 416 1 0 0 movie 00:14:51.40  Z:\OnAir\12_06\-3 крик_коми_титры_06_12_00.m2t
+15:33:12.56 Button Shedule.DeleteItem 0 416
+Deleted 0 416 movie 00:14:51.60 Z:\OnAir\12_06\-3 КРиК 41 эфир 06-12-19_на 22 и ОТР.m2t
+15:33:15.07 Watchdog timeout 1 sec.  Actual interval 1.2
+
+SLTrimEditorAdapter.Create instance() 609
+15:33:21.70 Script skip: 0 229 [ comment 0 Рекламный блок 25 начало - 15:30 ]
+15:33:21.70 Script skip: 0 230 [ comment 0 Нет рекламы в блоке ]
+15:33:21.71 Script skip: 0 231 [ comment 0 Рекламный блок 25 конец ]
+15:33:21.72 Script skip: 0 232 [ comment 0 & агрессивная среда.avi ]
+15:33:21.73 Script take: 0 233 [ movie <00:05:28.72> 00:40:29.92 Y:\НТС_12_02_08\Агрессивная среда. 2 выпуск Дороги.mpg ]
+15:33:27.71 SheduleEdit Shedule.SetItemInOut 0 416 0 891400 (00:00:00.00, 00:14:51.40)
+15:33:43.84 SheduleEdit Shedule.SetItemInOut 0 416 0 891400 (00:00:00.00, 00:14:51.40)
+15:34:23.02 Watchdog timeout 1 sec.  Actual interval 1.06
+
+15:34:28.69 SheduleEdit Shedule.SetItemInOut 0 416 0 891400 (00:00:00.00, 00:14:51.40)
+15:48:10.63 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+15:48:14.36 Watchdog timeout 1 sec.  Actual interval 1.25
+
+15:48:21.70 SheduleEdit Shedule.SetItemInOut 0 240 0 736440 (00:00:00.00, 00:12:16.44)
+16:01:19.70 FilePage  Shedule.AddItem 0 281 1 0 0 movie 00:13:37.00  Z:\OnAir\12_06\-3_Наши Любовь Головченко 06 12 19.m2t
+16:01:21.74 Button Shedule.DeleteItem 0 281
+Deleted 0 281 picture 00:14:00.00 E:\Типа проги\Наши люди.png
+16:01:24.21 Watchdog timeout 1 sec.  Actual interval 1.11
+
+SLTrimEditorAdapter.Create instance() 546
+16:01:40.13 SheduleEdit Shedule.SetItemInOut 0 281 0 817000 (00:00:00.00, 00:13:37.00)
+16:03:56.76 FilePage  Shedule.AddItem 0 261 1 0 0 movie 00:02:06.40  Z:\OnAir\12_06\-3_Все_о_погоде_16_30_6_12_ЮРГАН.m2t
+16:04:01.69 Button Shedule.DeleteItem 0 261
+Deleted 0 261 picture 00:02:00.00 E:\Типа проги\погода.png
+16:04:09.00 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+16:04:30.68 FilePage  Shedule.AddItem 0 288 1 0 0 movie 00:00:44.68  Z:\OnAir\12_06\-3_ВН Главное на 12-30 6-12.m2t
+16:04:33.95 Button Shedule.DeleteItem 0 288
+Deleted 0 288 picture 00:00:50.00 E:\Типа проги\ВН Главное 17,45.png
+16:04:38.67 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+16:13:51.90 Script skip: 0 234 [ comment 0 Рекламный блок 26 начало - 16:12 ]
+16:13:51.90 Script skip: 0 235 [ comment 0 Нет рекламы в блоке ]
+16:13:51.92 Script skip: 0 236 [ comment 0 Рекламный блок 26 конец ]
+16:13:51.93 Script take: 0 237 [ movie 00:00:22.39 Z:\OnAir\ГОРОДА 12+\-3_города_Воркута_корр_блюр.mpg ]
+16:14:14.00 Script take: 0 238 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+16:14:57.06 Script take: 0 239 [ movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t ]
+16:15:12.21 Script take: 0 240 [ movie 00:12:16.44 Z:\OnAir\12_06\-3 КРиК 41 эфир 06-12-19_на 16.m2t ]
+16:16:54.85 FilePage  Shedule.AddItem 0 298 1 0 0 movie 00:12:39.68  Z:\OnAir\12_06\-3 ВН УХТЫ 6-12.m2t
+16:16:59.86 Button Shedule.DeleteItem 0 298
+Deleted 0 298 picture 00:14:00.00 E:\Типа проги\УХТА.png
+16:17:05.87 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+16:27:28.86 Script skip: 0 241 [ comment 0 Рекламный блок 27 начало - 16:25 ]
+16:27:28.86 Script skip: 0 242 [ comment 0 Рекламный блок 27 конец ]
+16:27:28.88 Script take: 0 243 [ movie 00:00:33.68 Z:\OnAir\ГОРОДА 12+\-3_Визинга кинотеатр испр.m2t ]
+16:28:02.33 Script take: 0 244 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+16:28:45.81 Script take: 0 245 [ movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t ]
+16:29:32.81 SheduleEdit Shedule.SetItemDuration 0 247 0 (00:00:00.00)
+16:29:34.76 SheduleEdit Shedule.SetItemDuration 0 255 0 (00:00:00.00)
+16:29:44.80 Script skip: 0 246 [ comment 0 Слот 5___16,30-18,30 = 2 часа  (Рекл=18,30 мин)=1 час 41,30 мин ]
+16:29:44.80 Script take: 0 247 [ video1 0 Время новостей 16-30 ]
+16:29:44.81 Script stop: 0 249 [ wait operator 0  ]
+16:29:44.81 Script wait: 0 249 [ wait operator 0  ]
+16:45:06.29 ScheduleDblClick Shedule.SetRunPosition 0 257
+16:45:06.38 Script wait: 0 257 [ wait operator 0  ]
+16:52:12.02 FilePage  Shedule.AddItem 0 262 1 0 0 movie 00:00:43.12  Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t
+16:52:15.03 FilePage  Shedule.AddItem 0 263 1 0 0 movie 00:00:15.16  Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+16:52:20.02 FilePage  Shedule.AddItem 0 264 1 0 0 movie 00:00:36.08  Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t
+16:56:20.09 Hotkey Shedule.Start
+Skip: 0 257 [ wait operator 0  ]
+16:56:20.27 Script skip: 0 258 [ comment 0 Рекламный блок 28 начало - 16:48 ]
+16:56:20.27 Script skip: 0 259 [ comment 0 Нет рекламы в блоке ]
+16:56:20.28 Script skip: 0 260 [ comment 0 Рекламный блок 28 конец ]
+16:56:20.28 Script take: 0 261 [ movie 00:02:06.40 Z:\OnAir\12_06\-3_Все_о_погоде_16_30_6_12_ЮРГАН.m2t ]
+16:57:07.65 FilePage  Shedule.AddItem 0 285 1 0 0 movie 00:00:15.16  Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+16:57:19.04 FilePage  Shedule.AddItem 0 301 1 0 0 movie 00:00:15.16  Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+16:57:33.01 FilePage  Shedule.AddItem 0 299 1 0 0 movie 00:00:48.52  Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t
+16:58:03.55 FilePage  Shedule.AddItem 0 304 1 0 0 movie 00:00:43.12  Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t
+16:58:19.18 SheduleEdit Shedule.SetItemDuration 0 313 913000 (00:15:13.00)
+16:58:26.12 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+16:58:27.06 Script take: 0 262 [ movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t ]
+16:59:09.05 SheduleEdit Shedule.SetItemDuration 0 255 0 (00:00:00.00)
+16:59:11.09 Script take: 0 263 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+16:59:15.07 SheduleEdit Shedule.SetItemDuration 0 247 1200000 (00:20:00.00)
+16:59:24.11 SheduleEdit Shedule.SetItemDuration 0 255 396000 (00:06:36.00)
+16:59:29.10 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+16:59:54.08 Script take: 0 264 [ movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t ]
+17:00:09.23 Script take: 0 265 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+17:00:12.17 FilePage  Shedule.AddItem 0 326 1 0 0 movie 00:01:11.00  Z:\OnAir\12_06\-3 Поводдя_йылысь_14_30_6_12.m2t
+17:00:18.10 Button Shedule.DeleteItem 0 326
+Deleted 0 326 picture 00:00:40.00 E:\Типа проги\погода.png
+17:00:36.08 FilePage  Shedule.AddItem 0 376 1 0 0 movie 00:02:06.40  Z:\OnAir\12_06\-3_Все_о_погоде_16_30_6_12_ЮРГАН.m2t
+17:00:39.23 Button Shedule.DeleteItem 0 376
+Deleted 0 376 picture 00:02:00.00 E:\Типа проги\погода.png
+17:00:45.23 Script take: 0 266 [ titleObjOn {Повтор} 0 ]
+17:00:45.24 Script take: 0 267 [ movie 00:16:03.64 Z:\OnAir\12_06\-3-ДА без ТЛФ _05_12_05часть1.m2t ]
+17:00:52.51 FilePage  Shedule.AddItem 0 420 1 0 0 movie 00:02:06.40  Z:\OnAir\12_06\-3_Все_о_погоде_16_30_6_12_ЮРГАН.m2t
+17:00:58.14 Button Shedule.DeleteItem 0 420
+Deleted 0 420 picture 00:02:00.00 E:\Типа проги\погода.png
+17:01:03.14 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+17:01:32.14 FilePage  Shedule.AddItem 0 484 1 0 0 movie 00:13:37.00  Z:\OnAir\12_06\-3_Наши Любовь Головченко 06 12 19.m2t
+17:01:35.51 Button Shedule.DeleteItem 0 484
+Deleted 0 484 picture 00:14:00.00 E:\Типа проги\Наши люди.png
+17:01:45.12 SheduleEdit Shedule.SetItemInOut 0 484 0 817000 (00:00:00.00, 00:13:37.00)
+17:02:25.20 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+17:16:06.17 FilePage  Shedule.AddItem 0 388 1 0 0 movie 00:05:57.16  Z:\OnAir\12_06\-3_проще говоря 06,12,19.m2t
+17:16:13.15 Button Shedule.DeleteItem 0 390
+Deleted 0 390 picture 00:05:00.00 E:\Типа проги\ПРОЩЕ ГОВОРЯ.png
+17:16:16.66 Watchdog timeout 1 sec.  Actual interval 1.17
+
+SLTrimEditorAdapter.Create instance() 578
+17:16:25.22 SheduleEdit Shedule.SetItemInOut 0 389 0 357160 (00:00:00.00, 00:05:57.16)
+17:16:49.15 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+17:16:49.16 Script take: 0 268 [ titleObjOff {Повтор} 0 ]
+17:16:49.18 Script skip: 0 269 [ comment 0 Рекламный блок 29 начало - 17:00 ]
+17:16:49.19 Script take: 0 270 [ movie 00:00:57.16 Z:\Reklama\ЗОЖ 27 июня\-3 Репродуктивное здоровье озвуч. хр 57 сек..m2t ]
+17:17:12.12 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+17:17:46.08 Script skip: 0 271 [ comment 0 Рекламный блок 29 конец ]
+17:17:46.08 Script take: 0 272 [ titleObjOn {Повтор} 0 ]
+17:17:46.10 Script take: 0 273 [ movie 00:08:17.08 Z:\OnAir\12_06\-3_ДА без ТЛФ _05_12_05часть2.m2t ]
+17:19:50.66 Watchdog timeout 1 sec.  Actual interval 1.05
+
+17:19:56.43 SheduleEdit Shedule.SetItemInOut 0 293 0 1636160 (00:00:00.00, 00:27:16.16)
+17:21:11.15 FilePage  Shedule.AddItem 0 328 1 0 0 movie 00:00:15.16  Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+17:21:31.06 Button Shedule.DeleteItem 0 329
+Deleted 0 329 movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+17:21:46.17 FilePage  Shedule.AddItem 0 340 1 0 0 movie 00:00:43.12  Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t
+17:22:10.30 SheduleEdit Shedule.SetItemDuration 0 356 972000 (00:16:12.00)
+17:22:34.06 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+17:26:03.17 Script take: 0 274 [ titleObjOff {Повтор} 0 ]
+17:26:03.18 Script take: 0 275 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+17:26:46.34 Script take: 0 276 [ movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t ]
+17:27:01.44 Script skip: 0 277 [ comment 0 Рекламный блок 30 начало - 17:18 ]
+17:27:01.44 Script take: 0 278 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+17:27:06.66 Script take: 0 279 [ movie 00:00:20.12 Z:\Reklama\Телекарта\-3 02_Multiroom_0-20_1080p.m2t ]
+17:27:27.19 Script skip: 0 280 [ comment 0 Рекламный блок 30 конец ]
+17:27:27.19 Script take: 0 281 [ movie 00:00:31.16 Z:\Reklama\АНТИНАРКО\-3_ролик_Без-наркотиков испр Аня Зуб.m2t ]
+17:27:58.19 Script take: 0 282 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+17:28:34.21 Script take: 0 283 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+17:29:22.57 Script take: 0 284 [ movie 00:13:37.00 Z:\OnAir\12_06\-3_Наши Любовь Головченко 06 12 19.m2t ]
+17:30:57.55 SheduleEdit Shedule.SetItemDuration 0 368 633000 (00:10:33.00)
+17:33:41.28 SheduleEdit Shedule.SetItemDuration 0 356 912000 (00:15:12.00)
+17:33:51.30 SheduleEdit Shedule.SetItemDuration 0 356 904000 (00:15:04.00)
+17:34:00.28 SheduleEdit Shedule.SetItemDuration 0 368 632000 (00:10:32.00)
+17:36:06.89 Watchdog timeout 1 sec.  Actual interval 1.05
+
+17:36:12.38 SheduleEdit Shedule.SetItemInOut 0 284 0 817000 (00:00:00.00, 00:13:37.00)
+17:42:59.46 Script take: 0 285 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+17:43:42.57 Script take: 0 286 [ movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t ]
+17:43:57.77 Script skip: 0 287 [ comment 0 Рекламный блок 31 начало - 17:36 ]
+17:43:57.77 Script take: 0 288 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+17:44:03.18 Script take: 0 289 [ movie 00:00:05.20 Z:\Reklama\Десятилетие детства\К 10 летию детства\Диалоги\-3_Bndr_Диалоги_5 сек_16х9.m2t ]
+17:44:08.17 Script skip: 0 290 [ comment 0 Рекламный блок 31 конец ]
+17:44:08.17 Script take: 0 291 [ movie 00:00:08.60 Z:\Promo\ПРИЗЫ ВК\-3_ПризыВК_Настя(СаундЭффекты).m2t ]
+17:44:17.19 Script take: 0 292 [ movie 00:00:44.68 Z:\OnAir\12_06\-3_ВН Главное на 12-30 6-12.m2t ]
+17:45:01.46 Script take: 0 293 [ movie 00:27:16.16 Z:\OnAir\12_06\-3_Студия11_06-12-2019_full.m2t ]
+17:56:15.39 Watchdog timeout 1 sec.  Actual interval 1.62
+
+17:56:42.29 FilePage  Shedule.AddItem 0 355 1 0 0 movie 00:01:00.28  Z:\Часы\Сlock_19_30 (07_30).m2t
+17:57:24.31 Watchdog timeout 1 sec.  Actual interval 1.55
+
+17:57:29.27 Button Shedule.DeleteItem 0 357
+Deleted 0 357 video1 00:15:04.00 Время новостей 19-30
+17:57:32.42 Button Shedule.DeleteItem 0 358
+Deleted 0 358 wait operator 0 
+17:57:37.53 FilePage  Shedule.AddItem 0 356 1 0 0 movie 00:16:24.32  Z:\OnAir\12_06\-3 ВН ВЕЗДЕ 1ч с рекламой 6-12.m2t
+17:57:56.30 Button Shedule.DeleteItem 0 367
+Deleted 0 367 video1 00:10:32.00 Время новостей 19-30
+17:57:58.60 Button Shedule.DeleteItem 0 368
+Deleted 0 368 wait operator 0 
+17:59:53.21 FilePage  Shedule.AddItem 0 366 1 0 0 movie 00:09:11.92  Z:\OnAir\12_06\-3 ВН вечер 2 часть 6-12.m2t
+18:00:31.61 FilePage  Shedule.AddItem 0 312 1 0 0 movie 00:01:00.28  Z:\Часы\Сlock_18_30 (06_30).m2t
+18:00:36.35 SheduleEdit Shedule.SetItemName 0 314 Талун 18-30
+18:02:16.23 FilePage  Shedule.AddItem 0 313 1 0 0 movie 00:11:07.76  Z:\OnAir\12_06\-3 ТАЛУН 18-30 1 часть 6-12.m2t
+18:02:19.23 Button Shedule.DeleteItem 0 315
+Deleted 0 315 video1 00:15:13.00 Талун 18-30
+18:02:21.59 Button Shedule.DeleteItem 0 316
+Deleted 0 316 wait operator 0 
+18:02:30.41 Button Shedule.DeleteItem 0 318
+Deleted 0 318 video1 00:10:00.00 Талун 18-30
+18:02:37.32 Button Shedule.DeleteItem 0 319
+Deleted 0 319 wait operator 0 
+18:04:28.28 FilePage  Shedule.AddItem 0 401 1 0 0 movie 00:16:24.32  Z:\OnAir\12_06\-3 ВН ВЕЗДЕ 1ч с рекламой 6-12.m2t
+18:04:31.30 Button Shedule.DeleteItem 0 401
+Deleted 0 401 picture 00:16:00.00 E:\Типа проги\Время новостей 21,30.png
+18:04:39.63 FilePage  Shedule.AddItem 0 410 1 0 0 movie 00:09:06.04  Z:\OnAir\12_06\-3 ВН ночь 2 часть 6-12.m2t
+18:04:44.29 Button Shedule.DeleteItem 0 410
+Deleted 0 410 picture 00:10:00.00 E:\Типа проги\Время новостей 21,30.png
+18:05:36.78 Watchdog timeout 1 sec.  Actual interval 1.25
+
+SLTrimEditorAdapter.Create instance() 609
+18:05:43.35 SheduleEdit Shedule.SetItemInOut 0 313 47000 60280 (00:00:47.00, 00:01:00.28)
+18:05:55.84 Watchdog timeout 1 sec.  Actual interval 1.19
+
+18:06:31.32 SheduleEdit Shedule.SetItemInOut 0 314 0 658680 (00:00:00.00, 00:10:58.68)
+18:06:35.23 Watchdog timeout 1 sec.  Actual interval 1.53
+
+18:06:39.31 SheduleEdit Shedule.SetItemInOut 0 314 0 658680 (00:00:00.00, 00:10:58.68)
+18:07:34.25 FilePage  Shedule.AddItem 0 321 1 0 0 movie 00:09:48.80  Z:\OnAir\12_06\-3 Талун вечер 2 часть 6-12.m2t
+18:07:40.45 Button Shedule.DeleteItem 0 322
+Deleted 0 322 movie 00:09:48.80 Z:\OnAir\12_06\-3 Талун вечер 2 часть 6-12.m2t
+18:07:44.74 FilePage  Shedule.AddItem 0 314 1 0 0 movie 00:09:48.80  Z:\OnAir\12_06\-3 Талун вечер 2 часть 6-12.m2t
+18:08:01.51 FilePage  Shedule.AddItem 0 325 1 0 0 movie 00:00:15.16  Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t
+18:08:11.31 FilePage  Shedule.AddItem 0 327 1 0 0 movie 00:00:36.08  Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t
+18:08:16.29 FilePage  Shedule.AddItem 0 328 1 0 0 movie 00:00:58.60  Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t
+18:08:24.31 FilePage  Shedule.AddItem 0 328 1 0 0 movie 00:00:56.44  Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t
+18:08:29.68 FilePage  Shedule.AddItem 0 330 1 0 0 movie 00:00:48.52  Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t
+18:09:05.31 FilePage  Shedule.AddItem 0 331 1 0 0 movie 00:01:00.76  Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t
+18:09:19.78 Button Shedule.DeleteItem 0 328
+Deleted 0 328 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t
+18:09:55.11 Watchdog timeout 1 sec.  Actual interval 1.28
+
+18:10:12.79 SheduleEdit Shedule.SetItemInOut 0 358 35000 60280 (00:00:35.00, 00:01:00.28)
+18:10:54.43 SheduleEdit Shedule.SetItemDuration 0 386 1541240 (00:25:41.24)
+18:11:07.80 FilePage  Shedule.AddItem 0 381 1 0 0 movie 00:00:05.20  Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t
+18:11:14.42 SheduleEdit Shedule.SetItemDuration 0 378 1200000 (00:20:00.00)
+18:11:16.88 Button Shedule.DeleteItem 0 382
+Deleted 0 382 movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t
+18:11:32.88 SheduleEdit Shedule.SetItemDuration 0 378 1541240 (00:25:41.24)
+18:11:49.57 SheduleEdit Shedule.SetItemDuration 0 386 426200 (00:07:06.20)
+18:12:01.59 Button Shedule.DeleteItem 0 405
+Deleted 0 405 movie <00:00:26.00> 00:00:34.28 Z:\Часы\Сlock_21_30.m2t
+18:12:17.76 Script skip: 0 294 [ comment 0 Рекламный блок 32 начало - 17:52 ]
+18:12:17.76 Script skip: 0 295 [ comment 0 Нет рекламы в блоке ]
+18:12:17.77 Script skip: 0 296 [ comment 0 Рекламный блок 32 конец ]
+18:12:17.77 Script skip: 0 297 [ comment 0 Рекламный блок 33 начало - 18:08 ]
+18:12:17.79 Script skip: 0 298 [ comment 0 Нет рекламы в блоке ]
+18:12:17.79 Script skip: 0 299 [ comment 0 Рекламный блок 33 конец ]
+18:12:17.80 Script take: 0 300 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+18:12:30.44 Button Shedule.DeleteItem 0 421
+Deleted 0 421 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t
+18:12:37.77 SheduleEdit Shedule.SetItemInOut 0 421 0 891400 (00:00:00.00, 00:14:51.40)
+18:12:45.66 Button Shedule.DeleteItem 0 434
+Deleted 0 434 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t
+18:12:46.38 Button Shedule.DeleteItem 0 434
+Deleted 0 434 movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t
+18:13:06.41 Script take: 0 301 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+18:13:10.52 Button Shedule.DeleteItem 0 455
+Deleted 0 455 movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t
+18:13:26.69 Button Shedule.DeleteItem 0 466
+Deleted 0 466 movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t
+18:13:42.41 Script take: 0 302 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+18:13:52.43 FilePage  Shedule.AddItem 0 465 1 0 0 movie 00:00:36.08  Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t
+18:14:03.47 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+18:14:25.41 Script take: 0 303 [ movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t ]
+18:14:40.58 Script take: 0 304 [ movie 00:12:39.68 Z:\OnAir\12_06\-3 ВН УХТЫ 6-12.m2t ]
+18:23:48.79 SheduleEdit Shedule.SetItemInOut 0 332 0 747600 (00:00:00.00, 00:12:27.60)
+18:27:20.57 Script take: 0 305 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+18:28:03.54 Script skip: 0 306 [ comment 0 Рекламный блок 34 начало - 18:25 ]
+18:28:03.54 Script take: 0 307 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+18:28:08.52 Script take: 0 308 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+18:28:21.77 Script skip: 0 309 [ comment 0 Рекламный блок 34 конец ]
+18:28:21.77 Script take: 0 310 [ movie 00:00:26.32 Z:\OnAir\ГОРОДА 12+\-3_города_Инта_корр.m2t ]
+18:28:47.98 Script take: 0 311 [ movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t ]
+18:29:47.45 Script skip: 0 312 [ comment 0 Слот 6___18,30-19,30 = 1 час (Рекл=10 мин)=50 мин ]
+18:29:47.45 Script take: 0 313 [ movie <00:00:47.00> 00:00:13.28 Z:\Часы\Сlock_18_30 (06_30).m2t ]
+18:30:00.46 Script take: 0 314 [ movie <00:00:00.00> 00:10:58.68 Z:\OnAir\12_06\-3 ТАЛУН 18-30 1 часть 6-12.m2t ]
+18:40:59.54 Script take: 0 315 [ movie 00:09:48.80 Z:\OnAir\12_06\-3 Талун вечер 2 часть 6-12.m2t ]
+18:50:47.95 Script skip: 0 316 [ comment 0 Рекламный блок 35 начало - 18:45 ]
+18:50:47.95 Script skip: 0 317 [ comment 0 Нет рекламы в блоке ]
+18:50:47.95 Script skip: 0 318 [ comment 0 Рекламный блок 35 конец ]
+18:50:47.96 Script skip: 0 319 [ comment 0 Рекламный блок 3а начало - 18:57 ]
+18:50:47.96 Script take: 0 320 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+18:50:53.25 Script take: 0 321 [ movie 00:00:05.20 Z:\Reklama\-3_Магия меха_новое поступление Зима.m2t ]
+18:50:58.72 Script skip: 0 322 [ comment 0 Рекламный блок 3а конец ]
+18:50:58.72 Script take: 0 323 [ movie 00:01:11.00 Z:\OnAir\12_06\-3 Поводдя_йылысь_14_30_6_12.m2t ]
+18:52:09.69 Script take: 0 324 [ movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t ]
+18:52:53.76 Script take: 0 325 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+18:53:36.75 Script take: 0 326 [ movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t ]
+18:53:51.90 Script take: 0 327 [ movie 00:00:22.39 Z:\OnAir\ГОРОДА 12+\-3_города_Воркута_корр_блюр.mpg ]
+18:54:14.27 Script take: 0 328 [ movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t ]
+18:55:10.75 Script take: 0 329 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+18:55:21.76 FilePage  Shedule.AddItem 0 377 1 0 0 movie 00:25:41.52  Z:\OnAir\12_06\-3_ДН 1 ч_06_12_20часть1.m2t
+18:55:25.30 Button Shedule.DeleteItem 0 379
+Deleted 0 379 video1 00:25:41.24 ДЕТАЛИ НЕДЕЛИ ЧАСТЬ 1
+18:55:28.27 Button Shedule.DeleteItem 0 380
+Deleted 0 380 wait operator 0 
+18:55:40.81 Button Shedule.DeleteItem 0 384
+Deleted 0 384 video1 00:07:06.20 ДЕТАЛИ НЕДЕЛИ ЧАСТЬ 2
+18:56:09.35 Script take: 0 330 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+18:56:57.86 Script take: 0 331 [ movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t ]
+18:57:58.75 Script take: 0 332 [ movie 00:12:27.60 Z:\OnAir\12_06\-3 Миян йоз_Парч_06-12_.m2t ]
+18:58:48.05 FilePage  Shedule.AddItem 0 383 1 0 0 movie 00:07:06.20  Z:\OnAir\12_06\-3_ДН 2 ч _06_12_05часть2.m2t
+18:59:00.85 Button Shedule.DeleteItem 0 385
+18:59:04.24 Button Shedule.DeleteItem 0 386
+Deleted 0 386 wait operator 0 
+18:59:07.70 Watchdog timeout 1 sec.  Actual interval 1.34
+
+18:59:12.02 SheduleEdit Shedule.SetItemInOut 0 385 0 357160 (00:00:00.00, 00:05:57.16)
+18:59:34.80 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+19:10:26.18 Script skip: 0 333 [ comment 0 Рекламный блок 36 начало - 19:12 ]
+19:10:26.18 Script take: 0 334 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+19:10:31.40 Script take: 0 335 [ movie 00:00:15.16 Z:\Reklama\-3 КС-Керамик_Уже началась СТРОЙМАТ.m2t ]
+19:10:46.80 Script take: 0 336 [ movie 00:00:15.20 Z:\Reklama\-3 MORI_01.m2t ]
+19:11:01.78 Script take: 0 337 [ movie 00:00:15.92 Z:\Reklama\-3_Автосмотр_исправлен.m2t ]
+19:11:17.78 Script take: 0 338 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+19:11:30.91 Script take: 0 339 [ movie 00:00:15.16 Z:\Reklama\-3_АЛМАГ+ ЛАМПА (Орбита) Full-HD 15 сек - Коми (Будь здоров и Планета здор-я).m2t ]
+19:11:46.05 Script skip: 0 340 [ comment 0 Рекламный блок 36 конец ]
+19:11:46.05 Script take: 0 341 [ movie 00:00:25.16 Z:\Promo\-3 KomiExpoTravel_промо_с 4 по 6 декабря_по медиаплану.m2t ]
+19:12:11.18 Script take: 0 342 [ movie 00:11:49.56 Z:\OnAir\12_06\-3 КРиК 41 эфир 06-12-19_на 19.m2t ]
+19:24:00.74 Script take: 0 343 [ movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t ]
+19:24:43.87 Script skip: 0 344 [ comment 0 Рекламный блок 37 начало - 19:25 ]
+19:24:43.87 Script take: 0 345 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+19:24:49.02 Script take: 0 346 [ movie 00:00:05.20 Z:\Reklama\-3_Магия меха_ликвидация коллекции.m2t ]
+19:24:54.26 Script take: 0 347 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+19:25:07.77 Script skip: 0 348 [ comment 0 Рекламный блок 37 конец ]
+19:25:07.77 Script take: 0 349 [ movie 00:00:08.60 Z:\Promo\ПРИЗЫ ВК\-3_ПризыВК_Женя (утверждён).m2t ]
+19:25:16.02 Script skip: 0 350 [ comment 0  ]
+19:25:16.02 Script take: 0 351 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+19:25:21.21 Script take: 0 352 [ movie 00:02:41.84 Z:\OnAir\12_06\-3_Завтра-по-магазинам_06-12-2019.m2t ]
+19:28:03.06 Script skip: 0 353 [ comment 0  ]
+19:28:03.06 Script take: 0 354 [ movie 00:00:25.16 Z:\Promo\-3 KomiExpoTravel_промо_с 4 по 6 декабря_по медиаплану.m2t ]
+19:28:28.32 Script take: 0 355 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+19:28:36.70 Script take: 0 356 [ movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t ]
+19:29:35.73 Script skip: 0 357 [ comment 0 Слот 7___19,30-21,30 = 2 час (10,30 мин)=1 час 49,30 мин ]
+19:29:35.73 Script take: 0 358 [ movie <00:00:35.00> 00:00:25.28 Z:\Часы\Сlock_19_30 (07_30).m2t ]
+19:30:00.94 Script take: 0 359 [ movie 00:16:24.32 Z:\OnAir\12_06\-3 ВН ВЕЗДЕ 1ч с рекламой 6-12.m2t ]
+19:46:25.21 Script skip: 0 360 [ comment 0 Рекламный блок 38 начало - 19:45 ]
+19:46:25.21 Script take: 0 361 [ movie 00:00:15.16 Z:\Reklama\-3_Дом книги_15 с.m2t ]
+19:46:40.41 Script take: 0 362 [ movie 00:00:15.20 Z:\Reklama\-3 MORI_01.m2t ]
+19:46:55.57 Script take: 0 363 [ movie 00:00:18.20 Z:\Reklama\-3_Центр эстетической медицины_18с.m2t ]
+19:47:14.10 Script take: 0 364 [ movie 00:00:15.16 Z:\OnAir\12_06\-3-DINAMIKA_декабрь 2019 г.m2t ]
+19:47:29.11 Script take: 0 365 [ movie 00:00:15.92 Z:\Reklama\-3_Автосмотр_исправлен.m2t ]
+19:47:45.10 Script take: 0 366 [ movie 00:00:13.24 Z:\Reklama\-3_Лидер Морозова 13 сек.m2t ]
+19:47:58.10 Script take: 0 367 [ movie 00:00:10.12 Z:\Reklama\-3_Еврочехлы новогодний_1.m2t ]
+19:48:08.19 Script skip: 0 368 [ comment 0 Рекламный блок 38 конец ]
+19:48:08.19 Script take: 0 369 [ movie 00:09:11.92 Z:\OnAir\12_06\-3 ВН вечер 2 часть 6-12.m2t ]
+19:57:20.19 Script skip: 0 370 [ comment 0 Рекламный блок 39 начало - 19:57 ]
+19:57:20.19 Script take: 0 371 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+19:57:25.30 Script take: 0 372 [ movie 00:00:05.20 Z:\Reklama\-3_Магия меха_новое поступление Зима.m2t ]
+19:57:30.56 Script take: 0 373 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+19:57:43.73 Script take: 0 374 [ movie 00:00:15.16 Z:\Reklama\-3_ПОДАРОК А+ Full-HD 15 сек - Коми (Будь здоров и Планета здор-я).m2t ]
+19:57:59.22 Script skip: 0 375 [ comment 0 Рекламный блок 39 конец ]
+19:57:59.22 Script take: 0 376 [ movie 00:02:06.40 Z:\OnAir\12_06\-3_Все_о_погоде_16_30_6_12_ЮРГАН.m2t ]
+20:00:05.28 Script take: 0 377 [ movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t ]
+20:00:49.52 Script take: 0 378 [ movie 00:25:41.52 Z:\OnAir\12_06\-3_ДН 1 ч_06_12_20часть1.m2t ]
+20:26:31.40 Script skip: 0 379 [ comment 0 Рекламный блок 40 начало - 20:18 ]
+20:26:31.40 Script take: 0 380 [ movie 00:00:15.20 Z:\Reklama\-3 MORI_01.m2t ]
+20:26:46.39 Script take: 0 381 [ movie 00:00:10.12 Z:\Reklama\-3_Еврочехлы новогодний_1.m2t ]
+20:26:56.39 Script take: 0 382 [ movie 00:00:15.16 Z:\Reklama\-3_АЛМАГ+ ЛАМПА (Орбита) Full-HD 15 сек - Коми (Будь здоров и Планета здор-я).m2t ]
+20:27:11.56 Script skip: 0 383 [ comment 0 Рекламный блок 40 конец ]
+20:27:11.56 Script take: 0 384 [ movie 00:07:06.20 Z:\OnAir\12_06\-3_ДН 2 ч _06_12_05часть2.m2t ]
+20:34:17.72 Script take: 0 385 [ movie 00:05:57.16 Z:\OnAir\12_06\-3_проще говоря 06,12,19.m2t ]
+20:40:14.87 Script skip: 0 386 [ comment 0 Рекламный блок 41 начало - 20:43 ]
+20:40:14.87 Script skip: 0 387 [ comment 0 Нет рекламы в блоке ]
+20:40:14.88 Script skip: 0 388 [ comment 0 Рекламный блок 41 конец ]
+20:40:14.89 Script skip: 0 389 [ comment 0 Рекламный блок 42 начало - 21:13 ]
+20:40:14.90 Script skip: 0 390 [ comment 0 Нет рекламы в блоке ]
+20:40:14.90 Script skip: 0 391 [ comment 0 Рекламный блок 42 конец ]
+20:40:14.91 Script take: 0 392 [ movie <00:00:01.00> 00:48:18.03 Y:\НТС_12_02_08\Ночные ласточки 5 серия.mpg ]
+21:22:28.66 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+21:28:32.95 Script skip: 0 393 [ comment 0 Рекламный блок 43 начало - 21:25 ]
+21:28:32.95 Script take: 0 394 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+21:28:38.42 Script take: 0 395 [ movie 00:00:20.12 Z:\Reklama\Телекарта\-3 02_Multiroom_0-20_1080p.m2t ]
+21:28:58.46 Script skip: 0 396 [ comment 0 Рекламный блок 43 конец ]
+21:28:58.46 Script take: 0 397 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+21:29:03.49 Script take: 0 398 [ movie 00:02:41.84 Z:\OnAir\12_06\-3_Завтра-по-магазинам_06-12-2019.m2t ]
+21:31:45.49 Script take: 0 399 [ movie 00:00:25.16 Z:\Promo\-3 KomiExpoTravel_промо_с 4 по 6 декабря_по медиаплану.m2t ]
+21:32:10.48 Script take: 0 400 [ movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t ]
+21:33:09.58 Script skip: 0 401 [ comment 0 Слот 8___21,30-02,00 = 4 часа 30 минут (20,30)=4 часа 9,30 мин ]
+21:33:09.58 Script take: 0 402 [ movie 00:16:24.32 Z:\OnAir\12_06\-3 ВН ВЕЗДЕ 1ч с рекламой 6-12.m2t ]
+21:47:05.36 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 06.12.2019 _ 91.air
+21:49:34.22 Script skip: 0 403 [ comment 0 Рекламный блок 44 начало - 21:45 ]
+21:49:34.22 Script take: 0 404 [ movie 00:00:15.16 Z:\Reklama\-3 КС-Керамик_Уже началась СТРОЙМАТ.m2t ]
+21:49:49.19 Script take: 0 405 [ movie 00:00:15.20 Z:\Reklama\-3 MORI_01.m2t ]
+21:50:04.31 Script take: 0 406 [ movie 00:00:05.20 Z:\Reklama\-3_Магия меха_ликвидация коллекции.m2t ]
+21:50:09.53 Script take: 0 407 [ movie 00:00:15.16 Z:\OnAir\12_06\-3-DINAMIKA_декабрь 2019 г.m2t ]
+21:50:24.60 Script take: 0 408 [ movie 00:00:13.24 Z:\Reklama\-3 Лидер_СПЕЦОДЕЖДА.m2t ]
+21:50:38.20 Script take: 0 409 [ movie 00:00:15.16 Z:\Reklama\-3_ПОДАРОК А+ Full-HD 15 сек - Коми (Будь здоров и Планета здор-я).m2t ]
+21:50:53.18 Script skip: 0 410 [ comment 0 Рекламный блок 44 конец ]
+21:50:53.18 Script take: 0 411 [ movie 00:09:06.04 Z:\OnAir\12_06\-3 ВН ночь 2 часть 6-12.m2t ]
+21:59:59.23 Script skip: 0 412 [ comment 0 Рекламный блок 45 начало - 21:57 ]
+21:59:59.23 Script skip: 0 413 [ comment 0 Нет рекламы в блоке ]
+21:59:59.24 Script skip: 0 414 [ comment 0 Рекламный блок 45 конец ]
+21:59:59.25 Script take: 0 415 [ movie 00:02:06.40 Z:\OnAir\12_06\-3_Все_о_погоде_16_30_6_12_ЮРГАН.m2t ]
+22:02:05.55 Script take: 0 416 [ movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t ]
+22:02:49.70 Script take: 0 417 [ movie 00:14:51.40 Z:\OnAir\12_06\-3 крик_коми_титры_06_12_00.m2t ]
+22:17:41.23 Script skip: 0 418 [ comment 0 Рекламный блок 46 начало - 22:13 ]
+22:17:41.23 Script take: 0 419 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_1 _ Пули _ 300-700.m2t ]
+22:17:46.24 Script take: 0 420 [ movie 00:00:15.16 Z:\OnAir\12_06\-3-DINAMIKA_декабрь 2019 г.m2t ]
+22:18:01.47 Script skip: 0 421 [ comment 0 Рекламный блок 46 конец ]
+22:18:01.47 Script take: 0 422 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+22:18:09.62 Script take: 0 423 [ movie <00:00:00.96> 00:18:40.60 Y:\НТС_12_02_08\Сердцеед.mpg ]
+22:36:50.33 Script skip: 0 424 [ comment 0 Рекламный блок 47 начало - 22:32 ]
+22:36:50.33 Script take: 0 425 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+22:36:55.45 Script take: 0 426 [ movie 00:00:20.12 Z:\Reklama\Телекарта\-3 01_bol'shaya_peremena_16+_1080p.m2t ]
+22:37:15.57 Script skip: 0 427 [ comment 0 Рекламный блок 47 конец ]
+22:37:15.57 Script take: 0 428 [ movie 00:00:15.00 Z:\Reklama\Антитеррор\-3_Bndr_Ролик № 9.   «Бдительность» хронометраж 15 сек.avi ]
+22:37:30.50 Script take: 0 429 [ movie 00:00:56.25 Z:\Reklama\АНТИНАРКО\Антинаркотик. Ролик на конкурс.mpg ]
+22:38:26.80 Script skip: 0 430 [ comment 0 & сердцеед.avi ]
+22:38:26.80 Script take: 0 431 [ movie <00:18:41.72> 00:43:06.68 Y:\НТС_12_02_08\Сердцеед.mpg ]
+23:21:33.65 Script skip: 0 432 [ comment 0 Рекламный блок 48 начало - 22:51 ]
+23:21:33.65 Script skip: 0 433 [ comment 0 Нет рекламы в блоке ]
+23:21:33.67 Script skip: 0 434 [ comment 0 Рекламный блок 48 конец ]
+23:21:33.68 Script skip: 0 435 [ comment 0 Рекламный блок 49 начало - 23:10 ]
+23:21:33.69 Script skip: 0 436 [ comment 0 Нет рекламы в блоке ]
+23:21:33.69 Script skip: 0 437 [ comment 0 Рекламный блок 49 конец ]
+23:21:33.70 Script skip: 0 438 [ comment 0 Рекламный блок 50 начало - 23:29 ]
+23:21:33.71 Script take: 0 439 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_5 _ капли _ 300-700.m2t ]
+23:21:38.69 Script take: 0 440 [ movie 00:00:15.16 Z:\Reklama\Десятилетие детства\К 10 летию детства\Диалоги\-3_Bndr_Диалоги_15 сек_16х9.m2t ]
+23:21:53.86 Script skip: 0 441 [ comment 0 Рекламный блок 50 конец ]
+23:21:53.86 Script take: 0 442 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+23:22:29.96 Script take: 0 443 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+23:23:28.78 Script take: 0 444 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+23:24:17.07 Script take: 0 445 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_5ИСПР _ капли.m2t ]
+23:24:22.28 Script skip: 0 446 [ comment 0 & сердцеед.avi ]
+23:24:22.28 Script take: 0 447 [ movie <01:01:48.68> 00:24:50.64 Y:\НТС_12_02_08\Сердцеед.mpg ]
+23:49:12.85 Script take: 0 448 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t ]
+23:49:18.08 Script take: 0 449 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+23:49:54.57 Script take: 0 450 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+23:50:52.80 Script take: 0 451 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t ]
+23:50:58.00 Script take: 0 452 [ movie 00:01:52.40 Z:\OnAir\ФУ\-3_Bndr_ФУ на вкус Салат финский.m2t ]
+23:52:50.63 Script take: 0 453 [ movie 00:03:46.08 Y:\НТС_история государства российского\00032 история государства российского 32 серия Великий Князь Владимир Мономах.mpg ]
+23:56:36.72 Script take: 0 454 [ movie 00:04:08.44 Z:\OnAir\ФУ\-3W Межпрограмка Музыка т0л (Ветер) Пикулев Удмуртия_утверждено.m2t ]

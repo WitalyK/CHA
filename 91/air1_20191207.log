@@ -1,0 +1,1026 @@
+00:00:44.89 Script skip: 0 455 [ comment 0 Рекламный блок 51 начало - 23:49 ]
+00:00:44.89 Script skip: 0 456 [ comment 0 Нет рекламы в блоке ]
+00:00:44.89 Script skip: 0 457 [ comment 0 Рекламный блок 51 конец ]
+00:00:44.90 Script take: 0 458 [ movie <00:00:00.12> 00:44:19.96 Y:\НТС_12_02_08\райские яблочки 1 сезон 2 серия.mpg ]
+00:45:04.98 Script skip: 0 459 [ comment 0 Рекламный блок 52 начало - 00:20 ]
+00:45:04.98 Script skip: 0 460 [ comment 0 Нет рекламы в блоке ]
+00:45:05.00 Script skip: 0 461 [ comment 0 Рекламный блок 52 конец ]
+00:45:05.01 Script take: 0 462 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+00:45:41.00 Script skip: 0 463 [ comment 0 Рекламный блок 53 начало - 00:55 ]
+00:45:41.00 Script skip: 0 464 [ comment 0 Нет рекламы в блоке ]
+00:45:41.01 Script skip: 0 465 [ comment 0 Рекламный блок 53 конец ]
+00:45:41.03 Script take: 0 466 [ movie <00:00:00.04> 00:38:02.00 Y:\НТС_12_02_08\Секретная папка 18 выпуск Человек за спиной Сталина.mpg ]
+01:23:42.86 Script take: 0 467 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+01:24:19.34 Script take: 0 468 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t ]
+01:25:17.54 Script take: 0 469 [ movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t ]
+01:26:14.22 Script take: 0 470 [ movie 00:18:30.72 Y:\ГОРОД\Город N 7 выпуск Медынь.mov ]
+01:44:45.04 Script take: 0 471 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+01:45:33.29 Script skip: 0 472 [ comment 0 Рекламный блок 54 начало - 01:12 ]
+01:45:33.29 Script skip: 0 473 [ comment 0 Нет рекламы в блоке ]
+01:45:33.29 Script skip: 0 474 [ comment 0 Рекламный блок 54 конец ]
+01:45:33.30 Script take: 0 475 [ movie 00:13:37.00 Z:\OnAir\12_06\-3_Наши Любовь Головченко 06 12 19.m2t ]
+01:59:10.31 Script take: 0 476 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t ]
+01:59:46.41 Flags take:  logoOn
+01:59:46.41 Script take: 0 477 [ pause 0  ]
+02:09:09.42 Button Shedule.SaveToFile 0 Z:\PlayList\отработанныйй  06.12.2019 _ 91.air
+02:10:18.42 Watchdog timeout 1 sec.  Actual interval 1.81
+
+02:10:26.22 Watchdog timeout 1 sec.  Actual interval 2.73
+
+02:10:33.35 Watchdog timeout 1 sec.  Actual interval 1.87
+
+02:10:37.12 Watchdog timeout 1 sec.  Actual interval 1.93
+
+02:10:44.13 Watchdog timeout 1 sec.  Actual interval 1.92
+
+DebugInfo2: 02:10:48.43 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+DebugInfo2: 02:10:51.16 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:10:54.18 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:10:55.20 Watchdog timeout 1 sec.  Actual interval 1.03
+
+02:11:00.18 Watchdog timeout 1 sec.  Actual interval 1.01
+
+DebugInfo2: 02:11:06.42 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+DebugInfo2: 02:11:10.25 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:11:28.21 Watchdog timeout 1 sec.  Actual interval 1.09
+
+02:11:31.24 Watchdog timeout 1 sec.  Actual interval 1.09
+
+DebugInfo2: 02:11:33.15 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+DebugInfo2: 02:11:35.13 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:11:39.17 Watchdog timeout 1 sec.  Actual interval 1.05
+
+02:11:50.12 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:11:56.17 Watchdog timeout 1 sec.  Actual interval 1.06
+
+02:12:02.10 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:12:03.12 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:12:04.17 Watchdog timeout 1 sec.  Actual interval 1.06
+
+DebugInfo2: 02:12:12.14 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+02:12:15.15 Watchdog timeout 1 sec.  Actual interval 2.06
+
+DebugInfo2: 02:12:15.15 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:12:19.11 Watchdog timeout 1 sec.  Actual interval 2.03
+
+02:12:31.20 Watchdog timeout 1 sec.  Actual interval 1.09
+
+DebugInfo2: 02:12:32.67 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:12:41.18 Watchdog timeout 1 sec.  Actual interval 1.08
+
+02:12:43.56 Watchdog timeout 1 sec.  Actual interval 1.19
+
+02:12:45.16 Watchdog timeout 1 sec.  Actual interval 1.03
+
+DebugInfo2: 02:12:56.17 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:13:21.34 Watchdog timeout 1 sec.  Actual interval 2.18
+
+02:13:32.52 Watchdog timeout 1 sec.  Actual interval 2.4
+
+02:13:39.11 Watchdog timeout 1 sec.  Actual interval 2.43
+
+02:13:45.12 Watchdog timeout 1 sec.  Actual interval 1.01
+
+DebugInfo2: 02:13:50.11 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+DebugInfo2: 02:13:52.11 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+DebugInfo2: 02:13:54.12 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+02:13:55.15 Watchdog timeout 1 sec.  Actual interval 1.05
+
+DebugInfo2: 02:14:03.67 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+DebugInfo2: 02:14:07.10 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:14:11.14 Watchdog timeout 1 sec.  Actual interval 1.03
+
+02:14:18.33 Watchdog timeout 1 sec.  Actual interval 2.22
+
+02:14:24.25 Watchdog timeout 1 sec.  Actual interval 2.12
+
+02:14:32.12 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:14:35.58 Watchdog timeout 1 sec.  Actual interval 1.31
+
+02:14:50.14 Watchdog timeout 1 sec.  Actual interval 1.01
+
+DebugInfo2: 02:14:53.13 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+DebugInfo2: 02:14:57.56 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:15:11.14 Watchdog timeout 1 sec.  Actual interval 1.03
+
+DebugInfo2: 02:15:30.40 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+DebugInfo2: 02:15:44.21 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+02:15:52.17 Watchdog timeout 1 sec.  Actual interval 1.06
+
+DebugInfo2: 02:15:56.46 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:16:06.12 Watchdog timeout 1 sec.  Actual interval 2.43
+
+02:16:27.12 Watchdog timeout 1 sec.  Actual interval 1.01
+
+DebugInfo2: 02:16:30.46 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:16:33.13 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:16:34.59 Watchdog timeout 1 sec.  Actual interval 1.47
+
+02:16:39.16 Watchdog timeout 1 sec.  Actual interval 2.81
+
+02:16:48.08 Watchdog timeout 1 sec.  Actual interval 1.98
+
+02:16:51.08 Watchdog timeout 1 sec.  Actual interval 2
+
+02:17:00.12 Watchdog timeout 1 sec.  Actual interval 1.03
+
+02:17:02.08 Watchdog timeout 1 sec.  Actual interval 1.47
+
+DebugInfo2: 02:17:03.09 movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t Check change: State (None->Error)
+02:17:11.11 Watchdog timeout 1 sec.  Actual interval 2.56
+
+02:17:21.32 Watchdog timeout 1 sec.  Actual interval 2.84
+
+02:17:25.63 Watchdog timeout 1 sec.  Actual interval 2.4
+
+02:17:31.24 Watchdog timeout 1 sec.  Actual interval 1.14
+
+DebugInfo2: 02:17:34.07 movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t Check change: State (None->Error)
+DebugInfo2: 02:17:36.51 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+02:17:40.16 Watchdog timeout 1 sec.  Actual interval 1.93
+
+02:17:45.11 Watchdog timeout 1 sec.  Actual interval 2.99
+
+DebugInfo2: 02:17:45.55 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:17:47.11 Watchdog timeout 1 sec.  Actual interval 1.56
+
+02:17:52.10 Watchdog timeout 1 sec.  Actual interval 2.78
+
+DebugInfo2: 02:17:52.61 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:17:55.09 Watchdog timeout 1 sec.  Actual interval 2.46
+
+02:17:58.12 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:18:09.09 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:18:33.59 Watchdog timeout 1 sec.  Actual interval 1.5
+
+02:18:35.14 Watchdog timeout 1 sec.  Actual interval 1.03
+
+02:18:42.11 Watchdog timeout 1 sec.  Actual interval 2.57
+
+02:18:44.12 Watchdog timeout 1 sec.  Actual interval 2.03
+
+02:18:46.13 Watchdog timeout 1 sec.  Actual interval 2
+
+02:18:50.16 Watchdog timeout 1 sec.  Actual interval 1.05
+
+DebugInfo2: 02:18:50.16 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:18:56.46 Watchdog timeout 1 sec.  Actual interval 1.36
+
+DebugInfo2: 02:18:56.46 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:19:08.40 Watchdog timeout 1 sec.  Actual interval 1.2
+
+02:19:14.23 Watchdog timeout 1 sec.  Actual interval 1.08
+
+02:19:16.17 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:19:23.56 Watchdog timeout 1 sec.  Actual interval 2.17
+
+02:19:27.18 Watchdog timeout 1 sec.  Actual interval 2.87
+
+02:19:34.59 Watchdog timeout 1 sec.  Actual interval 1.48
+
+02:19:39.13 Watchdog timeout 1 sec.  Actual interval 3.01
+
+02:19:44.09 Watchdog timeout 1 sec.  Actual interval 2.01
+
+02:19:45.31 Watchdog timeout 1 sec.  Actual interval 1.22
+
+DebugInfo2: 02:19:58.38 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+DebugInfo2: 02:20:01.10 movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t Check change: State (None->Error)
+02:20:02.11 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:20:04.13 Watchdog timeout 1 sec.  Actual interval 1.54
+
+02:20:08.11 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:20:10.47 Watchdog timeout 1 sec.  Actual interval 1.22
+
+DebugInfo2: 02:20:20.33 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:20:35.29 Watchdog timeout 1 sec.  Actual interval 3.15
+
+02:20:41.33 Watchdog timeout 1 sec.  Actual interval 2.78
+
+02:20:47.19 Watchdog timeout 1 sec.  Actual interval 1.73
+
+02:20:51.06 Watchdog timeout 1 sec.  Actual interval 2.86
+
+02:20:52.10 Watchdog timeout 1 sec.  Actual interval 1.03
+
+02:20:55.24 Watchdog timeout 1 sec.  Actual interval 2.9
+
+02:21:01.09 Watchdog timeout 1 sec.  Actual interval 2.98
+
+02:21:07.12 Watchdog timeout 1 sec.  Actual interval 1.62
+
+02:21:12.54 Watchdog timeout 1 sec.  Actual interval 1.26
+
+02:21:24.57 Watchdog timeout 1 sec.  Actual interval 1.4
+
+DebugInfo2: 02:21:26.11 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:21:30.39 Watchdog timeout 1 sec.  Actual interval 1.19
+
+DebugInfo2: 02:21:30.39 movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t Check change: State (None->Error)
+DebugInfo2: 02:21:33.06 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:21:35.13 Watchdog timeout 1 sec.  Actual interval 1.09
+
+02:21:37.18 Watchdog timeout 1 sec.  Actual interval 1.08
+
+02:21:38.30 Watchdog timeout 1 sec.  Actual interval 1.12
+
+02:21:47.13 Watchdog timeout 1 sec.  Actual interval 2.06
+
+02:21:51.39 Watchdog timeout 1 sec.  Actual interval 2.81
+
+02:21:53.46 Watchdog timeout 1 sec.  Actual interval 2.07
+
+02:21:55.55 Watchdog timeout 1 sec.  Actual interval 1.45
+
+02:21:58.18 Watchdog timeout 1 sec.  Actual interval 1.92
+
+02:22:04.09 Watchdog timeout 1 sec.  Actual interval 1.65
+
+02:22:12.15 Watchdog timeout 1 sec.  Actual interval 1.05
+
+DebugInfo2: 02:22:12.54 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:22:16.23 Watchdog timeout 1 sec.  Actual interval 1.08
+
+DebugInfo2: 02:22:18.15 movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t Check change: State (None->Error)
+02:22:20.13 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:22:22.62 Watchdog timeout 1 sec.  Actual interval 1.26
+
+02:22:26.13 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:22:29.11 Watchdog timeout 1 sec.  Actual interval 1.58
+
+02:22:34.66 Watchdog timeout 1 sec.  Actual interval 1.2
+
+02:22:37.18 Watchdog timeout 1 sec.  Actual interval 1.05
+
+DebugInfo2: 02:22:39.44 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:22:48.15 Watchdog timeout 1 sec.  Actual interval 1.01
+
+DebugInfo2: 02:22:51.62 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:22:54.20 Watchdog timeout 1 sec.  Actual interval 1.05
+
+DebugInfo2: 02:22:54.37 movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t Check change: State (None->Error)
+02:22:56.15 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:23:00.24 Watchdog timeout 1 sec.  Actual interval 1.12
+
+02:23:06.33 Watchdog timeout 1 sec.  Actual interval 1.2
+
+02:23:15.27 Watchdog timeout 1 sec.  Actual interval 3.12
+
+02:23:17.14 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:23:20.18 Watchdog timeout 1 sec.  Actual interval 2.71
+
+02:23:21.20 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:23:27.55 Watchdog timeout 1 sec.  Actual interval 2.45
+
+02:23:30.19 Watchdog timeout 1 sec.  Actual interval 2.51
+
+02:23:36.11 Watchdog timeout 1 sec.  Actual interval 1.9
+
+02:23:39.18 Watchdog timeout 1 sec.  Actual interval 2.79
+
+02:23:40.22 Watchdog timeout 1 sec.  Actual interval 1.05
+
+02:23:42.26 Watchdog timeout 1 sec.  Actual interval 2.04
+
+02:23:46.40 Watchdog timeout 1 sec.  Actual interval 2.93
+
+DebugInfo2: 02:24:02.35 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+DebugInfo2: 02:24:07.44 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+DebugInfo2: 02:24:09.50 movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t Check change: State (None->Error)
+02:24:12.13 Watchdog timeout 1 sec.  Actual interval 2.03
+
+02:24:13.41 Watchdog timeout 1 sec.  Actual interval 1.3
+
+DebugInfo2: 02:24:15.09 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:24:17.12 Watchdog timeout 1 sec.  Actual interval 2.03
+
+02:24:19.54 Watchdog timeout 1 sec.  Actual interval 1.12
+
+02:24:23.47 Watchdog timeout 1 sec.  Actual interval 2
+
+02:24:27.05 Watchdog timeout 1 sec.  Actual interval 2.98
+
+02:24:33.13 Watchdog timeout 1 sec.  Actual interval 1.06
+
+02:24:41.13 Watchdog timeout 1 sec.  Actual interval 1.81
+
+02:24:47.53 Watchdog timeout 1 sec.  Actual interval 1.42
+
+02:24:54.15 Watchdog timeout 1 sec.  Actual interval 1.78
+
+02:25:03.15 Watchdog timeout 1 sec.  Actual interval 2.98
+
+02:25:04.46 Watchdog timeout 1 sec.  Actual interval 1.31
+
+02:25:09.17 Watchdog timeout 1 sec.  Actual interval 1.03
+
+02:25:13.11 Watchdog timeout 1 sec.  Actual interval 2.61
+
+02:25:16.11 Watchdog timeout 1 sec.  Actual interval 1.98
+
+02:25:19.58 Watchdog timeout 1 sec.  Actual interval 2.14
+
+DebugInfo2: 02:25:23.12 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:25:25.11 Watchdog timeout 1 sec.  Actual interval 2
+
+02:25:27.23 Watchdog timeout 1 sec.  Actual interval 2.12
+
+02:25:28.43 Watchdog timeout 1 sec.  Actual interval 1.2
+
+DebugInfo2: 02:25:28.56 movie 00:00:15.16 Z:\Promo\-3_Bndr_ПРОМО_ПГ_2018_voc.m2t Check change: State (None->Error)
+02:25:33.12 Watchdog timeout 1 sec.  Actual interval 2.01
+
+02:25:34.69 Watchdog timeout 1 sec.  Actual interval 1.36
+
+DebugInfo2: 02:25:37.14 movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t Check change: State (None->Error)
+02:25:41.15 Watchdog timeout 1 sec.  Actual interval 1.58
+
+DebugInfo2: 02:25:42.11 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+02:25:47.12 Watchdog timeout 1 sec.  Actual interval 1.61
+
+02:25:54.15 Watchdog timeout 1 sec.  Actual interval 1.65
+
+02:26:02.10 Watchdog timeout 1 sec.  Actual interval 3.51
+
+02:26:06.31 Watchdog timeout 1 sec.  Actual interval 2.17
+
+02:26:08.10 Watchdog timeout 1 sec.  Actual interval 1.56
+
+02:26:11.57 Watchdog timeout 1 sec.  Actual interval 1.45
+
+02:26:14.45 Watchdog timeout 1 sec.  Actual interval 1.06
+
+02:26:19.17 Watchdog timeout 1 sec.  Actual interval 2.06
+
+02:26:20.54 Watchdog timeout 1 sec.  Actual interval 1.12
+
+02:26:25.12 Watchdog timeout 1 sec.  Actual interval 2.03
+
+02:26:26.50 Watchdog timeout 1 sec.  Actual interval 1.12
+
+DebugInfo2: 02:26:27.13 movie 00:00:25.16 Z:\Promo\-3 KomiExpoTravel_промо_с 4 по 6 декабря_по медиаплану.m2t Check change: State (None->Error)
+02:26:33.18 Watchdog timeout 1 sec.  Actual interval 5.05
+
+02:26:36.13 Watchdog timeout 1 sec.  Actual interval 1.93
+
+DebugInfo2: 02:26:37.16 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:26:39.52 Watchdog timeout 1 sec.  Actual interval 1.33
+
+02:26:44.14 Watchdog timeout 1 sec.  Actual interval 1.98
+
+02:26:45.20 Watchdog timeout 1 sec.  Actual interval 1.06
+
+02:26:47.42 Watchdog timeout 1 sec.  Actual interval 1.31
+
+02:26:53.58 Watchdog timeout 1 sec.  Actual interval 1.48
+
+02:26:59.69 Watchdog timeout 1 sec.  Actual interval 1.29
+
+02:27:07.53 Watchdog timeout 1 sec.  Actual interval 1.39
+
+02:27:14.13 Watchdog timeout 1 sec.  Actual interval 1.68
+
+DebugInfo2: 02:27:14.13 movie 00:00:25.16 Z:\Promo\-3 KomiExpoTravel_промо_с 4 по 6 декабря_по медиаплану.m2t Check change: State (None->Error)
+02:27:15.14 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:27:17.17 Watchdog timeout 1 sec.  Actual interval 1.03
+
+02:27:20.40 Watchdog timeout 1 sec.  Actual interval 1.28
+
+02:27:27.14 Watchdog timeout 1 sec.  Actual interval 1.97
+
+02:27:33.13 Watchdog timeout 1 sec.  Actual interval 1.47
+
+02:27:39.58 Watchdog timeout 1 sec.  Actual interval 1.42
+
+02:27:46.11 Watchdog timeout 1 sec.  Actual interval 1.64
+
+02:27:48.14 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:27:50.13 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:27:52.27 Watchdog timeout 1 sec.  Actual interval 1.14
+
+02:27:57.11 Watchdog timeout 1 sec.  Actual interval 1.45
+
+02:27:58.40 Watchdog timeout 1 sec.  Actual interval 1.3
+
+02:28:05.14 Watchdog timeout 1 sec.  Actual interval 1.81
+
+02:28:11.12 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:28:13.11 Watchdog timeout 1 sec.  Actual interval 2
+
+02:28:14.13 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:28:20.12 Watchdog timeout 1 sec.  Actual interval 1.97
+
+02:28:23.17 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:28:26.13 Watchdog timeout 1 sec.  Actual interval 1.68
+
+02:28:32.53 Watchdog timeout 1 sec.  Actual interval 1.22
+
+02:28:36.63 Watchdog timeout 1 sec.  Actual interval 1.06
+
+02:28:38.71 Watchdog timeout 1 sec.  Actual interval 1.31
+
+02:28:45.13 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:28:46.16 Watchdog timeout 1 sec.  Actual interval 1.05
+
+02:28:51.13 Watchdog timeout 1 sec.  Actual interval 2.47
+
+02:28:58.12 Watchdog timeout 1 sec.  Actual interval 2
+
+02:29:05.11 Watchdog timeout 1 sec.  Actual interval 1.98
+
+02:29:11.12 Watchdog timeout 1 sec.  Actual interval 1.44
+
+02:29:17.25 Watchdog timeout 1 sec.  Actual interval 1.12
+
+02:29:22.15 Watchdog timeout 1 sec.  Actual interval 2.01
+
+02:29:24.13 Watchdog timeout 1 sec.  Actual interval 1.98
+
+02:29:30.55 Watchdog timeout 1 sec.  Actual interval 1.37
+
+02:29:36.63 Watchdog timeout 1 sec.  Actual interval 1.45
+
+02:29:38.18 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:29:42.68 Watchdog timeout 1 sec.  Actual interval 1.33
+
+02:29:49.13 Watchdog timeout 1 sec.  Actual interval 1.56
+
+DebugInfo2: 02:29:51.42 movie 00:00:25.16 Z:\Promo\-3 KomiExpoTravel_промо_с 4 по 6 декабря_по медиаплану.m2t Check change: State (None->Error)
+02:29:55.13 Watchdog timeout 1 sec.  Actual interval 1.65
+
+02:29:59.17 Watchdog timeout 1 sec.  Actual interval 1.06
+
+02:30:03.13 Watchdog timeout 1 sec.  Actual interval 3.48
+
+02:30:09.47 Watchdog timeout 1 sec.  Actual interval 1.86
+
+02:30:14.24 Watchdog timeout 1 sec.  Actual interval 1.08
+
+02:30:16.11 Watchdog timeout 1 sec.  Actual interval 1.87
+
+02:30:17.13 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:30:20.13 Watchdog timeout 1 sec.  Actual interval 2
+
+02:30:22.48 Watchdog timeout 1 sec.  Actual interval 1.36
+
+02:30:25.11 Watchdog timeout 1 sec.  Actual interval 2.62
+
+02:30:26.13 Watchdog timeout 1 sec.  Actual interval 1.03
+
+02:30:28.61 Watchdog timeout 1 sec.  Actual interval 1.5
+
+02:30:33.14 Watchdog timeout 1 sec.  Actual interval 1.05
+
+02:30:35.12 Watchdog timeout 1 sec.  Actual interval 1.98
+
+02:30:39.15 Watchdog timeout 1 sec.  Actual interval 1.05
+
+02:30:42.13 Watchdog timeout 1 sec.  Actual interval 2.03
+
+02:30:48.13 Watchdog timeout 1 sec.  Actual interval 1.84
+
+02:30:51.14 Watchdog timeout 1 sec.  Actual interval 1.01
+
+02:30:55.15 Watchdog timeout 1 sec.  Actual interval 3.06
+
+02:30:57.55 Watchdog timeout 1 sec.  Actual interval 1.47
+
+02:31:02.10 Watchdog timeout 1 sec.  Actual interval 3.99
+
+02:31:08.09 Watchdog timeout 1 sec.  Actual interval 1.9
+
+02:31:09.14 Watchdog timeout 1 sec.  Actual interval 1.06
+
+02:31:10.64 Watchdog timeout 1 sec.  Actual interval 1.5
+
+02:31:13.43 Watchdog timeout 1 sec.  Actual interval 1.34
+
+02:31:16.61 Watchdog timeout 1 sec.  Actual interval 2.28
+
+02:31:18.10 Watchdog timeout 1 sec.  Actual interval 1.48
+
+02:31:21.04 Watchdog timeout 1 sec.  Actual interval 2.95
+
+02:31:26.54 Watchdog timeout 1 sec.  Actual interval 5.23
+
+02:31:30.46 Watchdog timeout 1 sec.  Actual interval 3.93
+
+02:31:35.07 Watchdog timeout 1 sec.  Actual interval 4.01
+
+02:31:41.22 Watchdog timeout 1 sec.  Actual interval 1.16
+
+02:31:47.31 Watchdog timeout 1 sec.  Actual interval 1.15
+
+02:31:53.41 Watchdog timeout 1 sec.  Actual interval 1.12
+
+02:32:00.04 Watchdog timeout 1 sec.  Actual interval 1.44
+
+02:32:06.16 Watchdog timeout 1 sec.  Actual interval 1.14
+
+02:32:12.18 Watchdog timeout 1 sec.  Actual interval 1.12
+
+02:32:18.25 Watchdog timeout 1 sec.  Actual interval 1.17
+
+02:32:24.30 Watchdog timeout 1 sec.  Actual interval 1.15
+
+02:32:30.56 Watchdog timeout 1 sec.  Actual interval 1.15
+
+02:32:36.64 Watchdog timeout 1 sec.  Actual interval 1.15
+
+02:32:43.13 Watchdog timeout 1 sec.  Actual interval 1.51
+
+DebugInfo2: 02:32:47.25 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:32:49.13 Watchdog timeout 1 sec.  Actual interval 1.5
+
+DebugInfo2: 02:32:50.37 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+02:32:55.32 Watchdog timeout 1 sec.  Actual interval 1.19
+
+02:33:01.49 Watchdog timeout 1 sec.  Actual interval 1.19
+
+02:33:07.56 Watchdog timeout 1 sec.  Actual interval 1.17
+
+DebugInfo2: 02:33:10.52 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:33:13.74 Watchdog timeout 1 sec.  Actual interval 1.22
+
+DebugInfo2: 02:33:14.14 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+02:33:20.16 Watchdog timeout 1 sec.  Actual interval 1.48
+
+02:33:26.36 Watchdog timeout 1 sec.  Actual interval 1.2
+
+02:33:32.50 Watchdog timeout 1 sec.  Actual interval 1.2
+
+02:33:38.70 Watchdog timeout 1 sec.  Actual interval 1.23
+
+02:33:45.16 Watchdog timeout 1 sec.  Actual interval 1.48
+
+02:33:51.38 Watchdog timeout 1 sec.  Actual interval 1.23
+
+DebugInfo2: 02:33:52.55 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:33:57.53 Watchdog timeout 1 sec.  Actual interval 1.25
+
+02:34:04.16 Watchdog timeout 1 sec.  Actual interval 1.61
+
+DebugInfo2: 02:34:08.17 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:34:10.17 Watchdog timeout 1 sec.  Actual interval 1.48
+
+DebugInfo2: 02:34:12.66 movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 _ в 20,10 .m2t Check change: State (None->Error)
+02:34:16.45 Watchdog timeout 1 sec.  Actual interval 1.31
+
+DebugInfo2: 02:34:16.58 movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t Check change: State (None->Error)
+02:34:22.69 Watchdog timeout 1 sec.  Actual interval 1.31
+
+02:34:29.17 Watchdog timeout 1 sec.  Actual interval 1.48
+
+02:34:36.16 Watchdog timeout 1 sec.  Actual interval 1.62
+
+DebugInfo2: 02:34:40.40 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:34:42.55 Watchdog timeout 1 sec.  Actual interval 1.39
+
+02:34:49.15 Watchdog timeout 1 sec.  Actual interval 1.73
+
+02:34:56.16 Watchdog timeout 1 sec.  Actual interval 1.5
+
+02:35:02.47 Watchdog timeout 1 sec.  Actual interval 1.33
+
+02:35:08.68 Watchdog timeout 1 sec.  Actual interval 1.4
+
+02:35:15.13 Watchdog timeout 1 sec.  Actual interval 1.62
+
+02:35:21.52 Watchdog timeout 1 sec.  Actual interval 1.34
+
+02:35:28.16 Watchdog timeout 1 sec.  Actual interval 1.76
+
+DebugInfo2: 02:35:30.40 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+DebugInfo2: 02:35:32.44 movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 _ в 00,25.m2t Check change: State (None->Error)
+02:35:34.62 Watchdog timeout 1 sec.  Actual interval 1.45
+
+02:35:41.16 Watchdog timeout 1 sec.  Actual interval 1.54
+
+02:35:48.17 Watchdog timeout 1 sec.  Actual interval 1.73
+
+02:35:54.16 Watchdog timeout 1 sec.  Actual interval 1.4
+
+02:36:00.49 Watchdog timeout 1 sec.  Actual interval 1.34
+
+02:36:07.13 Watchdog timeout 1 sec.  Actual interval 1.62
+
+02:36:13.47 Watchdog timeout 1 sec.  Actual interval 1.36
+
+02:36:20.14 Watchdog timeout 1 sec.  Actual interval 1.7
+
+02:36:26.59 Watchdog timeout 1 sec.  Actual interval 1.45
+
+02:36:33.13 Watchdog timeout 1 sec.  Actual interval 1.56
+
+02:36:40.12 Watchdog timeout 1 sec.  Actual interval 1.62
+
+DebugInfo2: 02:36:42.23 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+DebugInfo2: 02:36:44.35 movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 _ в 16,00 .m2t Check change: State (None->Error)
+02:36:46.55 Watchdog timeout 1 sec.  Actual interval 1.45
+
+02:36:53.14 Watchdog timeout 1 sec.  Actual interval 1.58
+
+02:37:00.15 Watchdog timeout 1 sec.  Actual interval 1.61
+
+02:37:06.52 Watchdog timeout 1 sec.  Actual interval 1.39
+
+02:37:13.15 Watchdog timeout 1 sec.  Actual interval 1.7
+
+02:37:20.18 Watchdog timeout 1 sec.  Actual interval 1.5
+
+02:37:26.55 Watchdog timeout 1 sec.  Actual interval 1.39
+
+02:37:33.18 Watchdog timeout 1 sec.  Actual interval 1.64
+
+02:37:40.69 Watchdog timeout 1 sec.  Actual interval 1.4
+
+02:37:47.22 Watchdog timeout 1 sec.  Actual interval 1.54
+
+02:37:53.62 Watchdog timeout 1 sec.  Actual interval 1.39
+
+02:38:01.26 Watchdog timeout 1 sec.  Actual interval 1.73
+
+DebugInfo2: 02:38:03.27 movie 00:00:43.12 Z:\Promo\-3_Анонс Детали Недели 6-12 .m2t Check change: State (None->Error)
+02:38:07.66 Watchdog timeout 1 sec.  Actual interval 1.4
+
+02:38:14.27 Watchdog timeout 1 sec.  Actual interval 1.64
+
+02:38:21.25 Watchdog timeout 1 sec.  Actual interval 1.75
+
+02:38:27.24 Watchdog timeout 1 sec.  Actual interval 1.44
+
+02:38:33.68 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:38:40.23 Watchdog timeout 1 sec.  Actual interval 1.73
+
+02:38:46.69 Watchdog timeout 1 sec.  Actual interval 1.45
+
+02:38:53.23 Watchdog timeout 1 sec.  Actual interval 1.56
+
+02:38:59.73 Watchdog timeout 1 sec.  Actual interval 1.51
+
+02:39:06.21 Watchdog timeout 1 sec.  Actual interval 1.48
+
+02:39:13.21 Watchdog timeout 1 sec.  Actual interval 1.58
+
+02:39:19.64 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:39:26.19 Watchdog timeout 1 sec.  Actual interval 1.64
+
+02:39:33.19 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:39:39.64 Watchdog timeout 1 sec.  Actual interval 1.4
+
+02:39:46.25 Watchdog timeout 1 sec.  Actual interval 1.67
+
+02:39:53.24 Watchdog timeout 1 sec.  Actual interval 1.42
+
+02:39:59.65 Watchdog timeout 1 sec.  Actual interval 1.44
+
+02:40:06.23 Watchdog timeout 1 sec.  Actual interval 1.64
+
+02:40:13.64 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:40:20.23 Watchdog timeout 1 sec.  Actual interval 1.65
+
+02:40:26.67 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:40:33.82 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:40:40.24 Watchdog timeout 1 sec.  Actual interval 1.51
+
+02:40:46.72 Watchdog timeout 1 sec.  Actual interval 1.51
+
+02:40:54.25 Watchdog timeout 1 sec.  Actual interval 1.48
+
+02:41:00.66 Watchdog timeout 1 sec.  Actual interval 1.44
+
+02:41:07.23 Watchdog timeout 1 sec.  Actual interval 1.75
+
+02:41:14.77 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:41:21.23 Watchdog timeout 1 sec.  Actual interval 1.55
+
+02:41:27.68 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:41:35.28 Watchdog timeout 1 sec.  Actual interval 1.75
+
+02:41:41.69 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:41:48.29 Watchdog timeout 1 sec.  Actual interval 1.61
+
+02:41:55.27 Watchdog timeout 1 sec.  Actual interval 1.73
+
+02:42:01.69 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:42:08.25 Watchdog timeout 1 sec.  Actual interval 1.62
+
+02:42:15.23 Watchdog timeout 1 sec.  Actual interval 1.42
+
+02:42:21.67 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:42:28.25 Watchdog timeout 1 sec.  Actual interval 1.73
+
+02:42:35.25 Watchdog timeout 1 sec.  Actual interval 1.45
+
+02:42:41.71 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:42:48.28 Watchdog timeout 1 sec.  Actual interval 1.62
+
+02:42:55.70 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:43:02.26 Watchdog timeout 1 sec.  Actual interval 1.72
+
+02:43:08.68 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:43:16.27 Watchdog timeout 1 sec.  Actual interval 1.62
+
+02:43:22.70 Watchdog timeout 1 sec.  Actual interval 1.44
+
+02:43:29.26 Watchdog timeout 1 sec.  Actual interval 1.65
+
+02:43:36.27 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:43:42.69 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:43:49.25 Watchdog timeout 1 sec.  Actual interval 1.64
+
+02:43:56.25 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:44:02.69 Watchdog timeout 1 sec.  Actual interval 1.44
+
+02:44:09.23 Watchdog timeout 1 sec.  Actual interval 1.64
+
+02:44:16.30 Watchdog timeout 1 sec.  Actual interval 1.47
+
+02:44:22.77 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:44:29.32 Watchdog timeout 1 sec.  Actual interval 1.73
+
+02:44:36.77 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:44:43.36 Watchdog timeout 1 sec.  Actual interval 1.64
+
+02:44:49.78 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:44:57.35 Watchdog timeout 1 sec.  Actual interval 1.75
+
+02:45:03.79 Watchdog timeout 1 sec.  Actual interval 1.43
+
+02:45:10.35 Watchdog timeout 1 sec.  Actual interval 1.53
+
+02:45:17.33 Watchdog timeout 1 sec.  Actual interval 1.73
+
+02:45:23.79 Watchdog timeout 1 sec.  Actual interval 1.42
+
+02:45:30.38 Watchdog timeout 1 sec.  Actual interval 1.67
+
+02:45:31.67 Button Shedule.EraseList 0
+02:45:31.72 Script wait: 0 0 [ wait operator 0 * * * * * ]
+02:45:38.60 FilePage Shedule.InsertFromFile 0 0 Z:\PlayList\AirPlay 07.12.2019 _ 91.air
+02:45:39.68 Watchdog timeout 1 sec.  Actual interval 1.03
+
+02:45:57.41 ScheduleDblClick Shedule.SetRunPosition 0 5
+02:45:57.51 ScheduleDblClick Shedule.SetPause 0
+02:45:57.52 Script wait: 0 5 [ wait time 05:59:00.00 [0] active  ]
+DebugInfo2: 02:46:22.73 movie 00:00:15.04 Z:\Reklama\-3_ПОДАРОК А+ Full-HD 15 сек - Сыктывкар (Медтехника+ на Октябрьск_пр) 9-25 дек 2019_ИСПР.mpg Check change: Duration (00:00:15.04->00:00:15.04)
+DebugInfo2: 02:46:30.35 movie 00:00:15.04 Z:\Reklama\-3_АЛМАГ+ ЛАМПА (Орбита) Full-HD 15 сек - Сыктывкар (Медтехника+ на Октябрьск_пр) 9-25 дек 2019_ИСПР.mpg Check change: Duration (00:00:15.04->00:00:15.04)
+DebugInfo2: 02:46:31.36 movie 00:00:22.39 Z:\OnAir\ГОРОДА 12+\-3_города_Воркута_корр_блюр.mpg Check change: Duration (00:00:22.39->00:00:22.39)
+DebugInfo2: 02:46:53.48 movie 00:00:15.04 Z:\Reklama\-3_ПОДАРОК А+ Full-HD 15 сек - Сыктывкар (Медтехника+ на Октябрьск_пр) 9-25 дек 2019_ИСПР.mpg Check change: Duration (00:00:15.04->00:00:15.04)
+DebugInfo2: 02:46:55.60 movie 00:15:02.80 Z:\OnAir\12_07\-3_Bndr_КШ Таплиани 3 готовый с педиатром_09 ноября.mpg Check change: Duration (00:15:02.80->00:15:02.80)
+DebugInfo2: 02:47:03.47 movie 00:00:15.04 Z:\Reklama\-3_АЛМАГ+ ЛАМПА (Орбита) Full-HD 15 сек - Сыктывкар (Медтехника+ на Октябрьск_пр) 9-25 дек 2019_ИСПР.mpg Check change: Duration (00:00:15.04->00:00:15.04)
+DebugInfo2: 02:47:11.49 movie 00:00:15.04 Z:\Reklama\-3_ПОДАРОК А+ Full-HD 15 сек - Сыктывкар (Медтехника+ на Октябрьск_пр) 9-25 дек 2019_ИСПР.mpg Check change: Duration (00:00:15.04->00:00:15.04)
+DebugInfo2: 02:47:18.34 movie 00:00:56.25 Z:\Reklama\АНТИНАРКО\Антинаркотик. Ролик на конкурс.mpg Check change: Duration (00:00:56.25->00:00:56.25)
+05:59:00.08 Script skip: 0 5 [ wait time 05:59:00.00 [0] active  ]
+05:59:00.08 Flags take:  logoOn
+05:59:00.08 Script take: 0 6 [ pause 0  ]
+05:59:00.09 Script wait: 0 8 [ wait time 06:00:00.00 [0] active Слот 1___6,00-11,45 = 5 часов 45 минут (Рекл = 34 мин ) = 5 часов 11 мин ]
+05:59:59.98 Script skip: 0 8 [ wait time 06:00:00.00 [0] active Слот 1___6,00-11,45 = 5 часов 45 минут (Рекл = 34 мин ) = 5 часов 11 мин ]
+05:59:59.98 Flags take:  logoOff
+05:59:59.98 Script take: 0 9 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+06:00:08.21 Script take: 0 10 [ movie 00:12:39.68 Z:\OnAir\12_06\-3 ВН УХТЫ 6-12.m2t ]
+06:12:47.91 Script take: 0 11 [ movie 00:01:47.56 Z:\OnAir\Серни басни\-3 Серни басни Ольга Витальевна О зайцах 28 02 17.avi ]
+06:14:35.43 Script take: 0 12 [ movie 00:13:08.48 Z:\OnAir\12_05\-3 Вочакыв Гарнов 5 12 19.m2t ]
+06:27:43.97 Script take: 0 13 [ movie 00:01:48.44 Z:\OnAir\храмы\-3 Ролик Храмы 3.avi ]
+06:29:32.36 Script take: 0 14 [ movie 00:15:34.32 Z:\OnAir\12_07\Mog-А_Наследие Храм Богоявления Ляли 2010.avi ]
+06:45:06.63 Script skip: 0 15 [ comment 0 Рекламный блок 01 начало - 06:30 ]
+06:45:06.63 Script skip: 0 16 [ comment 0 Нет рекламы в блоке ]
+06:45:06.64 Script skip: 0 17 [ comment 0 Рекламный блок 01 конец ]
+06:45:06.65 Script take: 0 18 [ movie 00:28:49.24 Z:\OnAir\12_07\АО_Коми Инкогнито Село Мужи 26 января.m2t ]
+07:13:56.13 Script take: 0 19 [ movie 00:01:03.64 Z:\OnAir\Серни басни\-3 Серни басни Людмила Егоровна 1(нояб).avi ]
+07:14:59.52 Script take: 0 20 [ movie 00:26:34.88 Z:\OnAir\12_07\Mog-А_Кандинский Путь к зырянам 2013[1].avi ]
+07:41:34.43 Script take: 0 21 [ movie 00:04:53.44 Z:\OnAir\Мы рядом (12+)\-3 межпрогр_мы рядом_театр за равные возможности.m2t ]
+07:46:27.88 Script skip: 0 22 [ comment 0 Рекламный блок 02 начало - 07:40 ]
+07:46:27.88 Script skip: 0 23 [ comment 0 Нет рекламы в блоке ]
+07:46:27.89 Script skip: 0 24 [ comment 0 Рекламный блок 02 конец ]
+07:46:27.89 Script take: 0 25 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+07:46:36.29 Script take: 0 26 [ movie 00:05:16.04 Y:\НТС_Мульты\Планета Ai 14 серия основы воздухоплавания.mpg ]
+07:51:52.31 Script take: 0 27 [ movie 00:05:23.76 Y:\НТС_Мульты\Планета Ai 15 серия как сбросить лишний вес.mpg ]
+07:57:15.86 Script take: 0 28 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_7(1) _ детская.m2t ]
+07:57:21.35 Script take: 0 29 [ movie 00:05:28.20 Y:\НТС_Мульты\Планета Ai 1 серия одни дома.mpg ]
+08:02:49.39 Script take: 0 30 [ movie 00:05:26.52 Y:\НТС_Мульты\Планета Ai 2 серия 1-1 в пользу папы.mpg ]
+08:08:15.78 Script take: 0 31 [ movie 00:05:25.60 Y:\НТС_Мульты\Планета Ai 3 серия ёлочка гори.mpg ]
+08:13:41.41 Script take: 0 32 [ movie 00:01:34.40 Z:\OnAir\говорим по-коми\-3 Говорим по-коми 12345 (март).avi ]
+08:15:16.14 Script skip: 0 33 [ comment 0 Рекламный блок 03 начало - 08:06 ]
+08:15:16.14 Script skip: 0 34 [ comment 0 Нет рекламы в блоке ]
+08:15:16.16 Script skip: 0 35 [ comment 0 Рекламный блок 03 конец ]
+08:15:16.18 Script take: 0 36 [ movie 00:15:58.28 Z:\OnAir\12_07\-3W Zhlbn Пути_дороги_Сергея_Горбунова_Бирма1_04.10.m2t ]
+08:31:14.29 Script skip: 0 37 [ comment 0 Рекламный блок 04 начало - 08:24 ]
+08:31:14.29 Script skip: 0 38 [ comment 0 Нет рекламы в блоке ]
+08:31:14.30 Script skip: 0 39 [ comment 0 Рекламный блок 04 конец ]
+08:31:14.32 Script take: 0 40 [ movie 00:24:50.20 Z:\OnAir\12_07\-3W Zhlbn Пути_дороги_Сергея_Горбунова_Бирма2_11.10.m2t ]
+08:56:04.30 Script skip: 0 41 [ comment 0 Рекламный блок 05 начало - 09:00 ]
+08:56:04.30 Script take: 0 42 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+08:56:09.46 Script take: 0 43 [ movie 00:00:15.16 Z:\Reklama\-3-DINAMIKA_декабрь 2019 г.m2t ]
+08:56:24.59 Script skip: 0 44 [ comment 0 Рекламный блок 05 конец ]
+08:56:24.59 Script take: 0 45 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_1_Пули.m2t ]
+08:56:29.75 Script take: 0 46 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 сегодня _ в 20,10.m2t ]
+08:57:28.36 Script take: 0 47 [ movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 сегодня _ в 00,25.m2t ]
+08:58:24.83 Script take: 0 48 [ movie <00:00:00.00> 00:44:10.04 Y:\НТС_12_02_08\Джуманджи. 1 выпуск Собаки.mpg ]
+09:42:34.87 Script skip: 0 49 [ comment 0 Рекламный блок 06 начало - 09:28 ]
+09:42:34.87 Script take: 0 50 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+09:42:40.11 Script take: 0 51 [ movie 00:00:20.20 Z:\Reklama\Телекарта\-3_Bndr_04_KUKUSHKA_Zapad_1080p.m2t ]
+09:43:00.61 Script skip: 0 52 [ comment 0 Рекламный блок 06 конец ]
+09:43:00.61 Script take: 0 53 [ movie 00:02:02.60 Z:\OnAir\12_07\-3_Все_о_погоде_Утро_7_12_ЮРГАН.m2t ]
+09:45:02.91 Script take: 0 54 [ movie 00:24:12.04 Y:\НТС_12_02_08\бон аппетит 19 выпуск анастасия мыскина.mpg ]
+10:09:14.93 Script take: 0 55 [ movie 00:00:35.84 Z:\OnAir\ГОРОДА 12+\-3_Кировский спуск ремонт.m2t ]
+10:09:50.70 Script take: 0 56 [ movie 00:06:30.04 Y:\Писатели России\писатели России 8 выпуск Керашев.mpg ]
+10:16:20.79 Script skip: 0 57 [ comment 0 Рекламный блок 6а начало - 09:55 ]
+10:16:20.79 Script skip: 0 58 [ comment 0 Нет рекламы в блоке ]
+10:16:20.80 Script skip: 0 59 [ comment 0 Рекламный блок 6а конец ]
+10:16:20.81 Script take: 0 60 [ movie <00:00:00.00> 00:05:43.44 Y:\НТС_12_02_08\Жена История любви 9 выпуск Наталья Подольская.mpg ]
+10:22:04.62 Script skip: 0 61 [ comment 0 Рекламный блок 07 начало - 10:22 ]
+10:22:04.62 Script take: 0 62 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+10:22:09.62 Script take: 0 63 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+10:22:22.66 Script skip: 0 64 [ comment 0 Рекламный блок 07 конец ]
+10:22:22.66 Script skip: 0 65 [ comment 0 Рекламный блок 08 начало - 10:41 ]
+10:22:22.68 Script skip: 0 66 [ comment 0 Нет рекламы в блоке ]
+10:22:22.69 Script skip: 0 67 [ comment 0 Рекламный блок 08 конец ]
+10:22:22.70 Script skip: 0 68 [ comment 0 Рекламный блок 09 начало - 11:01 ]
+10:22:22.70 Script skip: 0 69 [ comment 0 Нет рекламы в блоке ]
+10:22:22.71 Script skip: 0 70 [ comment 0 Рекламный блок 09 конец ]
+10:22:22.72 Script skip: 0 71 [ comment 0 Рекламный блок 10 начало - 11:21 ]
+10:22:22.73 Script skip: 0 72 [ comment 0 Нет рекламы в блоке ]
+10:22:22.73 Script skip: 0 73 [ comment 0 Рекламный блок 10 конец ]
+10:22:22.74 Script take: 0 74 [ movie <00:05:43.92> 01:04:07.96 Y:\НТС_12_02_08\Жена История любви 9 выпуск Наталья Подольская.mpg ]
+11:01:14.30 Watchdog timeout 1 sec.  Actual interval 1.89
+
+11:26:30.83 Script skip: 0 75 [ comment 0 Рекламный блок 11 начало - 11:42 ]
+11:26:30.83 Script take: 0 76 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+11:26:35.83 Script take: 0 77 [ movie 00:00:20.12 Z:\Reklama\Телекарта\-3_Bndr_05_Narodniy_premier-85_16+_0-20_1080p.m2t ]
+11:26:55.92 Script skip: 0 78 [ comment 0 Рекламный блок 11 конец ]
+11:26:55.92 Script take: 0 79 [ movie 00:03:38.04 Z:\OnAir\Обращение с ТКО\-3_ТКО_Ролик_5.m2t ]
+11:30:33.92 Script take: 0 80 [ movie 00:00:33.68 Z:\OnAir\ГОРОДА 12+\-3_Визинга кинотеатр испр.m2t ]
+11:31:07.93 Script take: 0 81 [ movie 00:00:08.60 Z:\Promo\ПРИЗЫ ВК\-3_ПризыВК_Женя (утверждён).m2t ]
+11:31:16.20 Script skip: 0 82 [ comment 0 Слот 2___11,45-17,45=6 часов (Рекл = 36 мин ) = 5 часов 24 мин ]
+11:31:16.20 Script take: 0 83 [ movie 00:25:52.84 Z:\OnAir\12_07\Mog-А_Лица истории_Куратов_эфир 24-09-2015.avi ]
+11:52:24.01 SheduleEdit Shedule.SetItemDuration 0 90 0 (00:00:00.00)
+11:57:09.05 Script take: 0 84 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 сегодня _ в 16,00.m2t ]
+11:57:45.11 Script take: 0 85 [ movie 00:00:33.88 Z:\OnAir\ГОРОДА 12+\-3_города_Зеленец_корр1.m2t ]
+11:58:19.04 Script take: 0 86 [ movie 00:00:08.60 Z:\Promo\ПРИЗЫ ВК\-3_ПризыВК_Настя(СаундЭффекты).m2t ]
+11:58:28.03 Script take: 0 87 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t ]
+11:58:33.03 Script take: 0 88 [ movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t ]
+11:59:32.11 Script take: 0 89 [ movie 00:00:25.12 Z:\OnAir\12_07\-3 KomiExpoTravel_шапка.m2t ]
+11:59:57.21 Script take: 0 90 [ video1 0 СТУДИЯ 11 ПРЯМОЙ ЭФИР ]
+11:59:57.23 Script stop: 0 92 [ wait operator 0  ]
+11:59:57.23 Script wait: 0 92 [ wait operator 0  ]
+13:00:55.91 Button Shedule.DeleteItem 0 118
+Deleted 0 118 movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t
+13:00:57.12 Button Shedule.DeleteItem 0 118
+Deleted 0 118 movie 00:00:08.60 Z:\Promo\ПРИЗЫ ВК\-3 ПризыВК_Алёна.m2t
+13:01:00.40 Button Shedule.DeleteItem 0 118
+Deleted 0 118 movie 00:00:26.32 Z:\OnAir\ГОРОДА 12+\-3_города_Инта_корр.m2t
+13:01:02.20 Button Shedule.DeleteItem 0 118
+Deleted 0 118 movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t
+13:01:05.90 Button Shedule.DeleteItem 0 118
+Deleted 0 118 movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t
+13:01:41.30 Button Shedule.DeleteItem 0 131
+Deleted 0 131 movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t
+13:01:50.19 Button Shedule.DeleteItem 0 131
+Deleted 0 131 movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_5ИСПР _ капли.m2t
+13:01:51.14 Button Shedule.DeleteItem 0 131
+Deleted 0 131 movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t
+13:02:25.92 Button Shedule.DeleteItem 0 124
+Deleted 0 124 movie 00:00:15.00 Z:\Reklama\Антитеррор\-3_Bndr_Ролик № 1.   «Телефонный терроризм. Школа» хронометраж 15 сек.avi
+13:04:15.85 Hotkey Shedule.Start
+Skip: 0 92 [ wait operator 0  ]
+13:04:16.01 Script skip: 0 93 [ comment 0 Рекламный блок 12 начало - 12:22 ]
+13:04:16.01 Script skip: 0 94 [ comment 0 Рекламный блок 12 конец ]
+13:04:16.01 Script skip: 0 95 [ comment 0 Рекламный блок 13 начало - 12:42 ]
+13:04:16.02 Script skip: 0 96 [ comment 0 Нет рекламы в блоке ]
+13:04:16.03 Script skip: 0 97 [ comment 0 Рекламный блок 13 конец ]
+13:04:16.04 Script take: 0 98 [ movie 00:00:25.72 Z:\OnAir\12_07\-3 KomiExpoTravel_конечка.m2t ]
+13:04:39.06 SheduleEdit Shedule.SetItemDuration 0 90 3840000 (01:04:00.00)
+13:04:41.80 Script skip: 0 99 [ comment 0 Рекламный блок 14 начало - 13:01 ]
+13:04:41.80 Script take: 0 100 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+13:04:47.05 Script take: 0 101 [ movie 00:00:13.20 Z:\OnAir\12_07\-3_ТГ_Вахта_Повар.m2t ]
+13:05:00.22 Script take: 0 102 [ movie 00:00:30.16 Z:\Reklama\Десятилетие детства\К 10 летию детства\Ваза\-3_Bndr_Ваза_30 сек_16х9.m2t ]
+13:05:30.37 Script skip: 0 103 [ comment 0 Рекламный блок 14 конец ]
+13:05:30.37 Script take: 0 104 [ movie <00:00:00.00> 00:23:36.44 Y:\НТС_12_02_08\маугли дикой планеты.mpg ]
+13:05:34.82 FilePage  Shedule.AddItem 0 159 1 0 0 movie 00:00:59.20  Z:\Promo\-3_Глава 83 16х9.m2t
+13:05:38.87 Button Shedule.DeleteItem 0 159
+Deleted 0 159 movie 00:01:00.76 Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t
+13:06:13.79 FilePage  Shedule.AddItem 0 181 1 0 0 movie 00:00:44.20  Z:\Promo\-3_Глава 82 16х9.m2t
+13:06:23.16 Button Shedule.DeleteItem 0 191
+Deleted 0 191 movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 сегодня _ в 00,25.m2t
+13:07:00.09 FilePage  Shedule.AddItem 0 210 1 0 0 movie 00:00:15.00  Z:\Reklama\Антитеррор\-3_Bndr_Ролик № 1.   «Телефонный терроризм. Школа» хронометраж 15 сек.avi
+13:07:31.81 FilePage  Shedule.AddItem 0 243 1 0 0 movie 00:00:05.20  Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t
+13:08:01.35 Watchdog timeout 1 sec.  Actual interval 1.28
+
+SLTrimEditorAdapter.Create instance() 671
+13:08:08.17 SheduleEdit Shedule.SetItemInOut 0 289 4431120 5823000 (01:13:51.12, 01:37:03.00)
+13:08:30.84 Button Shedule.DeleteItem 0 288
+Deleted 0 288 movie 00:04:52.68 Y:\НТС_история государства российского\00086 история государства российского 86 серия Смерть Александра Невского.mpg
+13:09:50.02 FilePage  Shedule.AddItem 0 289 1 0 0 movie 00:01:00.76  Z:\Promo\-3_ПРОМО Здравствуй, страна героев! (концерт) _ 08.12 _ в 16,00.m2t
+13:09:55.80 FilePage  Shedule.AddItem 0 290 1 0 0 movie 00:00:48.52  Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t
+13:10:03.14 FilePage  Shedule.AddItem 0 291 1 0 0 movie 00:00:56.25  Z:\Reklama\АНТИНАРКО\Антинаркотик. Ролик на конкурс.mpg
+DebugInfo2: 13:10:03.19 movie 00:00:56.25 Z:\Reklama\АНТИНАРКО\Антинаркотик. Ролик на конкурс.mpg Check change: Duration (00:00:56.25->00:00:56.25)
+13:10:30.10 FilePage  Shedule.AddItem 0 306 1 0 0 movie 00:00:35.84  Z:\OnAir\ГОРОДА 12+\-3_Кировский спуск ремонт.m2t
+13:10:53.72 FilePage  Shedule.AddItem 0 303 1 0 0 movie 00:00:14.20  Z:\Promo\ПРИЗЫ ВК\-3 ПризыВК_Александр на коми.m2t
+13:11:15.70 FilePage  Shedule.AddItem 0 306 1 0 0 movie 00:01:01.72  Z:\OnAir\Серни басни\-3 Серни басни Василий Вячеславович-1 (ян16).avi
+13:11:20.23 Watchdog timeout 1 sec.  Actual interval 1.05
+
+13:11:24.18 SheduleEdit Shedule.SetItemInOut 0 307 0 61720 (00:00:00.00, 00:01:01.72)
+13:11:31.77 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 07.12.2019 _ 91.air
+13:13:17.74 Button Shedule.SaveToFile 0 Z:\PlayList\AirPlay 07.12.2019 _ 91.air
+13:29:06.88 Script skip: 0 105 [ comment 0 Рекламный блок 15 начало - 13:22 ]
+13:29:06.88 Script take: 0 106 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+13:29:12.01 Script take: 0 107 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+13:29:25.16 Script skip: 0 108 [ comment 0 Рекламный блок 15 конец ]
+13:29:25.16 Script skip: 0 109 [ comment 0 Рекламный блок 16 начало - 13:42 ]
+13:29:25.17 Script skip: 0 110 [ comment 0 Нет рекламы в блоке ]
+13:29:25.17 Script skip: 0 111 [ comment 0 Рекламный блок 16 конец ]
+13:29:25.18 Script take: 0 112 [ movie <00:23:36.80> 00:46:38.88 Y:\НТС_12_02_08\маугли дикой планеты.mpg ]
+14:16:04.40 Script skip: 0 113 [ comment 0 Рекламный блок 17 начало - 14:13 ]
+14:16:04.40 Script take: 0 114 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+14:16:09.40 Script take: 0 115 [ movie 00:00:15.20 Z:\Reklama\-3 MORI_01.m2t ]
+14:16:24.52 Script skip: 0 116 [ comment 0 Рекламный блок 17 конец ]
+14:16:24.52 Script take: 0 117 [ movie <01:10:16.12> 00:16:02.32 Y:\НТС_12_02_08\маугли дикой планеты.mpg ]
+14:32:26.77 Script take: 0 118 [ movie 00:14:16.72 Z:\OnAir\12_05\-3 Наши Люди Араз Набиев 05 12 19.m2t ]
+14:46:43.55 Script skip: 0 119 [ comment 0 Рекламный блок 18 начало - 14:43 ]
+14:46:43.55 Script take: 0 120 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+14:46:48.69 Script take: 0 121 [ movie 00:00:15.04 Z:\Reklama\-3_ПОДАРОК А+ Full-HD 15 сек - Сыктывкар (Медтехника+ на Октябрьск_пр) 9-25 дек 2019_ИСПР.mpg ]
+14:47:03.80 Script take: 0 122 [ movie 00:00:20.12 Z:\Reklama\Телекарта\-3 02_Multiroom_0-20_1080p.m2t ]
+14:47:23.90 Script skip: 0 123 [ comment 0 Рекламный блок 18 конец ]
+14:47:23.90 Script take: 0 124 [ movie 00:12:10.04 Z:\OnAir\12_07\-3_Финноугория 44 06.11.19.m2t ]
+14:59:33.89 Script skip: 0 125 [ comment 0 Рекламный блок 19 начало - 14:58 ]
+14:59:33.89 Script take: 0 126 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+14:59:39.10 Script take: 0 127 [ movie 00:00:15.20 Z:\Reklama\-3 MORI_01.m2t ]
+14:59:54.64 Script take: 0 128 [ movie 00:00:13.20 Z:\Reklama\-3_ТГ_Вахта_Повар.m2t ]
+15:00:07.63 Script skip: 0 129 [ comment 0 Рекламный блок 19 конец ]
+15:00:07.63 Script take: 0 130 [ movie 00:10:18.56 Z:\OnAir\12_07\-3_тз от 03.12_коми_титры_04_12_00.m2t ]
+15:10:26.02 Script take: 0 131 [ movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t ]
+15:11:10.63 Script skip: 0 132 [ comment 0 Рекламный блок 20 начало - 15:13 ]
+15:11:10.63 Script take: 0 133 [ movie 00:00:05.20 Z:\Reklama\ПЕРЕБИВКИ_РЕКЛАМА_СЕНТЯБРЬ_2019\-3_перебивка_реклама_3 _ золото _ 300-700.m2t ]
+15:11:15.61 Script take: 0 134 [ movie 00:00:15.04 Z:\Reklama\-3_АЛМАГ+ ЛАМПА (Орбита) Full-HD 15 сек - Сыктывкар (Медтехника+ на Октябрьск_пр) 9-25 дек 2019_ИСПР.mpg ]
+15:11:30.64 Script skip: 0 135 [ comment 0 Рекламный блок 20 конец ]
+15:11:30.64 Script take: 0 136 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_3ИСПР _ золото.m2t ]
+15:11:35.73 Script take: 0 137 [ movie 00:00:22.39 Z:\OnAir\ГОРОДА 12+\-3_города_Воркута_корр_блюр.mpg ]
+15:11:58.15 Script take: 0 138 [ movie 00:00:08.60 Z:\Promo\ПРИЗЫ ВК\-3_ПризыВК_Аня_1(Эффекты).m2t ]
+15:12:06.68 Script take: 0 139 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_4_Серая.m2t ]
+15:12:11.93 Script take: 0 140 [ movie 00:13:37.00 Z:\OnAir\12_06\-3_Наши Любовь Головченко 06 12 19.m2t ]
+15:25:48.89 Script take: 0 141 [ movie 00:00:36.08 Z:\Promo\-3_ПРОМО Тот самый Мюнхгаузен _ 07.12 сегодня _ в 16,00.m2t ]
+15:26:25.00 Script take: 0 142 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 сегодня _ в 20,10.m2t ]
+15:27:23.60 Script take: 0 143 [ movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 сегодня _ в 00,25.m2t ]
+15:28:20.46 Script take: 0 144 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+15:29:08.59 Script take: 0 145 [ movie 00:00:05.20 Z:\Promo\ПЕРЕБИВКИ_ПРОМО_СЕНТЯБРЬ_2019\-3_перебивка_5ИСПР _ капли.m2t ]
+15:29:13.81 Script take: 0 146 [ movie 00:00:44.20 Z:\Promo\-3_Глава 82 16х9.m2t ]
+15:29:57.93 Script take: 0 147 [ movie 00:00:08.16 Z:\Promo\-3_Bndr_ЛИЦЕНЗИЯ_2019.m2t ]
+15:30:06.44 Script skip: 0 148 [ comment 0 Рекламный блок 21 начало - 15:35 ]
+15:30:06.44 Script skip: 0 149 [ comment 0 Нет рекламы в блоке ]
+15:30:06.45 Script skip: 0 150 [ comment 0 Рекламный блок 21 конец ]
+15:30:06.47 Script skip: 0 151 [ comment 0 Рекламный блок 22 начало - 15:57 ]
+15:30:06.48 Script skip: 0 152 [ comment 0 Нет рекламы в блоке ]
+15:30:06.50 Script skip: 0 153 [ comment 0 Рекламный блок 22 конец ]
+15:30:06.51 Script take: 0 154 [ movie 00:21:27.44 Z:\OnAir\12_07\АО_Коми инкогнито Поход на гору Народная 30 12 17.m2t ]
+15:51:33.76 Script take: 0 155 [ movie 00:04:58.00 Y:\НТС_история государства российского\00073 история государства российского 73 серия Героизм россиян.mpg ]
+15:56:31.72 Script take: 0 156 [ movie 00:00:58.60 Z:\Promo\-3_ПРОМО Гардемарины, вперед _ 07.12 сегодня _ в 20,10.m2t ]
+15:57:30.20 Script take: 0 157 [ movie 00:00:56.44 Z:\Promo\-3_ПРОМО Сердцеед _ 07.12 сегодня _ в 00,25.m2t ]
+15:58:26.70 Script take: 0 158 [ movie 00:00:48.52 Z:\Promo\-3_ПРОМО Жена смотрителя зоопарка _ 08.12 _ в 19,20.m2t ]
+15:59:15.14 Script take: 0 159 [ movie 00:00:59.20 Z:\Promo\-3_Глава 83 16х9.m2t ]
+16:00:14.67 Script take: 0 160 [ movie <00:00:00.00> 00:30:23.16 Y:\НТС_12_02_08\Тот самый Мюнхгаузен 1 серия.mov ]

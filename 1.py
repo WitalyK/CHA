@@ -2,7 +2,7 @@
 import requests
 import json
 
-adresok = 'сыктывкар карла маркса 197'
+adresok = 'сыктывкар петрозаводская 56'
 
 r = requests.get('http://dev.virtualearth.net/REST/v1/Locations?CountryRegion=RU&addressLine={}&key=AjpbWY8LT5rqIET70iVolfI0biR-u9P5jg5hSuAllOPS77_mHdD7EXMImvKlYlPT'.format(adresok))
 d = r.json()

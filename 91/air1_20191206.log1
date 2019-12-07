@@ -1,0 +1,1534 @@
+09:04:15.63 2019-12-06 Program started, command line: "C:\Program Files\ForwardT Software\OnAir2\FDOnAir2.exe" 
+Connecting FD422 Board 1 Output HD
+Set title config D:\Титры\HD_Возраст.SLTitleProj
+Player.Volume 0 0
+Player.Volume 1 0
+Player.Volume 2 -96
+Player.Volume 3 -96
+Player.Volume 4 -96
+Player.Volume 5 -96
+Player.Volume 6 -96
+Player.Volume 7 -96
+09:04:25.55 Script wait: 1 0 [ wait operator 0 * * * * * ]
+10:29:53.88 FilePage Shedule.InsertFromFile 1 0 Y:\PlayLists\Студия  11.air
+10:29:56.89 FilePage Shedule.InsertFromFile 0 1 Y:\PlayLists\Студия  11.air
+10:29:58.90 ScheduleDblClick Shedule.SetRunShedule 0
+10:29:59.01 ScheduleDblClick Shedule.SetRunPosition 0 4
+10:29:59.03 Script wait: 0 4 [ wait follow 0 * * * * * ]
+10:29:59.93 Button Shedule.Start
+Skip: 0 4 [ wait follow 0 * * * * * ]
+10:30:00.10 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:30:00.11 0 6 Repeat block jump
+10:30:00.11 Script wait: 0 4 [ wait follow 0 * * * * * ]
+10:30:57.87 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:30:57.87 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:30:57.87 0 6 Repeat block jump
+10:31:55.70 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:31:55.70 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:31:55.70 0 6 Repeat block jump
+10:32:53.43 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:32:53.43 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:32:53.44 0 6 Repeat block jump
+10:33:51.17 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:33:51.17 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:33:51.17 0 6 Repeat block jump
+10:34:48.98 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:34:48.98 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:34:48.99 0 6 Repeat block jump
+10:35:46.74 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:35:46.74 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:35:46.74 0 6 Repeat block jump
+10:36:44.42 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:36:44.42 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:36:44.43 0 6 Repeat block jump
+10:37:42.27 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:37:42.27 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:37:42.28 0 6 Repeat block jump
+10:38:40.02 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:38:40.02 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:38:40.03 0 6 Repeat block jump
+10:39:37.79 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:39:37.79 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:39:37.79 0 6 Repeat block jump
+10:40:35.51 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:40:35.51 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:40:35.51 0 6 Repeat block jump
+10:41:33.26 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:41:33.26 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:41:33.27 0 6 Repeat block jump
+10:42:30.98 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:42:30.98 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:42:30.99 0 6 Repeat block jump
+10:43:28.73 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:43:28.73 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:43:28.74 0 6 Repeat block jump
+10:44:26.58 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:44:26.58 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:44:26.58 0 6 Repeat block jump
+10:45:24.27 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:45:24.27 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:45:24.27 0 6 Repeat block jump
+10:46:22.08 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:46:22.08 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:46:22.08 0 6 Repeat block jump
+10:47:19.82 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:47:19.82 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:47:19.82 0 6 Repeat block jump
+10:48:17.65 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:48:17.65 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:48:17.65 0 6 Repeat block jump
+10:49:15.40 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:49:15.40 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:49:15.40 0 6 Repeat block jump
+10:50:13.15 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:50:13.15 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:50:13.16 0 6 Repeat block jump
+10:51:10.93 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:51:10.93 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:51:10.94 0 6 Repeat block jump
+10:52:08.67 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:52:08.67 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:52:08.67 0 6 Repeat block jump
+10:53:06.40 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:53:06.40 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:53:06.41 0 6 Repeat block jump
+10:54:04.16 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:54:04.16 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:54:04.16 0 6 Repeat block jump
+10:55:01.94 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:55:01.94 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:55:01.94 0 6 Repeat block jump
+10:55:59.64 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:55:59.64 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:55:59.65 0 6 Repeat block jump
+10:56:57.41 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:56:57.41 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:56:57.42 0 6 Repeat block jump
+10:57:55.15 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:57:55.15 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:57:55.15 0 6 Repeat block jump
+10:58:52.90 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:58:52.90 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:58:52.90 0 6 Repeat block jump
+10:59:50.67 Script skip: 0 4 [ wait follow 0 * * * * * ]
+10:59:50.67 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+10:59:50.67 0 6 Repeat block jump
+11:00:48.48 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:00:48.48 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:00:48.48 0 6 Repeat block jump
+11:01:46.28 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:01:46.28 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:01:46.28 0 6 Repeat block jump
+11:02:43.95 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:02:43.95 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:02:43.96 0 6 Repeat block jump
+11:03:41.76 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:03:41.76 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:03:41.77 0 6 Repeat block jump
+11:04:39.55 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:04:39.55 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:04:39.55 0 6 Repeat block jump
+11:05:37.27 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:05:37.27 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:05:37.27 0 6 Repeat block jump
+11:06:34.98 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:06:34.98 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:06:34.98 0 6 Repeat block jump
+11:07:32.74 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:07:32.74 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:07:32.74 0 6 Repeat block jump
+11:08:30.60 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:08:30.60 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:08:30.60 0 6 Repeat block jump
+11:09:28.26 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:09:28.26 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:09:28.26 0 6 Repeat block jump
+11:10:26.14 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:10:26.14 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:10:26.14 0 6 Repeat block jump
+11:11:23.89 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:11:23.89 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:11:23.89 0 6 Repeat block jump
+11:12:21.54 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:12:21.54 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:12:21.55 0 6 Repeat block jump
+11:13:19.30 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:13:19.30 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:13:19.30 0 6 Repeat block jump
+11:14:17.09 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:14:17.09 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:14:17.10 0 6 Repeat block jump
+11:15:14.92 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:15:14.92 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:15:14.93 0 6 Repeat block jump
+11:16:12.60 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:16:12.60 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:16:12.61 0 6 Repeat block jump
+11:17:10.43 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:17:10.43 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:17:10.43 0 6 Repeat block jump
+11:18:08.21 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:18:08.21 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:18:08.21 0 6 Repeat block jump
+11:19:05.95 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:19:05.95 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:19:05.95 0 6 Repeat block jump
+11:20:03.71 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:20:03.71 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:20:03.72 0 6 Repeat block jump
+11:21:01.43 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:21:01.43 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:21:01.44 0 6 Repeat block jump
+11:21:59.23 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:21:59.23 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:21:59.24 0 6 Repeat block jump
+11:22:56.98 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:22:56.98 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:22:56.99 0 6 Repeat block jump
+11:23:54.72 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:23:54.72 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:23:54.73 0 6 Repeat block jump
+11:24:52.44 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:24:52.44 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:24:52.44 0 6 Repeat block jump
+11:25:50.22 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:25:50.22 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:25:50.23 0 6 Repeat block jump
+11:26:48.05 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:26:48.05 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:26:48.06 0 6 Repeat block jump
+11:27:45.79 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:27:45.79 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:27:45.79 0 6 Repeat block jump
+11:28:43.56 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:28:43.56 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:28:43.56 0 6 Repeat block jump
+11:29:41.29 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:29:41.29 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:29:41.30 0 6 Repeat block jump
+11:30:39.07 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:30:39.07 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:30:39.08 0 6 Repeat block jump
+11:31:36.75 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:31:36.75 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:31:36.75 0 6 Repeat block jump
+11:32:34.58 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:32:34.58 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:32:34.58 0 6 Repeat block jump
+11:33:32.35 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:33:32.35 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:33:32.35 0 6 Repeat block jump
+11:34:30.13 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:34:30.13 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:34:30.13 0 6 Repeat block jump
+11:35:27.79 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:35:27.79 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:35:27.79 0 6 Repeat block jump
+11:36:25.63 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:36:25.63 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:36:25.63 0 6 Repeat block jump
+11:37:23.37 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:37:23.37 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:37:23.37 0 6 Repeat block jump
+11:38:21.06 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:38:21.06 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:38:21.06 0 6 Repeat block jump
+11:39:18.88 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:39:18.88 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:39:18.89 0 6 Repeat block jump
+11:40:16.67 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:40:16.67 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:40:16.68 0 6 Repeat block jump
+11:41:14.39 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:41:14.39 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:41:14.39 0 6 Repeat block jump
+11:42:12.12 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:42:12.12 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:42:12.13 0 6 Repeat block jump
+11:43:09.87 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:43:09.87 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:43:09.88 0 6 Repeat block jump
+11:44:07.64 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:44:07.64 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:44:07.65 0 6 Repeat block jump
+11:45:05.40 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:45:05.40 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:45:05.40 0 6 Repeat block jump
+11:46:03.26 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:46:03.26 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:46:03.26 0 6 Repeat block jump
+11:47:00.90 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:47:00.90 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:47:00.90 0 6 Repeat block jump
+11:47:58.70 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:47:58.70 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:47:58.70 0 6 Repeat block jump
+11:48:56.53 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:48:56.53 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:48:56.53 0 6 Repeat block jump
+11:49:54.25 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:49:54.25 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:49:54.25 0 6 Repeat block jump
+11:50:52.00 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:50:52.00 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:50:52.00 0 6 Repeat block jump
+11:51:49.75 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:51:49.75 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:51:49.75 0 6 Repeat block jump
+11:52:47.55 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:52:47.55 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:52:47.55 0 6 Repeat block jump
+11:53:45.24 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:53:45.24 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:53:45.24 0 6 Repeat block jump
+11:54:43.05 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:54:43.05 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:54:43.05 0 6 Repeat block jump
+11:55:40.80 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:55:40.80 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:55:40.81 0 6 Repeat block jump
+11:56:38.57 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:56:38.57 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:56:38.58 0 6 Repeat block jump
+11:57:36.31 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:57:36.31 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:57:36.31 0 6 Repeat block jump
+11:58:34.13 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:58:34.13 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:58:34.14 0 6 Repeat block jump
+11:59:31.86 Script skip: 0 4 [ wait follow 0 * * * * * ]
+11:59:31.86 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+11:59:31.86 0 6 Repeat block jump
+12:00:29.64 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:00:29.64 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:00:29.64 0 6 Repeat block jump
+12:01:27.37 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:01:27.37 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:01:27.38 0 6 Repeat block jump
+12:02:25.17 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:02:25.17 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:02:25.18 0 6 Repeat block jump
+12:03:22.83 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:03:22.83 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:03:22.84 0 6 Repeat block jump
+12:04:20.61 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:04:20.61 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:04:20.62 0 6 Repeat block jump
+12:05:18.41 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:05:18.41 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:05:18.42 0 6 Repeat block jump
+12:06:16.16 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:06:16.16 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:06:16.17 0 6 Repeat block jump
+12:07:13.87 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:07:13.87 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:07:13.87 0 6 Repeat block jump
+12:08:11.62 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:08:11.62 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:08:11.63 0 6 Repeat block jump
+12:09:09.43 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:09:09.43 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:09:09.44 0 6 Repeat block jump
+12:10:07.23 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:10:07.23 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:10:07.24 0 6 Repeat block jump
+12:11:04.99 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:11:04.99 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:11:04.99 0 6 Repeat block jump
+12:12:02.75 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:12:02.75 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:12:02.76 0 6 Repeat block jump
+12:13:00.46 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:13:00.46 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:13:00.46 0 6 Repeat block jump
+12:13:58.24 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:13:58.24 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:13:58.24 0 6 Repeat block jump
+12:14:56.02 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:14:56.02 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:14:56.02 0 6 Repeat block jump
+12:15:53.74 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:15:53.74 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:15:53.75 0 6 Repeat block jump
+12:16:51.48 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:16:51.48 Script take: 0 5 [ movie 00:00:57.76 Z:\СТУДИЯ 11\Плазма_без букв.mp4 ]
+12:16:51.48 0 6 Repeat block jump
+12:17:05.54 Button Shedule.EraseList 0
+12:17:05.61 Script wait: 0 0 [ wait operator 0 * * * * * ]
+12:17:08.21 FilePage Shedule.InsertFromFile 0 0 Y:\PlayLists\Погода.air
+DebugInfo2: 12:17:09.50 movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg Check change: Duration (00:00:59.72->00:00:59.78)
+12:17:09.82 ScheduleDblClick Shedule.SetRunPosition 0 4
+12:17:09.92 Script wait: 0 4 [ wait follow 0 * * * * * ]
+12:17:11.33 Button Shedule.ShowFirst
+12:17:12.07 Button Shedule.Start
+Skip: 0 4 [ wait follow 0 * * * * * ]
+12:17:12.28 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:17:12.28 0 6 Repeat block jump
+12:17:12.28 Script wait: 0 4 [ wait follow 0 * * * * * ]
+12:18:04.81 Button Player.SetTitleButton 2 1
+12:18:12.12 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:18:12.12 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:18:12.12 0 6 Repeat block jump
+12:18:17.66 Button Player.SetTitleButton 2 0
+12:18:20.73 Button Player.SetTitleButton 2 1
+12:18:22.37 Button Player.SetTitleButton 2 0
+12:18:23.73 Button Player.SetTitleButton 2 1
+12:18:25.92 Button Player.SetTitleButton 2 0
+12:19:11.82 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:19:11.82 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:19:11.82 0 6 Repeat block jump
+12:20:11.61 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:20:11.61 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:20:11.61 0 6 Repeat block jump
+12:21:11.37 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:21:11.37 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:21:11.38 0 6 Repeat block jump
+12:22:11.20 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:22:11.20 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:22:11.21 0 6 Repeat block jump
+12:23:11.04 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:23:11.04 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:23:11.05 0 6 Repeat block jump
+12:24:10.81 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:24:10.81 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:24:10.81 0 6 Repeat block jump
+12:25:10.56 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:25:10.56 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:25:10.56 0 6 Repeat block jump
+12:26:10.34 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:26:10.34 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:26:10.34 0 6 Repeat block jump
+12:27:10.11 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:27:10.11 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:27:10.12 0 6 Repeat block jump
+12:28:09.97 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:28:09.97 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:28:09.98 0 6 Repeat block jump
+12:29:09.70 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:29:09.70 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:29:09.71 0 6 Repeat block jump
+12:30:09.44 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:30:09.44 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:30:09.44 0 6 Repeat block jump
+12:31:09.30 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:31:09.30 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:31:09.30 0 6 Repeat block jump
+12:32:09.03 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:32:09.03 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:32:09.04 0 6 Repeat block jump
+12:33:08.79 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:33:08.79 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:33:08.80 0 6 Repeat block jump
+12:34:08.63 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:34:08.63 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:34:08.64 0 6 Repeat block jump
+12:35:08.45 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:35:08.45 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:35:08.45 0 6 Repeat block jump
+12:36:08.24 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:36:08.24 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:36:08.24 0 6 Repeat block jump
+12:37:08.04 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:37:08.04 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:37:08.04 0 6 Repeat block jump
+12:38:07.77 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:38:07.77 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:38:07.77 0 6 Repeat block jump
+12:39:07.58 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:39:07.58 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:39:07.58 0 6 Repeat block jump
+12:40:07.37 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:40:07.37 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:40:07.38 0 6 Repeat block jump
+12:41:07.17 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:41:07.17 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:41:07.18 0 6 Repeat block jump
+12:42:06.86 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:42:06.86 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:42:06.86 0 6 Repeat block jump
+12:43:06.73 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:43:06.73 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:43:06.73 0 6 Repeat block jump
+12:44:06.42 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:44:06.42 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:44:06.42 0 6 Repeat block jump
+12:45:06.23 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:45:06.23 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:45:06.23 0 6 Repeat block jump
+12:46:06.02 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:46:06.02 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:46:06.03 0 6 Repeat block jump
+12:47:05.79 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:47:05.79 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:47:05.79 0 6 Repeat block jump
+12:48:05.66 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:48:05.66 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:48:05.66 0 6 Repeat block jump
+12:49:05.33 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:49:05.33 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:49:05.33 0 6 Repeat block jump
+12:50:05.17 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:50:05.17 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:50:05.17 0 6 Repeat block jump
+12:51:04.96 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:51:04.96 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:51:04.97 0 6 Repeat block jump
+12:52:04.68 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:52:04.68 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:52:04.69 0 6 Repeat block jump
+12:53:04.49 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:53:04.49 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:53:04.50 0 6 Repeat block jump
+12:54:04.29 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:54:04.29 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:54:04.29 0 6 Repeat block jump
+12:55:04.04 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:55:04.04 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:55:04.04 0 6 Repeat block jump
+12:56:03.86 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:56:03.86 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:56:03.87 0 6 Repeat block jump
+12:57:03.60 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:57:03.60 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:57:03.60 0 6 Repeat block jump
+12:58:03.38 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:58:03.38 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:58:03.38 0 6 Repeat block jump
+12:58:40.49 Button Player.SetTitleButton 2 1
+12:59:03.22 Script skip: 0 4 [ wait follow 0 * * * * * ]
+12:59:03.22 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+12:59:03.22 0 6 Repeat block jump
+13:00:03.03 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:00:03.03 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:00:03.03 0 6 Repeat block jump
+13:01:02.75 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:01:02.75 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:01:02.75 0 6 Repeat block jump
+13:02:02.54 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:02:02.54 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:02:02.55 0 6 Repeat block jump
+13:03:02.37 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:03:02.37 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:03:02.37 0 6 Repeat block jump
+13:03:31.72 Button Player.SetTitleButton 2 0
+13:04:02.12 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:04:02.12 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:04:02.12 0 6 Repeat block jump
+13:05:01.97 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:05:01.97 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:05:01.98 0 6 Repeat block jump
+13:06:01.77 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:06:01.77 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:06:01.77 0 6 Repeat block jump
+13:07:01.53 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:07:01.53 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:07:01.54 0 6 Repeat block jump
+13:08:01.25 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:08:01.25 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:08:01.25 0 6 Repeat block jump
+13:09:01.08 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:09:01.08 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:09:01.08 0 6 Repeat block jump
+13:10:00.81 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:10:00.81 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:10:00.81 0 6 Repeat block jump
+13:11:00.68 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:11:00.68 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:11:00.69 0 6 Repeat block jump
+13:12:00.40 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:12:00.40 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:12:00.41 0 6 Repeat block jump
+13:13:00.23 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:13:00.23 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:13:00.23 0 6 Repeat block jump
+13:14:00.02 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:14:00.02 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:14:00.02 0 6 Repeat block jump
+13:14:59.82 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:14:59.82 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:14:59.82 0 6 Repeat block jump
+13:15:59.52 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:15:59.52 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:15:59.52 0 6 Repeat block jump
+13:16:59.33 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:16:59.33 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:16:59.33 0 6 Repeat block jump
+13:17:59.14 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:17:59.14 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:17:59.14 0 6 Repeat block jump
+13:18:58.86 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:18:58.86 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:18:58.86 0 6 Repeat block jump
+13:19:58.68 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:19:58.68 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:19:58.69 0 6 Repeat block jump
+13:20:58.45 Script skip: 0 4 [ wait follow 0 * * * * * ]
+13:20:58.45 Script take: 0 5 [ movie 00:00:59.78 Z:\Погода 2018\ФОН_ПОД_ВЕДУЩЕГО.mpg ]
+13:20:58.45 0 6 Repeat block jump
+13:21:38.09 Button Shedule.EraseList 0
+13:21:38.15 Script wait: 0 0 [ wait operator 0 * * * * * ]
+13:21:44.92 FilePage Shedule.InsertFromFile 0 0 Y:\PlayLists\ТАЛУН 14 30.air
+13:43:34.94 ScheduleDblClick Shedule.SetRunPosition 0 8
+13:43:34.96 ScheduleDblClick Shedule.SetPause 0
+13:43:34.97 Script wait: 0 8 [ wait time 14:29:00.00 [0] active  ]
+13:43:36.40 Button Shedule.ShowFirst
+13:45:25.74 Button Player.SetTitleButton 2 1
+13:45:26.84 Button Player.SetTitleButton 2 0
+13:52:11.83 FilePage  Shedule.AddItem 0 12 1 0 0 movie 00:03:08.80  Z:\ТАЛУН\КОМИ Бушенева (Правительство Порядин) 6-12.m2t
+13:52:12.82 Button  Shedule.AddItem 0 13 1 0 0 wait operator
+13:52:17.00 FilePage  Shedule.AddItem 0 15 1 0 0 movie 00:00:51.32  Z:\ТАЛУН\___бз Сосногорск теплицы арх 5-12.m2t
+13:52:17.76 Button  Shedule.AddItem 0 16 1 0 0 wait operator
+13:52:19.75 FilePage  Shedule.AddItem 0 18 1 0 0 movie 00:01:09.76  Z:\ТАЛУН\___КОМИ _сх1+отв 16 Князев  Сосногорск теплицы арх 5-12.m2t
+13:52:20.70 Button  Shedule.AddItem 0 19 1 0 0 wait operator
+13:52:21.95 FilePage  Shedule.AddItem 0 21 1 0 0 movie 00:01:26.96  Z:\ТАЛУН\___КОМИ _сх2+отв 29 Фатеев   Сосногорск теплицы арх 5-12.m2t
+13:52:23.10 Button  Shedule.AddItem 0 22 1 0 0 wait operator
+13:52:33.03 FilePage  Shedule.AddItem 0 24 1 0 0 movie 00:02:45.44  Z:\ТАЛУН\КОМИ Королев ( Охотники сдали шкуры волка в лесничество) 5-12.m2t
+13:52:34.13 Button  Shedule.AddItem 0 25 1 0 0 wait operator
+13:52:40.76 FilePage  Shedule.AddItem 0 27 1 0 0 movie 00:01:23.48  Z:\ТАЛУН\___бз Коми Экспо Трэвел арх 5-12.m2t
+13:52:41.57 Button  Shedule.AddItem 0 28 1 0 0 wait operator
+13:52:42.73 FilePage  Shedule.AddItem 0 30 1 0 0 movie 00:01:08.36  Z:\ТАЛУН\___КОМИ _сх+отв 20 Иванова  Коми Экспо Трэвел арх 5-12.m2t
+13:52:43.99 Button  Shedule.AddItem 0 31 1 0 0 wait operator
+13:52:58.08 FilePage  Shedule.AddItem 0 33 1 0 0 movie 00:01:18.76  Z:\ТАЛУН\КОМИ _Хозяинова  ( Визинга АТП новые автобусы перевозки Сысольский ) 6-12.m2t
+13:53:00.16 Button  Shedule.AddItem 0 34 1 0 0 wait operator
+13:53:02.04 FilePage  Shedule.AddItem 0 36 1 0 0 movie 00:00:38.20  Z:\ТАЛУН\___бз Конкурс красоты Райда 6-12.m2t
+13:53:02.96 Button  Shedule.AddItem 0 37 1 0 0 wait operator
+13:53:05.45 FilePage  Shedule.AddItem 0 39 1 0 0 movie 00:01:03.80  Z:\ТАЛУН\___КОМИ сх+отв 15 Чупрова Конкурс красоты Райда 6-12.m2t
+13:53:06.97 Button  Shedule.AddItem 0 40 1 0 0 wait operator
+13:53:10.48 FilePage  Shedule.AddItem 0 42 1 0 0 movie 00:00:12.09  Z:\ТАЛУН\____КОНЕЧКА ТАЛУН_2019_НОВЫЙ_НОМЕР.mpg
+13:53:11.38 Button  Shedule.AddItem 0 43 1 0 0 wait operator
+DebugInfo2: 13:53:11.56 movie 00:00:12.09 Z:\ТАЛУН\____КОНЕЧКА ТАЛУН_2019_НОВЫЙ_НОМЕР.mpg Check change: Duration (00:00:12.09->00:00:12.09)
+14:22:21.52 ScheduleDblClick Shedule.SetRunPosition 0 7
+14:22:21.56 ScheduleDblClick Shedule.SetPause 0
+14:29:00.03 Script skip: 0 8 [ wait time 14:29:00.00 [0] active  ]
+14:29:00.03 Script take: 0 9 [ movie 00:01:00.28 Y:\Часы\Сlock_02_30.m2t ]
+14:30:00.32 Script take: 0 10 [ movie 00:00:35.04 Z:\ТАЛУН\____ТАЛУН ШАПКА.m2t ]
+14:30:00.33 Script stop: 0 12 [ wait operator 0  ]
+14:30:00.33 Script wait: 0 12 [ wait operator 0  ]
+14:30:26.31 Button Shedule.ShowFirst
+14:30:36.17 Button Shedule.ShowFirst
+14:30:49.28 Button Shedule.Start
+Skip: 0 12 [ wait operator 0  ]
+14:30:49.56 Script take: 0 13 [ movie 00:03:08.80 Z:\ТАЛУН\КОМИ Бушенева (Правительство Порядин) 6-12.m2t ]
+14:30:49.56 Script stop: 0 15 [ wait operator 0  ]
+14:30:49.56 Script wait: 0 15 [ wait operator 0  ]
+14:33:58.23 Button Shedule.ShowFirst
+14:34:03.46 Button Shedule.Start
+Skip: 0 15 [ wait operator 0  ]
+14:34:03.74 Script take: 0 16 [ movie 00:00:51.32 Z:\ТАЛУН\___бз Сосногорск теплицы арх 5-12.m2t ]
+14:34:03.75 Script stop: 0 18 [ wait operator 0  ]
+14:34:03.75 Script wait: 0 18 [ wait operator 0  ]
+14:34:30.59 Button Shedule.Start
+Skip: 0 18 [ wait operator 0  ]
+14:34:30.83 Script take: 0 19 [ movie 00:01:09.76 Z:\ТАЛУН\___КОМИ _сх1+отв 16 Князев  Сосногорск теплицы арх 5-12.m2t ]
+14:34:30.83 Script stop: 0 21 [ wait operator 0  ]
+14:34:30.83 Script wait: 0 21 [ wait operator 0  ]
+14:35:08.37 Button Shedule.Start
+Skip: 0 21 [ wait operator 0  ]
+14:35:08.64 Script take: 0 22 [ movie 00:01:26.96 Z:\ТАЛУН\___КОМИ _сх2+отв 29 Фатеев   Сосногорск теплицы арх 5-12.m2t ]
+14:35:08.64 Script stop: 0 24 [ wait operator 0  ]
+14:35:08.64 Script wait: 0 24 [ wait operator 0  ]
+14:36:05.88 Button Shedule.ShowFirst
+14:36:34.50 Button Shedule.Start
+Skip: 0 24 [ wait operator 0  ]
+14:36:34.70 Script take: 0 25 [ movie 00:02:45.44 Z:\ТАЛУН\КОМИ Королев ( Охотники сдали шкуры волка в лесничество) 5-12.m2t ]
+14:36:34.70 Script stop: 0 27 [ wait operator 0  ]
+14:36:34.70 Script wait: 0 27 [ wait operator 0  ]
+14:39:21.43 Button Shedule.ShowFirst
+14:39:26.24 Button Shedule.Start
+Skip: 0 27 [ wait operator 0  ]
+14:39:26.44 Script take: 0 28 [ movie 00:01:23.48 Z:\ТАЛУН\___бз Коми Экспо Трэвел арх 5-12.m2t ]
+14:39:26.44 Script stop: 0 30 [ wait operator 0  ]
+14:39:26.44 Script wait: 0 30 [ wait operator 0  ]
+14:40:02.17 Button Shedule.Start
+Skip: 0 30 [ wait operator 0  ]
+14:40:02.33 Script take: 0 31 [ movie 00:01:08.36 Z:\ТАЛУН\___КОМИ _сх+отв 20 Иванова  Коми Экспо Трэвел арх 5-12.m2t ]
+14:40:02.33 Script stop: 0 33 [ wait operator 0  ]
+14:40:02.33 Script wait: 0 33 [ wait operator 0  ]
+14:40:47.18 Button Shedule.ShowFirst
+14:40:53.38 Button Shedule.ShowFirst
+14:41:00.62 Button Shedule.ShowFirst
+14:41:03.62 Button Shedule.Start
+Skip: 0 33 [ wait operator 0  ]
+14:41:03.81 Script take: 0 34 [ movie 00:01:18.76 Z:\ТАЛУН\КОМИ _Хозяинова  ( Визинга АТП новые автобусы перевозки Сысольский ) 6-12.m2t ]
+14:41:03.81 Script stop: 0 36 [ wait operator 0  ]
+14:41:03.81 Script wait: 0 36 [ wait operator 0  ]
+14:42:22.68 Button Shedule.ShowFirst
+14:42:26.29 Button Shedule.Start
+Skip: 0 36 [ wait operator 0  ]
+14:42:26.53 Script take: 0 37 [ movie 00:00:38.20 Z:\ТАЛУН\___бз Конкурс красоты Райда 6-12.m2t ]
+14:42:26.53 Script stop: 0 39 [ wait operator 0  ]
+14:42:26.53 Script wait: 0 39 [ wait operator 0  ]
+14:42:49.35 Button Shedule.Start
+Skip: 0 39 [ wait operator 0  ]
+14:42:49.59 Script take: 0 40 [ movie 00:01:03.80 Z:\ТАЛУН\___КОМИ сх+отв 15 Чупрова Конкурс красоты Райда 6-12.m2t ]
+14:42:49.60 Script stop: 0 42 [ wait operator 0  ]
+14:42:49.60 Script wait: 0 42 [ wait operator 0  ]
+14:43:48.15 Button Shedule.ShowFirst
+14:43:51.75 Button Shedule.Start
+Skip: 0 42 [ wait operator 0  ]
+14:43:51.95 Script take: 0 43 [ movie 00:00:12.09 Z:\ТАЛУН\____КОНЕЧКА ТАЛУН_2019_НОВЫЙ_НОМЕР.mpg ]
+14:43:51.96 Script stop: 0 45 [ wait operator 0  ]
+14:43:51.96 Script wait: 0 45 [ wait operator 0  ]
+14:45:19.38 Button Shedule.EraseList 0
+14:45:19.43 Script wait: 0 0 [ wait operator 0 * * * * * ]
+14:49:44.84 FilePage  Shedule.AddItem 0 0 1 0 0 movie 00:00:35.04  Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ШАПКА.m2t
+14:49:45.58 Button  Shedule.AddItem 0 1 1 0 0 wait operator
+14:49:46.68 FilePage  Shedule.AddItem 0 3 1 0 0 movie 00:00:12.09  Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН КОНЕЧКА 2019_НОВЫЙ_НОМЕР.mpg
+DebugInfo2: 14:49:47.51 movie 00:00:12.09 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН КОНЕЧКА 2019_НОВЫЙ_НОМЕР.mpg Check change: Duration (00:00:12.09->00:00:12.09)
+14:49:47.56 Button  Shedule.AddItem 0 4 1 0 0 wait operator
+14:49:58.95 FilePage  Shedule.AddItem 0 6 1 0 0 movie 00:04:52.16  Z:\ВРЕМЯ  НОВОСТЕЙ\Супрядкина (Правительство Порядин) 6-12.m2t
+14:50:01.16 Button  Shedule.AddItem 0 7 1 0 0 default1 00:00:01.00
+14:50:02.43 ScheduleDblClick Shedule.SetRunPosition 0 6
+14:50:02.53 Script wait: 0 6 [ wait operator 0  ]
+14:50:03.17 Button Shedule.ShowFirst
+14:50:03.71 Button Shedule.Start
+Skip: 0 6 [ wait operator 0  ]
+14:50:03.98 Script take: 0 7 [ movie 00:04:52.16 Z:\ВРЕМЯ  НОВОСТЕЙ\Супрядкина (Правительство Порядин) 6-12.m2t ]
+14:50:17.62 ScheduleDblClick Shedule.SetRunPosition 0 6
+14:50:17.65 Script wait: 0 6 [ wait operator 0  ]
+14:50:18.38 Button Shedule.ShowFirst
+14:50:21.44 Button  Shedule.AddItem 0 8 1 0 0 wait operator
+14:50:23.18 FilePage  Shedule.AddItem 0 10 1 0 0 movie 00:00:35.04  Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ШАПКА.m2t
+14:50:24.15 Button  Shedule.AddItem 0 11 1 0 0 wait operator
+14:50:26.17 FilePage  Shedule.AddItem 0 13 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_1.mp4
+14:50:26.62 FilePage  Shedule.AddItem 0 14 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2.mp4
+14:50:27.06 FilePage  Shedule.AddItem 0 15 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3.mp4
+14:50:33.55 Button Shedule.Start
+Skip: 0 6 [ wait operator 0  ]
+14:50:33.81 Script take: 0 7 [ movie 00:04:52.16 Z:\ВРЕМЯ  НОВОСТЕЙ\Супрядкина (Правительство Порядин) 6-12.m2t ]
+14:50:36.50 SheduleEdit Shedule.SetItemFade 0 15 400 (0.4)
+14:50:38.31 SheduleEdit Shedule.SetItemFade 0 16 400 (0.4)
+14:50:38.37 Button  Shedule.AddItem 0 16 1 0 0 wait operator
+14:50:46.02 FilePage  Shedule.AddItem 0 18 1 0 0 movie 00:00:45.92  Z:\Ухта\___бз светофоры Ухта город машины пешеходы дороги снег 19-11.m2t
+14:50:47.87 Button  Shedule.AddItem 0 19 1 0 0 wait operator
+14:50:56.98 FilePage  Shedule.AddItem 0 21 1 0 0 movie 00:00:36.80  Z:\Ухта\Эко патруль_ВЗК1.mpg
+14:50:57.88 Button  Shedule.AddItem 0 22 1 0 0 wait operator
+14:50:58.67 FilePage  Shedule.AddItem 0 24 1 0 0 movie 00:00:51.36  Z:\Ухта\Эко патруль_ 23 LIVE1+ВЗК2.mpg
+14:50:59.60 Button  Shedule.AddItem 0 25 1 0 0 wait operator
+14:51:00.44 FilePage  Shedule.AddItem 0 27 1 0 0 movie 00:00:44.08  Z:\Ухта\Эко 24 СНХ2+ВЗК3.mpg
+14:51:01.32 Button  Shedule.AddItem 0 28 1 0 0 wait operator
+14:51:02.34 FilePage  Shedule.AddItem 0 30 1 0 0 movie 00:00:12.09  Z:\Ухта\____КОНЕЧКА УХТА 2019.mpg
+DebugInfo2: 14:51:02.43 movie 00:00:12.09 Z:\Ухта\____КОНЕЧКА УХТА 2019.mpg Check change: Duration (00:00:12.09->00:00:12.09)
+14:55:25.90 Script take: 0 8 [ default1 00:00:01.00  ]
+14:55:25.90 Script stop: 0 10 [ wait operator 0  ]
+14:55:25.90 Script wait: 0 10 [ wait operator 0  ]
+14:59:09.73 ScheduleDblClick Shedule.SetRunPosition 0 0
+14:59:09.76 Script wait: 0 0 [ wait operator 0 * * * * * ]
+14:59:17.09 Button Shedule.ShowFirst
+14:59:44.47 Button Shedule.ShowFirst
+15:00:01.13 Button Shedule.Start
+Skip: 0 0 [ wait operator 0 * * * * * ]
+15:00:01.38 Script take: 0 1 [ movie 00:00:35.04 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ШАПКА.m2t ]
+15:00:01.39 Script stop: 0 3 [ wait operator 0  ]
+15:00:01.39 Script wait: 0 3 [ wait operator 0  ]
+15:00:31.65 Button Shedule.ShowFirst
+15:03:15.02 Button Shedule.ShowFirst
+15:03:53.67 Button Shedule.ShowFirst
+15:03:58.10 Button Shedule.Start
+Skip: 0 3 [ wait operator 0  ]
+15:03:58.29 Script take: 0 4 [ movie 00:00:12.09 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН КОНЕЧКА 2019_НОВЫЙ_НОМЕР.mpg ]
+15:03:58.30 Script stop: 0 6 [ wait operator 0  ]
+15:03:58.30 Script wait: 0 6 [ wait operator 0  ]
+15:04:05.82 ScheduleDblClick Shedule.SetRunPosition 0 0
+15:04:05.87 Script wait: 0 0 [ wait operator 0 * * * * * ]
+15:04:06.73 Button Shedule.ShowFirst
+15:04:10.20 Button Shedule.Start
+Skip: 0 0 [ wait operator 0 * * * * * ]
+15:04:10.44 Script take: 0 1 [ movie 00:00:35.04 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ШАПКА.m2t ]
+15:04:10.44 Script stop: 0 3 [ wait operator 0  ]
+15:04:10.44 Script wait: 0 3 [ wait operator 0  ]
+15:04:39.30 ScheduleDblClick Shedule.SetRunPosition 0 3
+15:04:40.41 Button Shedule.ShowFirst
+15:04:51.81 ScheduleDblClick Shedule.SetRunPosition 0 11
+15:04:52.77 Button Shedule.ShowFirst
+15:07:48.93 ScheduleDblClick Shedule.SetRunPosition 0 13
+15:07:48.98 Script wait: 0 13 [ wait operator 0  ]
+15:07:49.79 Button Shedule.ShowFirst
+15:07:56.84 ScheduleDblClick Shedule.SetRunPosition 0 10
+15:07:56.93 Script wait: 0 10 [ wait operator 0  ]
+15:07:57.76 Button Shedule.ShowFirst
+15:08:23.40 Button Shedule.ShowFirst
+15:12:02.93 Button Shedule.Start
+Skip: 0 10 [ wait operator 0  ]
+15:12:03.09 Script take: 0 11 [ movie 00:00:35.04 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ШАПКА.m2t ]
+15:12:03.10 Script stop: 0 13 [ wait operator 0  ]
+15:12:03.10 Script wait: 0 13 [ wait operator 0  ]
+15:12:42.21 Button Shedule.ShowFirst
+15:12:47.02 Button Shedule.ShowFirst
+15:12:54.18 Button Shedule.ShowFirst
+15:13:05.53 Button Shedule.ShowFirst
+15:13:17.32 Hotkey Shedule.Start
+Skip: 0 13 [ wait operator 0  ]
+15:13:17.52 Script take: 0 14 [ movie 00:00:44.80 Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_1.mp4 ]
+15:13:33.93 Hotkey Shedule.Start
+15:13:34.20 Script take: 0 15 [ movie 00:00:44.80 [0.4] Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2.mp4 ]
+15:13:59.69 Hotkey Shedule.Start
+15:13:59.96 Script take: 0 16 [ movie 00:00:44.80 [0.4] Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3.mp4 ]
+15:13:59.97 Script stop: 0 18 [ wait operator 0  ]
+15:13:59.97 Script wait: 0 18 [ wait operator 0  ]
+15:14:49.73 Button Shedule.ShowFirst
+15:14:52.26 Button Shedule.ShowFirst
+15:15:12.79 Button Shedule.ShowFirst
+15:15:22.09 Hotkey Shedule.Start
+Skip: 0 18 [ wait operator 0  ]
+15:15:22.37 Script take: 0 19 [ movie 00:00:45.92 Z:\Ухта\___бз светофоры Ухта город машины пешеходы дороги снег 19-11.m2t ]
+15:15:22.37 Script stop: 0 21 [ wait operator 0  ]
+15:15:22.37 Script wait: 0 21 [ wait operator 0  ]
+15:15:31.00 ScheduleDblClick Shedule.SetRunPosition 0 17
+15:15:31.08 Script wait: 0 18 [ wait operator 0  ]
+15:15:32.05 Button Shedule.ShowFirst
+15:15:41.67 Button Shedule.ShowFirst
+15:15:46.71 Hotkey Shedule.Start
+Skip: 0 18 [ wait operator 0  ]
+15:15:46.91 Script take: 0 19 [ movie 00:00:45.92 Z:\Ухта\___бз светофоры Ухта город машины пешеходы дороги снег 19-11.m2t ]
+15:15:46.91 Script stop: 0 21 [ wait operator 0  ]
+15:15:46.91 Script wait: 0 21 [ wait operator 0  ]
+15:15:49.97 ScheduleDblClick Shedule.SetRunPosition 0 17
+15:15:50.02 Script wait: 0 18 [ wait operator 0  ]
+15:15:50.98 Button Shedule.ShowFirst
+15:16:08.61 Hotkey Shedule.Start
+Skip: 0 18 [ wait operator 0  ]
+15:16:08.89 Script take: 0 19 [ movie 00:00:45.92 Z:\Ухта\___бз светофоры Ухта город машины пешеходы дороги снег 19-11.m2t ]
+15:16:08.89 Script stop: 0 21 [ wait operator 0  ]
+15:16:08.89 Script wait: 0 21 [ wait operator 0  ]
+15:16:48.27 ScheduleDblClick Shedule.SetRunPosition 0 17
+15:16:48.30 Script wait: 0 18 [ wait operator 0  ]
+15:16:49.28 Button Shedule.ShowFirst
+15:16:49.89 Button Shedule.ShowFirst
+15:17:08.07 Button Shedule.ShowFirst
+15:17:16.51 Hotkey Shedule.Start
+Skip: 0 18 [ wait operator 0  ]
+15:17:16.76 Script take: 0 19 [ movie 00:00:45.92 Z:\Ухта\___бз светофоры Ухта город машины пешеходы дороги снег 19-11.m2t ]
+15:17:16.76 Script stop: 0 21 [ wait operator 0  ]
+15:17:16.76 Script wait: 0 21 [ wait operator 0  ]
+15:17:49.66 Button Shedule.ShowFirst
+15:17:53.07 Hotkey Shedule.Start
+Skip: 0 21 [ wait operator 0  ]
+15:17:53.27 Script take: 0 22 [ movie 00:00:36.80 Z:\Ухта\Эко патруль_ВЗК1.mpg ]
+15:17:53.27 Script stop: 0 24 [ wait operator 0  ]
+15:17:53.27 Script wait: 0 24 [ wait operator 0  ]
+15:18:19.77 ScheduleDblClick Shedule.SetRunPosition 0 20
+15:18:19.81 Script wait: 0 21 [ wait operator 0  ]
+15:18:20.90 Button Shedule.ShowFirst
+15:18:21.81 Button Shedule.ShowFirst
+DebugInfo2: 15:18:28.10 movie 00:00:44.80 [0.4] Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2.mp4 Check change: State (None->Error)
+DebugInfo2: 15:18:31.20 movie 00:00:44.80 [0.4] Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3.mp4 Check change: State (None->Error)
+15:18:33.49 Button Shedule.ShowFirst
+15:18:38.17 Hotkey Shedule.Start
+Skip: 0 21 [ wait operator 0  ]
+15:18:38.44 Script take: 0 22 [ movie 00:00:36.80 Z:\Ухта\Эко патруль_ВЗК1.mpg ]
+15:18:38.45 Script stop: 0 24 [ wait operator 0  ]
+15:18:38.45 Script wait: 0 24 [ wait operator 0  ]
+15:19:00.85 Button Shedule.Start
+Skip: 0 24 [ wait operator 0  ]
+15:19:01.02 Script take: 0 25 [ movie 00:00:51.36 Z:\Ухта\Эко патруль_ 23 LIVE1+ВЗК2.mpg ]
+15:19:01.03 Script stop: 0 27 [ wait operator 0  ]
+15:19:01.03 Script wait: 0 27 [ wait operator 0  ]
+15:19:55.35 SheduleEdit Shedule.SetItemInOut 0 25 23320 51360 (00:00:23.32, 00:00:51.36)
+15:19:57.16 ScheduleDblClick Shedule.SetRunPosition 0 23
+15:19:57.20 Script wait: 0 24 [ wait operator 0  ]
+15:19:58.23 Button Shedule.ShowFirst
+15:20:00.67 Button Shedule.Start
+Skip: 0 24 [ wait operator 0  ]
+15:20:00.83 Script take: 0 25 [ movie <00:00:23.32> 00:00:28.04 Z:\Ухта\Эко патруль_ 23 LIVE1+ВЗК2.mpg ]
+15:20:00.84 Script stop: 0 27 [ wait operator 0  ]
+15:20:00.84 Script wait: 0 27 [ wait operator 0  ]
+15:20:11.09 ScheduleDblClick Shedule.SetRunPosition 0 23
+15:20:11.19 Script wait: 0 24 [ wait operator 0  ]
+15:20:12.19 Button Shedule.ShowFirst
+15:20:16.85 Button Shedule.Start
+Skip: 0 24 [ wait operator 0  ]
+15:20:17.09 Script take: 0 25 [ movie <00:00:23.32> 00:00:28.04 Z:\Ухта\Эко патруль_ 23 LIVE1+ВЗК2.mpg ]
+15:20:17.09 Script stop: 0 27 [ wait operator 0  ]
+15:20:17.09 Script wait: 0 27 [ wait operator 0  ]
+15:20:34.58 Button Shedule.Start
+Skip: 0 27 [ wait operator 0  ]
+15:20:34.75 Script take: 0 28 [ movie 00:00:44.08 Z:\Ухта\Эко 24 СНХ2+ВЗК3.mpg ]
+15:20:34.75 Script stop: 0 30 [ wait operator 0  ]
+15:20:34.75 Script wait: 0 30 [ wait operator 0  ]
+15:21:10.03 Button Shedule.ShowFirst
+15:21:10.57 Button Shedule.ShowFirst
+15:21:13.16 Hotkey Shedule.Start
+Skip: 0 30 [ wait operator 0  ]
+15:21:13.43 Script take: 0 31 [ movie 00:00:12.09 Z:\Ухта\____КОНЕЧКА УХТА 2019.mpg ]
+15:22:02.67 Button Shedule.EraseList 0
+15:22:02.76 Script wait: 0 0 [ wait operator 0 * * * * * ]
+15:22:19.97 FilePage  Shedule.AddItem 0 0 1 0 0 movie 00:00:27.04  Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg
+DebugInfo2: 15:22:20.23 movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg Check change: Duration (00:00:27.04->00:00:27.04)
+15:22:28.80 Button  Shedule.AddItem 0 1 1 0 0 repeat block 0
+15:22:29.89 Button  Shedule.AddItem 0 2 1 0 0 wait operator
+15:22:30.77 ScheduleClick Shedule.SetItemWaitType 0 0 1
+15:22:31.20 ScheduleClick Shedule.SetItemWaitType 0 4 1
+15:22:32.38 Button Shedule.Start
+Skip: 0 0 [ wait follow 0 * * * * * ]
+15:22:32.60 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:22:32.60 0 2 Repeat block jump
+15:22:32.60 Script wait: 0 0 [ wait follow 0 * * * * * ]
+15:22:59.68 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:22:59.68 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:22:59.69 0 2 Repeat block jump
+15:23:26.74 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:23:26.74 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:23:26.74 0 2 Repeat block jump
+15:23:53.69 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:23:53.69 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:23:53.70 0 2 Repeat block jump
+15:24:20.85 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:24:20.85 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:24:20.86 0 2 Repeat block jump
+15:24:47.84 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:24:47.84 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:24:47.85 0 2 Repeat block jump
+15:25:14.84 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:25:14.84 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:25:14.84 0 2 Repeat block jump
+15:25:41.92 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:25:41.92 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:25:41.93 0 2 Repeat block jump
+15:26:09.02 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:26:09.02 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:26:09.03 0 2 Repeat block jump
+15:26:36.01 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:26:36.01 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:26:36.01 0 2 Repeat block jump
+15:27:03.14 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:27:03.14 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:27:03.14 0 2 Repeat block jump
+15:27:19.22 FilePage  Shedule.AddItem 0 4 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2_1.mp4
+15:27:19.79 FilePage  Shedule.AddItem 0 5 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3_1.mp4
+15:27:21.04 ScheduleDblClick Shedule.SetRunPosition 0 5
+15:27:22.03 Button Shedule.Start
+15:27:22.22 Script take: 0 5 [ movie 00:00:44.80 Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2_1.mp4 ]
+15:27:27.93 ScheduleDblClick Shedule.SetRunPosition 0 4
+15:27:27.97 Script wait: 0 4 [ wait follow 0  ]
+15:27:28.78 Button Player.Default 1
+15:27:31.95 ScheduleClick Shedule.SetItemWaitType 0 4 0
+15:27:49.82 Button Shedule.Start
+Skip: 0 4 [ wait operator 0  ]
+15:27:50.09 Script take: 0 5 [ movie 00:00:44.80 Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2_1.mp4 ]
+15:28:01.65 SheduleEdit Shedule.SetItemFade 0 6 400 (0.4)
+15:28:19.03 Button Shedule.Start
+15:28:19.20 Script take: 0 6 [ movie 00:00:44.80 [0.4] Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3_1.mp4 ]
+15:28:24.95 SheduleEdit Shedule.SetItemFade 0 6 0 (0)
+15:28:26.32 Button Player.Default 1
+15:28:27.66 ScheduleDblClick Shedule.SetRunPosition 0 6
+15:28:28.84 Button Shedule.Start
+15:28:29.04 Script take: 0 6 [ movie 00:00:44.80 Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3_1.mp4 ]
+15:28:50.67 ScheduleDblClick Shedule.SetRunPosition 0 0
+15:28:50.70 Script wait: 0 0 [ wait follow 0 * * * * * ]
+15:29:01.48 Button Shedule.Start
+Skip: 0 0 [ wait follow 0 * * * * * ]
+15:29:01.74 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:29:01.75 0 2 Repeat block jump
+15:29:01.75 Script wait: 0 0 [ wait follow 0 * * * * * ]
+15:29:28.73 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:29:28.73 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:29:28.74 0 2 Repeat block jump
+15:29:55.79 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:29:55.79 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:29:55.79 0 2 Repeat block jump
+15:30:22.79 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:30:22.79 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:30:22.79 0 2 Repeat block jump
+15:30:49.90 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:30:49.90 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:30:49.91 0 2 Repeat block jump
+15:31:16.94 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:31:16.94 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:31:16.94 0 2 Repeat block jump
+15:31:43.96 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:31:43.96 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:31:43.96 0 2 Repeat block jump
+15:32:10.99 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:32:10.99 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:32:11.00 0 2 Repeat block jump
+15:32:38.09 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:32:38.09 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:32:38.09 0 2 Repeat block jump
+15:33:05.16 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:33:05.16 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:33:05.16 0 2 Repeat block jump
+15:33:32.21 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:33:32.21 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:33:32.21 0 2 Repeat block jump
+15:33:59.19 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:33:59.19 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:33:59.20 0 2 Repeat block jump
+15:34:26.26 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:34:26.26 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:34:26.26 0 2 Repeat block jump
+15:34:53.32 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:34:53.32 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:34:53.33 0 2 Repeat block jump
+15:35:20.33 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:35:20.33 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:35:20.33 0 2 Repeat block jump
+15:35:47.38 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:35:47.38 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:35:47.39 0 2 Repeat block jump
+15:36:14.52 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:36:14.52 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:36:14.53 0 2 Repeat block jump
+15:36:41.48 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:36:41.48 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:36:41.49 0 2 Repeat block jump
+15:37:08.51 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:37:08.51 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:37:08.52 0 2 Repeat block jump
+15:37:35.58 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:37:35.58 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:37:35.59 0 2 Repeat block jump
+15:38:02.66 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:38:02.66 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:38:02.67 0 2 Repeat block jump
+15:38:29.65 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:38:29.65 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:38:29.66 0 2 Repeat block jump
+15:38:56.70 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:38:56.70 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:38:56.71 0 2 Repeat block jump
+15:39:23.83 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:39:23.83 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:39:23.84 0 2 Repeat block jump
+15:39:50.80 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:39:50.80 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:39:50.81 0 2 Repeat block jump
+15:40:17.84 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:40:17.84 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:40:17.84 0 2 Repeat block jump
+15:40:44.98 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:40:44.98 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:40:44.99 0 2 Repeat block jump
+15:41:11.96 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:41:11.96 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:41:11.96 0 2 Repeat block jump
+15:41:39.07 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:41:39.07 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:41:39.07 0 2 Repeat block jump
+15:42:06.13 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:42:06.13 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:42:06.14 0 2 Repeat block jump
+15:42:33.11 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:42:33.11 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:42:33.11 0 2 Repeat block jump
+15:43:00.17 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:43:00.17 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:43:00.18 0 2 Repeat block jump
+15:43:27.19 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:43:27.19 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:43:27.20 0 2 Repeat block jump
+15:43:54.24 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:43:54.24 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:43:54.25 0 2 Repeat block jump
+15:44:21.36 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:44:21.36 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:44:21.36 0 2 Repeat block jump
+15:44:48.36 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:44:48.36 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:44:48.37 0 2 Repeat block jump
+15:45:15.38 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:45:15.38 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:45:15.38 0 2 Repeat block jump
+15:45:42.53 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:45:42.53 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:45:42.53 0 2 Repeat block jump
+15:46:09.58 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:46:09.58 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:46:09.58 0 2 Repeat block jump
+15:46:36.56 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:46:36.56 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:46:36.57 0 2 Repeat block jump
+15:47:03.61 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:47:03.61 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:47:03.62 0 2 Repeat block jump
+15:47:30.65 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:47:30.65 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:47:30.65 0 2 Repeat block jump
+15:47:57.70 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:47:57.70 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:47:57.70 0 2 Repeat block jump
+15:48:24.73 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:48:24.73 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:48:24.74 0 2 Repeat block jump
+15:48:51.77 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:48:51.77 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:48:51.77 0 2 Repeat block jump
+15:49:16.41 Button  Shedule.AddItem 0 6 1 0 0 wait operator
+15:49:18.87 Script skip: 0 0 [ wait follow 0 * * * * * ]
+15:49:18.87 Script take: 0 1 [ movie 00:00:27.04 Z:\ВРЕМЯ ИТОГОВ\ПЛАЗМА_ЦВЕТНАЯ_ДН.mpg ]
+15:49:18.87 0 2 Repeat block jump
+15:49:19.64 FilePage  Shedule.AddItem 0 8 1 0 0 movie 0  Z:\Ухта\бюджет 2020_сюжет.mpg
+DebugInfo2: 15:49:20.64 movie 00:02:53.64 Z:\Ухта\бюджет 2020_сюжет.mpg Check change: Duration (00:00:00.00->00:02:53.64)
+15:49:20.85 ScheduleDblClick Shedule.SetRunPosition 0 8
+15:49:20.94 Script wait: 0 8 [ wait operator 0  ]
+15:49:21.73 Button Shedule.ShowFirst
+15:49:22.75 Button Shedule.Start
+Skip: 0 8 [ wait operator 0  ]
+15:49:22.95 Script take: 0 9 [ movie 00:02:53.64 Z:\Ухта\бюджет 2020_сюжет.mpg ]
+15:49:42.94 ScheduleDblClick Shedule.SetRunPosition 0 7
+15:49:42.96 Script wait: 0 8 [ wait operator 0  ]
+15:49:44.24 Button Shedule.ShowFirst
+15:50:23.01 Button Shedule.Start
+Skip: 0 8 [ wait operator 0  ]
+15:50:23.20 Script take: 0 9 [ movie 00:02:53.64 Z:\Ухта\бюджет 2020_сюжет.mpg ]
+16:05:16.15 Button Shedule.EraseList 0
+16:05:16.17 Script wait: 0 0 [ wait operator 0 * * * * * ]
+16:05:21.73 FilePage Shedule.InsertFromFile 0 0 Y:\PlayLists\ВН 16 30.air
+16:05:23.70 ScheduleDblClick Shedule.SetRunPosition 0 4
+16:05:23.81 Script wait: 0 4 [ wait operator 0 * * * * * ]
+16:05:24.69 Button Shedule.Start
+Skip: 0 4 [ wait operator 0 * * * * * ]
+16:05:24.75 Script wait: 0 6 [ wait time 16:29:00.00 [0] active  ]
+16:05:26.24 Button Shedule.ShowFirst
+16:05:27.91 ScheduleDblClick Shedule.SetRunPosition 0 4
+16:05:28.00 Script wait: 0 4 [ wait operator 0 * * * * * ]
+16:05:29.16 Button Shedule.ShowFirst
+16:05:29.99 Button Shedule.Start
+Skip: 0 4 [ wait operator 0 * * * * * ]
+16:05:30.01 Script wait: 0 6 [ wait time 16:29:00.00 [0] active  ]
+16:05:54.22 FilePage  Shedule.AddItem 0 10 1 0 0 movie 00:00:48.92  Z:\ВРЕМЯ  НОВОСТЕЙ\ШП ВН 6-12.m2t
+16:05:55.49 Button  Shedule.AddItem 0 11 1 0 0 wait operator
+16:05:57.26 FilePage  Shedule.AddItem 0 13 1 0 0 movie 00:00:37.00  Z:\ВРЕМЯ  НОВОСТЕЙ\___бз 1ч Гапликов Шашев Крикукенко долгострой 6-12.m2t
+16:05:57.77 FilePage  Shedule.AddItem 0 14 1 0 0 movie 00:00:44.48  Z:\ВРЕМЯ  НОВОСТЕЙ\___бз 2ч Гапликов долгострой Стахановская 6-12.m2t
+16:05:58.64 Button  Shedule.AddItem 0 15 1 0 0 wait operator
+16:06:00.39 FilePage  Shedule.AddItem 0 17 1 0 0 movie 00:01:33.92  Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 33 Гапликов Шашев Крикукенко долгострой 6-12.m2t
+16:06:01.71 Button  Shedule.AddItem 0 18 1 0 0 wait operator
+16:06:05.03 FilePage  Shedule.AddItem 0 20 1 0 0 movie 00:04:52.16  Z:\ВРЕМЯ  НОВОСТЕЙ\Супрядкина (Правительство Порядин) 6-12.m2t
+16:06:06.08 Button  Shedule.AddItem 0 21 1 0 0 wait operator
+16:06:08.60 FilePage  Shedule.AddItem 0 23 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_1.mp4
+16:06:09.52 FilePage  Shedule.AddItem 0 24 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2_1.mp4
+16:06:10.18 FilePage  Shedule.AddItem 0 25 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3_1.mp4
+16:06:18.82 SheduleEdit Shedule.SetItemFade 0 25 9000 (9)
+16:06:21.44 SheduleEdit Shedule.SetItemFade 0 25 400 (0.4)
+16:06:23.38 SheduleEdit Shedule.SetItemFade 0 26 400 (0.4)
+16:06:24.98 Button  Shedule.AddItem 0 26 1 0 0 wait operator
+16:06:31.27 FilePage  Shedule.AddItem 0 28 1 0 0 movie 00:00:43.92  Z:\ВРЕМЯ  НОВОСТЕЙ\___бз Порядин награждение ценные кадры 6-12.m2t
+16:06:32.40 Button  Shedule.AddItem 0 29 1 0 0 wait operator
+16:06:34.19 FilePage  Shedule.AddItem 0 31 1 0 0 movie 00:01:08.88  Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 37 Порядин награжждение ценные кадры 6-12.m2t
+16:06:35.15 Button  Shedule.AddItem 0 32 1 0 0 wait operator
+16:06:38.41 Button  Shedule.AddItem 0 34 1 0 0 wait operator
+16:06:42.64 FilePage  Shedule.AddItem 0 36 1 0 0 movie 00:00:05.96  Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН РЕКЛАМА.mpg
+16:06:43.11 FilePage  Shedule.AddItem 0 37 1 0 0 movie 00:00:05.96  Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ПЕРЕБИВКА.mpg
+16:06:44.46 Button  Shedule.AddItem 0 38 1 0 0 wait operator
+16:06:48.27 FilePage  Shedule.AddItem 0 40 1 0 0 movie 00:01:46.36  Z:\ВРЕМЯ  НОВОСТЕЙ\Лосева ( Визинга АТП новые автобусы перевозки Сысольский ) 6-12.m2t
+16:06:49.80 Button  Shedule.AddItem 0 41 1 0 0 wait operator
+16:06:55.58 FilePage  Shedule.AddItem 0 43 1 0 0 movie 00:00:41.08  Z:\ВРЕМЯ  НОВОСТЕЙ\___бз Международный день добровольца награждение 6-12.m2t
+16:06:56.34 Button  Shedule.AddItem 0 44 1 0 0 wait operator
+16:06:57.16 FilePage  Shedule.AddItem 0 46 1 0 0 movie 00:01:11.80  Z:\ВРЕМЯ  НОВОСТЕЙ\___сх1+отв Носова  Международный день добровольца награждение 6-12.m2t
+16:06:57.81 Button  Shedule.AddItem 0 47 1 0 0 wait operator
+16:06:58.50 FilePage  Shedule.AddItem 0 49 1 0 0 movie 00:01:00.68  Z:\ВРЕМЯ  НОВОСТЕЙ\___сх2+отв Касьянова   Международный день добровольца награждение 6-12.m2t
+16:06:59.30 Button  Shedule.AddItem 0 50 1 0 0 wait operator
+16:07:31.96 FilePage  Shedule.AddItem 0 52 1 0 0 movie 00:03:39.40  Z:\ВРЕМЯ  НОВОСТЕЙ\Клаткевич (Вакцинация грипп) арх 5-12.m2t
+16:07:33.71 Button  Shedule.AddItem 0 53 1 0 0 wait operator
+16:07:41.00 FilePage  Shedule.AddItem 0 55 1 0 0 movie 00:01:00.04  Z:\ВРЕМЯ  НОВОСТЕЙ\___бз Коми Экспо Трэвел открытие туризм KomiExpoTravel 6-12.m2t
+16:07:42.44 Button  Shedule.AddItem 0 56 1 0 0 wait operator
+16:07:44.05 FilePage  Shedule.AddItem 0 58 1 0 0 movie 00:00:55.04  Z:\ВРЕМЯ  НОВОСТЕЙ\___бз конкурс красоты Райда  коми национальный репетиция 6-12.m2t
+16:07:45.09 Button  Shedule.AddItem 0 59 1 0 0 wait operator
+16:07:48.32 FilePage  Shedule.AddItem 0 61 1 0 0 movie 00:01:12.08  Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 22 Чупрова  конкурс красоты Райда  коми национальный репетиция 6-12.m2t
+16:07:49.56 Button  Shedule.AddItem 0 62 1 0 0 wait operator
+16:07:52.01 FilePage  Shedule.AddItem 0 64 1 0 0 movie 00:00:12.09  Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН КОНЕЧКА 2019_НОВЫЙ_НОМЕР.mpg
+DebugInfo2: 16:07:52.72 movie 00:00:12.09 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН КОНЕЧКА 2019_НОВЫЙ_НОМЕР.mpg Check change: Duration (00:00:12.09->00:00:12.09)
+16:12:31.32 Watchdog timeout 1 sec.  Actual interval 1.7
+
+16:13:40.22 FilePage  Shedule.AddItem 0 37 1 0 0 movie 00:00:15.16  Z:\Реклама на новостном форварде\-3 КС-Керамик_Уже началась СТРОЙМАТ.m2t
+16:20:40.77 FilePage  Shedule.AddItem 0 34 1 0 0 movie 00:03:49.40  Z:\ВРЕМЯ  НОВОСТЕЙ\Конанова (Финансовая грамотность) 6-12,.m2t
+16:24:20.77 ScheduleDblClick Shedule.SetRunPosition 0 4
+16:24:20.79 Script wait: 0 4 [ wait operator 0 * * * * * ]
+16:24:21.54 Button Shedule.ShowFirst
+16:24:22.04 Button Shedule.Start
+Skip: 0 4 [ wait operator 0 * * * * * ]
+16:24:22.09 Script wait: 0 6 [ wait time 16:29:00.00 [0] active  ]
+16:29:00.08 Script skip: 0 6 [ wait time 16:29:00.00 [0] active  ]
+16:29:00.08 Script take: 0 7 [ movie 00:01:00.28 Y:\Часы\Сlock_04_30.m2t ]
+16:30:00.30 Script take: 0 8 [ movie 00:00:35.04 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ШАПКА.m2t ]
+16:30:00.30 Script stop: 0 10 [ wait operator 0  ]
+16:30:00.30 Script wait: 0 10 [ wait operator 0  ]
+16:30:24.59 Button Shedule.Start
+Skip: 0 10 [ wait operator 0  ]
+16:30:24.77 Script take: 0 11 [ movie 00:00:48.92 Z:\ВРЕМЯ  НОВОСТЕЙ\ШП ВН 6-12.m2t ]
+16:30:24.78 Script stop: 0 13 [ wait operator 0  ]
+16:30:24.78 Script wait: 0 13 [ wait operator 0  ]
+16:31:16.16 Button Shedule.Start
+Skip: 0 13 [ wait operator 0  ]
+16:31:16.39 Script take: 0 14 [ movie 00:00:37.00 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз 1ч Гапликов Шашев Крикукенко долгострой 6-12.m2t ]
+16:31:29.47 Button Shedule.Start
+16:31:29.67 Script take: 0 15 [ movie 00:00:44.48 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз 2ч Гапликов долгострой Стахановская 6-12.m2t ]
+16:31:29.67 Script stop: 0 17 [ wait operator 0  ]
+16:31:29.67 Script wait: 0 17 [ wait operator 0  ]
+16:31:57.33 Button Shedule.Start
+Skip: 0 17 [ wait operator 0  ]
+16:31:57.52 Script take: 0 18 [ movie 00:01:33.92 Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 33 Гапликов Шашев Крикукенко долгострой 6-12.m2t ]
+16:31:57.52 Script stop: 0 20 [ wait operator 0  ]
+16:31:57.52 Script wait: 0 20 [ wait operator 0  ]
+16:33:06.95 Button Shedule.ShowFirst
+16:33:32.12 Button Shedule.Start
+Skip: 0 20 [ wait operator 0  ]
+16:33:32.30 Script take: 0 21 [ movie 00:04:52.16 Z:\ВРЕМЯ  НОВОСТЕЙ\Супрядкина (Правительство Порядин) 6-12.m2t ]
+16:33:32.31 Script stop: 0 23 [ wait operator 0  ]
+16:33:32.31 Script wait: 0 23 [ wait operator 0  ]
+16:38:25.98 Button Shedule.ShowFirst
+16:38:32.36 Button Shedule.Start
+Skip: 0 23 [ wait operator 0  ]
+16:38:32.56 Script take: 0 24 [ movie 00:00:44.80 Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_1.mp4 ]
+16:38:52.13 Button Shedule.Start
+16:38:52.40 Script take: 0 25 [ movie 00:00:44.80 [0.4] Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2_1.mp4 ]
+16:39:16.22 Button Shedule.Start
+16:39:16.44 Script take: 0 26 [ movie 00:00:44.80 [0.4] Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3_1.mp4 ]
+16:39:16.45 Script stop: 0 28 [ wait operator 0  ]
+16:39:16.45 Script wait: 0 28 [ wait operator 0  ]
+16:39:46.43 Button Shedule.Start
+Skip: 0 28 [ wait operator 0  ]
+16:39:46.64 Script take: 0 29 [ movie 00:00:43.92 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз Порядин награждение ценные кадры 6-12.m2t ]
+16:39:46.65 Script stop: 0 31 [ wait operator 0  ]
+16:39:46.65 Script wait: 0 31 [ wait operator 0  ]
+16:40:05.02 Button Shedule.Start
+Skip: 0 31 [ wait operator 0  ]
+16:40:05.19 Script take: 0 32 [ movie 00:01:08.88 Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 37 Порядин награжждение ценные кадры 6-12.m2t ]
+16:40:05.19 Script stop: 0 34 [ wait operator 0  ]
+16:40:05.19 Script wait: 0 34 [ wait operator 0  ]
+16:41:01.70 Button Shedule.ShowFirst
+16:41:28.13 Button Shedule.Start
+Skip: 0 34 [ wait operator 0  ]
+16:41:28.29 Script take: 0 35 [ movie 00:03:49.40 Z:\ВРЕМЯ  НОВОСТЕЙ\Конанова (Финансовая грамотность) 6-12,.m2t ]
+16:41:28.30 Script stop: 0 37 [ wait operator 0  ]
+16:41:28.30 Script wait: 0 37 [ wait operator 0  ]
+16:45:18.82 Button Shedule.ShowFirst
+16:45:25.98 Button Shedule.Start
+Skip: 0 37 [ wait operator 0  ]
+16:45:26.18 Script take: 0 38 [ movie 00:00:05.96 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН РЕКЛАМА.mpg ]
+16:45:32.14 Script take: 0 39 [ movie 00:00:15.16 Z:\Реклама на новостном форварде\-3 КС-Керамик_Уже началась СТРОЙМАТ.m2t ]
+16:45:47.36 Script take: 0 40 [ movie 00:00:05.96 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ПЕРЕБИВКА.mpg ]
+16:45:47.37 Script stop: 0 42 [ wait operator 0  ]
+16:45:47.37 Script wait: 0 42 [ wait operator 0  ]
+16:45:54.02 Button Shedule.ShowFirst
+16:46:10.16 Button Shedule.Start
+Skip: 0 42 [ wait operator 0  ]
+16:46:10.42 Script take: 0 43 [ movie 00:01:46.36 Z:\ВРЕМЯ  НОВОСТЕЙ\Лосева ( Визинга АТП новые автобусы перевозки Сысольский ) 6-12.m2t ]
+16:46:10.42 Script stop: 0 45 [ wait operator 0  ]
+16:46:10.42 Script wait: 0 45 [ wait operator 0  ]
+16:47:59.42 Button Shedule.Start
+Skip: 0 45 [ wait operator 0  ]
+16:47:59.65 Script take: 0 46 [ movie 00:00:41.08 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз Международный день добровольца награждение 6-12.m2t ]
+16:47:59.66 Script stop: 0 48 [ wait operator 0  ]
+16:47:59.66 Script wait: 0 48 [ wait operator 0  ]
+16:48:10.65 Button Shedule.Start
+Skip: 0 48 [ wait operator 0  ]
+16:48:10.92 Script take: 0 49 [ movie 00:01:11.80 Z:\ВРЕМЯ  НОВОСТЕЙ\___сх1+отв Носова  Международный день добровольца награждение 6-12.m2t ]
+16:48:10.92 Script stop: 0 51 [ wait operator 0  ]
+16:48:10.92 Script wait: 0 51 [ wait operator 0  ]
+16:48:58.96 Button Shedule.Start
+Skip: 0 51 [ wait operator 0  ]
+16:48:59.19 Script take: 0 52 [ movie 00:01:00.68 Z:\ВРЕМЯ  НОВОСТЕЙ\___сх2+отв Касьянова   Международный день добровольца награждение 6-12.m2t ]
+16:48:59.19 Script stop: 0 54 [ wait operator 0  ]
+16:48:59.19 Script wait: 0 54 [ wait operator 0  ]
+16:49:38.35 Button Shedule.ShowFirst
+16:50:07.48 Button Shedule.Start
+Skip: 0 54 [ wait operator 0  ]
+16:50:07.76 Script take: 0 55 [ movie 00:03:39.40 Z:\ВРЕМЯ  НОВОСТЕЙ\Клаткевич (Вакцинация грипп) арх 5-12.m2t ]
+16:50:07.76 Script stop: 0 57 [ wait operator 0  ]
+16:50:07.76 Script wait: 0 57 [ wait operator 0  ]
+16:53:50.13 Button Shedule.Start
+Skip: 0 57 [ wait operator 0  ]
+16:53:50.29 Script take: 0 58 [ movie 00:01:00.04 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз Коми Экспо Трэвел открытие туризм KomiExpoTravel 6-12.m2t ]
+16:53:50.30 Script stop: 0 60 [ wait operator 0  ]
+16:53:50.30 Script wait: 0 60 [ wait operator 0  ]
+16:53:57.94 Button  Shedule.AddItem 0 38 1 0 0 wait operator
+16:54:50.23 Button Shedule.ShowFirst
+16:54:51.40 Button Shedule.Start
+Skip: 0 62 [ wait operator 0  ]
+16:54:51.68 Script take: 0 63 [ movie 00:00:55.04 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз конкурс красоты Райда  коми национальный репетиция 6-12.m2t ]
+16:54:51.69 Script stop: 0 65 [ wait operator 0  ]
+16:54:51.69 Script wait: 0 65 [ wait operator 0  ]
+16:55:23.07 Button Shedule.Start
+Skip: 0 65 [ wait operator 0  ]
+16:55:23.30 Script take: 0 66 [ movie 00:01:12.08 Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 22 Чупрова  конкурс красоты Райда  коми национальный репетиция 6-12.m2t ]
+16:55:23.31 Script stop: 0 68 [ wait operator 0  ]
+16:55:23.31 Script wait: 0 68 [ wait operator 0  ]
+16:56:10.61 Button Shedule.ShowFirst
+16:56:13.39 Button Shedule.Start
+Skip: 0 68 [ wait operator 0  ]
+16:56:13.66 Script take: 0 69 [ movie 00:00:12.09 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН КОНЕЧКА 2019_НОВЫЙ_НОМЕР.mpg ]
+16:56:28.46 ScheduleDblClick Shedule.SetRunPosition 0 69
+16:56:29.29 Button Shedule.ShowFirst
+16:56:40.93 Button Shedule.ShowFirst
+16:56:44.73 Button Shedule.ShowFirst
+16:57:14.82 Button Shedule.ShowFirst
+16:57:25.11 Button Shedule.Start
+16:57:25.30 Script take: 0 69 [ movie 00:00:12.09 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН КОНЕЧКА 2019_НОВЫЙ_НОМЕР.mpg ]
+16:57:51.48 ScheduleDblClick Shedule.SetRunPosition 0 14
+16:57:52.20 Button Shedule.ShowFirst
+16:58:02.61 Button Shedule.ShowFirst
+16:58:06.92 Button Shedule.Start
+16:58:07.20 Script take: 0 14 [ movie 00:00:37.00 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз 1ч Гапликов Шашев Крикукенко долгострой 6-12.m2t ]
+16:58:20.95 Button Shedule.Start
+16:58:21.19 Script take: 0 15 [ movie 00:00:44.48 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз 2ч Гапликов долгострой Стахановская 6-12.m2t ]
+16:58:21.20 Script stop: 0 17 [ wait operator 0  ]
+16:58:21.20 Script wait: 0 17 [ wait operator 0  ]
+16:58:28.23 ScheduleDblClick Shedule.SetRunPosition 0 14
+16:58:29.08 Button Shedule.ShowFirst
+16:58:34.69 Button Shedule.ShowFirst
+16:59:03.01 Button Shedule.ShowFirst
+16:59:08.32 Button Shedule.Start
+16:59:08.55 Script take: 0 14 [ movie 00:00:37.00 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз 1ч Гапликов Шашев Крикукенко долгострой 6-12.m2t ]
+16:59:21.95 Button Shedule.Start
+16:59:22.22 Script take: 0 15 [ movie 00:00:44.48 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз 2ч Гапликов долгострой Стахановская 6-12.m2t ]
+16:59:22.22 Script stop: 0 17 [ wait operator 0  ]
+16:59:22.22 Script wait: 0 17 [ wait operator 0  ]
+17:00:14.93 ScheduleDblClick Shedule.SetRunPosition 0 38
+17:00:16.06 Button Shedule.ShowFirst
+17:01:20.44 Button Shedule.ShowFirst
+17:01:26.28 Button Shedule.Start
+17:01:26.44 Script take: 0 38 [ movie 00:00:05.96 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН РЕКЛАМА.mpg ]
+17:01:26.45 Script stop: 0 40 [ wait operator 0  ]
+17:01:26.45 Script wait: 0 40 [ wait operator 0  ]
+17:19:47.04 Button  Shedule.AddItem 0 37 1 0 0 wait operator
+17:19:50.77 FilePage  Shedule.AddItem 0 39 1 0 0 movie 00:00:25.48  Z:\ВРЕМЯ  НОВОСТЕЙ\___бз закрытие награждение ворлдскилз 6-12.m2t
+17:19:51.67 Button  Shedule.AddItem 0 40 1 0 0 wait operator
+17:20:08.39 FilePage  Shedule.AddItem 0 42 1 0 0 movie 00:00:38.20  Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 25 Иванюк закрытие награждение ворлдскилз 6-12.m2t
+17:20:10.13 Button  Shedule.AddItem 0 43 1 0 0 wait operator
+17:20:11.81 ScheduleDblClick Shedule.SetRunPosition 0 40
+17:20:12.91 Button Shedule.ShowFirst
+17:21:35.95 Button Shedule.ShowFirst
+17:24:55.04 Button Shedule.ShowFirst
+17:25:08.95 Button Shedule.Start
+17:25:09.19 Script take: 0 40 [ movie 00:00:25.48 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз закрытие награждение ворлдскилз 6-12.m2t ]
+17:25:09.19 Script stop: 0 42 [ wait operator 0  ]
+17:25:09.19 Script wait: 0 42 [ wait operator 0  ]
+17:25:28.44 ScheduleDblClick Shedule.SetRunPosition 0 40
+17:25:29.12 Button Shedule.ShowFirst
+17:25:47.07 Button Shedule.Start
+17:25:47.30 Script take: 0 40 [ movie 00:00:25.48 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз закрытие награждение ворлдскилз 6-12.m2t ]
+17:25:47.31 Script stop: 0 42 [ wait operator 0  ]
+17:25:47.31 Script wait: 0 42 [ wait operator 0  ]
+17:26:02.63 ScheduleDblClick Shedule.SetRunPosition 0 40
+17:26:03.39 Button Shedule.ShowFirst
+17:26:14.11 Button Shedule.Start
+17:26:14.30 Script take: 0 40 [ movie 00:00:25.48 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз закрытие награждение ворлдскилз 6-12.m2t ]
+17:26:14.31 Script stop: 0 42 [ wait operator 0  ]
+17:26:14.31 Script wait: 0 42 [ wait operator 0  ]
+17:26:34.69 Button Shedule.Start
+Skip: 0 42 [ wait operator 0  ]
+17:26:34.97 Script take: 0 43 [ movie 00:00:38.20 Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 25 Иванюк закрытие награждение ворлдскилз 6-12.m2t ]
+17:26:34.98 Script stop: 0 45 [ wait operator 0  ]
+17:26:34.98 Script wait: 0 45 [ wait operator 0  ]
+17:27:13.23 ScheduleDblClick Shedule.SetRunPosition 0 43
+17:27:13.96 Button Shedule.ShowFirst
+17:27:16.30 Button Shedule.Start
+17:27:16.50 Script take: 0 43 [ movie 00:00:38.20 Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 25 Иванюк закрытие награждение ворлдскилз 6-12.m2t ]
+17:27:16.51 Script stop: 0 45 [ wait operator 0  ]
+17:27:16.51 Script wait: 0 45 [ wait operator 0  ]
+17:29:35.82 Button Shedule.EraseList 0
+17:29:35.91 Script wait: 0 0 [ wait operator 0 * * * * * ]
+17:29:42.90 FilePage  Shedule.AddItem 0 0 1 0 0 movie 00:00:35.04  Z:\ТАЛУН\____ТАЛУН ШАПКА.m2t
+17:29:43.72 Button  Shedule.AddItem 0 1 1 0 0 wait operator
+17:30:12.37 FilePage  Shedule.AddItem 0 3 1 0 0 movie 00:00:37.00  Z:\ТАЛУН\___бз 1ч Гапликов Шашев Крикукенко долгострой 6-12.m2t
+17:30:13.04 FilePage  Shedule.AddItem 0 4 1 0 0 movie 00:00:44.48  Z:\ТАЛУН\___бз 2ч Гапликов долгострой Стахановская 6-12.m2t
+17:30:14.33 Button  Shedule.AddItem 0 5 1 0 0 wait operator
+17:30:26.65 FilePage  Shedule.AddItem 0 7 1 0 0 movie 00:01:33.92  Z:\ТАЛУН\___сх+отв 33 Гапликов Шашев Крикукенко долгострой 6-12.m2t
+17:30:29.06 Button  Shedule.AddItem 0 8 1 0 0 wait operator
+17:31:08.41 Button  Shedule.AddItem 0 10 1 0 0 wait operator
+17:31:12.69 FilePage  Shedule.AddItem 0 12 1 0 0 movie 00:02:51.64  Z:\ТАЛУН\КОМИ Конанова (Финансовая грамотность) 6-12,.m2t
+17:31:14.19 ScheduleDblClick Shedule.SetRunPosition 0 13
+17:31:16.26 Button Shedule.ShowFirst
+17:31:21.71 Button Shedule.Start
+17:31:21.91 Script take: 0 13 [ movie 00:02:51.64 Z:\ТАЛУН\КОМИ Конанова (Финансовая грамотность) 6-12,.m2t ]
+17:32:40.35 FilePage  Shedule.AddItem 0 12 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_1.mp4
+17:32:40.98 FilePage  Shedule.AddItem 0 13 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2_1.mp4
+17:32:42.10 FilePage  Shedule.AddItem 0 14 1 0 0 movie 00:00:44.80  Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3_1.mp4
+17:32:43.93 Button  Shedule.AddItem 0 15 1 0 0 wait operator
+17:32:45.83 SheduleEdit Shedule.SetItemFade 0 14 400 (0.4)
+17:32:46.62 SheduleEdit Shedule.SetItemFade 0 15 400 (0.4)
+17:33:06.83 FilePage  Shedule.AddItem 0 17 1 0 0 movie 00:00:05.96  Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН РЕКЛАМА.mpg
+17:33:07.56 Button  Shedule.AddItem 0 18 1 0 0 wait operator
+17:33:08.63 FilePage  Shedule.AddItem 0 20 1 0 0 movie 00:00:05.96  Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ПЕРЕБИВКА.mpg
+17:33:09.50 Button  Shedule.AddItem 0 21 1 0 0 wait operator
+17:33:17.25 FilePage  Shedule.AddItem 0 23 1 0 0 movie 00:00:43.92  Z:\ВРЕМЯ  НОВОСТЕЙ\___бз Порядин награждение ценные кадры 6-12.m2t
+17:33:18.28 Button  Shedule.AddItem 0 24 1 0 0 wait operator
+17:33:21.57 FilePage  Shedule.AddItem 0 26 1 0 0 movie 00:01:08.88  Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 37 Порядин награжждение ценные кадры 6-12.m2t
+17:33:22.70 Button  Shedule.AddItem 0 27 1 0 0 wait operator
+17:33:48.62 FilePage  Shedule.AddItem 0 29 1 0 0 movie 00:01:46.36  Z:\ВРЕМЯ  НОВОСТЕЙ\Лосева ( Визинга АТП новые автобусы перевозки Сысольский ) 6-12.m2t
+17:33:49.74 Button  Shedule.AddItem 0 30 1 0 0 wait operator
+17:33:53.16 Button Shedule.DeleteItem 0 30
+Deleted 0 30 movie 00:01:46.36 Z:\ВРЕМЯ  НОВОСТЕЙ\Лосева ( Визинга АТП новые автобусы перевозки Сысольский ) 6-12.m2t
+17:33:58.49 FilePage  Shedule.AddItem 0 30 1 0 0 movie 00:01:18.76  Z:\ТАЛУН\КОМИ _Хозяинова  ( Визинга АТП новые автобусы перевозки Сысольский ) 6-12.m2t
+17:33:59.94 Button  Shedule.AddItem 0 30 1 0 0 wait operator
+17:34:09.35 FilePage  Shedule.AddItem 0 32 1 0 0 movie 00:00:41.08  Z:\ТАЛУН\___бз Международный день добровольца награждение 6-12.m2t
+17:34:10.37 Button  Shedule.AddItem 0 33 1 0 0 wait operator
+17:34:45.85 Button  Shedule.AddItem 0 35 1 0 0 wait operator
+17:34:54.29 FilePage  Shedule.AddItem 0 37 1 0 0 movie 00:02:00.88  Z:\ТАЛУН\КОМИ Тюрнина Финноугория (Сохранение языков Санкт-Петербург) 9-12.m2t
+17:34:55.49 Button  Shedule.AddItem 0 38 1 0 0 wait operator
+17:35:14.36 FilePage  Shedule.AddItem 0 40 1 0 0 movie 00:00:55.04  Z:\ТАЛУН\___бз конкурс красоты Райда  коми национальный репетиция 6-12.m2t
+17:35:15.26 Button  Shedule.AddItem 0 41 1 0 0 wait operator
+17:35:22.09 FilePage  Shedule.AddItem 0 43 1 0 0 movie 00:01:06.28  Z:\ТАЛУН\___КОМИ _сх1+отв Канева  конкурс красоты Райда  коми национальный репетиция 6-12.m2t
+17:35:23.36 Button  Shedule.AddItem 0 44 1 0 0 wait operator
+17:35:27.68 FilePage  Shedule.AddItem 0 46 1 0 0 movie 00:01:04.04  Z:\ТАЛУН\___КОМИ _сх2+отв Чупрова   конкурс красоты Райда  коми национальный репетиция 6-12.m2t
+17:35:28.46 Button  Shedule.AddItem 0 47 1 0 0 wait operator
+17:35:29.21 FilePage  Shedule.AddItem 0 49 1 0 0 movie 00:01:16.76  Z:\ТАЛУН\___КОМИ _сх3+отв Пивкин    конкурс красоты Райда  коми национальный репетиция 6-12.m2t
+17:35:30.35 Button  Shedule.AddItem 0 50 1 0 0 wait operator
+17:35:42.15 FilePage  Shedule.AddItem 0 52 1 0 0 movie 00:00:12.09  Z:\ТАЛУН\____КОНЕЧКА ТАЛУН_2019_НОВЫЙ_НОМЕР.mpg
+DebugInfo2: 17:35:42.53 movie 00:00:12.09 Z:\ТАЛУН\____КОНЕЧКА ТАЛУН_2019_НОВЫЙ_НОМЕР.mpg Check change: Duration (00:00:12.09->00:00:12.09)
+17:35:43.00 Button  Shedule.AddItem 0 53 1 0 0 wait operator
+17:37:12.70 ScheduleDblClick Shedule.SetRunPosition 0 1
+17:37:13.37 Button Shedule.ShowFirst
+17:38:11.46 Button Shedule.Start
+17:38:11.70 Script take: 0 1 [ movie 00:00:35.04 Z:\ТАЛУН\____ТАЛУН ШАПКА.m2t ]
+17:38:11.71 Script stop: 0 3 [ wait operator 0  ]
+17:38:11.71 Script wait: 0 3 [ wait operator 0  ]
+17:38:38.16 Button Shedule.ShowFirst
+17:38:58.07 Button Shedule.Start
+Skip: 0 3 [ wait operator 0  ]
+17:38:58.35 Script take: 0 4 [ movie 00:00:37.00 Z:\ТАЛУН\___бз 1ч Гапликов Шашев Крикукенко долгострой 6-12.m2t ]
+17:39:15.29 Button Shedule.Start
+17:39:15.48 Script take: 0 5 [ movie 00:00:44.48 Z:\ТАЛУН\___бз 2ч Гапликов долгострой Стахановская 6-12.m2t ]
+17:39:15.49 Script stop: 0 7 [ wait operator 0  ]
+17:39:15.49 Script wait: 0 7 [ wait operator 0  ]
+17:39:48.45 Button Shedule.Start
+Skip: 0 7 [ wait operator 0  ]
+17:39:48.72 Script take: 0 8 [ movie 00:01:33.92 Z:\ТАЛУН\___сх+отв 33 Гапликов Шашев Крикукенко долгострой 6-12.m2t ]
+17:39:48.72 Script stop: 0 10 [ wait operator 0  ]
+17:39:48.72 Script wait: 0 10 [ wait operator 0  ]
+17:40:59.21 ScheduleDblClick Shedule.SetRunPosition 0 11
+17:40:59.29 Script wait: 0 12 [ wait operator 0  ]
+17:41:00.25 Button Shedule.ShowFirst
+17:41:20.57 Button Shedule.Start
+Skip: 0 12 [ wait operator 0  ]
+17:41:20.81 Script take: 0 13 [ movie 00:00:44.80 Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_1.mp4 ]
+17:41:29.94 ScheduleDblClick Shedule.SetRunPosition 0 13
+17:41:31.04 Button Shedule.ShowFirst
+17:41:44.92 FilePage  Shedule.AddItem 0 35 1 0 0 movie 00:01:09.80  Z:\ТАЛУН\___КОМИ сх1+отв Носова 17 Международный день добровольца награждение 6-12.m2t
+17:41:45.78 Button  Shedule.AddItem 0 36 1 0 0 wait operator
+17:41:46.61 FilePage  Shedule.AddItem 0 38 1 0 0 movie 00:01:00.64  Z:\ТАЛУН\___КОМИ сх2+отв Касьянова 18 Международный день добровольца награждение 6-12.m2t
+17:42:22.41 Button Shedule.ShowFirst
+17:42:25.16 Button Shedule.Start
+17:42:25.40 Script take: 0 13 [ movie 00:00:44.80 Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_1.mp4 ]
+17:42:37.88 Button Shedule.Start
+17:42:38.15 Script take: 0 14 [ movie 00:00:44.80 [0.4] Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_2_1.mp4 ]
+17:42:57.95 Button Shedule.Start
+17:42:58.23 Script take: 0 15 [ movie 00:00:44.80 [0.4] Z:\ВРЕМЯ  НОВОСТЕЙ\слайд_3_1.mp4 ]
+17:42:58.23 Script stop: 0 17 [ wait operator 0  ]
+17:42:58.23 Script wait: 0 17 [ wait operator 0  ]
+17:43:16.79 Button Shedule.ShowFirst
+17:43:48.58 Button Shedule.ShowFirst
+17:44:04.57 Button Shedule.ShowFirst
+17:44:36.61 Button Shedule.ShowFirst
+17:44:39.75 Button Shedule.Start
+Skip: 0 17 [ wait operator 0  ]
+17:44:39.95 Script take: 0 18 [ movie 00:00:05.96 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН РЕКЛАМА.mpg ]
+17:44:39.95 Script stop: 0 20 [ wait operator 0  ]
+17:44:39.95 Script wait: 0 20 [ wait operator 0  ]
+17:44:50.59 Button Shedule.SetInsertMode 0
+17:44:52.02 Button Shedule.SetInsertMode 0
+17:44:56.48 FilePage  Shedule.AddItem 0 21 0 0 0 movie 00:00:05.96  Z:\ТАЛУН\____ТАЛУН ПЕРЕБИВКА.mpg
+Deleted 0 21 movie 00:00:05.96 Z:\ВРЕМЯ  НОВОСТЕЙ\____ВН ПЕРЕБИВКА.mpg
+17:44:58.44 Button Shedule.SetInsertMode 1
+17:44:58.95 Button Shedule.ShowFirst
+17:45:21.89 Button Shedule.Start
+Skip: 0 20 [ wait operator 0  ]
+17:45:22.16 Script take: 0 21 [ movie 00:00:05.96 Z:\ТАЛУН\____ТАЛУН ПЕРЕБИВКА.mpg ]
+17:45:22.17 Script stop: 0 23 [ wait operator 0  ]
+17:45:22.17 Script wait: 0 23 [ wait operator 0  ]
+17:45:32.74 Hotkey Shedule.Start
+Skip: 0 23 [ wait operator 0  ]
+17:45:32.92 Script take: 0 24 [ movie 00:00:43.92 Z:\ВРЕМЯ  НОВОСТЕЙ\___бз Порядин награждение ценные кадры 6-12.m2t ]
+17:45:32.93 Script stop: 0 26 [ wait operator 0  ]
+17:45:32.93 Script wait: 0 26 [ wait operator 0  ]
+17:45:51.70 Button Shedule.Start
+Skip: 0 26 [ wait operator 0  ]
+17:45:51.89 Script take: 0 27 [ movie 00:01:08.88 Z:\ВРЕМЯ  НОВОСТЕЙ\___сх+отв 37 Порядин награжждение ценные кадры 6-12.m2t ]
+17:45:51.90 Script stop: 0 29 [ wait operator 0  ]
+17:45:51.90 Script wait: 0 29 [ wait operator 0  ]
+17:46:45.65 Button Shedule.ShowFirst
+17:47:00.48 Button Shedule.Start
+Skip: 0 29 [ wait operator 0  ]
+17:47:00.74 Script take: 0 30 [ movie 00:01:18.76 Z:\ТАЛУН\КОМИ _Хозяинова  ( Визинга АТП новые автобусы перевозки Сысольский ) 6-12.m2t ]
+17:47:00.74 Script stop: 0 32 [ wait operator 0  ]
+17:47:00.74 Script wait: 0 32 [ wait operator 0  ]
+17:48:22.22 Button Shedule.Start
+Skip: 0 32 [ wait operator 0  ]
+17:48:22.47 Script take: 0 33 [ movie 00:00:41.08 Z:\ТАЛУН\___бз Международный день добровольца награждение 6-12.m2t ]
+17:48:22.47 Script stop: 0 35 [ wait operator 0  ]
+17:48:22.47 Script wait: 0 35 [ wait operator 0  ]
+17:48:33.58 Button Shedule.Start
+Skip: 0 35 [ wait operator 0  ]
+17:48:33.81 Script take: 0 36 [ movie 00:01:09.80 Z:\ТАЛУН\___КОМИ сх1+отв Носова 17 Международный день добровольца награждение 6-12.m2t ]
+17:48:33.81 Script stop: 0 38 [ wait operator 0  ]
+17:48:33.81 Script wait: 0 38 [ wait operator 0  ]
+17:49:14.47 Button Shedule.Start
+Skip: 0 38 [ wait operator 0  ]
+17:49:14.75 Script take: 0 39 [ movie 00:01:00.64 Z:\ТАЛУН\___КОМИ сх2+отв Касьянова 18 Международный день добровольца награждение 6-12.m2t ]
+17:49:14.76 Script stop: 0 41 [ wait operator 0  ]
+17:49:14.76 Script wait: 0 41 [ wait operator 0  ]
+17:49:50.95 Button Shedule.ShowFirst
+17:50:38.70 Button Shedule.ShowFirst
+17:50:55.86 Button Shedule.Start
+Skip: 0 41 [ wait operator 0  ]
+17:50:56.07 Script take: 0 42 [ movie 00:02:00.88 Z:\ТАЛУН\КОМИ Тюрнина Финноугория (Сохранение языков Санкт-Петербург) 9-12.m2t ]
+17:50:56.07 Script stop: 0 44 [ wait operator 0  ]
+17:50:56.07 Script wait: 0 44 [ wait operator 0  ]
+17:53:00.00 Button Shedule.Start
+Skip: 0 44 [ wait operator 0  ]
+17:53:00.27 Script take: 0 45 [ movie 00:00:55.04 Z:\ТАЛУН\___бз конкурс красоты Райда  коми национальный репетиция 6-12.m2t ]
+17:53:00.28 Script stop: 0 47 [ wait operator 0  ]
+17:53:00.28 Script wait: 0 47 [ wait operator 0  ]
+17:53:23.96 Button Shedule.Start
+Skip: 0 47 [ wait operator 0  ]
+17:53:24.21 Script take: 0 48 [ movie 00:01:06.28 Z:\ТАЛУН\___КОМИ _сх1+отв Канева  конкурс красоты Райда  коми национальный репетиция 6-12.m2t ]
+17:53:24.21 Script stop: 0 50 [ wait operator 0  ]
+17:53:24.21 Script wait: 0 50 [ wait operator 0  ]
+17:54:17.54 Button Shedule.Start
+Skip: 0 50 [ wait operator 0  ]
+17:54:17.80 Script take: 0 51 [ movie 00:01:04.04 Z:\ТАЛУН\___КОМИ _сх2+отв Чупрова   конкурс красоты Райда  коми национальный репетиция 6-12.m2t ]
+17:54:17.80 Script stop: 0 53 [ wait operator 0  ]
+17:54:17.80 Script wait: 0 53 [ wait operator 0  ]
+17:55:05.86 Button Shedule.Start
+Skip: 0 53 [ wait operator 0  ]
+17:55:06.13 Script take: 0 54 [ movie 00:01:16.76 Z:\ТАЛУН\___КОМИ _сх3+отв Пивкин    конкурс красоты Райда  коми национальный репетиция 6-12.m2t ]
+17:55:06.13 Script stop: 0 56 [ wait operator 0  ]
+17:55:06.13 Script wait: 0 56 [ wait operator 0  ]
+17:55:56.71 Button Shedule.ShowFirst
+17:55:59.58 Button Shedule.Start
+Skip: 0 56 [ wait operator 0  ]
+17:55:59.84 Script take: 0 57 [ movie 00:00:12.09 Z:\ТАЛУН\____КОНЕЧКА ТАЛУН_2019_НОВЫЙ_НОМЕР.mpg ]
+17:55:59.85 Script stop: 0 59 [ wait operator 0  ]
+17:55:59.85 Script wait: 0 59 [ wait operator 0  ]
+17:56:10.94 ScheduleDblClick Shedule.SetRunPosition 0 57
+17:56:11.84 Button Shedule.ShowFirst
+17:56:15.34 Button Shedule.ShowFirst
+17:56:19.88 Button Shedule.Start
+17:56:20.08 Script take: 0 57 [ movie 00:00:12.09 Z:\ТАЛУН\____КОНЕЧКА ТАЛУН_2019_НОВЫЙ_НОМЕР.mpg ]
+17:56:20.08 Script stop: 0 59 [ wait operator 0  ]
+17:56:20.08 Script wait: 0 59 [ wait operator 0  ]
+17:57:05.58 Button Shedule.EraseList 1
+17:57:16.19 FilePage  Shedule.AddItem 1 0 1 0 0 movie 00:25:41.24  Z:\ВРЕМЯ ИТОГОВ\-3_Детали Недели 1ч 6-12.m2t
+17:57:22.72 Button  Shedule.AddItem 1 1 1 0 0 wait operator
+17:57:25.05 FilePage  Shedule.AddItem 1 3 1 0 0 movie 00:07:06.20  Z:\ВРЕМЯ ИТОГОВ\-3_Детали Недели 2ч 6-12.m2t
+17:57:30.67 ScheduleDblClick Shedule.SetRunShedule 1
+17:57:30.71 ScheduleDblClick Shedule.SetRunPosition 1 0
+17:57:30.72 Script wait: 1 0 [ wait operator 0 * * * * * ]
+17:57:32.33 Button Shedule.Start
+Skip: 1 0 [ wait operator 0 * * * * * ]
+17:57:32.56 Script take: 1 1 [ movie 00:25:41.24 Z:\ВРЕМЯ ИТОГОВ\-3_Детали Недели 1ч 6-12.m2t ]
+17:57:32.56 Script stop: 1 3 [ wait operator 0  ]
+17:57:32.56 Script wait: 1 3 [ wait operator 0  ]
+17:57:41.54 ScheduleDblClick Shedule.SetRunPosition 1 0
+17:57:41.65 Script wait: 1 0 [ wait operator 0 * * * * * ]
+17:57:42.59 Button Shedule.ShowFirst
+17:59:28.79 Button Shedule.Start
+Skip: 1 0 [ wait operator 0 * * * * * ]
+17:59:29.07 Script take: 1 1 [ movie 00:25:41.24 Z:\ВРЕМЯ ИТОГОВ\-3_Детали Недели 1ч 6-12.m2t ]
+17:59:29.07 Script stop: 1 3 [ wait operator 0  ]
+17:59:29.07 Script wait: 1 3 [ wait operator 0  ]
+18:00:28.16 ScheduleDblClick Shedule.SetRunPosition 1 0
+18:00:28.20 Script wait: 1 0 [ wait operator 0 * * * * * ]
+18:00:29.20 Button Shedule.ShowFirst
+18:00:40.20 Button Shedule.Start
+Skip: 1 0 [ wait operator 0 * * * * * ]
+18:00:40.40 Script take: 1 1 [ movie 00:25:41.24 Z:\ВРЕМЯ ИТОГОВ\-3_Детали Недели 1ч 6-12.m2t ]
+18:00:40.40 Script stop: 1 3 [ wait operator 0  ]
+18:00:40.40 Script wait: 1 3 [ wait operator 0  ]
+18:26:39.90 Button Shedule.ShowFirst
+18:26:45.20 Button Shedule.Start
+Skip: 1 3 [ wait operator 0  ]
+18:26:45.40 Script take: 1 4 [ movie 00:07:06.20 Z:\ВРЕМЯ ИТОГОВ\-3_Детали Недели 2ч 6-12.m2t ]
+18:56:03.91 Button Shedule.EraseList 1
+18:56:03.95 Script wait: 1 0 [ wait operator 0 * * * * * ]
