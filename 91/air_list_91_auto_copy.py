@@ -2,6 +2,7 @@
 from datetime import datetime, timedelta
 from shutil import copy
 from re import match, findall
+#from subprocess import run
 
 def find_rek_in_live(str_file, start_find):
     regex1 = (r'\n'+start_find+r':.+\[ movie.+\]\n(\d{2}:\d{2}:\d{2})(?:.+\[ movie.+ \]\n)+(\d{2}:\d{2}:\d{2}).+\[ movie.+ \]')
@@ -22,6 +23,10 @@ def find_rek_in_live(str_file, start_find):
     else:
         return False
 
+#result = run(['net use \\\\192.168.0.99\D$\Журналы\\', '/user:onair2', '3A9b'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+#print(result.returncode)
+#result = run(['net use \\\\192.168.0.91\D$\ForwarData\\', '/user:onair0', '3A9b'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
+#print(result.returncode)
 
 d_corr = False
 zag = '''wait operator 0 * * * * *
