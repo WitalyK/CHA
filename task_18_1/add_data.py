@@ -46,5 +46,6 @@ if __name__ == "__main__":
         conn = sqlite3.connect(db_name)
         add_data_switches(data_sw, conn)
         add_data_dhcp(dhcp_snoop_list, conn)
+        conn.close()
     else:
         print('База данных '+db_name+' не существует. Перед добавлением данных, ее надо создать')

@@ -12,6 +12,7 @@ def create_db(db_name, schema):
         with open(schema) as f:
             conn.executescript(f.read())
         print('Done')
+    conn.close()
 
 
 #don't run on import
