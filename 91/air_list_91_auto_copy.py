@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from datetime import datetime, timedelta
 from shutil import copy
-from re import match, findall
-#from subprocess import run
+from re import match, findall, sub
+from subprocess import run
 
 def find_rek_in_live(str_file, start_find):
     regex1 = (r'\n'+start_find+r':.+\[ movie.+\]\n(\d{2}:\d{2}:\d{2})(?:.+\[ movie.+ \]\n)+(\d{2}:\d{2}:\d{2}).+\[ movie.+ \]')
@@ -23,10 +23,6 @@ def find_rek_in_live(str_file, start_find):
     else:
         return False
 
-#result = run(['net use \\\\192.168.0.99\D$\Журналы\\', '/user:onair2', '3A9b'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
-#print(result.returncode)
-#result = run(['net use \\\\192.168.0.91\D$\ForwarData\\', '/user:onair0', '3A9b'], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
-#print(result.returncode)
 
 d_corr = False
 zag = '''wait operator 0 * * * * *
@@ -35,8 +31,7 @@ wait operator 0
 comment 0 Начало эфира {}_91
 
 '''
-print('Необходимо обеспечить доступ к папкам \\\\192.168.0.91\D$\ForwarData\\ и \\\\192.168.0.99\D$\Журналы\\')
-print('из этих папок будут копироваться журналы работы форвардов.')
+print('ЕСЛИ 99-й форвард не включен, то его необходимо включить ОБЯЗАТЕЛЬНО.')
 while not d_corr:
     d = input('Введите дату необходимого отработанного плейлиста в формате ДД.ММ.ГГГГ:')
     dd = [num for num in d.split('.') if num.isdigit()]
@@ -52,6 +47,10 @@ while not d_corr:
 airlog1 = 'air1_'+dd[2]+dd[1]+dd[0]+'.log'
 airlog2 = 'air1_'+d1[6:]+d1[3:5]+d1[0:2]+'.log'
 try:
+    run(['net use \\\\192.168.0.99\D$\Журналы\\', '/user:onair2', '3A9b'], stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE, shell=True)
+    run(['net use \\\\192.168.0.91\D$\ForwarData\\', '/user:onair0', '3A9b'], stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE, shell=True)
     copy('\\\\192.168.0.99\D$\Журналы\\'+airlog1, airlog1+'1')
     copy('\\\\192.168.0.91\D$\ForwarData\\'+airlog1, airlog1)
     copy('\\\\192.168.0.91\D$\ForwarData\\'+airlog2, airlog2)
@@ -91,7 +90,7 @@ try:
                                     i += 1
                                 live_time_list.insert(i, 'comment 0 Рекламный блок w конец\n')
                                 time_live2 = end_live - (start_rek + is_rek[1])
-                                live_time_list.insert(i+1, 'video1 0'+str(time_live2)+'.00'+live_time_list[0][18:]+'\n')
+                                live_time_list.insert(i+1, 'video1 0'+str(time_live2)+'.00'+sub(r'1 $', '2 ', live_time_list[0][18:])+'\n')
                             else:
                                 time_live = end_live - start_live
                                 live_time_list[0] = live_time_list[0].replace('video1 0', 'video1 0' + str(time_live)+'.00')
