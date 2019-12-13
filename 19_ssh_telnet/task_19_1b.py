@@ -22,7 +22,7 @@ def send_show_command(device_dict, command_line):
             result = ssh.send_command(command_line)
         return result
     except (netmiko.ssh_exception.NetMikoTimeoutException, netmiko.ssh_exception.NetMikoAuthenticationException) as err:
-        return err
+        return print(err)
 
 #don't run on import
 if __name__ == '__main__':

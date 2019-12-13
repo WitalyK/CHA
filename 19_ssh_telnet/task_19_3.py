@@ -28,10 +28,33 @@ In [14]: send_commands(r1, show='sh clock')
 Out[14]: '*17:06:12.278 UTC Wed Mar 13 2019'
 
 In [15]: send_commands(r1, config=['username user5 password pass5', 'username user6 password pass6'])
-Out[15]: 'config term\nEnter configuration commands, one per line.  End with CNTL/Z.\nR1(config)#username user5 password pass5\nR1(config)#username user6 password pass6\nR1(config)#end\nR1#'
+Out[15]: 'config term\nEnter configuration commands, one per line.  End with CNTL/Z.\nR1(config)#username user5 password pass5\n
+R1(config)#username user6 password pass6\nR1(config)#end\nR1#'
 '''
+from sys import path
+path.append('C:/Python/CHA/ssh_telnet_19/')
+from task_19_1b import send_show_command
+from task_19_2c import send_config_commands
+from yaml import safe_load
+from pprint import pprint
 
-commands = [
-    'logging 10.255.255.1', 'logging buffered 20010', 'no logging console'
-]
-command = 'sh ip int br'
+
+def send_commands(device, show=None, config=None):
+    if show:
+        return send_show_command(device, show)
+    elif config:
+        return send_config_commands(device, config)
+    else:
+        return False
+
+
+# don't run on import
+if __name__ == '__main__':
+    commands = ['logging 10.255.255.1', 'logging buffered 20010', 'no logging console']
+    command = 'sh ip int br'
+    yaml_of_devices = 'devices.yaml'
+    with open(yaml_of_devices) as f:
+        templ = safe_load(f)
+    for device in templ:
+        pprint(send_commands(device, show=command), width=120)
+        pprint(send_commands(device, config=commands), width=120)
