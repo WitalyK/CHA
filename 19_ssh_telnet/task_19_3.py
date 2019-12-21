@@ -42,10 +42,8 @@ from pprint import pprint
 def send_commands(device, show=None, config=None):
     if show:
         return send_show_command(device, show)
-    elif config:
-        return send_config_commands(device, config)
     else:
-        return False
+        return send_config_commands(device, config)
 
 
 # don't run on import
