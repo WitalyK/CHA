@@ -33,10 +33,37 @@ Ethernet0/1                unassigned      YES NVRAM  administratively down down
 
 Проверить работу функции на устройствах из файла devices.yaml
 '''
-import yaml
+import yaml, netmiko, logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+
+logging.getLogger("paramiko").setLevel(logging.WARNING)
+logging.basicConfig(format='%(threadName)s %(name)s %(levelname)s: %(message)s',
+    level=logging.INFO)
+
+
+def send_show_command_to_device(device, command):
+    ip = device['ip']
+    logging.info('Connect to '+ip)
+    with netmiko.ConnectHandler(**device) as ssh:
+        ssh.enable()
+        result = ssh.send_command(command)
+    logging.info('Recived from '+ip)
+    return result
+
 
 def send_show_command_to_devices(devices, command, filename, limit=3):
-    pass
+    with ThreadPoolExecutor(max_workers=limit) as executor:
+        futures = [executor.submit(send_show_command_to_device, device, command) for device in devices]
+        for future in as_completed(futures):
+            try:
+                print(future.result())
+            except (netmiko.ssh_exception.NetMikoAuthenticationException, netmiko.ssh_exception.NetMikoTimeoutException) as e:
+                print(e)
+        # with open(filename, 'w') as dst:
+        #     for f in as_completed(futures):
+        #         dst.write(f.result())
+
 
 #don't run on import
 if __name__ == '__main__':
@@ -46,6 +73,6 @@ if __name__ == '__main__':
     with open(yaml_file) as src:
         devicess = yaml.safe_load(src)
     send_show_command_to_devices(devicess, comand, file_com)
-    with open(file_com) as f:
-        for line in f:
-            print(line)
+    # with open(file_com) as f:
+    #     for line in f:
+    #         print(line)

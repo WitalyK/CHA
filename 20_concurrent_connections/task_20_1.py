@@ -17,8 +17,11 @@
 
 Для проверки доступности IP-адреса, используйте ping.
 '''
-import yaml, subprocess, tabulate, logging, re
+import subprocess, logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from tabulate import tabulate
+from yaml import safe_load
+from re import findall
 
 
 logging.basicConfig(
@@ -30,7 +33,7 @@ def awailable_ping(ip):
     regex = (r'.+ TTL=.+')
     result = subprocess.run(['ping', '-n', '2', ip], stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True)
     logging.info(' <== Checked address '+ip)
-    if re.findall(regex, result.stdout.decode('cp866')):
+    if findall(regex, result.stdout.decode('cp866')):
         return True, ip
     else:
         return False, ip
@@ -63,6 +66,6 @@ def ping_ip_addresses(ip_list, limit=2):
 if __name__ == '__main__':
     file_yaml = 'devicess.yaml'
     with open(file_yaml) as src:
-        devs = yaml.safe_load(src)
+        devs = safe_load(src)
     tup = ping_ip_addresses([dev['ip'] for dev in devs], 3)
-    print(tabulate.tabulate(list(zip(tup[0], tup[1])), headers=['Reachable', 'Unreachable'], tablefmt='grid'))
+    print(tabulate(list(zip(tup[0], tup[1])), headers=['Reachable', 'Unreachable'], tablefmt='grid'))
