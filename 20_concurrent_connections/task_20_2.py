@@ -35,6 +35,7 @@ Ethernet0/1                unassigned      YES NVRAM  administratively down down
 '''
 import yaml, netmiko, logging
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from netmiko.ssh_exception import NetMikoAuthenticationException, NetMikoTimeoutException
 
 
 logging.getLogger("paramiko").setLevel(logging.WARNING)
@@ -47,23 +48,22 @@ def send_show_command_to_device(device, command):
     logging.info('Connect to '+ip)
     with netmiko.ConnectHandler(**device) as ssh:
         ssh.enable()
-        result = ssh.send_command(command)
+        result = ssh.send_command(command, strip_prompt=False, strip_command=False).split('\n')
+        hostname = result.pop()
+        result[0] = hostname + result[0]
     logging.info('Recived from '+ip)
-    return result
+    return '\n'.join(result)
 
 
 def send_show_command_to_devices(devices, command, filename, limit=3):
     with ThreadPoolExecutor(max_workers=limit) as executor:
         futures = [executor.submit(send_show_command_to_device, device, command) for device in devices]
-        for future in as_completed(futures):
-            try:
-                print(future.result())
-            except (netmiko.ssh_exception.NetMikoAuthenticationException, netmiko.ssh_exception.NetMikoTimeoutException) as e:
-                print(e)
-        # with open(filename, 'w') as dst:
-        #     for f in as_completed(futures):
-        #         dst.write(f.result())
-
+        with open(filename, 'w') as dst:
+            for future in as_completed(futures):
+                try:
+                    dst.write(future.result()+'\n')
+                except (NetMikoAuthenticationException, NetMikoTimeoutException) as e:
+                    print(e)
 
 #don't run on import
 if __name__ == '__main__':
@@ -73,6 +73,5 @@ if __name__ == '__main__':
     with open(yaml_file) as src:
         devicess = yaml.safe_load(src)
     send_show_command_to_devices(devicess, comand, file_com)
-    # with open(file_com) as f:
-    #     for line in f:
-    #         print(line)
+    with open(file_com) as f:
+        print(f.read())
