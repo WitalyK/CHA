@@ -33,3 +33,19 @@ Ethernet0/1                unassigned      YES NVRAM  administratively down down
 
 Проверить работу функции на устройствах из файла devices.yaml
 '''
+import yaml
+
+def send_show_command_to_devices(devices, command, filename, limit=3):
+    pass
+
+#don't run on import
+if __name__ == '__main__':
+    yaml_file = 'devicess.yaml'
+    comand = 'sh ip int br'
+    file_com = 'commands.txt'
+    with open(yaml_file) as src:
+        devicess = yaml.safe_load(src)
+    send_show_command_to_devices(devicess, comand, file_com)
+    with open(file_com) as f:
+        for line in f:
+            print(line)
