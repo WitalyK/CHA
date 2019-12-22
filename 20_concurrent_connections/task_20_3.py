@@ -35,8 +35,36 @@ Ethernet0/1                unassigned      YES NVRAM  administratively down down
 
 Проверить работу функции на устройствах из файла devices.yaml и словаре commands
 '''
+from yaml import safe_load
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import netmiko
 
-commands = {'192.168.100.1': 'sh ip int br',
-            '192.168.100.2': 'sh arp',
-            '192.168.100.3': 'sh ip int br'}
+
+def send_command_to_device(dev, command):
+    with netmiko.ConnectHandler(**dev) as ssh:
+        ssh.enable()
+        result = ssh.send_command(command).split('\n')
+        hostname = result.pop()
+        result = hostname + result
+    return '\n'.join(result)
+
+
+def send_command_to_devices(devices, command_dict, filename, limit=3):
+    with ThreadPoolExecutor(max_workers=limit) as executor:
+        futures = [executor.submit(send_command_to_device, device, command_dict[device['ip']]) for device in devices]
+        with open(filename, 'w') as dst:
+            for future in as_completed(futures):
+                dst.write(future.result()+'\n')
+
+
+# don't run on import
+if __name__ == "__main__":
+    commands = {'192.168.100.1': 'sh ip int br',
+                '192.168.100.2': 'sh arp',
+                '192.168.100.3': 'sh ip int br'}
+    yaml_file = 'devicess.yaml'
+    commands_file = 'command.txt'
+    with open(yaml_file) as src:
+        devicess = safe_load(src)
+    send_command_to_devices(devicess, commands, commands_file)
 
