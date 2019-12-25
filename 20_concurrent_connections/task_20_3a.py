@@ -47,9 +47,50 @@ O        10.30.0.0/24 [110/20] via 192.168.100.1, 07:12:03, Ethernet0/0
 
 Проверить работу функции на устройствах из файла devices.yaml и словаре commands
 '''
+import yaml, logging, netmiko
+from netmiko.ssh_exception import NetMikoTimeoutException, NetMikoAuthenticationException
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-commands = {'192.168.100.1': ['sh ip int br', 'sh arp'],
-            '192.168.100.2': ['sh arp'],
-            '192.168.100.3': ['sh ip int br', 'sh ip route | ex -']}
 
+logging.getLogger("paramiko").setLevel(logging.WARNING)
+logging.basicConfig(format='%(threadName)s %(name)s %(levelname)s: %(message)s',
+    level=logging.INFO)
+
+
+def send_command_to_device(dev, command_list):
+    ip = dev['ip']
+    logging.info(f'Connect to {ip}...')
+    with netmiko.ConnectHandler(**dev) as ssh:
+        ssh.enable()
+        result = ''
+        for command in command_list:
+            res = ssh.send_command(command, strip_command=False, strip_prompt=False).split('\n')
+            host = res.pop()
+            res[0] = host + res[0]
+            result += '\n'.join(res) + '\n'
+        logging.info(f'Received all commands from {ip}')
+        return result
+
+
+def send_command_to_devices(devices, commands_dict, filename, limit=3):
+    with ThreadPoolExecutor(max_workers=limit) as executor:
+        futures = [executor.submit(send_command_to_device, device, commands_dict[device['ip']]) for device in devices]
+        with open(filename, 'w') as dst:
+            for future in as_completed(futures):
+                try:
+                    dst.write(future.result())
+                except (NetMikoAuthenticationException, NetMikoTimeoutException) as e:
+                    print(e)
+
+
+#don't run on import
+if __name__ == "__main__":
+    commands = {'10.111.111.11': ['sh ip int br', 'sh arp'],
+                '10.111.111.4': ['sh arp'],
+                '10.111.111.3': ['sh ip int br', 'sh ip route | ex -']}
+    yaml_file = 'devicess.yaml'
+    file_name = 'commandss.txt'
+    with open(yaml_file) as src:
+        devicess = yaml.safe_load(src)
+    send_command_to_devices(devicess, commands, file_name)
 

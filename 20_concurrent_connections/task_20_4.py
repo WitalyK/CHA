@@ -2,7 +2,8 @@
 '''
 Задание 20.4
 
-Создать функцию send_commands_to_devices, которая отправляет команду show или config на разные устройства в параллельных потоках, а затем записывает вывод команд в файл.
+Создать функцию send_commands_to_devices, которая отправляет команду show или config на разные устройства
+в параллельных потоках, а затем записывает вывод команд в файл.
 
 Параметры функции:
 * devices - список словарей с параметрами подключения к устройствам
@@ -82,3 +83,62 @@ R3#
 
 Для выполнения задания можно создавать любые дополнительные функции.
 '''
+import yaml, netmiko, logging
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from netmiko.ssh_exception import NetMikoTimeoutException, NetMikoAuthenticationException
+
+
+logging.getLogger("paramiko").setLevel(logging.WARNING)
+logging.basicConfig(format='%(threadName)s %(name)s %(levelname)s: %(message)s',
+    level=logging.INFO)
+
+def send_commands_to_device(dev, command_list, conf):
+    ip = dev['ip']
+    logging.info(f'Connect to {ip}...')
+    with netmiko.ConnectHandler(**dev) as ssh:
+        ssh.enable()
+        if conf:
+            res = ssh.send_config_set(command_list, strip_prompt=False, strip_command=False).split('\n')
+            host = res.pop()
+            res[0] = host + res[0]
+            result = '\n'.join(res) + '\n'
+        else:
+            result = ''
+            for command in command_list:
+                res = ssh.send_command(command, strip_prompt=False, strip_command=False).split('\n')
+                host = res.pop()
+                res[0] = host + res[0]
+                result += '\n'.join(res) + '\n'
+        logging.info(f'Receive from {ip}')
+        return result
+
+def send_commands_to_devices(devices, filename, show=None, config=None, limit=3):
+    with ThreadPoolExecutor(max_workers=limit) as executor:
+        if show:
+            futures = [executor.submit(send_commands_to_device, device, show[device['ip']], 0) for device in devices]
+        else:
+            futures = [executor.submit(send_commands_to_device, device, config[device['ip']], 1) for device in devices]
+        with open(filename, 'w') as dst:
+            for future in futures:
+                try:
+                    dst.write(future.result())
+                except (NetMikoAuthenticationException, NetMikoTimeoutException) as e:
+                    print(e)
+
+
+
+# don't run on import
+if __name__ == "__main__":
+    yaml_file = 'devicess.yaml'
+    file_name_show = 'commands_show.txt'
+    file_name_config = 'commands_config.txt'
+    commands_show = {'10.111.111.11': ['sh ip int br', 'sh arp'],
+                     '10.111.111.4':  ['sh arp'],
+                     '10.111.111.3':  ['sh ip int br', 'sh ip route | ex -']}
+    commands_config = {'10.111.111.11': ['router ospf 55', 'network 0.0.0.0 255.255.255.255 area 0'],
+                       '10.111.111.4':  ['logging 10.5.5.5'],
+                       '10.111.111.3':  ['router ospf 55', 'network 0.0.0.0 255.255.255.255 area 0']}
+    with open(yaml_file) as src:
+        devicess = yaml.safe_load(src)
+    send_commands_to_devices(devicess, show=commands_show, filename=file_name_show)
+    send_commands_to_devices(devicess, config=commands_config, filename=file_name_config)

@@ -37,15 +37,22 @@ Ethernet0/1                unassigned      YES NVRAM  administratively down down
 '''
 from yaml import safe_load
 from concurrent.futures import ThreadPoolExecutor, as_completed
-import netmiko
+import netmiko, logging
+from netmiko.ssh_exception import NetMikoTimeoutException, NetMikoAuthenticationException
 
+
+logging.getLogger("paramiko").setLevel(logging.WARNING)
+logging.basicConfig(format='%(threadName)s %(name)s %(levelname)s: %(message)s',
+    level=logging.INFO)
 
 def send_command_to_device(dev, command):
+    logging.info(f"Connect to {dev['ip']} and send command {command}")
     with netmiko.ConnectHandler(**dev) as ssh:
         ssh.enable()
-        result = ssh.send_command(command).split('\n')
+        result = ssh.send_command(command, strip_prompt=False, strip_command=False).split('\n')
         hostname = result.pop()
-        result = hostname + result
+        result[0] = hostname + result[0]
+        logging.info(f"Receive from {dev['ip']}")
     return '\n'.join(result)
 
 
@@ -54,14 +61,17 @@ def send_command_to_devices(devices, command_dict, filename, limit=3):
         futures = [executor.submit(send_command_to_device, device, command_dict[device['ip']]) for device in devices]
         with open(filename, 'w') as dst:
             for future in as_completed(futures):
-                dst.write(future.result()+'\n')
+                try:
+                    dst.write(future.result()+'\n')
+                except (NetMikoAuthenticationException, NetMikoTimeoutException) as e:
+                    print(e)
 
 
 # don't run on import
 if __name__ == "__main__":
-    commands = {'192.168.100.1': 'sh ip int br',
-                '192.168.100.2': 'sh arp',
-                '192.168.100.3': 'sh ip int br'}
+    commands = {'10.111.111.11': 'sh ip int br',
+                '10.111.111.3': 'sh int desc',
+                '10.111.111.4': 'sh int desc'}
     yaml_file = 'devicess.yaml'
     commands_file = 'command.txt'
     with open(yaml_file) as src:

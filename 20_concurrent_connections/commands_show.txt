@@ -1,0 +1,23 @@
+R1#sh ip int br
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            10.111.111.11   YES NVRAM  up                    up      
+FastEthernet0/1            unassigned      YES NVRAM  administratively down down    
+R1#sh arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.111.111.11           -   c401.1518.0000  ARPA   FastEthernet0/0
+Internet  10.111.111.1            0   0200.4c4f.4f50  ARPA   FastEthernet0/0
+R3#sh ip int br
+Interface                  IP-Address      OK? Method Status                Protocol
+FastEthernet0/0            10.111.10.1     YES NVRAM  up                    up      
+FastEthernet0/1            10.111.111.3    YES NVRAM  up                    up      
+R3#sh ip route | ex -
+
+Gateway of last resort is not set
+
+     10.0.0.0/24 is subnetted, 2 subnets
+C       10.111.111.0 is directly connected, FastEthernet0/1
+C       10.111.10.0 is directly connected, FastEthernet0/0
+R4#sh arp
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.111.111.1            0   0200.4c4f.4f50  ARPA   FastEthernet0/0
+Internet  10.111.111.4            -   c404.1cfc.0000  ARPA   FastEthernet0/0

@@ -39,7 +39,7 @@ def awailable_ping(ip):
         return False, ip
 
 
-def ping_ip_addresses(ip_list, limit=2):
+def ping_ip_addresses(ip_list, limit=3):
     awailable_ip = []
     unawailable_ip =[]
     with ThreadPoolExecutor(max_workers=limit) as executor:
