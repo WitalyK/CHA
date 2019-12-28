@@ -1,0 +1,15 @@
+router ospf {{process}}
+ router-id {{router_id}}
+ auto-cost reference-bandwidth {{ref_bw | default(10000, True)}}
+{%for ospf in ospf_intf%}
+ network {{ospf.ip}} 0.0.0.0 area {{ospf.area}}
+{%endfor%}
+{%for ospf in ospf_intf if ospf.passive%}
+ passive-interface {{ospf.name}}
+{%endfor%}
+!
+{%for ospf in ospf_intf if not ospf.passive%}
+interface {{ospf.name}}
+ ip ospf hello-interval 1
+!
+{%endfor%}

@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 '''
 Задание 21.3
-
 Создайте шаблон templates/ospf.txt на основе конфигурации OSPF в файле cisco_ospf.txt.
 Пример конфигурации дан, чтобы показать синтаксис.
-
 Какие значения должны быть переменными:
 * номер процесса. Имя переменной - process
 * router-id. Имя переменной - router_id
@@ -32,6 +30,9 @@
 Проверьте получившийся шаблон templates/ospf.txt, на данных в файле data_files/ospf.yml,
 с помощью функции generate_config из задания 21.1.
 Не копируйте код функции generate_config.
-
-
 '''
+from task_21_1 import generate_config
+
+#don't run on import
+if __name__ == "__main__":
+    print(generate_config("templates/ospf.txt", "data_files/ospf.yml"))
