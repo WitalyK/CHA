@@ -82,10 +82,10 @@ def configure_vpn(src_device_params, dst_device_params, src_template, dst_templa
     with ThreadPoolExecutor(max_workers=2) as executor:
         futures = [executor.submit(send_command_vpn, device, commands)
                    for device, commands in ((src_device_params, comm[0]), (dst_device_params, comm[1]))]
-        t_futures = ()
+        t_futures = []
         for future in as_completed(futures):
             try:
-                t_futures += future.result()
+                t_futures.append(future.result())
             except (NetMikoAuthenticationException, NetMikoTimeoutException) as e:
                 print(e)
     return t_futures
