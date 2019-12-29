@@ -19,3 +19,20 @@
 
 Проверить работу функции на примере вывода команды sh ip int br и устройствах из devices.yaml.
 '''
+import netmiko
+from yaml import safe_load
+
+
+def send_and_parse_show_command(device_dict, command, templates_path, index="index"):
+    with netmiko.ConnectHandler(**device_dict) as ssh:
+        ssh.enable()
+        res = ssh.send_command(command, use_textfsm=True)
+    return res
+
+# don't run on import
+if __name__ == "__main__":
+    with open("devices.yaml") as src:
+        devices = safe_load(src)
+    list_dict = send_and_parse_show_command(devices[0], 'sh ip int br', 'ntc-templates/templates/')
+    for line in list_dict:
+        print(line)
