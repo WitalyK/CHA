@@ -23,10 +23,13 @@ import netmiko
 from yaml import safe_load
 
 
-def send_and_parse_show_command(device_dict, command, templates_path, index="index"):
+def send_and_parse_show_command(device_dict, command, templates_path='ntc-templates/templates/', index="index"):
     with netmiko.ConnectHandler(**device_dict) as ssh:
         ssh.enable()
+        host = ssh.find_prompt()[:-1]
         res = ssh.send_command(command, use_textfsm=True)
+        for r in res:
+            r.update({'host': host})
     return res
 
 # don't run on import
