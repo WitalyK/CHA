@@ -1,0 +1,15 @@
+---
+
+- name: Collect IOS facts
+  hosts: cisco-routers
+
+  tasks:
+
+    - name: Facts
+      ios_facts:
+        gather_subset: all
+
+    - name: Copy facts to files
+      copy:
+        content: "{{ ansible_net_interfaces | to_nice_yaml }}"
+        dest: "all_facts/{{inventory_hostname}}_intf_facts.yaml"

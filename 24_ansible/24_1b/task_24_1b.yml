@@ -1,0 +1,19 @@
+---
+
+- name: Run show commands on routers
+  hosts: cisco-routers
+  #connection: network_cli
+  #gather_facts: false
+
+
+  tasks:
+
+    - name: run sh arp
+      ios_command:
+        commands:
+          - show arp
+          - show ip int br
+      register: result
+
+    - name: Debug registered var
+      debug: var=result.stdout_lines
