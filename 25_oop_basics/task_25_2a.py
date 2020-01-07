@@ -102,6 +102,7 @@ class CiscoTelnet:
             return out
 
     def send_config_commands(self, commands, strict=None):
+        #if isinstance(commands, str): commands = [commands]
         if type(commands) == str: commands = [commands]
         errors = ['Invalid input detected', 'Incomplete command', 'Ambiguous command']
         regex = (r'\(config\)#(.+)\n(?:.*\n)*?% (.+)\n')
