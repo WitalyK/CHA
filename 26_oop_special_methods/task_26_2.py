@@ -41,4 +41,14 @@ ValueError                                Traceback (most recent call last)
 
 ValueError: Возникла ошибка
 '''
+from task_25_2a import CiscoTelnet
 
+#don't run on import
+if __name__ == "__main__":
+    r1_params = {'ip': '10.111.111.11',
+                 'username': 'admin',
+                 'password': 'cisco',
+                 'secret': 'cisco'}
+
+    with CiscoTelnet(**r1_params) as r1:
+        print(r1.send_show_command('sh clock'))

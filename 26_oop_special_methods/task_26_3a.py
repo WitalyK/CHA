@@ -32,4 +32,12 @@ In [12]: print(ip_list)
 
 Для этого задания нет теста!
 '''
+from task_26_3 import IPAddress
+
+# don't run on import
+if __name__ == "__main__":
+    ip1 = IPAddress('10.1.1.1/24')
+    print(ip1)
+    ip_list = [ip1]
+    print(ip_list)
 

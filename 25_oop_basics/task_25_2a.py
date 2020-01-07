@@ -123,6 +123,11 @@ class CiscoTelnet:
                     print(f'При выполнении команды {find[0].rstrip()} на устройстве {self.ip} возникла ошибка -> {find[1].rstrip()}')
         return result
 
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.t.close()
 
 # don't run on import
 if __name__ == "__main__":
