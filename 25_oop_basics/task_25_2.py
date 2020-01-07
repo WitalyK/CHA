@@ -30,3 +30,37 @@ In [5]: r1.send_show_command('sh ip int br')
 Out[5]: 'sh ip int br\r\nInterface                  IP-Address      OK? Method Status                Protocol\r\nEthernet0/0                192.168.100.1   YES NVRAM  up                    up      \r\nEthernet0/1                192.168.200.1   YES NVRAM  up                    up      \r\nEthernet0/2                190.16.200.1    YES NVRAM  up                    up      \r\nEthernet0/3                192.168.130.1   YES NVRAM  up                    up      \r\nEthernet0/3.100            10.100.0.1      YES NVRAM  up                    up      \r\nEthernet0/3.200            10.200.0.1      YES NVRAM  up                    up      \r\nEthernet0/3.300            10.30.0.1       YES NVRAM  up                    up      \r\nLoopback0                  10.1.1.1        YES NVRAM  up                    up      \r\nLoopback55                 5.5.5.5         YES manual up                    up      \r\nR1#'
 
 '''
+import telnetlib
+import time
+
+
+class CiscoTelnet:
+    def _write_line(self, line):
+        line = line.encode('cp866')
+        self.t.write(line + b'\n')
+
+    def __init__(self, ip, username, password, secret):
+        self.t = telnetlib.Telnet(ip)
+        self.t.read_until(b'Username:')
+        self._write_line(username)
+        self.t.read_until(b'Password:')
+        self._write_line(password)
+        self._write_line('enable')
+        self.t.read_until(b'Password:')
+        self._write_line(secret)
+        self._write_line('terminal length 0')
+
+    def send_show_command(self, sh_command):
+        self._write_line(sh_command)
+        time.sleep(1)
+        return self.t.expect([b'[>#]'])[2].decode('cp866')
+
+
+#don't run on import
+if __name__ == "__main__":
+    r1_params = {'ip': '10.111.111.11',
+                 'username': 'admin',
+                 'password': 'cisco',
+                 'secret': 'cisco'}
+    r1 = CiscoTelnet(**r1_params)
+    r1.send_show_command('sh ip int br')

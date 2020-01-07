@@ -60,4 +60,19 @@ ValueError                                Traceback (most recent call last)
 ValueError: При выполнении команды "logging 0255.255.1" на устройстве 192.168.100.1 возникла ошибка -> Invalid input detected at '^' marker.
 
 '''
+from task_25_2a import CiscoTelnet
+
+# don't run on import
+if __name__ == "__main__":
+    r1_params = {'ip': '10.111.111.11',
+                 'username': 'admin',
+                 'password': 'cisco',
+                 'secret': 'cisco'}
+    commands_with_errors = ['logging 0255.255.1', 'logging', 'i']
+    correct_commands = ['logging buffered 20010', 'ip http server']
+    commands = commands_with_errors + correct_commands
+    r1 = CiscoTelnet(**r1_params)
+    print(r1.send_config_commands(commands, strict=False))
+    print('*'*30)
+    print(r1.send_config_commands(commands, strict=True))
 

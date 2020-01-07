@@ -29,5 +29,16 @@ In [6]: r1.send_config_commands(['interface loop55', 'ip address 5.5.5.5 255.255
 Out[6]: 'conf t\r\nEnter configuration commands, one per line.  End with CNTL/Z.\r\nR1(config)#interface loop55\r\nR1(config-if)#ip address 5.5.5.5 255.255.255.255\r\nR1(config-if)#end\r\nR1#'
 
 '''
+from task_25_2a import CiscoTelnet
 
+# don't run on import
+if __name__ == "__main__":
+    r1_params = {'ip': '10.111.111.11',
+                 'username': 'admin',
+                 'password': 'cisco',
+                 'secret': 'cisco'}
+    r1 = CiscoTelnet(**r1_params)
+    print(r1.send_config_commands('logging 10.1.1.1'))
+    print('*'*30)
+    print(r1.send_config_commands(['interface loop55', 'ip address 5.5.5.5 255.255.255.255']))
 
