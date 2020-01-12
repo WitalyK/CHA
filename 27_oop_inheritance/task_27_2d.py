@@ -32,3 +32,17 @@ ErrorInCommand                            Traceback (most recent call last)
 ...
 ErrorInCommand: При выполнении команды "lo" на устройстве 192.168.100.1 возникла ошибка "Incomplete command."
 '''
+from task_27_2 import MyNetmiko
+
+# don't run on import
+if __name__ == "__main__":
+    device_params = {
+        'device_type': 'cisco_ios',
+        'ip': '10.111.11.2',
+        'username': 'admin',
+        'password': 'cisco',
+        'secret': 'cisco'
+    }
+    commands = ['logging buffered 20010', 'ip http server']
+    r1 = MyNetmiko(**device_params)
+    print(r1.send_config_set(commands, ignore_errors=False))

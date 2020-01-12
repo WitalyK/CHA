@@ -20,6 +20,7 @@ Out[4]: 'Interface                  IP-Address      OK? Method Status           
 
 '''
 from netmiko.cisco.cisco_ios import CiscoIosBase
+from re import search
 
 
 class ErrorInCommand(Exception):
@@ -34,11 +35,25 @@ class MyNetmiko(CiscoIosBase):
         errors = ['Invalid input detected', 'Incomplete command', 'Ambiguous command']
         for error in errors:
             if error in command_output:
-                raise ErrorInCommand(f'При выполнении команды {command} на устройстве {self.host} возникла ошибка {error}')
+                regex = error + '.*?\n'
+                raise ErrorInCommand(f'При выполнении команды {command} на устройстве {self.host} возникла '
+                                     f'ошибка {search(regex, command_output).group()}')
 
-    def send_command(self, command_string):
-        result = super().send_command(command_string)
+    def send_command(self, command_string, **kwargs):
+        result = super().send_command(command_string, **kwargs)
         self._check_error_in_command(command_string, result)
+        return result
+
+    def send_config_set(self, config_commands, ignore_errors=True):
+        if isinstance(config_commands, str): config_commands = [config_commands]
+        if ignore_errors:
+            result = super().send_config_set(config_commands)
+        else:
+            result = ''
+            for config_command in config_commands:
+                res = super().send_config_set(config_command)
+                self._check_error_in_command(config_command, res)
+                result += res
         return result
 
 # don't run on import
