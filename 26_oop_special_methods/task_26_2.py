@@ -52,3 +52,4 @@ if __name__ == "__main__":
 
     with CiscoTelnet(**r1_params) as r1:
         print(r1.send_show_command('sh clock'))
+        raise ValueError('Возникла ошибка')

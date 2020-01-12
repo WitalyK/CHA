@@ -55,16 +55,16 @@ class IPAddress:
             raise ValueError('Incorrect mask')
 
     def __str__(self):
-        return f'IP address {self.ip}/{self.mask}'
+        return f'IPAddress {self.ip}/{self.mask}'
 
     def __repr__(self):
-        return f"IP address('{self.ip}/{self.mask}')"
+        return f"IPAddress('{self.ip}/{self.mask}')"
 
 # don't run on import
 if __name__ == "__main__":
     ip1 = IPAddress('10.1.1.1/24')
     print(ip1.ip)
     print(ip1.mask)
-    ip = IPAddress('10.1.1/24')
     print("*"*30)
-    ip = IPAddress('10.1.1.1/240')
+    ip1 = IPAddress('10.1.1/24')
+    ip1 = IPAddress('10.1.1.1/240')

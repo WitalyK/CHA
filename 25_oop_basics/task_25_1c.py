@@ -55,5 +55,5 @@ if __name__ == "__main__":
     pprint(t.topology, width=120)
     t.delete_link(('R5', 'Eth0/0'), ('R3', 'Eth0/2'))
     t.delete_node('SW1')
-    pprint(t.topology, width=120)
+    pprint(t.topology, width=40)
     t.delete_node('SW1')

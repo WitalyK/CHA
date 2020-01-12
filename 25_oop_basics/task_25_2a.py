@@ -69,6 +69,7 @@ Out[5]:
 import telnetlib, time
 from textfsm import clitable
 from re import findall
+from pprint import pprint
 
 
 class CiscoTelnet:
@@ -83,18 +84,21 @@ class CiscoTelnet:
         self._write_line(username)
         self.t.read_until(b'Password:')
         self._write_line(password)
+        self.t.read_until(b'#')
         self._write_line('enable')
-        self.t.read_until(b'Password:')
-        self._write_line(secret)
+        #self.t.read_until(b'Password:')
+        self.t.read_until(b'#')
+        #self._write_line(secret)
         self._write_line('terminal length 0')
+        self.t.read_until(b'#')
 
-    def send_show_command(self, sh_command, parse, templates='templates'):
+    def send_show_command(self, sh_command, parse=None, templates='templates'):
         self._write_line(sh_command)
         time.sleep(1)
         out = self.t.expect([b'[>#]'])[2].decode('cp866')
         if parse:
             cli = clitable.CliTable('index', templates)
-            attributes = {'Command': sh_command, 'Vendor': 'Cisco'}
+            attributes = {'Command': sh_command, 'Vendor': 'cisco_ios'}
             cli.ParseCmd(out, attributes)
             header = list(cli.header)
             return [dict(zip(header, list(res))) for res in cli]
@@ -104,7 +108,6 @@ class CiscoTelnet:
     def send_config_commands(self, commands, strict=None):
         #if isinstance(commands, str): commands = [commands]
         if type(commands) == str: commands = [commands]
-        errors = ['Invalid input detected', 'Incomplete command', 'Ambiguous command']
         regex = (r'\(config\)#(.+)\n(?:.*\n)*?% (.+)\n')
         self._write_line('conf t')
         time.sleep(0.3)
@@ -114,12 +117,12 @@ class CiscoTelnet:
         self._write_line('end')
         time.sleep(0.3)
         result = self.t.read_very_eager().decode('cp866')
-        if strict:
-            if any(eror in result for eror in errors):
-                raise ValueError
-        else:
-            finds = findall(regex, result)
-            if finds:
+        finds = findall(regex, result)
+        if finds:
+            if strict:
+                find = finds[0]
+                raise ValueError(f'При выполнении команды {find[0].rstrip()} на устройстве {self.ip} возникла ошибка -> {find[1].rstrip()}')
+            else:
                 for find in finds:
                     print(f'При выполнении команды {find[0].rstrip()} на устройстве {self.ip} возникла ошибка -> {find[1].rstrip()}')
         return result
@@ -132,11 +135,11 @@ class CiscoTelnet:
 
 # don't run on import
 if __name__ == "__main__":
-    r1_params = {'ip': '10.111.111.11',
+    r1_params = {'ip': '10.111.111.3',
                  'username': 'admin',
                  'password': 'cisco',
                  'secret': 'cisco'}
     r1 = CiscoTelnet(**r1_params)
-    r1.send_show_command('sh ip int br', parse=False)
-    r1.send_show_command('sh ip int br', parse=True)
+    print(r1.send_show_command('sh ip int br', parse=False))
+    pprint(r1.send_show_command('sh ip int br', parse=True), width=120)
 

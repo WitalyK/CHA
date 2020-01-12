@@ -1,12 +1,16 @@
-- ip: 192.168.100.1
-  username: cisco
+- ip: 10.111.111.11
+  username: admin
   password: cisco
   secret: cisco
-- ip: 192.168.100.2
-  username: cisco
+- ip: 10.111.111.3
+  username: admin
   password: cisco
   secret: cisco
-- ip: 192.168.100.3
-  username: cisco
+- ip: 10.111.111.4
+  username: admin
+  password: cisco
+  secret: cisco
+- ip: 10.111.11.2
+  username: admin
   password: cisco
   secret: cisco

@@ -10,7 +10,8 @@
 
 Метод ожидает как аргумент команду и вывод команды.
 Если в выводе не обнаружена ошибка, метод ничего не возвращает.
-Если в выводе найдена ошибка, метод генерирует исключение ErrorInCommand с сообщениеем о том какая ошибка была обнаружена, на каком устройстве и в какой команде.
+Если в выводе найдена ошибка, метод генерирует исключение ErrorInCommand с сообщениеем о том какая ошибка была обнаружена,
+на каком устройстве и в какой команде.
 
 Переписать метод send_command netmiko, добавив в него проверку на ошибки.
 
@@ -30,3 +31,18 @@ ErrorInCommand                            Traceback (most recent call last)
 ErrorInCommand: При выполнении команды "sh ip br" на устройстве 192.168.100.1 возникла ошибка "Invalid input detected at '^' marker."
 
 '''
+from task_27_2 import MyNetmiko
+
+# don't run on import
+if __name__ == "__main__":
+    device_params = {
+        'device_type': 'cisco_ios',
+        'ip': '10.111.11.2',
+        'username': 'admin',
+        'password': 'cisco',
+        'secret': 'cisco'
+    }
+    r1 = MyNetmiko(**device_params)
+    print(r1.send_command('sh ip int br'))
+    print(r1.send_command('sh ip br'))
+

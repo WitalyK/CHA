@@ -45,16 +45,21 @@ class CiscoTelnet:
         self._write_line(username)
         self.t.read_until(b'Password:')
         self._write_line(password)
+        self.t.read_until(b'#')
         self._write_line('enable')
-        self.t.read_until(b'Password:')
-        self._write_line(secret)
+        #self.t.read_until(b'Password:')
+        self.t.read_until(b'#')
+        #self._write_line(secret)
         self._write_line('terminal length 0')
+        self.t.read_until(b'#')
 
     def send_show_command(self, sh_command):
         self._write_line(sh_command)
         time.sleep(1)
-        return self.t.expect([b'[>#]'])[2].decode('cp866')
+        return self.t.read_very_eager().decode('cp866')
 
+    def close(self):
+        self.t.close()
 
 #don't run on import
 if __name__ == "__main__":
@@ -63,4 +68,5 @@ if __name__ == "__main__":
                  'password': 'cisco',
                  'secret': 'cisco'}
     r1 = CiscoTelnet(**r1_params)
-    r1.send_show_command('sh ip int br')
+    print(r1.send_show_command('sh ip int br'))
+    r1.close()
