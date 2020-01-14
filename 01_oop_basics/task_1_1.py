@@ -64,3 +64,35 @@ In [17]: net1.unassigned()
 Out[17]: ('10.1.1.1', '10.1.1.2', '10.1.1.3', '10.1.1.5')
 
 '''
+from ipaddress import ip_network
+
+
+class IPv4Network:
+    def __init__(self, net_addr):
+        self.address, self.mask = net_addr.split('/')
+        self.subnet = ip_network(net_addr)
+        self.broadcast = str(self.subnet.broadcast_address)
+        self.allocated = ()
+
+    def hosts(self):
+        return tuple(str(host) for host in self.subnet.hosts())
+
+    def allocate(self, ip_addr):
+        if ip_addr in self.hosts():
+            self.allocated += (ip_addr,)
+
+    def unassigned(self):
+        return tuple(host for host in self.hosts() if host not in self.allocated)
+
+#don't run on import
+if __name__ == "__main__":
+    net1 = IPv4Network('10.1.1.0/29')
+    print(net1.address)
+    print(net1.mask)
+    print(net1.broadcast)
+    print(net1.allocated)
+    print(net1.hosts())
+    net1.allocate('10.1.1.6')
+    net1.allocate('10.1.1.3')
+    print(net1.allocated)
+    print(net1.unassigned())
