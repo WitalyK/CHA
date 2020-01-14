@@ -33,4 +33,5 @@ if __name__ == "__main__":
     }
     r1 = MyNetmiko(**device_params)
     print(r1.send_command('sh ip int br', strip_command=False))
+    print('*'*45)
     print(r1.send_command('sh ip int br', strip_command=True))

@@ -43,6 +43,8 @@ if __name__ == "__main__":
         'password': 'cisco',
         'secret': 'cisco'
     }
-    commands = ['logging buffered 20010', 'ip http server']
+    commands = ['logging bufferedd 20010', 'ip http server']
     r1 = MyNetmiko(**device_params)
+    print(r1.send_config_set(commands, ignore_errors=True))
+    print('*'*45)
     print(r1.send_config_set(commands, ignore_errors=False))

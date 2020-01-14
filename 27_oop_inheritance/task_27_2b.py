@@ -37,5 +37,6 @@ if __name__ == "__main__":
     }
     r1 = MyNetmiko(**device_params)
     print(r1.send_config_set('logging buffered 20010'))
-    print(r1.send_config_set('lo'))
+    print('*'*40)
+    print(r1.send_config_set('lo', ignore_errors=False))
 
