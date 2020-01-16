@@ -58,3 +58,25 @@ In [14]: str(net1)
 Out[14]: 'IPv4Network 8.8.4.0/29'
 
 '''
+from task_1_1 import IPv4Network
+
+
+#don't run on import
+if __name__ == "__main__":
+    net1 = IPv4Network('8.8.4.0/29')
+    print(net1)
+    print([net1])
+    print('*'*45)
+    print(len(net1))
+    print('*'*45)
+    print(net1[2])
+    print(net1[-1])
+    print(net1[1:4])
+    print('*'*45)
+    for ip in net1:
+        print(ip)
+    print('*'*45)
+    print(net1.index('8.8.4.4'))
+    print(net1.count('8.8.4.4'))
+    print('*'*45)
+    print('8.8.4.4' in net1)

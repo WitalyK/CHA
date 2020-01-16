@@ -14,3 +14,10 @@ In [4]: net2
 Out[4]: IPv4Network(10.1.1.0/29)
 
 '''
+from task_3_1 import IPv4Network
+
+
+#don't run on import
+if __name__ == "__main__":
+    net2 = IPv4Network.from_tuple(('10.1.1.0', 29))
+    print([net2])

@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/27_oop_inheritance" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/01_oop_basics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/02_oop_special_methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03_oop_method_decorators" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8" jdkType="Python SDK" />

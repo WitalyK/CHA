@@ -84,7 +84,34 @@ class IPv4Network:
     def unassigned(self):
         return tuple(host for host in self.hosts() if host not in self.allocated)
 
-#don't run on import
+    def __str__(self):
+        return f'IPv4Network {self.address}/{self.mask}'
+
+    def __repr__(self):
+        return f"IPv4Network('{self.address}/{self.mask}')"
+
+    def __len__(self):
+        return len(self.hosts())
+
+    def __getitem__(self, item):
+        return self.hosts()[item]
+
+    # optional
+    def __iter__(self):
+        return iter(self.hosts())
+
+    # optional
+    def __contains__(self, item):
+        return item in self.hosts()
+
+    def index(self, value):
+        return self.hosts().index(value)
+
+    def count(self, value):
+        return self.hosts().count(value)
+
+
+# don't run on import
 if __name__ == "__main__":
     net1 = IPv4Network('10.1.1.0/29')
     print(net1.address)
