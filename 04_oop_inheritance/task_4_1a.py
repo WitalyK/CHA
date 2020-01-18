@@ -57,7 +57,20 @@ R1(config)#logging
 R1(config)#sh i
 % Ambiguous command:  "sh i"
 '''
+from task_4_1 import CiscoTelnet
+from yaml import safe_load
 
-# списки команд с ошибками и без:
-config_commands_errors = ['logging 0255.255.1', 'logging', 'sh i']
-correct_config_commands = ['logging buffered 20010', 'ip http server']
+
+# don't run on import
+if __name__ == "__main__":
+    config_commands_errors = ['logging 0255.255.1', 'logging', 'sh i']
+    correct_config_commands = ['logging buffered 20010', 'ip http server']
+    with open('devices.yaml') as src:
+        devices = safe_load(src)
+    with CiscoTelnet(**devices[0]) as r1:
+        print(r1.send_show_command('sh clck'))
+        print('*' * 45)
+        print(r1.send_config_commands(correct_config_commands))
+        print('*' * 45)
+        print(r1.send_config_commands(config_commands_errors))
+
