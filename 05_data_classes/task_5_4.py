@@ -64,3 +64,40 @@ In [17]: net1.unassigned
 Out[17]: ['10.1.1.1', '10.1.1.2', '10.1.1.3', '10.1.1.5']
 
 '''
+from dataclasses import dataclass, field
+from ipaddress import ip_network
+
+
+@dataclass
+class IPv4Network:
+    network: str
+    broadcast: str = field(init=False, repr=False)
+    allocated: list = field(init=False, repr=False)
+    hosts: list = field(init=False, repr=False)
+    unassigned: list = field(init=False, repr=False)
+
+    def __post_init__(self):
+        subnet = ip_network(self.network)
+        self.broadcast = subnet.broadcast_address
+        self.allocated = []
+        self.hosts = [str(host) for host in subnet.hosts()]
+        self.unassigned = self.hosts.copy()
+
+    def allocate(self, address):
+        if address in self.hosts:
+            self.allocated.append(address)
+            self.unassigned.remove(address)
+
+
+# don't run on import
+if __name__ == "__main__":
+    net1 = IPv4Network('10.1.1.0/29')
+    print(net1.network)
+    print(net1.broadcast)
+    print(net1.allocated)
+    print(net1.hosts)
+    net1.allocate('10.1.1.6')
+    net1.allocate('10.1.1.8')
+    print(net1.allocated)
+    net1.allocate('10.1.1.4')
+    print(net1.unassigned)

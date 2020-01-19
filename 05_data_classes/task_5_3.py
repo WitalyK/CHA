@@ -21,7 +21,9 @@ Out[5]: {'title': 'Good Omens', 'price': 35.0, 'quantity': 124, 'total': 4340.0}
 которые созданы через property.
 
 '''
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, asdict
+from pprint import pprint
+
 
 @dataclass
 class Book:
@@ -45,3 +47,17 @@ class Book:
         if not value >= 0:
             raise ValueError('Значение должно быть положительным')
         self._price = float(value)
+
+    def to_dict(self):
+        d = asdict(self).copy()
+        for key in asdict(self):
+            if str(key).startswith('_'):
+                del d[key]
+        d['total'] = self.total
+        return d
+
+
+# don't run on import
+if __name__ == "__main__":
+    b1 = Book('Good Omens', 35, 5)
+    pprint(b1.to_dict(), width=40)
