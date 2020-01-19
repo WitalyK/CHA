@@ -123,17 +123,47 @@ In [16]: len(t1)
 Out[16]: 6
 
 '''
+from task_4_3 import Topology
+from pprint import pprint
 
-example1 = {('R1', 'Eth0/0'): ('SW1', 'Eth0/1'),
-            ('R2', 'Eth0/0'): ('SW1', 'Eth0/2'),
-            ('R2', 'Eth0/1'): ('SW2', 'Eth0/11'),
-            ('R3', 'Eth0/0'): ('SW1', 'Eth0/3'),
-            ('R4', 'Eth0/0'): ('R3', 'Eth0/1'),
-            ('R5', 'Eth0/0'): ('R3', 'Eth0/2'),
-            ('SW1', 'Eth0/1'): ('R1', 'Eth0/0'),
-            ('SW1', 'Eth0/2'): ('R2', 'Eth0/0'),
-            ('SW1', 'Eth0/3'): ('R3', 'Eth0/0')}
 
-example2 = {('R1', 'Eth0/4'): ('R7', 'Eth0/0'),
-            ('R1', 'Eth0/6'): ('R9', 'Eth0/0')}
+# don't run on import
+if __name__ == "__main__":
+    example1 = {('R1', 'Eth0/0'): ('SW1', 'Eth0/1'),
+                ('R2', 'Eth0/0'): ('SW1', 'Eth0/2'),
+                ('R2', 'Eth0/1'): ('SW2', 'Eth0/11'),
+                ('R3', 'Eth0/0'): ('SW1', 'Eth0/3'),
+                ('R4', 'Eth0/0'): ('R3', 'Eth0/1'),
+                ('R5', 'Eth0/0'): ('R3', 'Eth0/2'),
+                ('SW1', 'Eth0/1'): ('R1', 'Eth0/0'),
+                ('SW1', 'Eth0/2'): ('R2', 'Eth0/0'),
+                ('SW1', 'Eth0/3'): ('R3', 'Eth0/0')}
+    example2 = {('R1', 'Eth0/4'): ('R7', 'Eth0/0'),
+                ('R1', 'Eth0/6'): ('R9', 'Eth0/0')}
+    t1 = Topology(example1)
+    pprint(t1.topology, width=40)
+    print('*' * 45)
+    print(t1[('R1', 'Eth0/0')])
+    print('*' * 45)
+    print(t1[('SW1', 'Eth0/2')])
+    print('*' * 45)
+    t1[('R1', 'Eth0/0')] = ('SW1', 'Eth0/12')
+    pprint(t1.topology, width=40)
+    print('*' * 45)
+    t1[('R6', 'Eth0/0')] = ('SW1', 'Eth0/17')
+    pprint(t1.topology, width=40)
+    print('*' * 45)
+    t1[('SW1', 'Eth0/21')] = ('R7', 'Eth0/0')
+    pprint(t1.topology, width=40)
+    print('*' * 45)
+    del t1[('R7', 'Eth0/0')]
+    pprint(t1.topology, width=40)
+    print('*' * 45)
+    del t1[('SW1', 'Eth0/17')]
+    pprint(t1.topology, width=40)
+    print('*' * 45)
+    for item in t1:
+        print(item)
+    print('*' * 45)
+    len(t1)
 

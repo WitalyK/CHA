@@ -154,19 +154,26 @@ class Topology(MutableMapping):
         self.topology = self._normalize(topology_dict)
 
     def _normalize(self, topology):
-        dd = topology.copy()
-        ddd = topology.copy()
+        d = {}
         for key, value in topology.items():
-            is_dubl = False
-            for key1, value1 in dd.items():
-                if key == value1 and value == key1:
-                    is_dubl = True
-                    break
-            if key in dd: del dd[key]
-            if is_dubl:
-                del dd[value]
-                del ddd[value]
-        return ddd
+            if key < value:
+                d[key] = value
+            else:
+                d[value] = key
+        return d
+        # dd = topology.copy()
+        # ddd = topology.copy()
+        # for key, value in topology.items():
+        #     is_dubl = False
+        #     for key1, value1 in dd.items():
+        #         if key == value1 and value == key1:
+        #             is_dubl = True
+        #             break
+        #     if key in dd: del dd[key]
+        #     if is_dubl:
+        #         del dd[value]
+        #         del ddd[value]
+        # return ddd
 
     def delete_link(self, host1, host2):
         if self.topology.get(host1, None) == host2:
@@ -201,22 +208,36 @@ class Topology(MutableMapping):
         return Topology(d)
 
     def __iter__(self):
-        items = ((key, value) for key, value in self.topology.items())
+        items = (key for key in self.topology)
         return iter(items)
 
     def __getitem__(self, key):
-        return self.topology[key]
+        if self.topology.get(key):
+            return self.topology[key]
+        else:
+            for k, value in self.topology.items():
+                if value == key:
+                    return k
 
     def __setitem__(self, key, value):
-        self.topology[key] = value
+        if key < value:
+            self.topology[key] = value
+        else:
+            self.topology[value] = key
 
     def __len__(self):
         return len(self.topology)
 
     def __delitem__(self, key):
-        del self.topology[key]
+        if self.topology.get(key):
+            del self.topology[key]
+        else:
+            for k, value in self.topology.items():
+                if value == key:
+                    key1 = k
+                    break
+            del self.topology[key1]
 
-    #__getitem__, __setitem__, __delitem__, __iter__, __len__
 
 # don't run on import
 if __name__ == "__main__":

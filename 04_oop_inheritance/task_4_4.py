@@ -46,7 +46,12 @@ Out[11]: True
 import ipaddress
 
 
-class IPAddress:
+class OrderingMixin:
+    def __le__(self, other):
+        return self.__lt__(other) or self.__eq__(other)
+
+
+class IPAddress(OrderingMixin):
     def __init__(self, ip):
         self._ip = int(ipaddress.ip_address(ip))
 
@@ -61,3 +66,22 @@ class IPAddress:
 
     def __lt__(self, other):
         return self._ip < other._ip
+
+
+# don't run on import
+if __name__ == "__main__":
+    ip1 = IPAddress('10.10.1.1')
+    ip2 = IPAddress('10.2.1.1')
+    print(ip1, ' < ', ip2)
+    print(ip1 < ip2)
+    print(ip1, ' > ', ip2)
+    print(ip1 > ip2)
+    print(ip1, ' == ', ip2)
+    print(ip1 == ip2)
+    print(ip1, ' != ', ip2)
+    print(ip1 != ip2)
+    print(ip1, ' <= ', ip2)
+    print(ip1 <= ip2)
+    print(ip1, ' >= ', ip2)
+    print(ip1 >= ip2)
+
