@@ -78,7 +78,7 @@ class IPv4Network:
 
     def __post_init__(self):
         subnet = ip_network(self.network)
-        self.broadcast = subnet.broadcast_address
+        self.broadcast = str(subnet.broadcast_address)
         self.allocated = []
         self.hosts = [str(host) for host in subnet.hosts()]
         self.unassigned = self.hosts.copy()

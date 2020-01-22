@@ -49,8 +49,17 @@ import ipaddress
 class OrderingMixin:
     def __le__(self, other):
         return self.__lt__(other) or self.__eq__(other)
+    
+    def __ge__(self, other):
+        return (not self.__lt__(other)) or self.__eq__(other)
 
+    def __ne__(self, other):
+        return not self.__eq__(other)
 
+    def __gt__(self, other):
+        return (not self.__lt__(other)) and (not self.__eq__(other))
+
+        
 class IPAddress(OrderingMixin):
     def __init__(self, ip):
         self._ip = int(ipaddress.ip_address(ip))

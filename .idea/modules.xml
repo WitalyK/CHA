@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/CHA.iml" filepath="$PROJECT_DIR$/.idea/CHA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../stepik/.idea/stepik.iml" filepath="$PROJECT_DIR$/../stepik/.idea/stepik.iml" />
     </modules>
   </component>
 </project>
