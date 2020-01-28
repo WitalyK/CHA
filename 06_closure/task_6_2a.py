@@ -34,3 +34,23 @@ Out[9]: 84
 In [10]: toys.buy(24)
 Out[10]: 108
 '''
+def count_total():
+    sum = 0
+    def buy(num):
+        nonlocal sum
+        sum += num
+        return sum
+    count_total.buy = buy
+    return count_total
+    
+
+# don't run on import
+if __name__ == "__main__":
+    books = count_total()
+    print(books.buy(25))
+    print(books.buy(15))
+    print(books.buy(115))
+    toys = count_total()
+    print(toys.buy(25))
+    print(toys.buy(15))
+    print(toys.buy(115))

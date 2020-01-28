@@ -31,4 +31,30 @@ In [9]: tasks.get()
 
 In [10]: tasks.get()
 '''
+def queue():
+    sum = []
+    def put(item):
+        nonlocal sum
+        sum.append(item)
+    def get():
+        nonlocal sum
+        if not sum:
+            return None
+        else:
+            return sum.pop(0)
+    queue.put = put
+    queue.get = get
+    return queue
+    
 
+# don't run on import
+if __name__ == "__main__":
+    tasks = queue()
+    tasks.put('a')
+    tasks.put('b')
+    tasks.put('c')
+    print(tasks.get())
+    print(tasks.get())
+    print(tasks.get())
+    print(tasks.get())
+    print(tasks.get())
