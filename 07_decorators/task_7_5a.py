@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 7.5a
 
 Переделать декоратор count_calls из задания 7.5.
@@ -41,14 +41,39 @@ Out[15]: 10
 In [16]: f2.total_calls
 Out[16]: 5
 
-'''
+"""
+from functools import wraps
 
 
+def count_calls(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        wrapper.total_calls += 1
+        return func(*args, **kwargs)
+    wrapper.total_calls = 0
+    return wrapper
+
+
+@count_calls
 def f1():
     return True
 
 
+@count_calls
 def f2():
     return False
 
+
+if __name__ == "__main__":
+    print(f1.total_calls)
+    print(f2.total_calls)
+    for _ in range(5):
+        f1()
+    for _ in range(5):
+        f2()
+    for _ in range(5):
+        f1()
+    print('****************')
+    print(f1.total_calls)
+    print(f2.total_calls)
 

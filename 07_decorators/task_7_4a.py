@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 7.4a
 
 Переделать декоратор retry из задания 7.4: добавить параметр delay,
@@ -40,19 +40,32 @@ In [6]: send_show_command(device_params, 'sh clock')
 
 Тест берет значения из словаря device_params в этом файле, поэтому если
 для заданий используются другие адреса/логины, надо заменить их в словаре.
-'''
-
+"""
+import time
+from functools import wraps
 from netmiko import (ConnectHandler, NetMikoAuthenticationException,
                      NetMikoTimeoutException)
 
-device_params = {
-    'device_type': 'cisco_ios',
-    'ip': '192.168.100.1',
-    'username': 'cisco',
-    'password': 'cisco',
-    'secret': 'cisco'
-}
 
+def retry(times, delay):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args):
+            rrr = times
+            while rrr >= 0:
+                result = func(*args)
+                rrr -= 1
+                if result:
+                    return result
+                else:
+                    if rrr >= 0:
+                        print(f'Повторное подключение через {delay} сек')
+                        time.sleep(delay)
+        return wrapper
+    return decorator
+
+
+@retry(times=3, delay=1)
 def send_show_command(device, show_command):
     print('Подключаюсь к', device['ip'])
     try:
@@ -65,5 +78,12 @@ def send_show_command(device, show_command):
 
 
 if __name__ == "__main__":
+    device_params = {
+        'device_type': 'cisco_ios',
+        'ip': '10.111.111.11',
+        'username': 'admin',
+        'password': 'cisco',
+        'secret': 'cisco'
+    }
     output = send_show_command(device_params, 'sh clock')
 

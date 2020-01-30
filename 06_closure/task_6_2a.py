@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 6.2a
 
 Изменить функцию count_total из задания 6.2a.
@@ -33,16 +33,20 @@ Out[9]: 84
 
 In [10]: toys.buy(24)
 Out[10]: 108
-'''
+"""
+
+
 def count_total():
     sum = 0
+
     def buy(num):
         nonlocal sum
         sum += num
         return sum
+
     count_total.buy = buy
     return count_total
-    
+
 
 # don't run on import
 if __name__ == "__main__":

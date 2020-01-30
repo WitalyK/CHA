@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 6.1
 
 Переделать функцию netmiko_ssh таким образом, чтобы при отправке строки "close",
@@ -17,14 +17,14 @@ In [3]: r1('close')
 
 Тест берет значения из словаря device_params в этом файле, поэтому если
 для заданий используются другие адреса/логины, надо заменить их в словаре.
-'''
+"""
 
 from netmiko import ConnectHandler
 
 device_params = {
     'device_type': 'cisco_ios',
-    'ip': '192.168.100.1',
-    'username': 'cisco',
+    'ip': '10.111.111.11',
+    'username': 'admin',
     'password': 'cisco',
     'secret': 'cisco'
 }
@@ -33,12 +33,14 @@ device_params = {
 def netmiko_ssh(**params_dict):
     ssh = ConnectHandler(**params_dict)
     ssh.enable()
+
     def send_show_command(command):
         if command == 'close':
-            ssh.close()
+            ssh.disconnect()
             print('Соединение закрыто')
         else:
             return ssh.send_command(command)
+
     return send_show_command
 
 

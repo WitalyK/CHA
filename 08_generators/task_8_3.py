@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-'''
+"""
 Задание 8.3
 
 Создать генератор filter_data_by_attr, который фильтрует данные на основании указанного атрибута и значения.
@@ -40,7 +40,7 @@ Out[5]: Route(status='*>', network='23.36.64.0', netmask='20', nexthop='200.219.
 
 
 
-'''
+"""
 
 import csv
 from collections import namedtuple
@@ -58,6 +58,12 @@ def filter_by_mask(iterable, mask):
             yield line
 
 
+def filter_data_by_attr(iter_obj, name_attr, value_attr):
+    for line in iter_obj:
+        if line._asdict()[name_attr] == value_attr:
+            yield line
+
+
 if __name__ == "__main__":
     with open('rib_table.csv') as f:
         reader = csv.reader(f)
@@ -65,5 +71,12 @@ if __name__ == "__main__":
         Route = namedtuple("Route", headers)
         route_tuples = map(Route._make, reader)
 
-        nhop_23 = filter_by_nexthop(route_tuples, '200.219.145.23')
-        mask_20 = filter_by_mask(nhop_23, '20')
+        # nhop_23 = filter_by_nexthop(route_tuples, '200.219.145.23')
+        # mask_20 = filter_by_mask(nhop_23, '20')
+        nhop_23 = filter_data_by_attr(route_tuples, 'nexthop', '200.219.145.23')
+        mask_20 = filter_data_by_attr(nhop_23, 'netmask', '20')
+        # for n in nhop_23:
+        #     print(n)
+        print("*" * 45)
+        for n in mask_20:
+            print(n)

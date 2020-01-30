@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 7.3
 
 Создать декоратор add_verbose, который добавляет в функцию
@@ -48,20 +48,28 @@ In [8]: print(send_show_command(device_params, 'sh clock', verbose=False))
 
 Тест берет значения из словаря device_params в этом файле, поэтому если
 для заданий используются другие адреса/логины, надо заменить их в словаре.
-'''
+"""
 
 from netmiko import ConnectHandler
 
-device_params = {
-    'device_type': 'cisco_ios',
-    'ip': '192.168.100.1',
-    'username': 'cisco',
-    'password': 'cisco',
-    'secret': 'cisco'
-}
+
+def add_verbose(func):
+    def wrapper(*args, **kwargs):
+        verbose = False
+        if kwargs:
+            if 'verbose' in kwargs.keys() and kwargs['verbose']:
+                verbose = True
+                del kwargs['verbose']
+                print(f'Вызываем {func.__name__}')
+        if verbose:
+            print('Позиционные аргументы: ', *args)
+            if kwargs:
+                print('Ключевые аргументы: ', kwargs)
+        return func(*args, **kwargs)
+    return wrapper
 
 
-
+@add_verbose
 def send_show_command(params, command):
     with ConnectHandler(**params) as ssh:
         ssh.enable()
@@ -69,3 +77,18 @@ def send_show_command(params, command):
     return result
 
 
+if __name__ == '__main__':
+    device_params = {
+        'device_type': 'cisco_ios',
+        'ip': '10.111.111.11',
+        'username': 'admin',
+        'password': 'cisco',
+        'secret': 'cisco'
+    }
+    print(send_show_command(device_params, 'sh clock', verbose=True))
+    print('*' * 45)
+    print(send_show_command(device_params, command='sh clock', verbose=True))
+    print('*' * 45)
+    print(send_show_command(device_params, 'sh clock'))
+    print('*' * 45)
+    print(send_show_command(params=device_params, command='sh clock', verbose=True))
