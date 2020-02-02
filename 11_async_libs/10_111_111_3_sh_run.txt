@@ -1,0 +1,122 @@
+Building configuration...
+
+Current configuration : 1353 bytes
+!
+version 12.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+!
+hostname R3
+!
+boot-start-marker
+boot-end-marker
+!
+enable secret 5 $1$/rEA$VCYPsjrcIGDbRnZ3LRjty1
+!
+no aaa new-model
+memory-size iomem 5
+no ip icmp rate-limit unreachable
+ip cef
+!
+!
+!
+!
+no ip domain lookup
+ip domain name domain.local
+!
+multilink bundle-name authenticated
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+username admin privilege 15 secret 5 $1$4YKg$N6d7p4n96tpCUELCn6ede/
+archive
+ log config
+  hidekeys
+! 
+!
+!
+!
+ip tcp synwait-time 5
+ip ssh version 2
+!
+!
+!
+!
+interface FastEthernet0/0
+ ip address 10.111.10.1 255.255.255.0
+ duplex auto
+ speed auto
+!
+interface FastEthernet0/1
+ ip address 10.111.111.3 255.255.255.0
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+ip route 10.111.11.0 255.255.255.0 10.111.10.2
+!
+!
+no ip http server
+no ip http secure-server
+!
+no cdp log mismatch duplex
+!
+!
+!
+!
+!
+!
+control-plane
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+ login local
+line aux 0
+ exec-timeout 0 0
+ privilege level 15
+ logging synchronous
+line vty 0 4
+ exec-timeout 5 0
+ privilege level 15
+ logging synchronous
+ login local
+ transport input telnet ssh
+line vty 5 15
+ exec-timeout 5 0
+ privilege level 15
+ logging synchronous
+ login local
+ transport input telnet ssh
+!
+!
+end

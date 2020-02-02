@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 11.4
 
 Создать сопрограмму (coroutine) configure_network_device. Сопрограмма
@@ -47,8 +47,28 @@ Out[3]:
 и создавать дополнительные функции.
 Для заданий в этом разделе нет тестов!
 
-'''
+"""
+import asyncio, yaml, netdev
+from task_11_3 import config_device_and_check
+from task_11_1 import send_config_commands
+from pprint import pprint
 
-commands = ['router ospf 55',
-            'auto-cost reference-bandwidth 1000000',
-            'network 0.0.0.0 255.255.255.255 area 0']
+
+async def configure_network_device(device, config_commands):
+    netdev_platforms = netdev.platforms
+    if device['device_type'] in netdev_platforms:
+        await config_device_and_check(device, config_commands)
+    else:
+        del device['device_type']
+        del device['secret']
+        result = await send_config_commands(device, config_commands)
+        pprint(result)
+
+
+if __name__ == "__main__":
+    commands = ['router ospf 55',
+                'auto-cost reference-bandwidth 1000000',
+                'network 0.0.0.0 255.255.255.255 area 0']
+    with open('devices_netmiko.yaml') as f:
+        devices = yaml.safe_load(f)
+    asyncio.run(configure_network_device(devices[0], commands))
