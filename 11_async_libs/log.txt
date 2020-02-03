@@ -1,11 +1,11 @@
 Не получилось настроить 10.111.111.4
 Команда logging 0255.255.1 выполнилась с ошибкой Invalid input detected на устройстве 10.111.111.4
-Успешно настроен 10.111.11.2
+Успешно настроен 10.111.111.3
 conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
-R2(config)#logging buffered 20010
-R2(config)#end
-R2#
+R3(config)#logging buffered 20010
+R3(config)#end
+R3#
 Успешно настроен 10.111.111.11
 conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
@@ -14,9 +14,9 @@ R1(config-router)#auto-cost reference-bandwidth 1000000
 R1(config-router)#network 0.0.0.0 255.255.255.255 area 0
 R1(config-router)#end
 R1#
-Успешно настроен 10.111.111.3
+Успешно настроен 10.111.11.2
 conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
-R3(config)#logging buffered 20010
-R3(config)#end
-R3#
+R2(config)#logging buffered 20010
+R2(config)#end
+R2#
