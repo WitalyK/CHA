@@ -49,6 +49,7 @@ async def config_device_and_check(device, config_commands, check=None):
                 print("The hardware is configured correctly")
             else:
                 print("The hardware is configured wrong")
+    return output
 
 
 async def main(*args, **kwargs):

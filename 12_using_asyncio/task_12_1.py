@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 12.1
 
 Это задание аналогично заданию 11.4, только если device_type нет в платформах,
@@ -50,8 +50,36 @@ Out[3]:
 и создавать дополнительные функции.
 Для заданий в этом разделе нет тестов!
 
-'''
+"""
+import netmiko, yaml, netdev, asyncio
+from task_11_3 import config_device_and_check
+from pprint import pprint
 
-commands = ['router ospf 55',
-            'auto-cost reference-bandwidth 1000000',
-            'network 0.0.0.0 255.255.255.255 area 0']
+
+async def configure_network_device(device, config_commands):
+    netdev_platforms = netdev.platforms
+    if device['device_type'] in netdev_platforms:
+        result = await config_device_and_check(device, config_commands)
+    else:
+        result = await config_device_netmiko(device, config_commands)
+    return result
+
+
+async def config_device_netmiko(device, config_commands):
+    if isinstance(config_commands, str): config_commands = [config_commands]
+    print(f'SYNC Подключаюсь к {device["host"]}')
+    async with netmiko.ConnectHandler(**device) as ssh:
+        ssh.enable()
+        print(f'Отправляю команды на {device["host"]}')
+        output = await ssh.send_config_set(config_commands)
+        print(f'Получили данные от {device["host"]}:')
+    return output
+
+
+if __name__ == "__main__":
+    commands = ['router ospf 55',
+                'auto-cost reference-bandwidth 1000000',
+                'network 0.0.0.0 255.255.255.255 area 0']
+    with open('devices_netmiko.yaml') as f:
+        devices = yaml.safe_load(f)
+    asyncio.run(configure_network_device(devices[0], commands))
