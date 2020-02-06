@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 12.5
 
 Создать асинхронный аналог enumerate. Для это надо создать сопрограмму (coroutine)
@@ -18,7 +18,7 @@ async def open_csv(filename):
             print(index)
             yield dict(list(csv.DictReader([line], fieldnames=headers))[0])
 
-'''
+"""
 
 import csv
 import asyncio

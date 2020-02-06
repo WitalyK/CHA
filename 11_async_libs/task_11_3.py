@@ -41,7 +41,6 @@ async def config_device_and_check(device, config_commands, check=None):
         print(f'Отправляю команды на {device["host"]}')
         output = await ssh.send_config_set(config_commands)
         print(f'Получили данные от {device["host"]}:')
-        pprint(output)
         if check:
             output = await ssh.send_command(check['command'])
             pprint(output)
