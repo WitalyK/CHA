@@ -26,6 +26,7 @@ async def aenumerate(iterable_obj, n=0):
     i = n
     async for line in iterable_obj:
         yield i, line
+        i += 1
 
 """
 
