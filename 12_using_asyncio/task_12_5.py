@@ -20,8 +20,13 @@ async def open_csv(filename):
 
 async def aenumerate(iterable_obj, n=0):
     async for i in range(n:):
-        yield n, next(iterable_obj)
+        yield i, next(iterable_obj)
             
+async def aenumerate(iterable_obj, n=0):
+    i = n
+    async for line in iterable_obj:
+        yield i, line
+
 """
 
 import csv
