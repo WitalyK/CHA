@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 12.3
 
 Создать сопрограмму (coroutine) get_all_cdp_neighbors. Сопрограмма
@@ -31,10 +31,11 @@ sh_cdp_neighbors_detail_sw1.txt, sh_cdp_neighbors_detail_r1.txt
 и создавать дополнительные функции.
 Для заданий в этом разделе нет тестов!
 
-'''
+"""
 import re
 from pprint import pprint
 import asyncio
+from glob import glob
 
 import aiofiles
 
@@ -62,7 +63,6 @@ def parse_neighbor(output):
         r' IP address: (?P<ip>\S+).+?'
         r'Platform: (?P<platform>\S+ \S+), .+?'
         r', Version (?P<ios>\S+),')
-
     result = {}
     match = re.search(regex, output, re.DOTALL)
     if match:
@@ -71,11 +71,23 @@ def parse_neighbor(output):
     return result
 
 
-async def main():
-    cdp_filename = 'sh_cdp_neighbors_detail_sw1.txt'
-    async for neighbor in get_one_neighbor(cdp_filename):
-        pprint(parse_neighbor(neighbor))
+async def get_one_cdp_neighbors(cdp_file):
+    key = cdp_file.split('.')[0].split('_')[4]
+    d = {key: {}}
+    async for neighbor in get_one_neighbor(cdp_file):
+        d[key].update(parse_neighbor(neighbor))
+    return d
+
+
+async def get_all_cdp_neighbors(cdp_files):
+    results = []
+    tasks = [asyncio.create_task(get_one_cdp_neighbors(file)) for file in cdp_files]
+    for task in asyncio.as_completed(tasks):
+        result = await task
+        results.append(result)
+    return results
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    sh_cdp_files = glob('sh_cdp_neighbors*')
+    pprint(asyncio.run(get_all_cdp_neighbors(sh_cdp_files)), width=120)

@@ -58,6 +58,7 @@ from pprint import pprint
 
 async def configure_network_device(device, config_commands):
     netdev_platforms = netdev.platforms
+    netdev_platforms.remove('cisco_ios')
     if device['device_type'] in netdev_platforms:
         result = await config_device_and_check(device, config_commands)
     else:
