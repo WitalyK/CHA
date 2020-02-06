@@ -18,6 +18,10 @@ async def open_csv(filename):
             print(index)
             yield dict(list(csv.DictReader([line], fieldnames=headers))[0])
 
+async def aenumerate(iterable_obj, n=0):
+    async for i in range(n:):
+        yield n, next(iterable_obj)
+            
 """
 
 import csv
