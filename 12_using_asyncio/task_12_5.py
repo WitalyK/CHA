@@ -18,10 +18,7 @@ async def open_csv(filename):
             print(index)
             yield dict(list(csv.DictReader([line], fieldnames=headers))[0])
 
-async def aenumerate(iterable_obj, n=0):
-    async for i in range(n:):
-        yield i, next(iterable_obj)
-            
+
 async def aenumerate(iterable_obj, n=0):
     i = n
     async for line in iterable_obj:
@@ -35,21 +32,37 @@ import asyncio
 import aiofiles
 
 
+# async def open_csv(filename):
+#     async with aiofiles.open(filename) as f:
+#         headers = await f.readline()
+#         headers = list(csv.reader([headers]))[0]
+#         index = 0
+#         async for line in f:
+#             print(index)
+#             yield dict(list(csv.DictReader([line], fieldnames=headers))[0])
+#             index += 1
+
+
 async def open_csv(filename):
     async with aiofiles.open(filename) as f:
         headers = await f.readline()
         headers = list(csv.reader([headers]))[0]
-        index = 0
-        async for line in f:
+        async for index, line in aenumerate(f):
             print(index)
             yield dict(list(csv.DictReader([line], fieldnames=headers))[0])
-            index += 1
 
 
 async def filter_prefix_next_hop(async_iterable, nexthop):
     async for line in async_iterable:
         if line['nexthop'] == nexthop:
             yield line
+
+
+async def aenumerate(iterable_obj, n=0):
+    i = n
+    async for line in iterable_obj:
+        yield i, line
+        i += 1
 
 
 async def main(filename):

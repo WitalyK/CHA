@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 12.6
 
 Создать декоратор для сопрограмм retry, который выполняет декорируемую сопрограмму повторно,
@@ -36,31 +36,45 @@ In [5]: connect_ssh(device_params, 'sh clock')
 
 На каждой итерации должен проверяться результат функции. То есть не просто
 повторяем вызов функции n раз, а каждый раз проверяем его и необходимость повторения.
-'''
-
+"""
 
 import asyncio
 import netdev
+from functools import wraps
 
-device_params = {
-    'device_type': 'cisco_ios',
-    'host': '192.168.100.1',
-    'username': 'cisco',
-    'password': 'cisco',
-    'secret': 'cisco'
-}
 
+def retry(func=None, times=1):
+    if not func:
+        return lambda func: retry(func, times=times)
+
+    @wraps(func)
+    async def wrapper(*args, **kwargs):
+        for _ in range(times + 1):
+            result = await func(*args, **kwargs)
+            if result:
+                return result
+
+    return wrapper
+
+
+@retry  # (times=3)
 async def connect_ssh(device, command):
     print(f'Подключаюсь к {device["host"]}')
     try:
         async with netdev.create(**device) as ssh:
             output = await ssh.send_command(command)
         return output
-    except netdev.DisconnectError:
+    except (netdev.DisconnectError, netdev.exceptions.TimeoutError):
         return None
 
 
 if __name__ == "__main__":
-    #device_params['password'] = '123123'
+    device_params = {
+        'device_type': 'cisco_ios',
+        'host': '10.111.111.11',
+        'username': 'admin',
+        'password': 'cisco',
+        'secret': 'cisco'
+    }
+    # device_params['password'] = '123123'
     print(asyncio.run(connect_ssh(device_params, 'sh clock')))
-

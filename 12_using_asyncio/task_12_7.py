@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 12.7
 
 
@@ -37,28 +37,45 @@ https://youtu.be/YdeUxrlbAwk
 и создавать дополнительные функции.
 
 Для заданий в этом разделе нет тестов!
-'''
+"""
 import asyncio
 import netdev
 import itertools
 import time
+from functools import wraps
 
 
-def spin():
-    spinner = itertools.cycle('\|/-')
+def spinner(func):
+    @wraps(func)
+    async def wrapper(*args, **kwargs):
+        task = asyncio.create_task(spin())
+        await task
+        result = await func(*args, **kwargs)
+        task.cancel()
+        return result
+    return wrapper
+
+
+async def spin():
+    spinnerr = itertools.cycle('\|/-')
     while True:
-        print(f'\r{next(spinner)} Waiting...', end='')
-        time.sleep(0.1)
+        print(f'\r{next(spinnerr)} Waiting...', end='')
+        await asyncio.sleep(0.1)
 
 
+@spinner
 async def connect_ssh(device, command):
-    await asyncio.sleep(7)
+    await asyncio.sleep(2)
     print(f"\nПодключаюсь к {device['host']}")
-    async with netdev.create(**device) as ssh:
-        output = await ssh.send_command(command)
-        await asyncio.sleep(5)
-        print(f'\nПолучили данные от {device["host"]}')
-    return output
+    try:
+        async with netdev.create(**device) as ssh:
+            output = await ssh.send_command(command)
+            await asyncio.sleep(2)
+            print(f'\nПолучили данные от {device["host"]}')
+        return output
+    except netdev.exceptions.TimeoutError:
+        print('Connection error')
+        return None
 
 
 device_params = {'host': '192.168.100.1',
