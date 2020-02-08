@@ -1,3 +1,10 @@
 DEBUG:root:Сообщение уровня debug
 INFO:root:Сообщение уровня info
 WARNING:root:Сообщение уровня warning
+DEBUG:root:Сообщение уровня debug:
+{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x0000025F7C497700>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': 'E:/Python/CHA/CHA/logging/1.py', '__cached__': None, 'logging': <module 'logging' from 'E:\\Python\\Python38\\lib\\logging\\__init__.py'>}
+INFO:root:Сообщение уровня info
+WARNING:root:Сообщение уровня warning
+INFO:root:Сообщение уровня info
+WARNING:root:Сообщение уровня warning
+WARNING:root:Сообщение уровня warning
