@@ -12,21 +12,23 @@
 
 from concurrent.futures import ThreadPoolExecutor
 from pprint import pprint
-import time
+import typing
 from itertools import repeat
 
 import yaml
 from netmiko import ConnectHandler, NetMikoAuthenticationException
 
 
-def send_show(device_dict, command):
+def send_show(device_dict: dict, command: str) -> str:
+    reveal_locals()
     with ConnectHandler(**device_dict) as ssh:
         ssh.enable()
         result = ssh.send_command(command)
     return result
 
 
-def send_command_to_devices(devices, command, max_workers=3):
+def send_command_to_devices(devices: typing.List[dict], command: str, max_workers: int = 3) -> dict:
+    reveal_locals()
     data = {}
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         result = executor.map(send_show, devices, repeat(command))
@@ -36,6 +38,7 @@ def send_command_to_devices(devices, command, max_workers=3):
 
 
 if __name__ == "__main__":
+    reveal_locals()
     with open("devices.yaml") as f:
         devices = yaml.safe_load(f)
     pprint(send_command_to_devices(devices, "sh ip int br"))

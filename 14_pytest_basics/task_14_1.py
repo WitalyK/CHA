@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 14.1
 
 Написать тест или тесты для функции generate_access_config. Тест должен проверять:
@@ -13,13 +13,14 @@
 
 
 Тест(ы) написать в файле заданий.
-'''
+"""
 
 access_config = {
     'FastEthernet0/12': 10,
     'FastEthernet0/14': 11,
     'FastEthernet0/16': 17
 }
+
 
 def generate_access_config(intf_vlan_mapping):
     access_mode_template = [

@@ -39,6 +39,9 @@ https://youtu.be/YdeUxrlbAwk
 Для заданий в этом разделе нет тестов!
 """
 import asyncio
+from asyncio.tasks import Task
+from typing import Any
+
 import netdev
 import itertools
 import time
@@ -51,16 +54,23 @@ def spinner(func):
         task = asyncio.create_task(spin())
         await task
         result = await func(*args, **kwargs)
-        task.cancel()
+        # task.cancel()
         return result
     return wrapper
 
 
 async def spin():
+    async for sp in spin1():
+        # print(f'\r{sp} Waiting...', end='')
+        return sp
+
+
+async def spin1():
     spinnerr = itertools.cycle('\|/-')
     while True:
-        print(f'\r{next(spinnerr)} Waiting...', end='')
-        await asyncio.sleep(0.1)
+        yield next(spinnerr)
+        # yield print(f'\r{next(spinnerr)} Waiting...', end='')
+        time.sleep(0.1)
 
 
 @spinner
@@ -74,6 +84,7 @@ async def connect_ssh(device, command):
             print(f'\nПолучили данные от {device["host"]}')
         return output
     except netdev.exceptions.TimeoutError:
+        await asyncio.sleep(2)
         print('Connection error')
         return None
 
