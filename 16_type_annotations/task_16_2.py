@@ -10,24 +10,28 @@
 Для заданий в этом разделе нет тестов!
 """
 
-import ipaddress
+import ipaddress, typing
 
 
 class IPv4Network:
-    def __init__(self, network):
+    def __init__(self, network: str) -> None:
+        reveal_locals()
         self._net = ipaddress.ip_network(network)
         self.address = str(self._net.network_address)
         self.mask = self._net.prefixlen
         self.broadcast = str(self._net.broadcast_address)
-        self.allocated = []
+        self.allocated: typing.List[str] = []
 
-    def hosts(self):
+    def hosts(self) -> typing.List[str]:
+        reveal_locals()
         return [str(ip) for ip in self._net.hosts()]
 
-    def allocate(self, ip):
+    def allocate(self, ip: str) -> None:
+        reveal_locals()
         self.allocated.append(ip)
 
-    def unassigned(self):
+    def unassigned(self) -> typing.List[str]:
+        reveal_locals()
         return [ip for ip in self.hosts() if ip not in self.allocated]
 
 

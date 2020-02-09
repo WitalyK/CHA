@@ -45,7 +45,7 @@ from functools import wraps
 
 def retry(func=None, times=1):
     if not func:
-        return lambda func: retry(func, times=times)
+        return lambda fun: retry(fun, times=times)
 
     @wraps(func)
     async def wrapper(*args, **kwargs):
@@ -57,7 +57,7 @@ def retry(func=None, times=1):
     return wrapper
 
 
-@retry  # (times=3)
+@retry(times=3)
 async def connect_ssh(device, command):
     print(f'Подключаюсь к {device["host"]}')
     try:

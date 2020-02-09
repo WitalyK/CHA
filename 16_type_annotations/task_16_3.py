@@ -10,22 +10,25 @@
 Для заданий в этом разделе нет тестов!
 """
 
-import subprocess
+import subprocess, typing
 from concurrent.futures import ThreadPoolExecutor
 from task_16_2 import IPv4Network
 
 
 class PingNetwork:
-    def __init__(self, network):
+    def __init__(self, network: IPv4Network) -> None:
+        reveal_locals()
         self.network = network
 
-    def _ping(self, ip):
+    def _ping(self, ip: str) -> bool:
+        reveal_locals()
         result = subprocess.run(['ping', '-c', '3', '-n', ip],
                             stdout=subprocess.DEVNULL)
         ip_is_reachable = result.returncode == 0
         return ip_is_reachable
 
-    def scan(self, workers=5, include_unassigned=False):
+    def scan(self, workers: int = 5, include_unassigned: bool = False) -> typing.Tuple[typing.List[str], typing.List[str]]:
+        reveal_locals()
         ip_to_ping = self.network.allocated
         if include_unassigned:
             ip_to_ping.extend(self.network.unassigned())

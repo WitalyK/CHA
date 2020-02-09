@@ -48,12 +48,17 @@ from functools import wraps
 def spinner(func):
     @wraps(func)
     async def wrapper(*args, **kwargs):
-        task = asyncio.create_task(spin())
-        await task
+        task = await spin()
+        # await task
         result = await func(*args, **kwargs)
         task.cancel()
         return result
     return wrapper
+
+
+async def sp(spiner):
+    while True:
+        yield next(spiner)
 
 
 async def spin():
@@ -78,13 +83,13 @@ async def connect_ssh(device, command):
         return None
 
 
-device_params = {'host': '192.168.100.1',
-                 'username': 'cisco',
+device_params = {'host': '10.111.111.11',
+                 'username': 'admin',
                  'password': 'cisco',
                  'device_type': 'cisco_ios',
                  'secret': 'cisco'}
 
 
 if __name__ == "__main__":
-    asyncio.run(connect_ssh(device_params, 'sh clock'))
+    print(asyncio.run(connect_ssh(device_params, 'sh clock')))
 

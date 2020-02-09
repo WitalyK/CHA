@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-'''
+"""
 Задание 14.2
 
 Написать тесты для класса Network. Тесты должны проверять:
@@ -26,8 +26,9 @@
 
 
 Тесты написать в файле заданий. Разделить на тесты по своему усмотрению.
-'''
-import ipaddress
+"""
+import ipaddress, collections.abc
+from pprint import pprint
 
 
 class Network:
@@ -48,3 +49,9 @@ class Network:
 
 # пример создания экземпляра
 # net1 = Network('10.1.1.192/30')
+if __name__ == "__main__":
+    net1 = Network('10.1.1.192/30')
+    pprint(net1.network)
+    pprint(net1.addresses)
+    if isinstance(net1.__iter__(), collections.abc.Iterable):
+        print('*************')
