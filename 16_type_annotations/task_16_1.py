@@ -38,7 +38,6 @@ def send_command_to_devices(devices: typing.List[dict], command: str, max_worker
 
 
 if __name__ == "__main__":
-    reveal_locals()
     with open("devices.yaml") as f:
         devices = yaml.safe_load(f)
     pprint(send_command_to_devices(devices, "sh ip int br"))

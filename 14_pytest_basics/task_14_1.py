@@ -14,10 +14,7 @@
 
 Тест(ы) написать в файле заданий.
 """
-<<<<<<< HEAD
 from pprint import pprint
-=======
->>>>>>> 6c15ce89811caad4342e27fb2661e07bc4814efa
 
 access_config = {
     'FastEthernet0/12': 10,
