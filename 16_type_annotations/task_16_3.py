@@ -27,7 +27,11 @@ class PingNetwork:
         ip_is_reachable = result.returncode == 0
         return ip_is_reachable
 
+<<<<<<< HEAD
     def scan(self, workers: int = 5, include_unassigned: bool = False) -> typing.Tuple[typing.List[str], typing.List[str]]:
+=======
+    def scan(self, workers: int=5, include_unassigned: bool = False) -> tuple:
+>>>>>>> 6c15ce89811caad4342e27fb2661e07bc4814efa
         reveal_locals()
         ip_to_ping = self.network.allocated
         if include_unassigned:
