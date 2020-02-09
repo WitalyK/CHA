@@ -55,3 +55,7 @@ if __name__ == "__main__":
     pprint(net1.addresses)
     if isinstance(net1.__iter__(), collections.abc.Iterable):
         print('*************')
+    for ip in net1.__iter__():
+        #with pytest.raises(ValueError) as excinfo:
+        ip1 = ipaddress.ip_address(ip)
+        print(ip1)
