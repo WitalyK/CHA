@@ -26,10 +26,12 @@ def test_methods():
     check_attr_or_method(net1, method="__getitem__")
     assert isinstance(net1.__iter__(), collections.abc.Iterable), "метод должен возвращать итератор"
     for ip in net1.__iter__():
-        with pytest.raises(ValueError) as excinfo:
+        try:
             ip1 = ipaddress.ip_address(ip)
+        except ValueError:
+            raise ValueError('Итератор возвращает не IP адрес')
     assert net1.__len__() == 2, "метод возвращает неправильное количество адресов"
-    assert net1.__getitem__()[1] == '10.1.1.194', "метод возвращает неправильное значение"
-    assert net1.__getitem__()[-1] == '10.1.1.194', "метод возвращает неправильное значение"
+    assert net1.__getitem__(1) == '10.1.1.194', "метод возвращает неправильное значение"
+    assert net1.__getitem__(-1) == '10.1.1.194', "метод возвращает неправильное значение"
     with pytest.raises(IndexError) as excinfo:
-        ip1 = net1.__getitem__()[2]
+        ip1 = net1.__getitem__(2)

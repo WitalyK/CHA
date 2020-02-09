@@ -3,7 +3,7 @@ import inspect
 from platform import system as system_name
 from subprocess import run, PIPE
 from concurrent.futures import ThreadPoolExecutor
-import re
+import re, netmiko
 #import yaml
 
 
@@ -79,3 +79,10 @@ def unify_topology_dict(topology_dict):
     unified_topology_dict = {min(key, value): max(key, value)
                              for key, value in topology_dict.items()}
     return unified_topology_dict
+
+
+def get_output_command(device):
+    with netmiko.ConnectHandler(**device) as ssh:
+        ssh.enable()
+        result = ssh.send_command('sh ip route')
+    return device['host'], result
