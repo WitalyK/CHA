@@ -22,8 +22,9 @@
 > И модуль python для работы с graphviz:
 > pip install graphviz
 '''
-from draw_network_graph import draw_topology
+# from draw_network_graph import draw_topology
 import yaml
+from pprint import pprint
 
 
 def transform_topology(yaml_file):
@@ -34,24 +35,26 @@ def transform_topology(yaml_file):
         for int_in, value_in in value.items():
             for d_out, int_out in value_in.items():
                 d[(d_in, int_in)] = (d_out, int_out)
-    dd = d.copy()
-    ddd = d.copy()
-    for key, value in d.items():
-        is_dubl = False
-        for key1, value1 in dd.items():
-            if key==value1 and value==key1:
-                is_dubl = True
-                break
-        if key in dd: del dd[key]
-        if is_dubl:
-            del dd[value]
-            del ddd[value]
-    return ddd
+    for key in set(d):
+        if (key, d[key]) in list(zip(d.values(), d.keys())):
+            del d[key]
+    # dd = d.copy()
+    # ddd = d.copy()
+    # for key, value in d.items():
+    #     is_dubl = False
+    #     for key1, value1 in dd.items():
+    #         if key==value1 and value==key1:
+    #             is_dubl = True
+    #             break
+    #     if key in dd: del dd[key]
+    #     if is_dubl:
+    #         del dd[value]
+    #         del ddd[value]
+    return d
 
 
 # don't run on import
 if __name__ == '__main__':
-    draw_topology(transform_topology('topology.yaml'))
-    #print(transform_topology('topology.yaml'))
-    #transform_topology('topology.yaml')
-
+    # draw_topology(transform_topology('topology.yaml'))
+    pprint(transform_topology('topology.yaml'))
+    # transform_topology('topology.yaml')
