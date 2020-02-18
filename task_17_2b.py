@@ -38,20 +38,7 @@ def transform_topology(yaml_file):
     for key in set(d):
         if (key, d[key]) in list(zip(d.values(), d.keys())):
             del d[key]
-    # dd = d.copy()
-    # ddd = d.copy()
-    # for key, value in d.items():
-    #     is_dubl = False
-    #     for key1, value1 in dd.items():
-    #         if key==value1 and value==key1:
-    #             is_dubl = True
-    #             break
-    #     if key in dd: del dd[key]
-    #     if is_dubl:
-    #         del dd[value]
-    #         del ddd[value]
     return d
-
 
 # don't run on import
 if __name__ == '__main__':

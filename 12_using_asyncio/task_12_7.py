@@ -51,47 +51,31 @@ from functools import wraps
 def spinner(func):
     @wraps(func)
     async def wrapper(*args, **kwargs):
-        task = await spin()
-        # await task
-        result = await func(*args, **kwargs)
-        # task.cancel()
+        task1 = asyncio.create_task(spin())
+        task2 = asyncio.create_task(func(*args, **kwargs))
+        await task1
+        result = await task2
         return result
     return wrapper
 
 
-async def sp(spiner):
-    while True:
-        yield next(spiner)
-
-
 async def spin():
-    async for sp in spin1():
-        # print(f'\r{sp} Waiting...', end='')
-        return sp
-
-
-async def spin1():
     spinnerr = itertools.cycle('\|/-')
     while True:
-        yield next(spinnerr)
-        # yield print(f'\r{next(spinnerr)} Waiting...', end='')
-        time.sleep(0.1)
+        print(f'\r{next(spinnerr)} Waiting...', end='')
+        await asyncio.sleep(0.3)
 
 
 @spinner
 async def connect_ssh(device, command):
-    await asyncio.sleep(2)
     print(f"\nПодключаюсь к {device['host']}")
     try:
         async with netdev.create(**device) as ssh:
             output = await ssh.send_command(command)
-            await asyncio.sleep(2)
             print(f'\nПолучили данные от {device["host"]}')
         return output
     except netdev.exceptions.TimeoutError:
-        await asyncio.sleep(2)
         print('Connection error')
-        return None
 
 
 device_params = {'host': '10.111.111.11',
