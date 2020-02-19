@@ -48,22 +48,35 @@ import time
 from functools import wraps
 
 
+async def check_and_cancel(task1, task2):
+    while True:
+        if task2.done():
+            task1.cancel()
+            return
+        await asyncio.sleep(0.1)
+
+
 def spinner(func):
     @wraps(func)
     async def wrapper(*args, **kwargs):
         task1 = asyncio.create_task(spin())
         task2 = asyncio.create_task(func(*args, **kwargs))
+        task3 = asyncio.create_task(check_and_cancel(task1, task2))
         await task1
-        result = await task2
-        return result
+        await task2
+        await task3
+        return task2.result()
     return wrapper
 
 
 async def spin():
     spinnerr = itertools.cycle('\|/-')
     while True:
-        print(f'\r{next(spinnerr)} Waiting...', end='')
-        await asyncio.sleep(0.3)
+        try:
+            print(f'\r{next(spinnerr)} Waiting...', end='')
+            await asyncio.sleep(0.3)
+        except asyncio.exceptions.CancelledError:
+            return
 
 
 @spinner
@@ -71,9 +84,7 @@ async def connect_ssh(device, command):
     print(f"\nПодключаюсь к {device['host']}")
     try:
         async with netdev.create(**device) as ssh:
-            output = await ssh.send_command(command)
-            print(f'\nПолучили данные от {device["host"]}')
-        return output
+            return await ssh.send_command(command)
     except netdev.exceptions.TimeoutError:
         print('Connection error')
 
