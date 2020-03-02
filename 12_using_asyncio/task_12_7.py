@@ -39,12 +39,9 @@ https://youtu.be/YdeUxrlbAwk
 Для заданий в этом разделе нет тестов!
 """
 import asyncio
-from asyncio.tasks import Task
-from typing import Any
 
 import netdev
 import itertools
-import time
 from functools import wraps
 
 
@@ -62,10 +59,12 @@ def spinner(func):
         task1 = asyncio.create_task(spin())
         task2 = asyncio.create_task(func(*args, **kwargs))
         task3 = asyncio.create_task(check_and_cancel(task1, task2))
-        await task1
-        await task2
+        #result = await func(*args, **kwargs)
+        #task1.cancel()
         await task3
-        return task2.result()
+        result = await task2
+        return result
+        #return task2.result()
     return wrapper
 
 
